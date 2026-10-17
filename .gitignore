@@ -1,0 +1,42 @@
+# ==============================================================================
+# REVA PHOENIX CALIBRATION — GITIGNORE CONFIGURATION
+# ==============================================================================
+
+# Environment Variables & Private Secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Temporary Scratch, Builds & Internal Backups
+scratch/
+.admin_backup/
+
+# Operating System Files (macOS, Windows)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore generated zips (except explicit releases)
+reva-calibration-github-ready.zip

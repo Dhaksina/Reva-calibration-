@@ -1,0 +1,1260 @@
+{
+  "1": [
+    {
+      "name": "Vernier Calipers (Digital, Dial & Mechanical)",
+      "range": "0 to 1000 mm / 0 to 40 in",
+      "parameters": "Outside & inside jaw parallelism, flatness, step & depth blade linearity, repeatability",
+      "equipment": "Grade 0 / K Ceramic & Steel Gauge Block Sets, Caliper Checkers",
+      "cmc": "\u00b1 2.5 \u00b5m (k=2)",
+      "standards": "IS 3651 (Part 1 & 2), JIS B 7507, ISO 13385-1",
+      "type": "caliper"
+    },
+    {
+      "name": "External & Internal Micrometers",
+      "range": "0 to 300 mm / 0 to 12 in",
+      "parameters": "Anvil & spindle measuring face flatness, parallelism, screw lead pitch error, zero error",
+      "equipment": "Grade 0 Gauge Blocks, Optical Flats, Monochromatic Light Unit",
+      "cmc": "\u00b1 1.2 \u00b5m (k=2)",
+      "standards": "IS 2967, JIS B 7502, DIN 863-1",
+      "type": "micrometer"
+    },
+    {
+      "name": "Height Gauges (Digital, Dial & Counter)",
+      "range": "0 to 600 mm / 0 to 24 in",
+      "parameters": "Scriber face flatness, base reference parallelism, column perpendicularity, scale linearity",
+      "equipment": "Precision Granite Surface Plate (Grade 00), Master Gauge Blocks",
+      "cmc": "\u00b1 3.5 \u00b5m (k=2)",
+      "standards": "IS 2921, JIS B 7517, ASME B89",
+      "type": "height-gauge"
+    },
+    {
+      "name": "Dial Indicators & Plunger Gauges",
+      "range": "0 to 50 mm (Res: 0.001 / 0.01 mm)",
+      "parameters": "Total span accuracy, hysteresis error, repeatability, measuring force, contact point concentricity",
+      "equipment": "Dial Calibration Tester / Abb\u00e9 Comparator, Stepped Master Blocks",
+      "cmc": "\u00b1 1.5 \u00b5m (k=2)",
+      "standards": "IS 2092, JIS B 7503, ASME B89.1.10M",
+      "type": "gauge"
+    },
+    {
+      "name": "Depth Gauges & Depth Micrometers",
+      "range": "0 to 300 mm",
+      "parameters": "Reference base flatness, rod interchangeability, linearity over span, zero offset",
+      "equipment": "Grade 0 Master Gauge Blocks, Granite Comparator Stand",
+      "cmc": "\u00b1 2.8 \u00b5m (k=2)",
+      "standards": "IS 4213, JIS B 7518",
+      "type": "depth-gauge"
+    },
+    {
+      "name": "Bevel Protractors & Combination Sets",
+      "range": "0\u00b0 to 360\u00b0 (Res: 5 arcmin / 0.01\u00b0)",
+      "parameters": "Blade straightness, angular accuracy, scale graduation symmetry, locking deviation",
+      "equipment": "Precision Angle Gauge Blocks, Sine Bar, Optical Dividing Head",
+      "cmc": "\u00b1 5 arcmin",
+      "standards": "IS 4239, BS 1685",
+      "type": "protractor"
+    }
+  ],
+  "2": [
+    {
+      "name": "Slip Gauges / Gauge Block Sets (Grade 0, 1, 2)",
+      "range": "0.5 mm to 100 mm",
+      "parameters": "Central length deviation, parallelism of measuring faces, wringing quality, variation in length",
+      "equipment": "Universal Length Measuring Machine (ULM), Abb\u00e9 Comparator, Grade K Reference Set",
+      "cmc": "\u00b1 (0.05 + 0.5L) \u00b5m (k=2, L in meters)",
+      "standards": "ISO 3650, IS 2984, DIN EN ISO 3650",
+      "type": "gauge-block"
+    },
+    {
+      "name": "Length Bars & Caliper Checkers",
+      "range": "100 mm to 1000 mm",
+      "parameters": "Axial length deviation, spherical end radius, parallelism and face flatness",
+      "equipment": "Universal Length Measuring Machine (ULM), Laser Interferometer System",
+      "cmc": "\u00b1 0.8 \u00b5m to \u00b1 2.0 \u00b5m (k=2)",
+      "standards": "ISO 3650, ASME B89.1.9",
+      "type": "length-bar"
+    },
+    {
+      "name": "Optical Flats & Monochromatic Lights",
+      "range": "Diameter 25 mm to 150 mm",
+      "parameters": "Measuring face flatness, fringe band symmetry, optical distortion, surface finish",
+      "equipment": "Master Reference Optical Flat (\u03bb/20), Helium Monochromatic Light Source",
+      "cmc": "\u00b1 0.03 \u00b5m (\u03bb/10)",
+      "standards": "IS 5440, DIN 874, ISO/IEC 17025",
+      "type": "optical-flat"
+    },
+    {
+      "name": "Profile Projectors & Optical Comparators",
+      "range": "Screen 300 to 600 mm, Mag: 10x, 20x, 50x, 100x",
+      "parameters": "Magnification accuracy, contour illumination telecentricity, linear X/Y stage glass scale linearity",
+      "equipment": "Master Calibration Grid Plate, Glass Scale Graticule, Gauge Block Standards",
+      "cmc": "Linear: \u00b1 (2.0 + L/50) \u00b5m | Mag: \u00b1 0.05%",
+      "standards": "JIS B 7184, ISO/IEC 17025",
+      "type": "projector"
+    },
+    {
+      "name": "Coordinate Measuring Machines (CMM Volumetric)",
+      "range": "Up to 3000 mm x 2000 mm x 1500 mm",
+      "parameters": "Volumetric length measurement error (E0, MPE), probing form error (PFTU), scanning error",
+      "equipment": "Master Step Gauge (1000 mm), Renishaw Laser Interferometer System, Master Reference Sphere",
+      "cmc": "E0: \u00b1 (1.5 + 3L/1000) \u00b5m",
+      "standards": "ISO 10360-2, ISO 10360-4, ASME B89.4.1",
+      "type": "cmm"
+    }
+  ],
+  "3": [
+    {
+      "name": "CNC Linear Axis Accuracy (X, Y, Z Axes)",
+      "range": "Travel distance up to 40 meters",
+      "parameters": "Linear positioning accuracy, bidirectional repeatability, systematic error, backlash",
+      "equipment": "Renishaw XL-80 Dual-Frequency Laser Interferometer System & Environmental Sensors",
+      "cmc": "\u00b1 0.5 ppm (\u00b1 0.5 \u00b5m per meter)",
+      "standards": "ISO 230-2, VDI/DGQ 3441, ASME B5.54",
+      "type": "laser"
+    },
+    {
+      "name": "Circularity & Dynamic Contouring (Ballbar)",
+      "range": "Radius 50 mm, 100 mm, 150 mm",
+      "parameters": "Circularity error, radial deviation, servo feed lag mismatch, reversal spikes, lateral play",
+      "equipment": "Renishaw QC20-W Wireless Ballbar System with Certified Calibrator",
+      "cmc": "\u00b1 0.5 \u00b5m",
+      "standards": "ISO 230-4, ASME B5.54",
+      "type": "ballbar"
+    },
+    {
+      "name": "Pitch, Yaw & Roll Angular Error",
+      "range": "\u00b1 10 degrees (Resolution: 0.1 arcsec)",
+      "parameters": "Angular pitch & yaw errors along axis travel, roll dynamic tilt",
+      "equipment": "Renishaw Laser Angular Optics, Precision Electronic Inclinometers",
+      "cmc": "\u00b1 0.5 arcsec",
+      "standards": "ISO 230-1, VDI/DGQ 3441",
+      "type": "angular"
+    },
+    {
+      "name": "Axis Squareness & Orthogonality",
+      "range": "Up to 1000 mm x 1000 mm",
+      "parameters": "Perpendicularity between X-Y, Y-Z, X-Z machine coordinate planes",
+      "equipment": "Precision Granite Square Master (Grade 00), Optical Pentaprism Laser Kit",
+      "cmc": "\u00b1 1.0 arcsec (\u00b1 2.5 \u00b5m/m)",
+      "standards": "ISO 230-1, JIS B 6191",
+      "type": "squareness"
+    }
+  ],
+  "4": [
+    {
+      "name": "Standard Reference Weights (Class E1 & E2)",
+      "range": "1 mg to 20 kg",
+      "parameters": "Conventional mass value, magnetic susceptibility, surface roughness, air buoyancy correction",
+      "equipment": "Mettler Toledo Automated Robotic Mass Comparators, Class E1 Reference Weights",
+      "cmc": "\u00b1 0.005 mg (1 mg) to \u00b1 0.5 mg (20 kg)",
+      "standards": "OIML R 111-1, ISO/IEC 17025",
+      "type": "weight"
+    },
+    {
+      "name": "Working Standard Weights (Class F1, F2 & M1)",
+      "range": "1 mg to 50 kg",
+      "parameters": "Mass deviation, magnetic properties, density determination, corrosion inspection",
+      "equipment": "High-Precision Electronic Mass Comparators (Mettler / Sartorius)",
+      "cmc": "\u00b1 0.05 mg (1 mg) to \u00b1 15 mg (50 kg)",
+      "standards": "OIML R 111-1, IS 1056",
+      "type": "weight"
+    },
+    {
+      "name": "Micro & Analytical Laboratory Balances",
+      "range": "Capacity up to 500 g (Resolution down to 0.001 mg / 1 \u00b5g)",
+      "parameters": "Repeatability, scale linearity, eccentric loading error, drift, minimum weight determination",
+      "equipment": "Calibrated Class E1 & E2 Stainless Steel Reference Weight Sets",
+      "cmc": "Repeatability: 0.002 mg | Linearity: \u00b1 0.005 mg",
+      "standards": "OIML R 76-1, EURAMET cg-18",
+      "type": "balance"
+    },
+    {
+      "name": "Industrial Platform Scales & Weighbridges",
+      "range": "Up to 5000 kg",
+      "parameters": "Zero tracking, span repeatability, corner load eccentric error, tare accuracy",
+      "equipment": "Class M1 Cast Iron & Stainless Steel Calibrated Block Weights",
+      "cmc": "\u00b1 0.01% of applied load",
+      "standards": "OIML R 76-1, IS 1436",
+      "type": "scale"
+    }
+  ],
+  "5": [
+    {
+      "name": "Single & Multi-Channel Micro Pipettes",
+      "range": "0.1 \u00b5L to 10 mL (Variable & Fixed Volume)",
+      "parameters": "Gravimetric dispensed volume, systematic error (inaccuracy), random error (imprecision CV%)",
+      "equipment": "Ultra-Micro Balance (0.001 mg res), Degassed ASTM Type 1 Water, Environmental Sensor Suite",
+      "cmc": "\u00b1 0.02 \u00b5L (0.1 \u00b5L) to \u00b1 0.25% (10 mL)",
+      "standards": "ISO 8655-1, ISO 8655-2, ISO 8655-6",
+      "type": "pipette"
+    },
+    {
+      "name": "Automatic Dispensers & Electronic Burettes",
+      "range": "0.5 mL to 100 mL",
+      "parameters": "Dispense repeatability, dead volume loss, piston seal integrity, volumetric linearity",
+      "equipment": "High-Precision Semi-Micro Analytical Balance with Evaporation Trap",
+      "cmc": "\u00b1 0.05% of nominal volume",
+      "standards": "ISO 8655-3, ISO 8655-5",
+      "type": "burette"
+    },
+    {
+      "name": "Volumetric Flasks & Measuring Cylinders",
+      "range": "1 mL to 2000 mL (Class A & B Glassware)",
+      "parameters": "Total containment capacity, meniscus parallax evaluation, thermal expansion correction",
+      "equipment": "Dual-Pan Gravimetric Calibration Suite with Deionized Calibration Liquid",
+      "cmc": "\u00b1 0.04% of measured capacity",
+      "standards": "ISO 4787, IS 4825, ASTM E288",
+      "type": "flask"
+    },
+    {
+      "name": "Pycnometers & Specific Gravity Bottles",
+      "range": "10 mL to 100 mL",
+      "parameters": "Internal volume capacity, stopper capillary accuracy, thermal volume stability",
+      "equipment": "Precision Analytical Balance, Constant Temperature Water Bath (\u00b1 0.01\u00b0C)",
+      "cmc": "\u00b1 0.002 mL",
+      "standards": "ISO 3507, ASTM D854",
+      "type": "pycnometer"
+    }
+  ],
+  "6": [
+    {
+      "name": "Precision Glass Hydrometers (Specific Gravity)",
+      "range": "0.600 to 2.000 g/cm\u00b3 (Res: 0.0002 g/cm\u00b3)",
+      "parameters": "Stem graduation scale linearity, scale error, surface tension meniscus compensation",
+      "equipment": "Hydrostatic Weighing Metrology System, Certified Density Calibration Liquids",
+      "cmc": "\u00b1 0.0002 g/cm\u00b3 (k=2)",
+      "standards": "BS 718, ISO 387, IS 3117",
+      "type": "hydrometer"
+    },
+    {
+      "name": "Kinematic Capillary Viscometers (Ubbelohde / Cannon-Fenske)",
+      "range": "0.3 cSt to 100,000 cSt (mm\u00b2/s)",
+      "parameters": "Viscometer tube constant (C), liquid efflux drainage time, capillary wall uniformity",
+      "equipment": "Ultra-Stable Viscometer Thermal Baths (\u00b1 0.01\u00b0C), Primary Reference Viscosity Standards",
+      "cmc": "\u00b1 0.35% of reading",
+      "standards": "ASTM D445, ISO 3104, IP 71",
+      "type": "viscometer"
+    },
+    {
+      "name": "Efflux Viscosity Flow Cups (Ford, Zahn & Shell)",
+      "range": "10 to 1000 cSt (Efflux time 20 s to 150 s)",
+      "parameters": "Orifice diameter, nozzle circularity, flow rate discharge time, temperature coefficient",
+      "equipment": "Precision Profile Projector, Stopwatch, Certified Viscosity Standard Oils",
+      "cmc": "\u00b1 0.8% of reading",
+      "standards": "ASTM D1200, ISO 2431, DIN 53211",
+      "type": "flow-cup"
+    },
+    {
+      "name": "Digital Density Meters (Oscillating U-Tube)",
+      "range": "0.0000 to 3.0000 g/cm\u00b3",
+      "parameters": "Resonance frequency oscillation period, cell temperature stability, linearity",
+      "equipment": "Certified Standard Liquid Reference Materials (Water, Dodecane, Toluene)",
+      "cmc": "\u00b1 0.0001 g/cm\u00b3",
+      "standards": "ASTM D4052, ISO 12185",
+      "type": "density-meter"
+    }
+  ],
+  "7": [
+    {
+      "name": "Universal Testing Machines (UTM - Tension & Compression)",
+      "range": "1 kN to 2000 kN (Class 0.5 & Class 1.0)",
+      "parameters": "Applied force accuracy, force repeatability, crosshead displacement speed, return to zero",
+      "equipment": "Master Precision Load Cells (Class 0.5), High-Resolution Digital Force Indicators",
+      "cmc": "\u00b1 0.25% of applied force (k=2)",
+      "standards": "ISO 7500-1, IS 1828 (Part 1), ASTM E4",
+      "type": "utm"
+    },
+    {
+      "name": "Tensile Testing Machines (TTM - Metals & Polymers)",
+      "range": "0.1 kN to 500 kN",
+      "parameters": "Tension load cell linearity, grip alignment, crosshead speed calibration, stress-strain logging",
+      "equipment": "Calibrated Tension Master Load Cells, Optical Laser Tachometer",
+      "cmc": "\u00b1 0.3% of reading",
+      "standards": "ASTM E4, ISO 6892-1, BS EN ISO 7500-1",
+      "type": "ttm"
+    },
+    {
+      "name": "Compression Testing Machines (CTM - Concrete & Metals)",
+      "range": "50 kN to 3000 kN",
+      "parameters": "Piston force linearity, platen flatness, self-aligning spherical seating freedom",
+      "equipment": "Calibrated High-Capacity Compression Load Column (Class 1.0)",
+      "cmc": "\u00b1 0.5% of reading",
+      "standards": "IS 14858, EN 12390-4, ASTM C39",
+      "type": "ctm"
+    },
+    {
+      "name": "Electronic Extensometers & Strain Gauge Bridges",
+      "range": "Gauge lengths 10 mm to 100 mm (Travel \u00b1 25 mm)",
+      "parameters": "Displacement accuracy, strain gauge linearity, knife-edge gauge length",
+      "equipment": "Universal Length Measuring Machine (ULM), Precision Micrometer Calibration Rig",
+      "cmc": "Class 0.5 (\u00b1 1.0 \u00b5m)",
+      "standards": "ISO 9513, ASTM E83",
+      "type": "extensometer"
+    }
+  ],
+  "8": [
+    {
+      "name": "Digital & Mechanical Force Gauges (Push-Pull)",
+      "range": "0.1 N to 5000 N",
+      "parameters": "Tension & compression peak force, linearity across span, return to zero, hysteresis",
+      "equipment": "Dead Weight Force Stand, Precision Class F1 Weights, Master Load Cells",
+      "cmc": "\u00b1 0.1% of Full Scale",
+      "standards": "ISO 376, ASTM E74, IS 1828",
+      "type": "force-gauge"
+    },
+    {
+      "name": "Precision Tension Dynamometers & Crane Scales",
+      "range": "10 kN to 1000 kN",
+      "parameters": "Applied tensile load accuracy, shackle pin load distribution, zero stability",
+      "equipment": "Hydraulic Tension Test Rig with Master Calibrated Reference Cells",
+      "cmc": "\u00b1 0.2% of Full Scale",
+      "standards": "OIML R 60, ISO 376",
+      "type": "dynamometer"
+    },
+    {
+      "name": "Mobile Compression Load Cells & Proving Rings",
+      "range": "1 kN to 2000 kN",
+      "parameters": "Reproducibility, creep error, zero return, temperature sensitivity coefficient",
+      "equipment": "Primary Hydraulic Dead Weight / Hydraulic Comparator Machine",
+      "cmc": "Class 0.5 (\u00b1 0.25% reading)",
+      "standards": "ISO 376, ASTM E74",
+      "type": "load-cell"
+    }
+  ],
+  "9": [
+    {
+      "name": "Rockwell & Superficial Rockwell Hardness Testers",
+      "range": "HRA, HRB, HRC, HR15N, HR30N, HR15T, HR30T",
+      "parameters": "Preliminary & total test force, indenter diamond cone angle (120\u00b0) & tip radius (0.2 mm), depth sensor",
+      "equipment": "Certified Standard Hardness Test Blocks, Master Indenters, Load Cells",
+      "cmc": "\u00b1 0.5 HRC / \u00b1 0.6 HRB",
+      "standards": "ISO 6508-2, ASTM E18, IS 1586",
+      "type": "hardness"
+    },
+    {
+      "name": "Brinell Hardness Testing Machines",
+      "range": "HBW 10/3000, HBW 5/750, HBW 2.5/187.5",
+      "parameters": "Test force application timing, tungsten carbide ball indenter diameter, indentation optical microscope",
+      "equipment": "Calibrated Precision Load Cells, Master Brinell Reference Test Blocks, Optical Graticule",
+      "cmc": "\u00b1 1.0% of nominal hardness",
+      "standards": "ISO 6506-2, ASTM E10, IS 1500",
+      "type": "brinell"
+    },
+    {
+      "name": "Vickers & Micro-Vickers Hardness Testers",
+      "range": "HV 0.01 to HV 50 (Loads 10 gf to 50 kgf)",
+      "parameters": "Square-base diamond pyramid face angle (136\u00b0), load dwell time, indentation diagonal optical measuring system",
+      "equipment": "Master Vickers Hardness Blocks, Calibrated High-Magnification Optical Microscope",
+      "cmc": "\u00b1 1.5% of reading",
+      "standards": "ISO 6507-2, ASTM E384, IS 1501",
+      "type": "vickers"
+    },
+    {
+      "name": "Portable Leeb & Ultrasonic (UCI) Hardness Testers",
+      "range": "200 to 900 HLD (Equivalent HRC, HB, HV)",
+      "parameters": "Impact body rebound velocity ratio, signal voltage processing, surface contact impedance",
+      "equipment": "Certified Standard Leeb Hardness Reference Blocks (Type D/G)",
+      "cmc": "\u00b1 1.0% HLD",
+      "standards": "ASTM A956, DIN 50156, ISO 16859",
+      "type": "leeb"
+    }
+  ],
+  "10": [
+    {
+      "name": "Reaction & Static Torque Transducers",
+      "range": "0.01 N\u00b7m to 5000 N\u00b7m",
+      "parameters": "Clockwise & counter-clockwise sensitivity, linearity, hysteresis, zero return",
+      "equipment": "Torque Calibration Bench, Certified Reference Torque Arms, Class F1 Mass Sets",
+      "cmc": "\u00b1 0.05% of Full Scale",
+      "standards": "DIN 51309, EURAMET cg-14, ISO/IEC 17025",
+      "type": "torque"
+    },
+    {
+      "name": "Rotary & Dynamic Torque Sensors",
+      "range": "0.5 N\u00b7m to 2000 N\u00b7m (Up to 20,000 RPM)",
+      "parameters": "Dynamic torque response, telemetry signal linearity, rotational friction offset",
+      "equipment": "Dynamic Motor Test Rig with Master Non-Contact Torque Flange",
+      "cmc": "\u00b1 0.1% of reading",
+      "standards": "ISO 6789, DIN 51309",
+      "type": "rotary-torque"
+    },
+    {
+      "name": "Digital Torque Calibration Analyzers",
+      "range": "0.1 N\u00b7m to 2000 N\u00b7m",
+      "parameters": "A/D conversion linearity, peak hold response time, filter frequency stability",
+      "equipment": "Precision Strain Gauge Simulator / Master Transducer Standards",
+      "cmc": "Class 0.2 (\u00b1 0.08% FS)",
+      "standards": "ISO/IEC 17025, DKD-R 3-8",
+      "type": "torque-analyzer"
+    }
+  ],
+  "11": [
+    {
+      "name": "Click-Type & Mechanical Torque Wrenches",
+      "range": "0.1 N\u00b7m to 3000 N\u00b7m",
+      "parameters": "Break-over release torque, scale linearity, repeatability over 5 consecutive cycles",
+      "equipment": "Automated Torque Wrench Calibration Rig, Master Torque Transducer (Class 0.2)",
+      "cmc": "\u00b1 1.0% to \u00b1 4.0% of reading",
+      "standards": "ISO 6789-1:2017, IS 7149, ASME B107.300",
+      "type": "torque-wrench"
+    },
+    {
+      "name": "Digital & Electronic Smart Torque Wrenches",
+      "range": "0.5 N\u00b7m to 1500 N\u00b7m (Torque + Angle)",
+      "parameters": "Digital torque accuracy, angular rotation sensor accuracy, peak & trace capture",
+      "equipment": "High-Precision Computer-Controlled Torque Wrench Calibrator",
+      "cmc": "\u00b1 1.0% of reading",
+      "standards": "ISO 6789-2:2017",
+      "type": "digital-wrench"
+    },
+    {
+      "name": "Dial Indicating & Beam Torque Wrenches",
+      "range": "0.5 N\u00b7m to 1000 N\u00b7m",
+      "parameters": "Dial pointer deflection, friction zero offset, bidirectional symmetry",
+      "equipment": "Certified Master Torque Transducer Stand",
+      "cmc": "\u00b1 2.0% of reading",
+      "standards": "ISO 6789-1:2017",
+      "type": "dial-wrench"
+    },
+    {
+      "name": "Torque Screwdrivers & Torque Multipliers",
+      "range": "0.02 N\u00b7m to 50 N\u00b7m / Multipliers up to 10,000 N\u00b7m",
+      "parameters": "Clutch disengagement torque, multiplier gear ratio verification, backlash",
+      "equipment": "Low-Torque Reaction Sensor Bench & High-Torque Multiplier Test Rig",
+      "cmc": "\u00b1 2.5% of reading",
+      "standards": "ISO 6789, ASME B107.14M",
+      "type": "torque-screwdriver"
+    }
+  ],
+  "12": [
+    {
+      "name": "Sound Level Meters (Type 1 / Class 1 & 2)",
+      "range": "20 dB to 140 dB (Frequency: 10 Hz to 20 kHz)",
+      "parameters": "A, C & Z frequency weightings, time weightings (Fast/Slow/Impulse), linearity, microphone response",
+      "equipment": "Multifunction Acoustic Calibrator, Precision Audio Signal Generator, Anechoic Test Chamber",
+      "cmc": "\u00b1 0.3 dB (k=2)",
+      "standards": "IEC 61672-1, IEC 61672-3, ANSI S1.4",
+      "type": "sound"
+    },
+    {
+      "name": "Acoustic Calibrators & Pistonphones",
+      "range": "94 dB & 114 dB @ 1000 Hz / 250 Hz",
+      "parameters": "Generated sound pressure level, frequency accuracy, total harmonic distortion (THD)",
+      "equipment": "Laboratory Standard Microphone (LS1P), Precision Acoustic Reference Receiver",
+      "cmc": "\u00b1 0.15 dB",
+      "standards": "IEC 60942, ANSI S1.40",
+      "type": "pistonphone"
+    },
+    {
+      "name": "Capacitance Diaphragm Vacuum Transmitters (CDG)",
+      "range": "0.001 mbar to 1000 mbar",
+      "parameters": "Absolute pressure output, zero stability, span hysteresis, thermal coefficient",
+      "equipment": "Primary Pressure Balance & Laser Interferometer Vacuum Comparator",
+      "cmc": "\u00b1 0.15% of reading",
+      "standards": "ISO 3567, DIN 28418",
+      "type": "vacuum"
+    },
+    {
+      "name": "Pirani, Penning & Cold Cathode Vacuum Gauges",
+      "range": "10\u207b\u2077 mbar to atmospheric pressure",
+      "parameters": "Thermal conductivity voltage response, ionization current curve linearity",
+      "equipment": "Ultra-High Vacuum (UHV) Calibration Chamber with Turbomolecular Pumping Station",
+      "cmc": "\u00b1 5% of reading",
+      "standards": "ISO/TS 3567, DIN 28418",
+      "type": "vacuum-gauge"
+    }
+  ],
+  "13": [
+    {
+      "name": "Hydraulic Dead Weight Testers (DWT)",
+      "range": "1 bar to 2500 bar / 36,000 PSI",
+      "parameters": "Piston-cylinder effective cross-sectional area, pressure distortion coefficient, fall rate",
+      "equipment": "Primary Reference Dead Weight Tester, Cross-Floating Metrology Comparator",
+      "cmc": "\u00b1 0.008% of reading (80 ppm, k=2)",
+      "standards": "EURAMET cg-3, ISO/IEC 17025",
+      "type": "dwt"
+    },
+    {
+      "name": "Pneumatic Dead Weight Testers",
+      "range": "Vacuum (-1 bar) to 140 bar / 2000 PSI",
+      "parameters": "Ceramic/carbide piston-cylinder area, sink rate, gas buoyancy correction",
+      "equipment": "Primary Gas-Lubricated Piston Gauge System, Mass Comparator",
+      "cmc": "\u00b1 0.01% of reading (100 ppm)",
+      "standards": "EURAMET cg-3, EA-4/17",
+      "type": "pneumatic-dwt"
+    },
+    {
+      "name": "Piston-Cylinder Assemblies (Effective Area)",
+      "range": "Effective areas: 0.05 cm\u00b2, 0.1 cm\u00b2, 0.5 cm\u00b2, 1.0 cm\u00b2",
+      "parameters": "A0 (effective area at zero pressure), b (elastic deformation coefficient), rotational decay",
+      "equipment": "Cross-Floating Comparator System with Automated Mass Handler",
+      "cmc": "\u00b1 15 ppm",
+      "standards": "EURAMET cg-3, NIST SP 250-38",
+      "type": "piston-cylinder"
+    }
+  ],
+  "14": [
+    {
+      "name": "Digital Pressure Gauges & Master Calibrators",
+      "range": "Vacuum to 3000 bar (0.025% & 0.05% Accuracy Class)",
+      "parameters": "Full-span linearity, hysteresis, repeatability, zero stability, temperature compensation",
+      "equipment": "Hydraulic & Pneumatic Dead Weight Testers (DWT), Fluke Pressure Controllers",
+      "cmc": "\u00b1 0.025% of Full Scale",
+      "standards": "EN 837-1, ASME B40.7, EURAMET cg-17",
+      "type": "digital-pressure"
+    },
+    {
+      "name": "Analog Bourdon Tube Pressure & Vacuum Gauges",
+      "range": "Vacuum (-1 bar) to 2500 bar",
+      "parameters": "Scale division error, pointer friction, hysteresis, over-pressure recovery",
+      "equipment": "Master Pressure Comparison Test Pumps with Reference Digital Indicators",
+      "cmc": "Class 0.25, 0.5, 1.0, 1.6",
+      "standards": "IS 3624, EN 837-1, ASME B40.100",
+      "type": "bourdon"
+    },
+    {
+      "name": "Differential Pressure (DP) Transmitters",
+      "range": "0 to 10,000 mmH2O / 50 bar differential",
+      "parameters": "4\u201320 mA current output linearity, static line pressure shift, HART / Fieldbus communications",
+      "equipment": "Fluke 754 Documenting Process Calibrator, Pneumatic Precision Hand Pump",
+      "cmc": "\u00b1 0.05% of calibrated span",
+      "standards": "IEC 62828-1, IEC 62828-2",
+      "type": "dp-transmitter"
+    },
+    {
+      "name": "Pressure Switches & Safety Relief Valves",
+      "range": "0.1 bar to 500 bar",
+      "parameters": "Set point trip pressure, reset deadband, seat leakage test, pop action pressure",
+      "equipment": "High-Pressure Gas / Hydraulic Test Manifold with Rapid Response Data Logger",
+      "cmc": "\u00b1 0.2% of set pressure",
+      "standards": "ASME Section VIII, API 527, ISO 4126",
+      "type": "pressure-switch"
+    }
+  ],
+  "15": [
+    {
+      "name": "Charpy Pendulum Impact Testers (Metals)",
+      "range": "Capacity 150 J, 300 J, 450 J",
+      "parameters": "Striking striker velocity, potential energy, windage & bearing friction loss, anvil radius",
+      "equipment": "Digital Inclinometer, Striker Radius Gauges, Certified Impact Reference Specimens (NIST/CRM)",
+      "cmc": "\u00b1 0.5 J (Direct) | \u00b1 1.0% (Indirect)",
+      "standards": "ISO 148-2, ASTM E23, IS 1757",
+      "type": "impact"
+    },
+    {
+      "name": "Izod Pendulum Impact Testers (Plastics & Composites)",
+      "range": "0.5 J to 25 J",
+      "parameters": "Vise clamping alignment, striker tip radius, free swing angle loss, dial scale linearity",
+      "equipment": "High-Precision Rotary Optical Encoder, Calibrated Izod Reference Specimens",
+      "cmc": "\u00b1 1.0% of scale reading",
+      "standards": "ISO 13802, ASTM D256, ISO 180",
+      "type": "izod"
+    },
+    {
+      "name": "Striking Edge & Anvil Geometric Verification",
+      "range": "Anvil radius 1 mm / Striker radius 2 mm & 8 mm",
+      "parameters": "Anvil support angle (90\u00b0), span gap (40.0 mm), striker edge profile geometry",
+      "equipment": "Precision Optical Profile Projector, Radius Master Gauges",
+      "cmc": "\u00b1 0.02 mm (geometric tolerances)",
+      "standards": "ISO 148-2, ASTM E23",
+      "type": "impact-geometry"
+    }
+  ],
+  "16": [
+    {
+      "name": "Shore Type A Durometers",
+      "range": "0 to 100 Shore A (Res: 0.1 / 1 HA)",
+      "parameters": "Indenter tip diameter (0.79 mm), cone angle (35\u00b0), spring force curve (0.55 N to 8.05 N), extension",
+      "equipment": "Durometer Calibrator Test Stand, Analytical Load Cell, Universal Measuring Machine (ULM)",
+      "cmc": "\u00b1 0.5 HA",
+      "standards": "ASTM D2240, ISO 868, ISO 48-4, IS 3400",
+      "type": "durometer"
+    },
+    {
+      "name": "Shore Type D Durometers",
+      "range": "0 to 100 Shore D (Res: 0.1 / 1 HD)",
+      "parameters": "Indenter cone angle (30\u00b0), sharp tip radius (0.1 mm), spring force curve (0 to 44.5 N)",
+      "equipment": "High-Force Durometer Calibrator, Optical Comparator for Indenter Geometry",
+      "cmc": "\u00b1 0.5 HD",
+      "standards": "ASTM D2240, ISO 868, DIN 53505",
+      "type": "durometer-d"
+    },
+    {
+      "name": "Shore Type O / OO / Micro Durometers",
+      "range": "0 to 100 Shore O / OO (Soft foams & sponges)",
+      "parameters": "Spherical indenter radius (1.19 mm), spring force displacement characteristics",
+      "equipment": "Ultra-Low Force Durometer Inspection Stand",
+      "cmc": "\u00b1 0.8 HO",
+      "standards": "ASTM D2240",
+      "type": "durometer-o"
+    },
+    {
+      "name": "IRHD International Rubber Hardness Testers",
+      "range": "30 to 100 IRHD (Micro & Macro Normal Scale)",
+      "parameters": "Primary contact force, major indentation load, ball indenter diameter, indentation depth gauge",
+      "equipment": "Dead Load IRHD Calibration System, Certified Standard Rubber Test Blocks",
+      "cmc": "\u00b1 0.5 IRHD",
+      "standards": "ISO 48-2, ASTM D1415",
+      "type": "irhd"
+    }
+  ],
+  "17": [
+    {
+      "name": "Electromagnetic Liquid Flow Meters (Magmeters)",
+      "range": "DN 15 to DN 300 (Flow rates up to 500 m\u00b3/h)",
+      "parameters": "Flow velocity linearity, repeatability, 4\u201320 mA & pulse output, meter factor",
+      "equipment": "Primary Gravimetric Liquid Flow Calibration Rig, Weigh Scales (Class 0.05)",
+      "cmc": "\u00b1 0.2% of reading",
+      "standards": "ISO 4064, ISO 9104, BS EN 29104",
+      "type": "flow"
+    },
+    {
+      "name": "Coriolis Mass Flow Meters",
+      "range": "1 kg/h to 100,000 kg/h (Mass flow & liquid density)",
+      "parameters": "Mass flow rate, volumetric flow rate, bulk fluid density measurement, zero stability",
+      "equipment": "High-Precision Primary Flying-Start Gravimetric Calibration System",
+      "cmc": "\u00b1 0.1% of reading",
+      "standards": "ISO 10790, ASME MFC-11M",
+      "type": "coriolis"
+    },
+    {
+      "name": "Liquid Turbine & Pelton Wheel Meters",
+      "range": "0.1 to 100 m\u00b3/h",
+      "parameters": "K-factor pulses per unit volume, linearity over Reynolds number range, pressure drop",
+      "equipment": "Closed-Loop Liquid Flow Rigs, Master Turbine Meters",
+      "cmc": "\u00b1 0.25% of reading",
+      "standards": "ISO 2715, API MPMS Chapter 5.3",
+      "type": "turbine-flow"
+    },
+    {
+      "name": "Positive Displacement (PD) Flow Meters",
+      "range": "DN 25 to DN 150 (Oils, fuels & lubricants)",
+      "parameters": "Volumetric displacement accuracy, slippage at low flow rates, temperature compensation",
+      "equipment": "Calibrated Small Volume Prover (SVP) / Gravimetric Tank Stand",
+      "cmc": "\u00b1 0.15% of reading",
+      "standards": "OIML R 117, API MPMS Chapter 5.2",
+      "type": "pd-flow"
+    }
+  ],
+  "18": [
+    {
+      "name": "Thermal Mass Flow Meters & Controllers (MFC)",
+      "range": "1 sccm to 5000 slpm (Standard Air, N2, Ar, O2)",
+      "parameters": "Flow rate linearity, control response time, setpoint accuracy, zero drift",
+      "equipment": "Primary Molbloc / Molbox Gas Calibration System, Dry Gas Flow Calibrators",
+      "cmc": "\u00b1 0.5% of reading",
+      "standards": "SEMI E12, ISO/IEC 17025",
+      "type": "mfc"
+    },
+    {
+      "name": "Variable Area Gas Rotameters",
+      "range": "0.01 to 500 Nm\u00b3/h",
+      "parameters": "Float position vs flow scale linearity, operating pressure and density correction",
+      "equipment": "Master Gas Bell Prover / Precision Sonic Nozzle Rigs",
+      "cmc": "\u00b1 1.0% of Full Scale",
+      "standards": "VDI/VDE 2172, ISO 5167",
+      "type": "rotameter"
+    },
+    {
+      "name": "Precision Wet & Dry Gas Test Meters",
+      "range": "0.01 to 100 m\u00b3/h",
+      "parameters": "Cyclic volume displacement, liquid seal level error, differential pressure drop",
+      "equipment": "Primary Gas Bell Prover System (Volumetric Piston Dispenser)",
+      "cmc": "\u00b1 0.3% of reading",
+      "standards": "OIML R 137, EN 1359",
+      "type": "gas-meter"
+    },
+    {
+      "name": "Laminar Flow Elements (LFE) & Sonic Nozzles",
+      "range": "0.1 to 1000 m\u00b3/h",
+      "parameters": "Differential pressure vs flow curve, discharge coefficient (Cd), Reynolds number mapping",
+      "equipment": "Critical Flow Venturi Nozzle Calibration Array (ISO 9300)",
+      "cmc": "\u00b1 0.25% of reading",
+      "standards": "ISO 9300, ASME MFC-9M",
+      "type": "sonic-nozzle"
+    }
+  ],
+  "19": [
+    {
+      "name": "Rotating Vane Anemometers",
+      "range": "0.2 m/s to 40 m/s (Duct & Ambient Probe)",
+      "parameters": "Linear velocity response, blade starting friction velocity, directional sensitivity",
+      "equipment": "Closed-Loop Boundary-Layer Wind Tunnel, Laser Doppler Anemometer (LDA)",
+      "cmc": "\u00b1 1.5% of reading",
+      "standards": "ISO 16622, EN 12599, BS 1042",
+      "type": "vane-anemo"
+    },
+    {
+      "name": "Thermal Hot-Wire & Hot-Film Anemometers",
+      "range": "0.05 m/s to 25 m/s (Low Velocity Metrology)",
+      "parameters": "Bridge voltage output, velocity temperature compensation, frequency response",
+      "equipment": "Low-Speed Laminar Wind Tunnel Calibration Facility",
+      "cmc": "\u00b1 0.05 m/s or \u00b1 2% reading",
+      "standards": "ISO 7726, ISO/IEC 17025",
+      "type": "hotwire"
+    },
+    {
+      "name": "Standard Pitot-Static Tubes",
+      "range": "5 m/s to 80 m/s",
+      "parameters": "Pitot tube factor (K), yaw/pitch angle sensitivity, dynamic pressure accuracy",
+      "equipment": "High-Speed Wind Tunnel & Micro-Manometer Calibration System",
+      "cmc": "\u00b1 1.0% of reading",
+      "standards": "ISO 3966, BS 1042",
+      "type": "pitot"
+    },
+    {
+      "name": "Ultrasonic & 3D Wind Velocity Sensors",
+      "range": "0 to 60 m/s (3-Axis Velocity Vector)",
+      "parameters": "Acoustic transit time accuracy, vector resolution, azimuth angle accuracy",
+      "equipment": "Multi-Axis Rotating Wind Tunnel Rig with Certified Laser Reference",
+      "cmc": "\u00b1 1.2% of reading",
+      "standards": "ISO 16622, WMO Guide No. 8",
+      "type": "ultrasonic-anemo"
+    }
+  ],
+  "20": [
+    {
+      "name": "Digital Multimeters (6.5 to 8.5 Digits)",
+      "range": "DCV: 10 mV to 1000 V | ACV: 10 mV to 1000 V | DCI/ACI: 10 \u00b5A to 20 A | Res: 1 \u03a9 to 1 G\u03a9",
+      "parameters": "DC/AC voltage linearity, DC/AC current accuracy, 4-wire resistance, frequency counting",
+      "equipment": "Fluke 5522A / 5730A High-Performance Calibrator, Keysight 3458A 8.5-Digit Reference DMM",
+      "cmc": "DCV: \u00b1 8 ppm | ACV: \u00b1 60 ppm | Res: \u00b1 10 ppm",
+      "standards": "ISO/IEC 17025, EURAMET cg-15, IEEE 1241",
+      "type": "dmm"
+    },
+    {
+      "name": "Multifunction Process & Electrical Calibrators",
+      "range": "Volts, Millivolts, Current, Thermocouple, RTD, Frequency simulations",
+      "parameters": "Source & measure accuracy, cold-junction compensation, pulse count accuracy",
+      "equipment": "Precision Reference Multimeter (Fluke 8588A), Precision Decade Resistors",
+      "cmc": "\u00b1 15 ppm of reading",
+      "standards": "ISO/IEC 17025, EURAMET cg-15",
+      "type": "calibrator"
+    },
+    {
+      "name": "High-Voltage Insulation & Megohm Testers",
+      "range": "Up to 10 kV / Resistance up to 10 T\u03a9",
+      "parameters": "Generated test voltage under load, insulation resistance accuracy, leakage current",
+      "equipment": "Calibrated High-Voltage Divider Probe, High-Value Standard Resistors",
+      "cmc": "Voltage: \u00b1 0.5% | Resistance: \u00b1 1.5%",
+      "standards": "IS 10656, IEEE 43, IEC 61010",
+      "type": "megger"
+    },
+    {
+      "name": "Decade Resistance & Capacitance Boxes",
+      "range": "0.001 \u03a9 to 100 M\u03a9 | 1 pF to 100 \u00b5F",
+      "parameters": "Step accuracy, switch contact resistance, temperature coefficient, dissipation factor",
+      "equipment": "Keysight Reference LCR Meter, Standard Resistance Standards (Guildline)",
+      "cmc": "Resistance: \u00b1 10 ppm | Capacitance: \u00b1 0.05%",
+      "standards": "ASTM D257, IEC 60052",
+      "type": "decade-box"
+    }
+  ],
+  "21": [
+    {
+      "name": "RF Spectrum Analyzers",
+      "range": "9 kHz to 40 GHz",
+      "parameters": "Absolute amplitude accuracy, frequency readout accuracy, resolution bandwidth filter shape factor",
+      "equipment": "Synthesized RF Signal Generator (Keysight), Power Meter & Sensor Standards",
+      "cmc": "Amplitude: \u00b1 0.3 dB | Frequency: \u00b1 10\u207b\u2078",
+      "standards": "IEEE 1309, EURAMET cg-23",
+      "type": "spectrum-analyzer"
+    },
+    {
+      "name": "Synthesized RF Signal Generators",
+      "range": "100 kHz to 26.5 GHz (Output: -130 dBm to +20 dBm)",
+      "parameters": "RF output power level, harmonic & spurious suppression, AM/FM/Pulse modulation accuracy",
+      "equipment": "Calibrated RF Power Meter, Measuring Receiver, Frequency Counter",
+      "cmc": "Power: \u00b1 0.15 dB | Frequency: \u00b1 10\u207b\u2079",
+      "standards": "IEEE 488, ISO/IEC 17025",
+      "type": "signal-generator"
+    },
+    {
+      "name": "Vector Network Analyzers (VNA)",
+      "range": "300 kHz to 40 GHz (2-Port & 4-Port)",
+      "parameters": "S-parameters (S11, S21, S12, S22), return loss, insertion loss, phase accuracy, Smith chart",
+      "equipment": "Precision Mechanical Calibration Kit (Type-N, 3.5mm, 2.92mm), Electronic Calibration Module (ECal)",
+      "cmc": "Transmission: \u00b1 0.08 dB | Reflection: \u00b1 0.02 linear",
+      "standards": "IEEE 378, EURAMET cg-12",
+      "type": "vna"
+    },
+    {
+      "name": "RF Power Meters & Thermistor Sensors",
+      "range": "100 kHz to 40 GHz (Power -70 dBm to +30 dBm)",
+      "parameters": "Sensor calibration factor (CF), linearity vs power, power reference 1 mW @ 50 MHz",
+      "equipment": "Direct Comparison RF Power Calibration System, DC Voltage Reference",
+      "cmc": "\u00b1 0.05 dB",
+      "standards": "IEC 60379, ISO/IEC 17025",
+      "type": "rf-power"
+    }
+  ],
+  "22": [
+    {
+      "name": "High-Resolution Frequency Counters & Timers",
+      "range": "DC to 20 GHz (Time interval resolution down to 20 ps)",
+      "parameters": "Frequency measurement accuracy, time interval, period, rise/fall time, trigger sensitivity",
+      "equipment": "Rubidium Atomic Frequency Standard (10 MHz), High-Stability Quartz Oscillators",
+      "cmc": "\u00b1 2 \u00d7 10\u207b\u00b9\u00b9 (Relative Frequency Error)",
+      "standards": "IEEE 1131, NIST SP 250-91",
+      "type": "frequency-counter"
+    },
+    {
+      "name": "Rubidium Atomic Frequency Standards",
+      "range": "10 MHz & 5 MHz Primary Frequency Outputs",
+      "parameters": "Frequency offset, Allan deviation (short/long term stability), phase noise, harmonic distortion",
+      "equipment": "GPS-Disciplined Reference Receiver (GPSDO) locked to UTC(NPLI)",
+      "cmc": "\u00b1 1 \u00d7 10\u207b\u00b9\u00b2 (1-day averaging)",
+      "standards": "ITU-R TF.460, ISO/IEC 17025",
+      "type": "atomic-clock"
+    },
+    {
+      "name": "Digital Stopwatches & Interval Timers",
+      "range": "0.01 seconds to 24 hours",
+      "parameters": "Time base drift, daily rate deviation, button debounce delay",
+      "equipment": "Acoustic / Optical Stopwatch Calibration Test Station with Rubidium Reference",
+      "cmc": "\u00b1 0.02 s/day",
+      "standards": "NIST SP 960-12, IS 13876",
+      "type": "stopwatch"
+    },
+    {
+      "name": "Optical & Contact Tachometers & Stroboscopes",
+      "range": "10 RPM to 99,999 RPM",
+      "parameters": "Rotational speed readout accuracy, optical sensor trigger delay, flash frequency accuracy",
+      "equipment": "Precision Motor Tachometer Calibrator Rig, Frequency Counter",
+      "cmc": "\u00b1 1 count (\u00b1 0.02% of reading)",
+      "standards": "ISO/IEC 17025, JIS B 7613",
+      "type": "tachometer"
+    }
+  ],
+  "23": [
+    {
+      "name": "EMI Test Receivers & Measuring Antennas",
+      "range": "9 kHz to 18 GHz",
+      "parameters": "Quasi-Peak, Peak, CISPR-Average detector response, antenna factor, pulse repetition linearity",
+      "equipment": "Synthesized RF Calibration System, Pulse Generator (CISPR 16-1-1 compliant)",
+      "cmc": "\u00b1 0.5 dB",
+      "standards": "CISPR 16-1-1, ANSI C63.4, EN 55032",
+      "type": "emi-receiver"
+    },
+    {
+      "name": "Line Impedance Stabilization Networks (LISN)",
+      "range": "9 kHz to 30 MHz (50 \u03a9 / 50 \u00b5H + 5 \u03a9)",
+      "parameters": "Impedance magnitude and phase vs frequency, voltage division factor, isolation",
+      "equipment": "Vector Network Analyzer (VNA), Precision LCR Standards",
+      "cmc": "Impedance: \u00b1 2 \u03a9 | Insertion loss: \u00b1 0.2 dB",
+      "standards": "CISPR 16-1-2, ANSI C63.4",
+      "type": "lisn"
+    },
+    {
+      "name": "Electrical Fast Transient (EFT) / Burst Generators",
+      "range": "Pulse amplitude up to 4.8 kV (5 ns / 50 ns waveform)",
+      "parameters": "Pulse rise time (5 ns \u00b1 1.5 ns), pulse duration (50 ns \u00b1 15 ns), repetition frequency",
+      "equipment": "High-Bandwidth Digital Storage Oscilloscope (2 GHz), High-Voltage Attenuators",
+      "cmc": "Voltage: \u00b1 2% | Timing: \u00b1 5%",
+      "standards": "IEC 61000-4-4, EN 61000-4-4",
+      "type": "eft-generator"
+    },
+    {
+      "name": "Electrostatic Discharge (ESD) Simulators",
+      "range": "Contact discharge up to 30 kV (Air discharge up to 30 kV)",
+      "parameters": "Discharge current rise time (0.7 to 1.0 ns), peak current (Ip), current at 30 ns and 60 ns",
+      "equipment": "Faraday Shielded Calibration Target (Pell 2 \u03a9), 2 GHz Oscilloscope",
+      "cmc": "Peak Current: \u00b1 3% | Rise Time: \u00b1 5%",
+      "standards": "IEC 61000-4-2, ISO 10605",
+      "type": "esd-simulator"
+    }
+  ],
+  "24": [
+    {
+      "name": "Single & Three-Phase Energy Meters",
+      "range": "Class 0.2S, 0.5S, 1.0 (Current up to 100 A, Voltage up to 500 V)",
+      "parameters": "Active, reactive & apparent energy error, power factor variation (cos \u03c6 0.5 to 1.0), creeping test",
+      "equipment": "Three-Phase Precision Reference Energy Standard (Class 0.05), Phantom Load Source",
+      "cmc": "\u00b1 0.05% of reading",
+      "standards": "IEC 62053-21, IEC 62053-22, IS 13779",
+      "type": "energy-meter"
+    },
+    {
+      "name": "Digital Gauss Meters & Magnetometers",
+      "range": "0.1 Gauss to 30,000 Gauss (0.01 mT to 3.0 Tesla)",
+      "parameters": "Hall effect probe linearity, transverse & axial sensitivity, zero flux chamber offset",
+      "equipment": "Precision Electromagnet Rig, Nuclear Magnetic Resonance (NMR) Gaussmeter Standard",
+      "cmc": "\u00b1 0.5% of reading",
+      "standards": "ASTM A341, ISO/IEC 17025",
+      "type": "gauss-meter"
+    },
+    {
+      "name": "Laboratory & On-Site pH Meters",
+      "range": "0.00 to 14.00 pH (-1999 mV to +1999 mV)",
+      "parameters": "Electrode slope factor, zero point offset, millivolt linearity, temperature compensation",
+      "equipment": "Standard Buffer Solutions (NIST Traceable: pH 4.01, 7.00, 9.21, 10.01), mV Standard",
+      "cmc": "\u00b1 0.005 pH (Meter) | \u00b1 0.01 pH (System)",
+      "standards": "IUPAC Guidelines, ASTM D1293, BS 1647",
+      "type": "ph-meter"
+    },
+    {
+      "name": "Conductivity & TDS Meters",
+      "range": "0.05 \u00b5S/cm to 200 mS/cm",
+      "parameters": "Cell constant (K) determination, temperature coefficient slope, AC resistance linearity",
+      "equipment": "Standard KCl Reference Solutions (NIST Traceable: 84 \u00b5S/cm, 1413 \u00b5S/cm, 12.88 mS/cm)",
+      "cmc": "\u00b1 0.5% of reading",
+      "standards": "ASTM D1125, ISO 7888",
+      "type": "conductivity"
+    }
+  ],
+  "25": [
+    {
+      "name": "Platinum Resistance Thermometers (PRT / Pt100 / Pt1000)",
+      "range": "-80\u00b0C to +400\u00b0C",
+      "parameters": "R0 resistance at 0\u00b0C, alpha temperature coefficient, Callendar-Van Dusen curve coefficients",
+      "equipment": "Standard Platinum Resistance Thermometer (SPRT), Fixed-Point Cells, Stirred Liquid Calibration Baths",
+      "cmc": "\u00b1 0.02\u00b0C (k=2)",
+      "standards": "ITS-90, IEC 60751, ASTM E1137",
+      "type": "prt"
+    },
+    {
+      "name": "Noble & Base Metal Thermocouples",
+      "range": "-40\u00b0C to +1200\u00b0C (Types B, R, S, K, N, J, T, E)",
+      "parameters": "Thermoelectric EMF output vs temperature, Seebeck coefficient, cold-junction drift",
+      "equipment": "Standard Type S Thermocouple, Three-Zone Tube Furnace, High-Precision Multimeter",
+      "cmc": "\u00b1 0.3\u00b0C to \u00b1 1.2\u00b0C (temperature dependent)",
+      "standards": "IEC 60584-1, ASTM E220, IS 7358",
+      "type": "thermocouple"
+    },
+    {
+      "name": "Digital Thermo-Hygrometers & Humidity Loggers",
+      "range": "10% to 95% RH (-20\u00b0C to +70\u00b0C)",
+      "parameters": "Relative humidity sensor linearity, dry-bulb temperature accuracy, sensor hysteresis",
+      "equipment": "Two-Pressure Humidity Generator, Chilled Mirror Dew Point Hygrometer Reference",
+      "cmc": "RH: \u00b1 1.0% RH | Temp: \u00b1 0.15\u00b0C",
+      "standards": "ISO/IEC 17025, EURAMET cg-11",
+      "type": "hygrometer"
+    },
+    {
+      "name": "Liquid-in-Glass (LIG) Reference Thermometers",
+      "range": "-50\u00b0C to +300\u00b0C",
+      "parameters": "Scale division graduation error, emergent stem correction, ice point zero check",
+      "equipment": "Calibrated Reference PRT, High-Stability Comparison Bath with Viewing Window",
+      "cmc": "\u00b1 0.05\u00b0C",
+      "standards": "ASTM E1, IS 4825, BS 593",
+      "type": "lig-thermometer"
+    }
+  ],
+  "26": [
+    {
+      "name": "Infrared (IR) Thermometers & Pyrometers",
+      "range": "-30\u00b0C to 1500\u00b0C (Non-Contact)",
+      "parameters": "Emissivity calibration curve, distance-to-spot optical ratio (D:S), spectral response",
+      "equipment": "Spherical Cavity Blackbody Calibration Furnace (Emissivity > 0.995), Flat-Plate Calibrator",
+      "cmc": "\u00b1 0.5\u00b0C to \u00b1 2.0\u00b0C",
+      "standards": "ASTM E2847, VDI/VDE 3511 Part 4.4",
+      "type": "ir-thermometer"
+    },
+    {
+      "name": "Thermal Imaging Cameras",
+      "range": "-20\u00b0C to +650\u00b0C",
+      "parameters": "Thermal sensitivity (NETD), image spatial resolution, center spot & area temperature accuracy",
+      "equipment": "High-Uniformity Dual Large-Aperture Blackbody Sources",
+      "cmc": "\u00b1 1.0\u00b0C or \u00b1 1.5% of reading",
+      "standards": "ASTM E1862, IEC 60751",
+      "type": "thermal-camera"
+    },
+    {
+      "name": "Blackbody Reference Calibration Sources",
+      "range": "Ambient to 1200\u00b0C (Cavity & Flat-Plate)",
+      "parameters": "Cavity temperature uniformity, effective emissivity, temperature stability over 30 min",
+      "equipment": "Standard Optical Transfer Pyrometer, Contact Reference PRT Probes",
+      "cmc": "\u00b1 0.35\u00b0C",
+      "standards": "EURAMET cg-20, ASTM E2847",
+      "type": "blackbody"
+    },
+    {
+      "name": "Surface Temperature Contact Probes & Ribbons",
+      "range": "-20\u00b0C to 400\u00b0C",
+      "parameters": "Surface contact heat transfer loss, thermal response time, sensor linearity",
+      "equipment": "Precision Surface Temperature Calibrator Plate (Fluke 9132)",
+      "cmc": "\u00b1 0.8\u00b0C",
+      "standards": "ASTM E230, ISO/IEC 17025",
+      "type": "surface-probe"
+    }
+  ],
+  "27": [
+    {
+      "name": "24-Point Multi-Channel Temperature Loggers",
+      "range": "-80\u00b0C to +1300\u00b0C (24 to 48 Channels)",
+      "parameters": "Channel-to-channel consistency, cold-junction uniformity across terminal blocks, time sync",
+      "equipment": "Fluke High-Precision Signal Simulators, Master Reference Thermocouple Array",
+      "cmc": "\u00b1 0.15\u00b0C per channel",
+      "standards": "CQI-9, AMS 2750G, 21 CFR Part 11",
+      "type": "mapping-logger"
+    },
+    {
+      "name": "Industrial Furnaces, Ovens & Kilns Mapping",
+      "range": "50\u00b0C to 1200\u00b0C (Class 1 to Class 5 Furnaces)",
+      "parameters": "Temperature Uniformity Survey (TUS), System Accuracy Test (SAT), heating/cooling rate",
+      "equipment": "Calibrated High-Temperature Thermocouples (Type K/N), Wireless Dataloggers",
+      "cmc": "TUS Survey Tolerance down to \u00b1 3\u00b0C",
+      "standards": "AMS 2750G, CQI-9 (Automotive Heat Treat)",
+      "type": "furnace"
+    },
+    {
+      "name": "Autoclaves & Sterilization Retorts Validation",
+      "range": "100\u00b0C to 140\u00b0C (1 to 3 bar saturated steam)",
+      "parameters": "Cold-spot detection, equilibration time, F0 lethality accumulated value, pressure correlation",
+      "equipment": "Submersible Wireless Data Loggers (Class A), Master Pressure Transducers",
+      "cmc": "\u00b1 0.1\u00b0C (Temp) | \u00b1 0.02 bar (Pressure)",
+      "standards": "EN 285, HTM 2010, ISO 17665",
+      "type": "autoclave"
+    },
+    {
+      "name": "Cold Rooms, Freezers & Stability Chambers",
+      "range": "-80\u00b0C to +60\u00b0C (RH 20% to 90%)",
+      "parameters": "Mean Kinetic Temperature (MKT), door-opening recovery time, power outage holdover",
+      "equipment": "Multi-Sensor Calibrated Thermal & Humidity Logger Arrays",
+      "cmc": "\u00b1 0.2\u00b0C (Temp) | \u00b1 1.5% RH",
+      "standards": "WHO TRS 961, ICH Q1A Guidelines",
+      "type": "stability-chamber"
+    }
+  ],
+  "28": [
+    {
+      "name": "Precision Digital Lux Meters & Photometers",
+      "range": "0.1 to 2,00,000 Lux",
+      "parameters": "V(\u03bb) photopic spectral match (f1 < 3%), cosine angular response (f2), scale linearity",
+      "equipment": "Standard Photometric Bench (6 meters), Luminous Intensity Standard Lamps (NPL Traceable)",
+      "cmc": "\u00b1 1.5% of reading",
+      "standards": "CIE Publication 69, DIN 5032 Part 7, IS 16011",
+      "type": "lux-meter"
+    },
+    {
+      "name": "Spot & Uniform Luminance Meters",
+      "range": "0.01 to 100,000 cd/m\u00b2",
+      "parameters": "Measuring angle aperture, polarization error, spectral match, display linearity",
+      "equipment": "Standard Integrating Sphere Luminance Source (Uniformity > 99%)",
+      "cmc": "\u00b1 2.0% of reading",
+      "standards": "CIE Publication 69, ISO/IEC 17025",
+      "type": "luminance"
+    },
+    {
+      "name": "UV Radiometers & Irradiance Meters",
+      "range": "UVA, UVB, UVC (Peak 254 nm, 312 nm, 365 nm, 0.1 \u00b5W/cm\u00b2 to 200 mW/cm\u00b2)",
+      "parameters": "Center wavelength spectral peak, out-of-band rejection ratio, spatial cosine response",
+      "equipment": "Calibrated Spectral Comparator Bench, Master Standard UV Photodiodes",
+      "cmc": "\u00b1 2.5% of reading",
+      "standards": "ISO/IEC 17025, CIE 198",
+      "type": "uv-radiometer"
+    }
+  ],
+  "29": [
+    {
+      "name": "Piezoelectric & IEPE Vibration Accelerometers",
+      "range": "Frequency 1 Hz to 10 kHz (Acceleration 0.1 to 1000 m/s\u00b2)",
+      "parameters": "Charge / Voltage sensitivity (pC/g or mV/g), amplitude linearity, frequency response",
+      "equipment": "Laser Doppler Interferometer Vibration Calibrator, Reference Accelerometer",
+      "cmc": "\u00b1 0.8% of reading (k=2)",
+      "standards": "ISO 16063-11, ISO 16063-21",
+      "type": "accelerometer"
+    },
+    {
+      "name": "Vibration Meters & Condition Monitoring Pens",
+      "range": "Displacement (0 to 2000 \u00b5m), Velocity (0 to 200 mm/s), Acceleration (0 to 200 m/s\u00b2)",
+      "parameters": "RMS, Peak & Peak-to-Peak reading accuracy, filter passband response",
+      "equipment": "Back-to-Back Electrodynamic Shaker System with Reference Sensor",
+      "cmc": "\u00b1 1.2% of reading",
+      "standards": "ISO 2954, ISO 10816, BS 4675",
+      "type": "vibration-meter"
+    },
+    {
+      "name": "Electrodynamic Vibration Shaker Tables",
+      "range": "Force rating up to 10 kN (Sine & Random vibration)",
+      "parameters": "Total harmonic distortion (THD), transverse motion ratio, table surface uniformity",
+      "equipment": "Multi-Channel Vibration Controller with Triaxial Reference Sensors",
+      "cmc": "\u00b1 1.5%",
+      "standards": "ISO 5344, MIL-STD-810G",
+      "type": "shaker"
+    }
+  ],
+  "30": [
+    {
+      "name": "Defibrillator & Pacemaker Analyzers",
+      "range": "Energy discharge 1 to 360 Joules (Monophasic & Biphasic)",
+      "parameters": "Delivered energy accuracy into 50 \u03a9 load, pulse waveform duration, peak current, sync time",
+      "equipment": "Precision Non-Inductive Load Bank, High-Speed Oscilloscope Digitizer",
+      "cmc": "\u00b1 1.0% of reading",
+      "standards": "IEC 60601-2-4, AAMI DF80",
+      "type": "defibrillator"
+    },
+    {
+      "name": "Multi-Parameter Patient Simulators",
+      "range": "ECG (30\u2013300 BPM), NIBP (0\u2013300 mmHg), SpO2 (50\u2013100%), Respiration, Temp",
+      "parameters": "ECG amplitude & rate, blood pressure pulse waveform, optical absorption ratio (R-curve)",
+      "equipment": "Precision Digital Timing Analyzer, Standard Pressure Chamber, Optical Calibration Sensor",
+      "cmc": "ECG: \u00b1 0.5% | NIBP: \u00b1 0.5 mmHg | SpO2: \u00b1 1%",
+      "standards": "AAMI EC13, IEC 60601-2-27",
+      "type": "patient-sim"
+    },
+    {
+      "name": "Electrosurgical Unit (ESU) Analyzers",
+      "range": "RF Power up to 400 W (Cut & Coagulation modes)",
+      "parameters": "High-frequency power output, crest factor, RF leakage currents to ground",
+      "equipment": "Wideband Thermocouple RF Ammeter, Non-Reactive Load Resistor Bank",
+      "cmc": "\u00b1 1.5% of reading",
+      "standards": "IEC 60601-2-2, ANSI/AAMI HF18",
+      "type": "esu"
+    },
+    {
+      "name": "Biomedical Electrical Safety Analyzers",
+      "range": "Leakage current 0.1 \u00b5A to 10 mA (Ground bond impedance 0.001 to 2.0 \u03a9)",
+      "parameters": "Earth leakage, chassis leakage, patient applied part leakage current (AC/DC)",
+      "equipment": "Calibrated Precision Current Shunt, IEC 60601-1 Human Body Model Network",
+      "cmc": "\u00b1 1.0% of reading",
+      "standards": "IEC 62353, IEC 60601-1, NFPA 99",
+      "type": "safety-analyzer"
+    }
+  ],
+  "31": [
+    {
+      "name": "Airborne Optical Particle Counters",
+      "range": "Channels: 0.3 \u00b5m, 0.5 \u00b5m, 1.0 \u00b5m, 3.0 \u00b5m, 5.0 \u00b5m, 10.0 \u00b5m (Flow 0.1 to 1.0 CFM)",
+      "parameters": "Size calibration response voltage, counting efficiency (50% \u00b1 20% at lower threshold), sample flow rate",
+      "equipment": "Monodisperse Polystyrene Latex (PSL) Spheres (NIST Traceable), Aerosol Generator",
+      "cmc": "Flow: \u00b1 2.0% | Sizing: \u00b1 3.0%",
+      "standards": "ISO 21501-4, JIS B 9921",
+      "type": "particle-counter"
+    },
+    {
+      "name": "Combustion & Flue Gas Analyzers",
+      "range": "O2 (0\u201325%), CO (0\u201310,000 ppm), CO2 (0\u201320%), NO/NOx (0\u20132000 ppm), SO2",
+      "parameters": "Electrochemical & NDIR sensor linearity, response time (T90), zero baseline drift",
+      "equipment": "Certified Gas Reference Standards (NPL/NIST Traceable Primary Mixtures)",
+      "cmc": "\u00b1 1.0% of span",
+      "standards": "EPA Method 3A, EN 50379",
+      "type": "gas-analyzer"
+    },
+    {
+      "name": "Toxic & Combustible Multi-Gas Detectors",
+      "range": "LEL (0\u2013100%), H2S (0\u2013100 ppm), CO (0\u2013500 ppm), O2 (0\u201330%), VOCs",
+      "parameters": "Catalytic bead / PID sensor response, alarm trip point verification, span calibration",
+      "equipment": "Precision Mass Flow Gas Blending Station with Multi-Component Span Gas",
+      "cmc": "\u00b1 1.5% of reading",
+      "standards": "EN 50271, OSHA 1910.146",
+      "type": "toxic-gas"
+    }
+  ],
+  "32": [
+    {
+      "name": "3D Coordinate Layout Inspection (First Article)",
+      "range": "Components up to 3000 mm x 2000 mm x 1500 mm",
+      "parameters": "Full GD&T validation (True position, flatness, profile of a surface, concentricity, runout)",
+      "equipment": "Bridge CMM with Renishaw SP25M Continuous Scanning Probe, Optical Scanner",
+      "cmc": "\u00b1 (1.8 + 3L/1000) \u00b5m",
+      "standards": "AS9102, ASME Y14.5-2018, ISO 1101",
+      "type": "layout"
+    },
+    {
+      "name": "Articulated Portable CMM Arms (Faro / Romer)",
+      "range": "Measurement volume 1.5 m to 4.5 m radius",
+      "parameters": "Single-point articulation error, volumetric length accuracy using ball bar",
+      "equipment": "Certified Master Calibrated Ball Bar, Master Reference Length Bar",
+      "cmc": "\u00b1 0.025 mm (volumetric)",
+      "standards": "ASME B89.4.22, ISO 10360-12",
+      "type": "portable-cmm"
+    },
+    {
+      "name": "Surface Roughness & Form Profile Geometry",
+      "range": "Ra, Rz, Rq, Rt (0.01 \u00b5m to 50 \u00b5m) | Roundness down to 0.05 \u00b5m",
+      "parameters": "Stylus tip radius (2 \u00b5m / 5 \u00b5m), vertical resolution, filter cut-off wavelength (\u03bbc)",
+      "equipment": "Precision Stylus Surface Roughness Tester, Certified Rubert Master Specimens",
+      "cmc": "Ra: \u00b1 (2% + 0.005 \u00b5m)",
+      "standards": "ISO 4287, ISO 12085, ASME B46.1",
+      "type": "surface-roughness"
+    }
+  ],
+  "33": [
+    {
+      "name": "HEPA & ULPA Filter In-Situ Integrity Testing (DOP / PAO)",
+      "range": "Filter efficiency 99.97% to 99.999% (0.3 \u00b5m aerosol challenge)",
+      "parameters": "Aerosol concentration uniformity, scan speed, localized media & frame gasket leak rate",
+      "equipment": "Laskin Nozzle Aerosol Generator, Calibrated Linear Digital Aerosol Photometer",
+      "cmc": "Leak detection down to 0.001% penetration",
+      "standards": "ISO 14644-3, IEST-RP-CC034, EU GMP Annex 1",
+      "type": "hepa"
+    },
+    {
+      "name": "Airflow Velocity, Volume & Room ACH Balancing",
+      "range": "Air velocity 0.1 to 30 m/s | Volume 20 to 5000 m\u00b3/h",
+      "parameters": "Capture hood volume flow rate, laminar flow velocity uniformity, Air Changes per Hour (ACH)",
+      "equipment": "Direct Reading Electronic Balometer Airflow Capture Hood, Thermal Anemometers",
+      "cmc": "\u00b1 2.5% of reading",
+      "standards": "ISO 14644-3, EN 12599",
+      "type": "balometer"
+    },
+    {
+      "name": "Differential Room Pressure Cascades & Recovery Time",
+      "range": "0 to 100 Pa (Positive & Negative Pressure suites)",
+      "parameters": "Pressure differential between cascade airlocks, 100:1 cleanroom recovery time",
+      "equipment": "High-Resolution Digital Micro-Manometers (0.1 Pa resolution)",
+      "cmc": "\u00b1 0.2 Pa",
+      "standards": "ISO 14644-1, ISO 14644-3",
+      "type": "pressure-cascade"
+    }
+  ],
+  "34": [
+    {
+      "name": "Ultrasonic Flaw Detectors (UT) & Phased Array",
+      "range": "Frequency 0.5 MHz to 25 MHz (Sound path up to 10,000 mm)",
+      "parameters": "Time base horizontal linearity, receiver vertical linearity, calibrated gain attenuator (dB)",
+      "equipment": "Standard IIW (V1) & V2 Calibration Blocks, Master Attenuator, Oscilloscope",
+      "cmc": "Horizontal: \u00b1 0.5% | Vertical: \u00b1 1.0 dB",
+      "standards": "EN 12668-1, ASTM E317, ISO 22232-1",
+      "type": "ut-flaw"
+    },
+    {
+      "name": "Ultrasonic Digital Thickness Gauges",
+      "range": "0.5 mm to 500 mm in steel",
+      "parameters": "Sound velocity calibration, zero offset probe delay, measurement linearity over stepped range",
+      "equipment": "Certified 5-Step & 10-Step High-Precision Calibration Blocks (Grade 00)",
+      "cmc": "\u00b1 0.01 mm",
+      "standards": "ASTM E797, EN 15317",
+      "type": "ut-thickness"
+    },
+    {
+      "name": "Magnetic Particle Inspection (MPI) Electromagnetic Yokes",
+      "range": "AC & DC Articulated Leg Yokes (Lifting capacity 4.5 kg to 25 kg)",
+      "parameters": "AC magnetic lifting force (min 4.5 kg / 10 lb), DC lifting force (min 18 kg / 40 lb), tangential field",
+      "equipment": "Certified 4.5 kg & 18 kg Carbon Steel Test Weights, Tangential Field Gaussmeter",
+      "cmc": "Lifting weight verified to \u00b1 0.01 kg",
+      "standards": "ASTM E1444, ISO 9934-3, ASME Section V",
+      "type": "mpi-yoke"
+    }
+  ],
+  "35": [
+    {
+      "name": "Custom Aerospace & Defense Calibration Test Rigs",
+      "range": "Multi-Axis Sensor & Load Platforms (Bespoke parameters)",
+      "parameters": "Multi-axis cross-coupling verification, static & dynamic load simulation, thermal drift",
+      "equipment": "Multi-Channel High-Speed Data Acquisition System, Primary Standard Load Cells",
+      "cmc": "\u00b1 0.2% of Full Scale",
+      "standards": "ISO/IEC 17025 (Clause 7.2), Client Engineering Specs",
+      "type": "custom-rig"
+    },
+    {
+      "name": "Environmental Multi-Stress Test Chambers",
+      "range": "-70\u00b0C to +180\u00b0C | RH 10% to 98% | Altitude to 50,000 ft",
+      "parameters": "Working volume temperature uniformity, humidity stability, rapid ramp rate verification",
+      "equipment": "24-Channel Calibrated Temperature & Pressure Mapping System",
+      "cmc": "Temp: \u00b1 0.25\u00b0C | RH: \u00b1 1.5%",
+      "standards": "MIL-STD-810G, IEC 60068-3-5",
+      "type": "stress-chamber"
+    },
+    {
+      "name": "Specialized Sensor Prototype Characterization",
+      "range": "Pressure, Force, Temperature, Displacement custom ranges",
+      "parameters": "Linearity, hysteresis, thermal sensitivity coefficient, dynamic step response time",
+      "equipment": "Automated Computer-Controlled Calibrator Test Benches",
+      "cmc": "Down to \u00b1 0.05% of span",
+      "standards": "ISO/IEC 17025",
+      "type": "sensor-prototype"
+    }
+  ]
+}

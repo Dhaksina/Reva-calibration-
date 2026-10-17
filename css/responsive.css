@@ -1,0 +1,298 @@
+/* ==========================================================================
+   REVA PHOENIX DESIGN SYSTEM — RESPONSIVE ADAPTATIONS & MOBILE NAVIGATION
+   Touch ergonomics, layout reorganization, and viewport scalability
+   ========================================================================== */
+
+/* 1. Off-Canvas Mobile Drawer */
+.mobile-nav-drawer {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: min(360px, 85vw);
+  height: 100vh;
+  background: rgba(18, 21, 26, 0.98);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-left: 1px solid var(--orange-border-strong);
+  z-index: 10000;
+  padding: 2.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: right 0.4s var(--ease-out-expo);
+  box-shadow: -15px 0 50px rgba(0, 0, 0, 0.9);
+}
+
+.mobile-nav-drawer.open {
+  right: 0;
+}
+
+.mobile-drawer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(4px);
+  z-index: 9999;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.mobile-drawer-overlay.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mobile-drawer-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border-graphite);
+}
+
+.mobile-drawer-close {
+  background: transparent;
+  border: 1px solid var(--orange-border);
+  color: var(--orange-primary);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mobile-drawer-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow-y: auto;
+  max-height: calc(100vh - 220px);
+}
+
+.mobile-drawer-link {
+  font-family: var(--font-technical);
+  font-size: 1.1rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+  display: block;
+  padding: 8px 0;
+  transition: color var(--transition-fast);
+}
+
+.mobile-drawer-link:hover,
+.mobile-drawer-link.active {
+  color: var(--orange-primary);
+  transform: translateX(6px);
+}
+
+/* 2. Breakpoints & Reflows */
+
+/* Desktop Narrow / Laptop (1141px to 1340px) */
+@media (max-width: 1340px) {
+  .nav-menu {
+    gap: 4px;
+    padding: 3px 6px;
+  }
+
+  .nav-link {
+    font-size: 0.72rem;
+    padding: 5px 5px;
+    letter-spacing: 0.02em;
+  }
+
+  .brand-tagline {
+    padding: 4px 10px 4px 8px;
+    gap: 6px;
+  }
+
+  .brand-tagline .tagline-lead {
+    font-size: 0.62rem;
+    letter-spacing: 0.1em;
+  }
+
+  .brand-tagline .tagline-divider {
+    font-size: 0.62rem;
+  }
+
+  .brand-tagline .tagline-sub {
+    font-size: 0.60rem;
+    letter-spacing: 0.1em;
+  }
+
+  .brand-wrapper {
+    gap: 8px;
+  }
+}
+
+/* Tablet & Smaller Laptops (<= 1140px) */
+@media (max-width: 1140px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .service-row-card {
+    grid-template-columns: 80px 1.2fr 1.8fr auto;
+    gap: 16px;
+  }
+
+  .footer-columns-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-grid,
+  .leadership-grid,
+  .lab-division-box,
+  .contact-hub-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-visual-card.about-building-card {
+    margin: 2rem auto 0 auto;
+    justify-self: center;
+    max-width: 440px;
+  }
+
+  .hero-split-layout {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero-left-col,
+  .hero-right-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .hero-right-col {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .hero-building-visual {
+    width: 85%;
+    opacity: 0.7;
+  }
+}
+
+/* Tablet (<= 860px) */
+@media (max-width: 860px) {
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .api-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .service-row-card {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .service-index {
+    font-size: 1.8rem;
+  }
+
+  .service-action-wrap {
+    justify-content: flex-start;
+  }
+
+  .form-group-row {
+    grid-template-columns: 1fr;
+  }
+
+  .core-pillars-grid,
+  .about-matrix-3p {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+/* Mobile (<= 580px) */
+@media (max-width: 580px) {
+  :root {
+    --nav-height: 70px;
+  }
+
+  .brand-phoenix-logo-img {
+    height: 38px;
+  }
+
+  .hero-section {
+    padding-top: calc(var(--nav-height) + 1.5rem);
+    min-height: auto;
+    padding-bottom: 3.5rem;
+  }
+
+  #leadership.section-wrapper {
+    padding-top: 3.5rem;
+  }
+
+  .hero-headline .hero-line {
+    white-space: normal;
+  }
+
+  .hero-headline {
+    font-size: clamp(1.85rem, 8vw, 2.5rem);
+  }
+
+  .hero-cta-group {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .hero-cta-group .btn {
+    width: 100%;
+  }
+
+  .metrics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-telemetry-strip {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .labs-filter-strip {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .lab-search-input-wrap {
+    min-width: 100%;
+  }
+
+  .footer-columns-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-bottom-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .lightbox-prev-btn {
+    left: 10px;
+  }
+
+  .lightbox-next-btn {
+    right: 10px;
+  }
+
+  .lightbox-close-btn {
+    top: 15px;
+    right: 15px;
+  }
+}

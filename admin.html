@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reva Phoenix Calibration — Admin Control Center</title>
+  <base href="/">
+  <link rel="icon" type="image/png" href="/assets/images/reva-crown-orange.png">
+  <link rel="stylesheet" href="/admin/css/admin.css?v=4.0">
+</head>
+<body>
+
+  <!-- ========================================================================
+       1. SECURE ADMIN LOGIN SCREEN
+       ======================================================================== -->
+  <div class="admin-login-overlay" id="login-overlay">
+    <div class="login-card">
+      <div class="login-brand">
+        <img src="/assets/images/reva-phoenix-brand-logo.png" alt="Reva Phoenix Calibration">
+        <div>
+          <h1 class="login-title">Admin Control Center</h1>
+          <p class="login-subtitle">Laboratories, Documents &amp; Media Management</p>
+        </div>
+      </div>
+
+      <form class="login-form" id="login-form">
+        <div class="form-group">
+          <label class="form-label" for="login-email">Admin Email</label>
+          <input type="email" id="login-email" class="form-input" placeholder="admin@revaphoenix.com" required autocomplete="email" value="admin@revaphoenix.com">
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="login-password">Master Password</label>
+          <input type="password" id="login-password" class="form-input" placeholder="••••••••" required autocomplete="current-password" value="reva2026">
+        </div>
+
+        <button type="submit" class="btn-primary" id="login-submit-btn" style="margin-top: 6px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+          Authenticate &amp; Enter
+        </button>
+      </form>
+
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 14px; font-size: 0.8rem;">
+        <button type="button" id="btn-forgot-password" style="background: none; border: none; color: var(--orange-primary); cursor: pointer; text-decoration: underline; padding: 0; font-size: 0.8rem; font-family: inherit;">Forgot Password?</button>
+        <span style="color: var(--text-muted); font-size: 0.72rem; font-family: var(--font-mono); display: flex; align-items: center; gap: 4px;">
+          <span style="width: 6px; height: 6px; border-radius: 50%; background: #10b981; display: inline-block;"></span> Firebase Auth
+        </span>
+      </div>
+
+      <div class="login-credentials-hint">
+        Default Credentials: <strong>admin@revaphoenix.com</strong> / <strong>reva2026</strong>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       2. MAIN ADMIN SHELL & TOPBAR
+       ======================================================================== -->
+  <div class="admin-shell" id="admin-shell" style="display: none;">
+    
+    <!-- Top Navigation Bar -->
+    <header class="admin-topbar">
+      <div class="topbar-brand">
+        <img src="/assets/images/reva-phoenix-brand-logo.png" alt="Reva Phoenix" class="topbar-logo">
+        <div class="topbar-badge">
+          <span class="topbar-badge-title">
+            Calibration CMS
+            <span style="font-size: 0.68rem; background: rgba(255,85,0,0.15); color: var(--orange-primary); padding: 2px 6px; border-radius: 4px; border: 1px solid rgba(255,85,0,0.3);">PRO</span>
+          </span>
+          <span class="topbar-badge-sub">CONTROL CENTER</span>
+        </div>
+      </div>
+
+      <!-- Navigation Tabs -->
+      <nav class="topbar-tabs">
+        <button class="nav-tab-btn active" data-tab="laboratories">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v7.31"></path><path d="M14 9.3V1.99"></path><path d="M8.5 2h7"></path><path d="M14 9.3a6.5 6.5 0 1 1-4 0"></path><path d="M5.52 16h12.96"></path></svg>
+          <span>35 Laboratories</span>
+          <span class="tab-counter" id="count-labs-badge">35</span>
+        </button>
+
+        <button class="nav-tab-btn" data-tab="documents">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+          <span>Brochures &amp; Certificates</span>
+          <span class="tab-counter" id="count-docs-badge">4</span>
+        </button>
+
+        <button class="nav-tab-btn" data-tab="images">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+          <span>Infrastructure &amp; Leadership Images</span>
+          <span class="tab-counter" id="count-imgs-badge">10</span>
+        </button>
+      </nav>
+
+      <!-- Quick Actions -->
+      <div class="topbar-actions">
+        <div class="status-pill">
+          <span class="status-indicator-dot"></span>
+          <span>API 200 OK</span>
+        </div>
+
+        <a href="/" target="_blank" class="btn-secondary btn-sm" title="Open Public Website">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+          View Live Site
+        </a>
+
+        <button class="btn-secondary btn-sm" id="logout-btn" title="Sign Out">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+          Logout
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Views Container -->
+    <main class="admin-main">
+
+      <!-- ====================================================================
+           VIEW 1: 35 LABORATORIES MANAGER
+           ==================================================================== -->
+      <section class="view-section active" id="view-laboratories">
+        <div class="view-header">
+          <div class="view-heading-group">
+            <h1>
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--orange-primary);"><path d="M10 2v7.31"></path><path d="M14 9.3V1.99"></path><path d="M8.5 2h7"></path><path d="M14 9.3a6.5 6.5 0 1 1-4 0"></path><path d="M5.52 16h12.96"></path></svg>
+              35 Integrated Metrology Laboratories
+            </h1>
+            <p>Manage laboratory calibration scopes, CMC uncertainties, standards, environmental controls, and catalog PDFs.</p>
+          </div>
+
+          <div class="view-toolbar">
+            <div class="search-box">
+              <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+              <input type="text" id="labs-search-input" class="form-input" placeholder="Search by name, code, CMC...">
+            </div>
+          </div>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="filter-pills">
+          <button class="filter-btn lab-filter-btn active" data-cat="all">All 35 Labs</button>
+          <button class="filter-btn lab-filter-btn" data-cat="dimensional">Dimensional</button>
+          <button class="filter-btn lab-filter-btn" data-cat="pressure">Pressure</button>
+          <button class="filter-btn lab-filter-btn" data-cat="thermal">Thermal</button>
+          <button class="filter-btn lab-filter-btn" data-cat="electrotechnical">Electrotechnical</button>
+          <button class="filter-btn lab-filter-btn" data-cat="fluid">Fluid Flow</button>
+          <button class="filter-btn lab-filter-btn" data-cat="torque">Torque</button>
+          <button class="filter-btn lab-filter-btn" data-cat="force">Force</button>
+          <button class="filter-btn lab-filter-btn" data-cat="mass">Mass</button>
+          <button class="filter-btn lab-filter-btn" data-cat="optical">Optical</button>
+        </div>
+
+        <!-- Labs Cards Grid -->
+        <div class="labs-grid" id="labs-grid-container">
+          <!-- Populated dynamically via admin.js -->
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 2: BROCHURES & CERTIFICATES CENTER
+           ==================================================================== -->
+      <section class="view-section" id="view-documents">
+        <div class="view-header">
+          <div class="view-heading-group">
+            <h1>
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--cyan-accent);"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+              Brochures &amp; Official Certificates
+            </h1>
+            <p>Upload and replace corporate brochures, ISO/IEC 17025 accreditations, quality certificates, and master scopes.</p>
+          </div>
+        </div>
+
+        <div class="docs-layout">
+          <!-- Active Documents Grid -->
+          <div class="docs-grid" id="docs-grid-container">
+            <!-- Populated dynamically via admin.js -->
+          </div>
+
+          <!-- Add / Upload New Document Card -->
+          <div class="upload-sidebar-card">
+            <div>
+              <h3 style="font-size: 1.15rem; font-weight: 700; color: var(--text-main); margin-bottom: 4px;">Upload New Document</h3>
+              <p style="font-size: 0.8rem; color: var(--text-secondary);">Add a new PDF brochure or accreditation certificate to the website downloads.</p>
+            </div>
+
+            <form id="new-doc-form" style="display: flex; flex-direction: column; gap: 14px;">
+              <!-- Dropzone -->
+              <div class="dropzone-box" id="doc-dropzone">
+                <div class="dropzone-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                </div>
+                <div class="dropzone-text">Choose or Drop PDF File</div>
+                <div class="dropzone-hint" id="dropzone-file-name">Supports PDF, DOCX, JPEG up to 50MB</div>
+                <input type="file" id="new-doc-file" accept=".pdf,.docx,.doc,.jpg,.jpeg,.png" style="display: none;">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="new-doc-title">Document Title</label>
+                <input type="text" id="new-doc-title" class="form-input" placeholder="e.g. NABL Accreditation Certificate 2026" required>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="new-doc-category">Document Category</label>
+                <select id="new-doc-category" class="form-select">
+                  <option value="Brochure">Corporate Brochure</option>
+                  <option value="Certificate">Accreditation Certificate</option>
+                  <option value="Accreditation">NABL Scope Reference</option>
+                  <option value="Catalog">Metrology Catalog</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="new-doc-desc">Short Description</label>
+                <textarea id="new-doc-desc" class="form-textarea" placeholder="Brief explanation of what this certificate or brochure covers..."></textarea>
+              </div>
+
+              <button type="submit" class="btn-primary" style="margin-top: 6px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                Publish Document to Website
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- ====================================================================
+           VIEW 3: INFRASTRUCTURE & LEADERSHIP IMAGE REPLACEMENT
+           ==================================================================== -->
+      <section class="view-section" id="view-images">
+        <div class="view-header">
+          <div class="view-heading-group">
+            <h1>
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--orange-primary);"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+              Infrastructure &amp; Leadership Image Replacement
+            </h1>
+            <p>Upload and replace images specifically for State-of-the-Art Infrastructure, Headquarters Building, and Managing Director's Statement.</p>
+          </div>
+        </div>
+
+        <!-- Image Category Filters -->
+        <div class="image-categories-tabs">
+          <button class="filter-btn img-filter-btn active" data-imgcat="all">All Section Images (10)</button>
+          <button class="filter-btn img-filter-btn" data-imgcat="infrastructure">State-of-the-Art Infrastructure (8)</button>
+          <button class="filter-btn img-filter-btn" data-imgcat="leadership">Leadership Statements (2)</button>
+        </div>
+
+        <!-- Images Grid -->
+        <div class="images-grid" id="images-grid-container">
+          <!-- Populated dynamically via admin.js -->
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- ========================================================================
+       MODAL: EDIT LABORATORY & SCOPE DRAWER
+       ======================================================================== -->
+  <div class="admin-modal" id="lab-edit-modal">
+    <div class="modal-container">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h2>Edit Laboratory Scope &amp; Parameters</h2>
+          <p>Modify technical CMC uncertainty, turnaround schedule, and associated catalog PDF.</p>
+        </div>
+        <button class="modal-close-btn" id="close-lab-modal">&times;</button>
+      </div>
+
+      <form id="lab-edit-form">
+        <div class="modal-body">
+          <input type="hidden" id="edit-lab-id">
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="edit-lab-name">Laboratory Name</label>
+              <input type="text" id="edit-lab-name" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="edit-lab-code">Lab Code</label>
+              <input type="text" id="edit-lab-code" class="form-input" required>
+            </div>
+          </div>
+
+          <!-- PROMINENT DEDICATED BROCHURE / SCOPE PDF UPLOAD BOX -->
+          <div class="lab-modal-brochure-box">
+            <div class="brochure-header">
+              <div class="brochure-title-group">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--orange-primary);"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                <div>
+                  <div style="font-weight: 700; color: #FFF; font-size: 0.95rem;">Laboratory Brochure / Scope PDF</div>
+                  <div style="font-size: 0.76rem; color: var(--text-secondary);">Attach or upload dedicated PDF catalog &amp; scope document for this lab</div>
+                </div>
+              </div>
+              <div id="modal-brochure-status-badge">
+                <span class="status-pill" style="font-size: 0.72rem; padding: 3px 8px;">Active PDF Linked</span>
+              </div>
+            </div>
+
+            <!-- Drag & Drop Zone -->
+            <div class="modal-brochure-dropzone" id="modal-brochure-dropzone" onclick="document.getElementById('edit-lab-catalog-file').click()">
+              <input type="file" id="edit-lab-catalog-file" accept=".pdf" style="display: none;">
+              <div class="modal-dropzone-content">
+                <div class="modal-dropzone-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                </div>
+                <div>
+                  <div style="font-weight: 700; font-size: 0.92rem; color: #FFF;" id="modal-brochure-display-name">Click or Drag &amp; Drop to Upload Brochure PDF</div>
+                  <div style="font-size: 0.75rem; color: var(--text-muted);" id="modal-brochure-display-url">Select official PDF document from your computer</div>
+                </div>
+                <button type="button" class="btn-primary btn-sm" style="pointer-events: none;">
+                  Upload PDF
+                </button>
+              </div>
+            </div>
+
+            <div class="modal-grid-2" style="gap: 10px;">
+              <input type="text" id="edit-lab-catalog-url" class="form-input" placeholder="assets/docs/Catalog.pdf" style="font-size: 0.8rem; font-family: var(--font-mono);">
+              <input type="text" id="edit-lab-catalog-name" class="form-input" placeholder="Display filename" style="font-size: 0.8rem;">
+            </div>
+
+            <div class="modal-brochure-actions" id="modal-brochure-actions">
+              <a href="#" target="_blank" id="modal-view-pdf-btn" class="btn-secondary btn-sm" style="flex: 1; text-align: center;">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                Preview PDF
+              </a>
+              <a href="#" download id="modal-download-pdf-btn" class="btn-secondary btn-sm" style="flex: 1; text-align: center;">
+                <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                Download PDF
+              </a>
+            </div>
+          </div>
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="edit-lab-category">Category / Discipline</label>
+              <input type="text" id="edit-lab-category" class="form-input" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="edit-lab-cmc">Expanded CMC Uncertainty</label>
+              <input type="text" id="edit-lab-cmc" class="form-input" placeholder="e.g. ± 1.2 µm to ± 3.5 µm (k=2)">
+            </div>
+          </div>
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="edit-lab-tat">Turnaround Time (TAT)</label>
+              <input type="text" id="edit-lab-tat" class="form-input" placeholder="e.g. 24–48h Priority">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="edit-lab-env">Environmental Control</label>
+              <input type="text" id="edit-lab-env" class="form-input" placeholder="e.g. 20°C ± 1°C, RH 45%">
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="edit-lab-tagline">Tagline / Subhead</label>
+            <input type="text" id="edit-lab-tagline" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="edit-lab-scope">Calibration Scope</label>
+            <textarea id="edit-lab-scope" class="form-textarea" placeholder="List of calibrated devices and gauges..."></textarea>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="edit-lab-equipment">Master Reference Equipment</label>
+            <textarea id="edit-lab-equipment" class="form-textarea" placeholder="Primary standards, laser interferometers, calibrators..."></textarea>
+          </div>
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="edit-lab-standards">Compliance Standards</label>
+              <input type="text" id="edit-lab-standards" class="form-input" placeholder="e.g. ISO/IEC 17025:2017, IS 3651">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="edit-lab-parameters">Measured Parameters</label>
+              <input type="text" id="edit-lab-parameters" class="form-input" placeholder="e.g. Length, Flatness, Parallelism">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary" onclick="window.AdminApp.closeLabModal()">Cancel</button>
+          <button type="submit" class="btn-primary">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Save Laboratory Changes
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 2: EDIT WORDS & IMAGE MODAL
+       ======================================================================== -->
+  <div class="admin-modal" id="image-words-modal">
+    <div class="modal-container" style="max-width: 660px;">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <h2 id="modal-image-title">Edit Words &amp; Image</h2>
+          <p id="modal-image-subtitle">Update headings, descriptions, captions, and replace image file.</p>
+        </div>
+        <button type="button" class="modal-close-btn" onclick="window.AdminApp.closeImageWordsModal()">&times;</button>
+      </div>
+
+      <form id="image-words-form" onsubmit="window.AdminApp.saveImageWordsData(event)">
+        <input type="hidden" id="edit-img-id">
+        <input type="hidden" id="edit-img-path">
+
+        <div class="modal-body">
+          <!-- Image preview & replacement banner -->
+          <div style="background: rgba(10, 14, 23, 0.6); border: 1px solid var(--border-subtle); border-radius: var(--radius-sm); padding: 14px; display: flex; align-items: center; gap: 16px;">
+            <div style="width: 120px; height: 80px; border-radius: 6px; overflow: hidden; background: #07090E; flex-shrink: 0; border: 1px solid var(--border-subtle); display: flex; align-items: center; justify-content: center;">
+              <img id="edit-img-modal-preview" src="" alt="Preview" style="max-width: 100%; max-height: 100%; object-fit: cover;">
+            </div>
+            <div style="flex: 1; min-width: 0;">
+              <div style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); white-space: nowrap; overflow: hidden; text-overflow: ellipsis;" id="edit-img-modal-path-display">assets/images/...</div>
+              <div style="margin-top: 8px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap;">
+                <input type="file" id="edit-img-modal-file" accept="image/*,.svg" style="display: none;" onchange="window.AdminApp.handleModalImageFilePicked(this)">
+                <button type="button" class="btn-upload-direct" onclick="document.getElementById('edit-img-modal-file').click()">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                  Select New Image
+                </button>
+                <span style="font-size: 0.75rem; color: var(--text-secondary);" id="edit-img-modal-filestatus">Current image loaded</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="modal-grid-2">
+            <div class="form-group">
+              <label class="form-label" for="edit-img-section">Section Category</label>
+              <input type="text" id="edit-img-section" class="form-input" placeholder="e.g. State-of-the-Art Infrastructure" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="edit-img-title">Item Title / Heading</label>
+              <input type="text" id="edit-img-title" class="form-input" placeholder="e.g. Dimension Calibration Cleanroom Suite" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="edit-img-sub">Subtitle / Caption / Role</label>
+            <input type="text" id="edit-img-sub" class="form-input" placeholder="e.g. Class 1 Precision Metrology Suite">
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="edit-img-desc">Description / Statement Words</label>
+            <textarea id="edit-img-desc" class="form-textarea" rows="4" placeholder="Enter detailed text, executive quote, or facility description..."></textarea>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="button" class="btn-secondary" onclick="window.AdminApp.closeImageWordsModal()">Cancel</button>
+          <button type="submit" class="btn-primary" id="save-img-words-btn">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+            Save Words &amp; Image
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Firebase Authentication & Cloud Firestore SDKs -->
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.14.0/firebase-firestore-compat.js"></script>
+
+  <!-- Supabase Main Database SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+
+  <!-- Reva Cloud Data Layer -->
+  <script src="/js/cloud-config.js?v=2.0"></script>
+  <script src="/js/firebase-auth.js?v=2.0"></script>
+  <script src="/js/firebase-firestore.js?v=2.0"></script>
+  <script src="/js/supabase-db.js?v=2.0"></script>
+  <script src="/js/laboratories-data.js?v=5.2"></script>
+  <script src="/admin/js/admin.js?v=4.5"></script>
+</body>
+</html>
