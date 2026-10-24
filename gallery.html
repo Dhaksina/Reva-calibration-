@@ -51,9 +51,25 @@
       <nav aria-label="Main Navigation">
         <ul class="nav-menu">
           <li class="nav-item"><a href="index.html#hero" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="index.html#leadership" class="nav-link">About Us</a></li>
+          
+          <!-- Dropdown: About Us -->
+          <li class="nav-item nav-item-dropdown">
+            <a href="about-us.html" class="nav-link nav-dropdown-toggle" id="nav-about-dropdown">
+              About Us
+              <svg class="dropdown-chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </a>
+            <ul class="nav-dropdown-menu">
+              <li class="nav-dropdown-item"><a href="about-us.html#overview" class="nav-dropdown-link">About Reva Phoenix</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#message-from-md" class="nav-dropdown-link">Message from MD</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#mission-vision" class="nav-dropdown-link">Mission &amp; Vision</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#quality-policy" class="nav-dropdown-link">Quality Policy</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#unique-features" class="nav-dropdown-link">Unique Features</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#industry-we-serve" class="nav-dropdown-link">Industry We Serve</a></li>
+            </ul>
+          </li>
+
           <li class="nav-item"><a href="index.html#laboratories" class="nav-link">35 Labs</a></li>
-          <li class="nav-item"><a href="index.html#industries" class="nav-link">Industries</a></li>
+          <li class="nav-item"><a href="about-us.html#industry-we-serve" class="nav-link">Industries</a></li>
           <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
           <li class="nav-item"><a href="index.html#resources" class="nav-link">Downloads</a></li>
           <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact Us</a></li>
@@ -95,9 +111,21 @@
       </div>
       <ul class="mobile-drawer-menu">
         <li><a href="index.html#hero" class="mobile-drawer-link">Home</a></li>
-        <li><a href="index.html#leadership" class="mobile-drawer-link">About Us &amp; Directorate</a></li>
+        <li class="mobile-drawer-has-sub">
+          <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; font-weight: 600; color: var(--orange-primary);">
+            <span>About Us</span>
+          </div>
+          <ul class="mobile-drawer-sub-menu">
+            <li><a href="about-us.html#overview" class="mobile-drawer-sub-link">About Reva Phoenix</a></li>
+            <li><a href="about-us.html#message-from-md" class="mobile-drawer-sub-link">Message from MD</a></li>
+            <li><a href="about-us.html#mission-vision" class="mobile-drawer-sub-link">Mission &amp; Vision</a></li>
+            <li><a href="about-us.html#quality-policy" class="mobile-drawer-sub-link">Quality Policy</a></li>
+            <li><a href="about-us.html#unique-features" class="mobile-drawer-sub-link">Unique Features</a></li>
+            <li><a href="about-us.html#industry-we-serve" class="mobile-drawer-sub-link">Industry We Serve</a></li>
+          </ul>
+        </li>
         <li><a href="index.html#laboratories" class="mobile-drawer-link">35 Integrated Calibration Labs</a></li>
-        <li><a href="index.html#industries" class="mobile-drawer-link">Industries &amp; Standards</a></li>
+        <li><a href="about-us.html#industry-we-serve" class="mobile-drawer-link">Industries &amp; Standards</a></li>
         <li><a href="gallery.html" class="mobile-drawer-link" style="color: var(--orange-primary); font-weight: 700;">Corporate Gallery</a></li>
         <li><a href="index.html#resources" class="mobile-drawer-link">Certificates &amp; Downloads</a></li>
         <li><a href="index.html#contact" class="mobile-drawer-link">Contact Us</a></li>
