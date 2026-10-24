@@ -427,36 +427,23 @@
         </p>
       </div>
 
-      <!-- Controls: Filter Pills, View Switcher & Live Search -->
+      <!-- Controls: View Switcher & Live Search -->
       <div class="labs-filter-strip">
-        <div class="labs-filter-pills">
-          <button class="lab-filter-btn active" data-lab-category="all" onclick="setLabCategory('all', this)">All 35 Labs</button>
-          <button class="lab-filter-btn" data-lab-category="dimensional" onclick="setLabCategory('dimensional', this)">Dimensional</button>
-          <button class="lab-filter-btn" data-lab-category="mechanical" onclick="setLabCategory('mechanical', this)">Mechanical &amp; Force</button>
-          <button class="lab-filter-btn" data-lab-category="pressure" onclick="setLabCategory('pressure', this)">Pressure</button>
-          <button class="lab-filter-btn" data-lab-category="fluid" onclick="setLabCategory('fluid', this)">Fluid &amp; Flow</button>
-          <button class="lab-filter-btn" data-lab-category="electrical" onclick="setLabCategory('electrical', this)">Electro-Technical</button>
-          <button class="lab-filter-btn" data-lab-category="thermal" onclick="setLabCategory('thermal', this)">Thermal &amp; Optical</button>
-          <button class="lab-filter-btn" data-lab-category="specialized" onclick="setLabCategory('specialized', this)">Validation &amp; Specialized</button>
+        <!-- View Mode Switcher -->
+        <div class="labs-view-switcher" role="group" aria-label="Laboratory Display Mode">
+          <button class="lab-view-btn active" id="btn-view-matrix" onclick="setLabViewMode('matrix')" title="Official 35 Symbol Matrix View">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+            Symbol Matrix
+          </button>
+          <button class="lab-view-btn" id="btn-view-cards" onclick="setLabViewMode('cards')" title="Detailed Technical Cards View">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+            Detailed Cards
+          </button>
         </div>
 
-        <div style="display: flex; align-items: center; gap: 12px; flex-wrap: wrap;">
-          <!-- View Mode Switcher -->
-          <div class="labs-view-switcher" role="group" aria-label="Laboratory Display Mode">
-            <button class="lab-view-btn active" id="btn-view-matrix" onclick="setLabViewMode('matrix')" title="Official 35 Symbol Matrix View">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
-              Symbol Matrix
-            </button>
-            <button class="lab-view-btn" id="btn-view-cards" onclick="setLabViewMode('cards')" title="Detailed Technical Cards View">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
-              Detailed Cards
-            </button>
-          </div>
-
-          <div class="lab-search-input-wrap">
-            <svg class="lab-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-            <input type="text" id="lab-search-input" class="lab-search-input" placeholder="Search lab or scope (e.g. CMM, Torque)...">
-          </div>
+        <div class="lab-search-input-wrap">
+          <svg class="lab-search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="lab-search-input" class="lab-search-input" placeholder="Search lab or scope (e.g. CMM, Torque)...">
         </div>
       </div>
 
