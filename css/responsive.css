@@ -146,7 +146,8 @@
   }
 
   .footer-columns-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr auto;
+    gap: 2.5rem;
   }
 
   .about-grid,
@@ -225,7 +226,7 @@
   }
 
   .brand-phoenix-logo-img {
-    height: 38px;
+    height: 48px;
   }
 
   .hero-section {

@@ -2149,11 +2149,21 @@
 
 .footer-columns-grid {
   display: grid;
-  grid-template-columns: 1.3fr 1fr;
+  grid-template-columns: 1fr auto;
+  justify-content: space-between;
   gap: clamp(2.5rem, 6vw, 6rem);
   position: relative;
   z-index: 2;
   margin-bottom: 4rem;
+}
+
+.footer-brand-col {
+  max-width: 620px;
+}
+
+.footer-hq-col {
+  min-width: 280px;
+  max-width: 360px;
 }
 
 .footer-col-title {
