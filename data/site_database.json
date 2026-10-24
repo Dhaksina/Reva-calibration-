@@ -214,6 +214,24 @@
         "name": "Healthcare & Process",
         "desc": "Biomedical instrumentation calibration, Clean Room validation conforming to ISO 14644, thermal chamber mapping, HVAC qualification, and gas analyzer verification.",
         "icon": "activity"
+      },
+      {
+        "id": 6,
+        "name": "Pharma",
+        "desc": "WHO-GMP & US-FDA 21 CFR Part 11 validation, autoclave & stability chamber thermal mapping, cleanroom ISO 14644 certification, and precision calibration for pharmaceutical formulation units.",
+        "icon": "pill"
+      },
+      {
+        "id": 7,
+        "name": "Medical",
+        "desc": "ISO 13485:2016 medical device compliance, biomedical test equipment verification, surgical instrumentation metrology, patient monitor sensor audits, and diagnostic device accuracy.",
+        "icon": "cross"
+      },
+      {
+        "id": 8,
+        "name": "Food & Beverage",
+        "desc": "HACCP, ISO 22000 & FSSC compliance, cold chain thermal mapping, packaging line load cells, pasteurizer temperature controllers, and refractometer & pH sensor calibration.",
+        "icon": "coffee"
       }
     ],
     "clients": [
