@@ -83345,8 +83345,14 @@ function openLabDetails(labId) {
   }
 
   modal.scrollTop = 0;
+  modal.setAttribute('data-lenis-prevent', 'true');
+  modal.setAttribute('data-lenis-prevent-wheel', 'true');
+  modal.setAttribute('data-lenis-prevent-touch', 'true');
   modal.classList.add('active');
   document.body.style.overflow = 'hidden';
+  if (typeof window.lenis !== 'undefined' && window.lenis) {
+    try { window.lenis.stop(); } catch (e) {}
+  }
 }
 
 function toggleInstrument(index) {
@@ -83411,6 +83417,9 @@ function closeLabDetails() {
     modal.classList.remove('active');
   }
   document.body.style.overflow = '';
+  if (typeof window.lenis !== 'undefined' && window.lenis) {
+    try { window.lenis.start(); } catch (e) {}
+  }
 }
 
 // Global modal bindings
@@ -83422,6 +83431,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const modal = document.getElementById('lab-detail-modal');
   if (modal) {
+    modal.setAttribute('data-lenis-prevent', 'true');
+    modal.setAttribute('data-lenis-prevent-wheel', 'true');
+    modal.setAttribute('data-lenis-prevent-touch', 'true');
+    modal.addEventListener('wheel', (e) => {
+      e.stopPropagation();
+    }, { passive: true });
+    modal.addEventListener('touchmove', (e) => {
+      e.stopPropagation();
+    }, { passive: true });
     modal.addEventListener('click', (e) => {
       if (e.target === modal) closeLabDetails();
     });

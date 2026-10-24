@@ -129,24 +129,31 @@
     // 7. Prevent background scroll when Modals / Lightboxes are active
     const modalContainers = [
       document.getElementById('enquiry-modal'),
+      document.getElementById('lab-detail-modal'),
       document.getElementById('lab-details-modal'),
       document.getElementById('lightbox-modal'),
+      document.getElementById('quote-modal'),
+      document.getElementById('quick-quote-modal'),
     ];
 
     modalContainers.forEach((container) => {
       if (container) {
         container.setAttribute('data-lenis-prevent', 'true');
-        const scrollable = container.querySelector('.modal-content, .lab-modal-container, .lab-modal-body');
-        if (scrollable) {
+        container.setAttribute('data-lenis-prevent-wheel', 'true');
+        container.setAttribute('data-lenis-prevent-touch', 'true');
+        const scrollables = container.querySelectorAll('.modal-content, .lab-modal-dialog, .lab-modal-container, .lab-modal-body, .lab-modal-main');
+        scrollables.forEach((scrollable) => {
           scrollable.setAttribute('data-lenis-prevent', 'true');
-        }
+          scrollable.setAttribute('data-lenis-prevent-wheel', 'true');
+          scrollable.setAttribute('data-lenis-prevent-touch', 'true');
+        });
       }
     });
 
     // Watch for modal visibility changes
     const modalObserver = new MutationObserver(() => {
       const isAnyModalOpen =
-        document.querySelector('.modal.active, .enquiry-modal.active, .lightbox-modal.active, .lightbox-overlay.active, .lab-modal-backdrop.open') ||
+        document.querySelector('.modal.active, .enquiry-modal.active, .lightbox-modal.active, .lightbox-overlay.active, .lab-detail-modal.active, .quote-modal.active, .lab-modal-backdrop.open') ||
         document.body.classList.contains('modal-open') ||
         document.body.style.overflow === 'hidden';
 
