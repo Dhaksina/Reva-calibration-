@@ -135,7 +135,7 @@
     {
       id: 3,
       meta: 'ACCREDITATION: NABL ISO/IEC 17025 // PNG',
-      title: 'ISO/IEC 17025:2017 Certificate',
+      title: 'ISO/IEC 17025: 2017 Certificate',
       category: 'Accreditation',
       desc: 'Official NABL Certificate of Accreditation (CC-4178) certifying Reva Phoenix Labs & Consultants competence in testing and calibration.',
       fileUrl: 'assets/images/reva-nabl-iso-17025-certificate.png',
