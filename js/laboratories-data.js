@@ -784,7 +784,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -836,7 +836,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -888,7 +888,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -940,7 +940,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -992,7 +992,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1044,7 +1044,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1096,7 +1096,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1148,7 +1148,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1200,7 +1200,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1252,7 +1252,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1304,7 +1304,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1356,7 +1356,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1408,7 +1408,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1460,7 +1460,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1512,7 +1512,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1564,7 +1564,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1616,7 +1616,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1668,7 +1668,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1720,7 +1720,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1772,7 +1772,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1824,7 +1824,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1876,7 +1876,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1928,7 +1928,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -1980,7 +1980,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2032,7 +2032,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2084,7 +2084,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2136,7 +2136,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2188,7 +2188,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2240,7 +2240,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2292,7 +2292,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2344,7 +2344,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2396,7 +2396,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2448,7 +2448,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2500,7 +2500,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2552,7 +2552,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2604,7 +2604,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2656,7 +2656,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2708,7 +2708,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2760,7 +2760,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2812,7 +2812,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2864,7 +2864,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2916,7 +2916,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -2968,7 +2968,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3020,7 +3020,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3072,7 +3072,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3124,7 +3124,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3176,7 +3176,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3228,7 +3228,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3280,7 +3280,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3332,7 +3332,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3384,7 +3384,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3436,7 +3436,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3488,7 +3488,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3540,7 +3540,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3592,7 +3592,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3644,7 +3644,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3696,7 +3696,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3748,7 +3748,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3800,7 +3800,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3852,7 +3852,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3904,7 +3904,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -3956,7 +3956,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4008,7 +4008,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4060,7 +4060,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4112,7 +4112,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4164,7 +4164,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4216,7 +4216,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4268,7 +4268,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4320,7 +4320,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4372,7 +4372,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4424,7 +4424,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4476,7 +4476,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4528,7 +4528,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4580,7 +4580,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4632,7 +4632,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4684,7 +4684,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4736,7 +4736,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4788,7 +4788,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4840,7 +4840,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4892,7 +4892,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4944,7 +4944,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -4996,7 +4996,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5048,7 +5048,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5100,7 +5100,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5152,7 +5152,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5204,7 +5204,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5256,7 +5256,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5308,7 +5308,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5360,7 +5360,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5412,7 +5412,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5464,7 +5464,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5516,7 +5516,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5568,7 +5568,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5620,7 +5620,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5672,7 +5672,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5724,7 +5724,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5776,7 +5776,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5828,7 +5828,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5880,7 +5880,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5932,7 +5932,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -5984,7 +5984,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6036,7 +6036,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6088,7 +6088,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6140,7 +6140,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6192,7 +6192,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6244,7 +6244,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6296,7 +6296,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6348,7 +6348,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6400,7 +6400,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6452,7 +6452,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6504,7 +6504,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6556,7 +6556,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6608,7 +6608,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6660,7 +6660,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6712,7 +6712,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6764,7 +6764,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6816,7 +6816,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6868,7 +6868,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6920,7 +6920,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -6972,7 +6972,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7024,7 +7024,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7076,7 +7076,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7128,7 +7128,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7180,7 +7180,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7232,7 +7232,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7284,7 +7284,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7336,7 +7336,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7388,7 +7388,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7440,7 +7440,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7492,7 +7492,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7544,7 +7544,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7596,7 +7596,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7648,7 +7648,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7700,7 +7700,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7752,7 +7752,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7804,7 +7804,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7856,7 +7856,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7908,7 +7908,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -7960,7 +7960,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8012,7 +8012,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8064,7 +8064,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8116,7 +8116,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8168,7 +8168,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8220,7 +8220,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8272,7 +8272,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8324,7 +8324,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8376,7 +8376,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8428,7 +8428,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8480,7 +8480,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8532,7 +8532,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8584,7 +8584,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8636,7 +8636,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8688,7 +8688,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8740,7 +8740,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8792,7 +8792,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8844,7 +8844,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8896,7 +8896,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -8948,7 +8948,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9000,7 +9000,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9052,7 +9052,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9104,7 +9104,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9156,7 +9156,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9208,7 +9208,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9260,7 +9260,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9312,7 +9312,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9364,7 +9364,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9416,7 +9416,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9468,7 +9468,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9520,7 +9520,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9572,7 +9572,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9624,7 +9624,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9676,7 +9676,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9728,7 +9728,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9780,7 +9780,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9832,7 +9832,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9884,7 +9884,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9936,7 +9936,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -9988,7 +9988,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10040,7 +10040,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10092,7 +10092,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10144,7 +10144,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10196,7 +10196,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10248,7 +10248,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10300,7 +10300,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10352,7 +10352,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10404,7 +10404,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10456,7 +10456,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10508,7 +10508,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10560,7 +10560,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10612,7 +10612,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10664,7 +10664,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10716,7 +10716,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10768,7 +10768,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10820,7 +10820,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10872,7 +10872,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10924,7 +10924,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -10976,7 +10976,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11028,7 +11028,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11080,7 +11080,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11132,7 +11132,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11184,7 +11184,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11236,7 +11236,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11288,7 +11288,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11340,7 +11340,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11392,7 +11392,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11444,7 +11444,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11496,7 +11496,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11548,7 +11548,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11600,7 +11600,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11652,7 +11652,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11704,7 +11704,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11756,7 +11756,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11808,7 +11808,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11860,7 +11860,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11912,7 +11912,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -11964,7 +11964,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12016,7 +12016,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12068,7 +12068,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12120,7 +12120,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12172,7 +12172,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12224,7 +12224,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12276,7 +12276,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12328,7 +12328,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12380,7 +12380,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12432,7 +12432,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12484,7 +12484,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12536,7 +12536,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12588,7 +12588,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12640,7 +12640,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12692,7 +12692,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12744,7 +12744,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12796,7 +12796,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12848,7 +12848,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12900,7 +12900,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -12952,7 +12952,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13004,7 +13004,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13056,7 +13056,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13108,7 +13108,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13160,7 +13160,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13212,7 +13212,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13264,7 +13264,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13316,7 +13316,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13368,7 +13368,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13420,7 +13420,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13472,7 +13472,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13524,7 +13524,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13576,7 +13576,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13628,7 +13628,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13680,7 +13680,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13732,7 +13732,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13784,7 +13784,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13836,7 +13836,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13888,7 +13888,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13940,7 +13940,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -13992,7 +13992,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14044,7 +14044,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14096,7 +14096,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14148,7 +14148,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14200,7 +14200,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14252,7 +14252,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14304,7 +14304,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14356,7 +14356,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14408,7 +14408,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14460,7 +14460,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14512,7 +14512,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14564,7 +14564,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14616,7 +14616,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14668,7 +14668,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14720,7 +14720,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14772,7 +14772,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14824,7 +14824,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14876,7 +14876,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14928,7 +14928,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -14980,7 +14980,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15032,7 +15032,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15084,7 +15084,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15136,7 +15136,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15188,7 +15188,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15240,7 +15240,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15292,7 +15292,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15344,7 +15344,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15396,7 +15396,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15448,7 +15448,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15502,7 +15502,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15554,7 +15554,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15606,7 +15606,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15658,7 +15658,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15710,7 +15710,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15762,7 +15762,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15814,7 +15814,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15866,7 +15866,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15918,7 +15918,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -15970,7 +15970,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16022,7 +16022,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16074,7 +16074,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16126,7 +16126,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16178,7 +16178,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16230,7 +16230,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16282,7 +16282,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16334,7 +16334,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16386,7 +16386,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16438,7 +16438,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16490,7 +16490,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16542,7 +16542,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16594,7 +16594,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16646,7 +16646,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16698,7 +16698,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16750,7 +16750,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16802,7 +16802,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16854,7 +16854,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16906,7 +16906,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -16958,7 +16958,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17010,7 +17010,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17062,7 +17062,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17114,7 +17114,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17166,7 +17166,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17218,7 +17218,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17270,7 +17270,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17322,7 +17322,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17374,7 +17374,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17426,7 +17426,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17478,7 +17478,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17530,7 +17530,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17582,7 +17582,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17634,7 +17634,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17686,7 +17686,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17738,7 +17738,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17790,7 +17790,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17842,7 +17842,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17894,7 +17894,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17946,7 +17946,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -17998,7 +17998,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18050,7 +18050,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18102,7 +18102,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18154,7 +18154,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18206,7 +18206,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18258,7 +18258,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18310,7 +18310,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18362,7 +18362,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18414,7 +18414,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18466,7 +18466,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18518,7 +18518,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18570,7 +18570,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18622,7 +18622,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18674,7 +18674,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18726,7 +18726,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18778,7 +18778,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18830,7 +18830,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18882,7 +18882,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18934,7 +18934,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -18986,7 +18986,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19038,7 +19038,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19090,7 +19090,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19142,7 +19142,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19194,7 +19194,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19246,7 +19246,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19298,7 +19298,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19350,7 +19350,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19402,7 +19402,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19454,7 +19454,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19506,7 +19506,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19558,7 +19558,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19610,7 +19610,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19662,7 +19662,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19714,7 +19714,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19766,7 +19766,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19818,7 +19818,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19870,7 +19870,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19922,7 +19922,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -19974,7 +19974,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20026,7 +20026,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20078,7 +20078,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20130,7 +20130,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20182,7 +20182,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20234,7 +20234,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20286,7 +20286,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20338,7 +20338,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20390,7 +20390,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20442,7 +20442,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20494,7 +20494,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20546,7 +20546,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20598,7 +20598,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20650,7 +20650,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20702,7 +20702,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20754,7 +20754,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20806,7 +20806,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20858,7 +20858,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20910,7 +20910,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -20962,7 +20962,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21014,7 +21014,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21066,7 +21066,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21118,7 +21118,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21170,7 +21170,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21222,7 +21222,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21274,7 +21274,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21326,7 +21326,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21378,7 +21378,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21430,7 +21430,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21482,7 +21482,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21534,7 +21534,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21586,7 +21586,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21638,7 +21638,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21690,7 +21690,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21742,7 +21742,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21794,7 +21794,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21846,7 +21846,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21898,7 +21898,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -21950,7 +21950,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22002,7 +22002,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22054,7 +22054,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22106,7 +22106,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22158,7 +22158,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22210,7 +22210,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22262,7 +22262,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22314,7 +22314,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22366,7 +22366,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22418,7 +22418,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22470,7 +22470,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22522,7 +22522,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22574,7 +22574,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22626,7 +22626,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22678,7 +22678,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22730,7 +22730,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22782,7 +22782,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22834,7 +22834,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22886,7 +22886,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22938,7 +22938,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -22990,7 +22990,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -23042,7 +23042,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -23101,7 +23101,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "Mechanical - Dimension Precision Instruments"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -23162,7 +23162,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "Mechanical - Dimension Precision Instruments"
+          "value": "Mechanical - Dimension (Precision Instruments)"
         },
         {
           "name": "Instrument / Measurand",
@@ -23223,7 +23223,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge Etc.)"
+          "value": "Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)"
         },
         {
           "name": "Instrument / Measurand",
@@ -23286,7 +23286,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23343,7 +23343,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23400,7 +23400,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23457,7 +23457,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23514,7 +23514,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23571,7 +23571,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23628,7 +23628,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23685,7 +23685,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23742,7 +23742,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23799,7 +23799,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23856,7 +23856,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23913,7 +23913,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -23970,7 +23970,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24027,7 +24027,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24084,7 +24084,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24141,7 +24141,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24198,7 +24198,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24255,7 +24255,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24312,7 +24312,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24369,7 +24369,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24426,7 +24426,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-WEIGHTS"
+          "value": "Mechanical - Weights"
         },
         {
           "name": "Instrument / Measurand",
@@ -24483,7 +24483,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-WEIGHTS"
+          "value": "Mechanical - Weights"
         },
         {
           "name": "Instrument / Measurand",
@@ -24540,7 +24540,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-WEIGHTS"
+          "value": "Mechanical - Weights"
         },
         {
           "name": "Instrument / Measurand",
@@ -24597,7 +24597,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-WEIGHTS"
+          "value": "Mechanical - Weights"
         },
         {
           "name": "Instrument / Measurand",
@@ -24654,7 +24654,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-WEIGHTS"
+          "value": "Mechanical - Weights"
         },
         {
           "name": "Instrument / Measurand",
@@ -24711,7 +24711,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-WEIGHTS"
+          "value": "Mechanical - Weights"
         },
         {
           "name": "Instrument / Measurand",
@@ -24768,7 +24768,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-WEIGHTS"
+          "value": "Mechanical - Weights"
         },
         {
           "name": "Instrument / Measurand",
@@ -24825,7 +24825,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24882,7 +24882,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24939,7 +24939,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -24996,7 +24996,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25053,7 +25053,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25110,7 +25110,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25167,7 +25167,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25224,7 +25224,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25281,7 +25281,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25338,7 +25338,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25395,7 +25395,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25452,7 +25452,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25509,7 +25509,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25566,7 +25566,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25623,7 +25623,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25680,7 +25680,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25737,7 +25737,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25794,7 +25794,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL/WEIGHING SCALE AND BALANCE"
+          "value": "Mechanical - Weighing Scale and Balance"
         },
         {
           "name": "Instrument / Measurand",
@@ -25852,7 +25852,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -25904,7 +25904,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -25956,7 +25956,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26008,7 +26008,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26060,7 +26060,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26112,7 +26112,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26164,7 +26164,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26216,7 +26216,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26268,7 +26268,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26320,7 +26320,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26372,7 +26372,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26424,7 +26424,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26476,7 +26476,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26528,7 +26528,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26580,7 +26580,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26632,7 +26632,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26684,7 +26684,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26736,7 +26736,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26788,7 +26788,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26840,7 +26840,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26892,7 +26892,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26944,7 +26944,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -26996,7 +26996,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -27048,7 +27048,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -27100,7 +27100,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -27152,7 +27152,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -27204,7 +27204,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -27256,7 +27256,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -27308,7 +27308,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -27360,7 +27360,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - VOLUME"
+          "value": "Mechanical - Volume"
         },
         {
           "name": "Calibration Range",
@@ -27414,7 +27414,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27466,7 +27466,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27518,7 +27518,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27570,7 +27570,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27622,7 +27622,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27674,7 +27674,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27726,7 +27726,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27778,7 +27778,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27830,7 +27830,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27882,7 +27882,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27934,7 +27934,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -27986,7 +27986,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -28038,7 +28038,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -28090,7 +28090,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -28142,7 +28142,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DENSITY AND VISCOSITY"
+          "value": "Mechanical - Density and Viscosity"
         },
         {
           "name": "Calibration Range",
@@ -28196,7 +28196,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - UTM, TENSION CREEP AND TORSION TESTING MACHINE"
+          "value": "Mechanical - UTM, Tension Creep and Torsion Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -28248,7 +28248,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - UTM, TENSION CREEP AND TORSION TESTING MACHINE"
+          "value": "Mechanical - UTM, Tension Creep and Torsion Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -28300,7 +28300,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - UTM, TENSION CREEP AND TORSION TESTING MACHINE"
+          "value": "Mechanical - UTM, Tension Creep and Torsion Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -28352,7 +28352,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - UTM, TENSION CREEP AND TORSION TESTING MACHINE"
+          "value": "Mechanical - UTM, Tension Creep and Torsion Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -28404,7 +28404,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - UTM, TENSION CREEP AND TORSION TESTING MACHINE"
+          "value": "Mechanical - UTM, Tension Creep and Torsion Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -28456,7 +28456,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - UTM, TENSION CREEP AND TORSION TESTING MACHINE"
+          "value": "Mechanical - UTM, Tension Creep and Torsion Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -28508,7 +28508,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - UTM, TENSION CREEP AND TORSION TESTING MACHINE"
+          "value": "Mechanical - UTM, Tension Creep and Torsion Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -28563,7 +28563,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-MOBILE FORCE MEASURING SYSTEM"
+          "value": "Mechanical - Mobile Force Measuring System"
         },
         {
           "name": "Instrument / Measurand",
@@ -28620,7 +28620,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-MOBILE FORCE MEASURING SYSTEM"
+          "value": "Mechanical - Mobile Force Measuring System"
         },
         {
           "name": "Instrument / Measurand",
@@ -28678,7 +28678,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -28730,7 +28730,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -28782,7 +28782,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -28834,7 +28834,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -28886,7 +28886,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -28938,7 +28938,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -28990,7 +28990,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29042,7 +29042,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29094,7 +29094,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29146,7 +29146,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29198,7 +29198,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29250,7 +29250,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29302,7 +29302,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29354,7 +29354,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29406,7 +29406,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29458,7 +29458,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29510,7 +29510,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29562,7 +29562,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29614,7 +29614,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29666,7 +29666,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29718,7 +29718,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29770,7 +29770,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -29820,7 +29820,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -29876,7 +29876,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -29932,7 +29932,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -29988,7 +29988,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30044,7 +30044,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30100,7 +30100,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30156,7 +30156,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30212,7 +30212,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30268,7 +30268,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30324,7 +30324,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30380,7 +30380,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30436,7 +30436,7 @@ const REVA_LAB_INSTRUMENTS = {
       "specs": [
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-TORQUE MEASURING DEVICES"
+          "value": "Mechanical - Torque Measuring Devices"
         },
         {
           "name": "Facility",
@@ -30498,7 +30498,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - TORQUE GENERATING DEVICES"
+          "value": "Mechanical - Torque Generating Devices"
         },
         {
           "name": "Instrument Classification",
@@ -30550,7 +30550,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - TORQUE GENERATING DEVICES"
+          "value": "Mechanical - Torque Generating Devices"
         },
         {
           "name": "Instrument Classification",
@@ -30602,7 +30602,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - TORQUE GENERATING DEVICES"
+          "value": "Mechanical - Torque Generating Devices"
         },
         {
           "name": "Instrument Classification",
@@ -30654,7 +30654,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - TORQUE GENERATING DEVICES"
+          "value": "Mechanical - Torque Generating Devices"
         },
         {
           "name": "Instrument Classification",
@@ -30706,7 +30706,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - TORQUE GENERATING DEVICES"
+          "value": "Mechanical - Torque Generating Devices"
         },
         {
           "name": "Instrument Classification",
@@ -30758,7 +30758,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - TORQUE GENERATING DEVICES"
+          "value": "Mechanical - Torque Generating Devices"
         },
         {
           "name": "Instrument Classification",
@@ -31021,7 +31021,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-ACOUSTICS"
+          "value": "Mechanical - Acoustics"
         },
         {
           "name": "Instrument / Measurand",
@@ -31078,7 +31078,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-ACOUSTICS"
+          "value": "Mechanical - Acoustics"
         },
         {
           "name": "Instrument / Measurand",
@@ -31137,7 +31137,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-PRESSURE BALANCE OR DEAD WEIGHT TESTER"
+          "value": "Mechanical - Pressure Balance or Dead Weight Tester"
         },
         {
           "name": "Instrument / Measurand",
@@ -31194,7 +31194,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-PRESSURE BALANCE OR DEAD WEIGHT TESTER"
+          "value": "Mechanical - Pressure Balance or Dead Weight Tester"
         },
         {
           "name": "Instrument / Measurand",
@@ -31251,7 +31251,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-PRESSURE BALANCE OR DEAD WEIGHT TESTER"
+          "value": "Mechanical - Pressure Balance or Dead Weight Tester"
         },
         {
           "name": "Instrument / Measurand",
@@ -31308,7 +31308,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-PRESSURE BALANCE OR DEAD WEIGHT TESTER"
+          "value": "Mechanical - Pressure Balance or Dead Weight Tester"
         },
         {
           "name": "Instrument / Measurand",
@@ -31365,7 +31365,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-PRESSURE BALANCE OR DEAD WEIGHT TESTER"
+          "value": "Mechanical - Pressure Balance or Dead Weight Tester"
         },
         {
           "name": "Instrument / Measurand",
@@ -31422,7 +31422,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL-PRESSURE BALANCE OR DEAD WEIGHT TESTER"
+          "value": "Mechanical - Pressure Balance or Dead Weight Tester"
         },
         {
           "name": "Instrument / Measurand",
@@ -31481,7 +31481,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31538,7 +31538,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31595,7 +31595,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31652,7 +31652,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31709,7 +31709,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31766,7 +31766,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31823,7 +31823,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31880,7 +31880,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31937,7 +31937,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -31994,7 +31994,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32051,7 +32051,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32108,7 +32108,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32165,7 +32165,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32222,7 +32222,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32279,7 +32279,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32336,7 +32336,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32393,7 +32393,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32450,7 +32450,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32507,7 +32507,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32564,7 +32564,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32621,7 +32621,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32678,7 +32678,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32735,7 +32735,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32792,7 +32792,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32849,7 +32849,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32906,7 +32906,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -32963,7 +32963,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33020,7 +33020,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33077,7 +33077,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33134,7 +33134,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33191,7 +33191,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33248,7 +33248,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33305,7 +33305,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33362,7 +33362,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33419,7 +33419,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33476,7 +33476,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33533,7 +33533,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33590,7 +33590,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33647,7 +33647,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - PRESSURE INDICATING DEVICES"
+          "value": "Mechanical - Pressure Indicating Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -33706,7 +33706,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - IMPACT TESTING MACHINE"
+          "value": "Mechanical - Impact Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -33763,7 +33763,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - IMPACT TESTING MACHINE"
+          "value": "Mechanical - Impact Testing Machine"
         },
         {
           "name": "Instrument / Measurand",
@@ -33821,7 +33821,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DUROMETER"
+          "value": "Mechanical - Durometer"
         },
         {
           "name": "Instrument / Measurand",
@@ -33873,7 +33873,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DUROMETER"
+          "value": "Mechanical - Durometer"
         },
         {
           "name": "Instrument / Measurand",
@@ -33925,7 +33925,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DUROMETER"
+          "value": "Mechanical - Durometer"
         },
         {
           "name": "Instrument / Measurand",
@@ -33977,7 +33977,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - DUROMETER"
+          "value": "Mechanical - Durometer"
         },
         {
           "name": "Instrument / Measurand",
@@ -34029,7 +34029,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34081,7 +34081,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34133,7 +34133,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34185,7 +34185,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34237,7 +34237,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34289,7 +34289,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34341,7 +34341,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34393,7 +34393,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34445,7 +34445,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34497,7 +34497,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34549,7 +34549,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34601,7 +34601,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34653,7 +34653,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34705,7 +34705,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34757,7 +34757,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34809,7 +34809,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34861,7 +34861,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34913,7 +34913,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -34965,7 +34965,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -35017,7 +35017,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -35069,7 +35069,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -35121,7 +35121,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - HARDNESS TESTING MACHINES"
+          "value": "Mechanical - Hardness Testing Machines"
         },
         {
           "name": "Instrument / Measurand",
@@ -35175,7 +35175,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35231,7 +35231,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35289,7 +35289,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35345,7 +35345,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35401,7 +35401,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35457,7 +35457,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35513,7 +35513,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35569,7 +35569,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35627,7 +35627,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35683,7 +35683,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35739,7 +35739,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35795,7 +35795,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "FLUID FLOW - FLOW MEASURING DEVICES"
+          "value": "Fluid Flow - Flow Measuring Devices"
         },
         {
           "name": "Instrument / Measurand",
@@ -35854,7 +35854,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -35911,7 +35911,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -35968,7 +35968,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36025,7 +36025,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36082,7 +36082,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36139,7 +36139,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36196,7 +36196,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36253,7 +36253,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36310,7 +36310,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36367,7 +36367,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36424,7 +36424,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36481,7 +36481,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36538,7 +36538,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36595,7 +36595,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36652,7 +36652,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36709,7 +36709,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36766,7 +36766,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36823,7 +36823,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36880,7 +36880,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36937,7 +36937,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -36994,7 +36994,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37051,7 +37051,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37108,7 +37108,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37165,7 +37165,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37222,7 +37222,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37279,7 +37279,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37336,7 +37336,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37393,7 +37393,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37450,7 +37450,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37507,7 +37507,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37564,7 +37564,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37621,7 +37621,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37678,7 +37678,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37735,7 +37735,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37792,7 +37792,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37849,7 +37849,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37906,7 +37906,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -37963,7 +37963,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38020,7 +38020,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38077,7 +38077,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38134,7 +38134,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38191,7 +38191,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38248,7 +38248,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38305,7 +38305,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38362,7 +38362,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38419,7 +38419,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38476,7 +38476,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38533,7 +38533,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38590,7 +38590,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38647,7 +38647,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38704,7 +38704,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38761,7 +38761,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38818,7 +38818,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38875,7 +38875,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38932,7 +38932,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -38989,7 +38989,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39046,7 +39046,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39103,7 +39103,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39160,7 +39160,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39217,7 +39217,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39274,7 +39274,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39331,7 +39331,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39388,7 +39388,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39445,7 +39445,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39502,7 +39502,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39559,7 +39559,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39616,7 +39616,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39673,7 +39673,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39730,7 +39730,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39787,7 +39787,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39844,7 +39844,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39901,7 +39901,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -39958,7 +39958,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40015,7 +40015,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40072,7 +40072,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40129,7 +40129,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40186,7 +40186,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40243,7 +40243,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40300,7 +40300,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40357,7 +40357,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40414,7 +40414,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40471,7 +40471,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40528,7 +40528,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40585,7 +40585,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40642,7 +40642,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40699,7 +40699,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40756,7 +40756,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40813,7 +40813,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40870,7 +40870,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40927,7 +40927,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -40984,7 +40984,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41041,7 +41041,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41098,7 +41098,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41155,7 +41155,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41212,7 +41212,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41269,7 +41269,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41326,7 +41326,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41383,7 +41383,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41440,7 +41440,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41497,7 +41497,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41554,7 +41554,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41611,7 +41611,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41668,7 +41668,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41725,7 +41725,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41782,7 +41782,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41839,7 +41839,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41896,7 +41896,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -41953,7 +41953,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42010,7 +42010,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42067,7 +42067,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42124,7 +42124,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42181,7 +42181,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42238,7 +42238,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42295,7 +42295,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42352,7 +42352,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42409,7 +42409,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42466,7 +42466,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42523,7 +42523,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42580,7 +42580,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42637,7 +42637,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42694,7 +42694,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42751,7 +42751,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42808,7 +42808,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42865,7 +42865,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42922,7 +42922,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -42979,7 +42979,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43036,7 +43036,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43093,7 +43093,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43150,7 +43150,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43207,7 +43207,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43264,7 +43264,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43321,7 +43321,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43378,7 +43378,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43435,7 +43435,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43492,7 +43492,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43549,7 +43549,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43606,7 +43606,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43663,7 +43663,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43720,7 +43720,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43777,7 +43777,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43834,7 +43834,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43891,7 +43891,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -43948,7 +43948,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44005,7 +44005,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44062,7 +44062,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44119,7 +44119,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44176,7 +44176,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44233,7 +44233,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44290,7 +44290,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44347,7 +44347,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44404,7 +44404,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44461,7 +44461,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44518,7 +44518,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44575,7 +44575,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44632,7 +44632,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44689,7 +44689,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44746,7 +44746,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44803,7 +44803,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Source]"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44860,7 +44860,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Source]"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44917,7 +44917,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Source]"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -44974,7 +44974,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45031,7 +45031,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45088,7 +45088,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45145,7 +45145,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45202,7 +45202,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45259,7 +45259,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45316,7 +45316,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45373,7 +45373,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45430,7 +45430,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45487,7 +45487,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45544,7 +45544,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45601,7 +45601,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45658,7 +45658,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45715,7 +45715,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45772,7 +45772,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45829,7 +45829,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45886,7 +45886,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -45943,7 +45943,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46000,7 +46000,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46057,7 +46057,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46114,7 +46114,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46171,7 +46171,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46228,7 +46228,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46285,7 +46285,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46342,7 +46342,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46399,7 +46399,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46456,7 +46456,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46513,7 +46513,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46570,7 +46570,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46627,7 +46627,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46684,7 +46684,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46741,7 +46741,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46798,7 +46798,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46855,7 +46855,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46912,7 +46912,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -46969,7 +46969,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47026,7 +47026,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47083,7 +47083,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47140,7 +47140,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47197,7 +47197,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47254,7 +47254,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47311,7 +47311,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47368,7 +47368,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47425,7 +47425,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47482,7 +47482,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47539,7 +47539,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47596,7 +47596,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47653,7 +47653,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47710,7 +47710,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47767,7 +47767,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47824,7 +47824,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47881,7 +47881,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47938,7 +47938,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -47995,7 +47995,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48052,7 +48052,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48109,7 +48109,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48166,7 +48166,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48223,7 +48223,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48280,7 +48280,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48337,7 +48337,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48394,7 +48394,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48451,7 +48451,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48508,7 +48508,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48565,7 +48565,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48622,7 +48622,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48679,7 +48679,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48736,7 +48736,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48793,7 +48793,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48850,7 +48850,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48907,7 +48907,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -48964,7 +48964,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49021,7 +49021,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49078,7 +49078,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49135,7 +49135,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49192,7 +49192,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49249,7 +49249,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49306,7 +49306,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49363,7 +49363,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49420,7 +49420,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49477,7 +49477,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49534,7 +49534,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49591,7 +49591,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49648,7 +49648,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]"
+          "value": "Electro-Technical - Direct Current [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49705,7 +49705,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49762,7 +49762,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49819,7 +49819,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49876,7 +49876,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49933,7 +49933,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -49990,7 +49990,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50047,7 +50047,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50104,7 +50104,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50161,7 +50161,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50218,7 +50218,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50275,7 +50275,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50332,7 +50332,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50389,7 +50389,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50446,7 +50446,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50503,7 +50503,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50560,7 +50560,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50617,7 +50617,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50674,7 +50674,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50731,7 +50731,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50788,7 +50788,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50845,7 +50845,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50902,7 +50902,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -50959,7 +50959,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51016,7 +51016,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51073,7 +51073,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51130,7 +51130,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51187,7 +51187,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - DIRECT CURRENT [Source]"
+          "value": "Electro-Technical - Direct Current [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51244,7 +51244,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51301,7 +51301,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]"
+          "value": "Electro-Technical - Electrical Equipment [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51358,7 +51358,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51415,7 +51415,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51472,7 +51472,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51529,7 +51529,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51586,7 +51586,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51643,7 +51643,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51700,7 +51700,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51757,7 +51757,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51814,7 +51814,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51871,7 +51871,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51928,7 +51928,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -51985,7 +51985,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52042,7 +52042,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52099,7 +52099,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52156,7 +52156,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52213,7 +52213,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52270,7 +52270,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52327,7 +52327,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52384,7 +52384,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52441,7 +52441,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]"
+          "value": "Electro-Technical - Temperature Simulation [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52498,7 +52498,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52555,7 +52555,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52612,7 +52612,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52669,7 +52669,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52726,7 +52726,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52783,7 +52783,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52840,7 +52840,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52897,7 +52897,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -52954,7 +52954,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53011,7 +53011,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]"
+          "value": "Electro-Technical - Temperature Simulation [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53068,7 +53068,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53125,7 +53125,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53182,7 +53182,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53239,7 +53239,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53296,7 +53296,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53353,7 +53353,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Source]"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53410,7 +53410,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Source]"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53467,7 +53467,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - TIME & FREQUENCY [Source]"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53524,7 +53524,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53581,7 +53581,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53640,7 +53640,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53697,7 +53697,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53754,7 +53754,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53811,7 +53811,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53868,7 +53868,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53925,7 +53925,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -53982,7 +53982,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54039,7 +54039,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54096,7 +54096,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54153,7 +54153,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54212,7 +54212,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54269,7 +54269,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54326,7 +54326,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54383,7 +54383,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54440,7 +54440,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54497,7 +54497,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54554,7 +54554,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54611,7 +54611,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54668,7 +54668,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Source)"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54725,7 +54725,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Source)"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54782,7 +54782,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Source)"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54839,7 +54839,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54896,7 +54896,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -54953,7 +54953,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55010,7 +55010,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55067,7 +55067,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55124,7 +55124,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55181,7 +55181,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55238,7 +55238,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)"
+          "value": "Electro-Technical - Time & Frequency [Measure]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55295,7 +55295,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Source)"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55352,7 +55352,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Source)"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55409,7 +55409,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-TIME & FREQUENCY (Source)"
+          "value": "Electro-Technical - Time & Frequency [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55506,7 +55506,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55563,7 +55563,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55620,7 +55620,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55677,7 +55677,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55734,7 +55734,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55791,7 +55791,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55848,7 +55848,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55905,7 +55905,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -55962,7 +55962,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56019,7 +56019,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56076,7 +56076,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56133,7 +56133,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56190,7 +56190,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56247,7 +56247,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56304,7 +56304,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56361,7 +56361,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56418,7 +56418,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56475,7 +56475,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56532,7 +56532,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56589,7 +56589,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56646,7 +56646,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56703,7 +56703,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56760,7 +56760,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56817,7 +56817,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56874,7 +56874,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56931,7 +56931,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -56988,7 +56988,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57045,7 +57045,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57102,7 +57102,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57159,7 +57159,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57216,7 +57216,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57273,7 +57273,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57330,7 +57330,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57387,7 +57387,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57444,7 +57444,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57501,7 +57501,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57558,7 +57558,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57615,7 +57615,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)"
+          "value": "Electro-Technical - Alternating Current (< 1 GHz) [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57672,7 +57672,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)"
+          "value": "Electro-Technical - Electrical Equipment [Source]"
         },
         {
           "name": "Instrument / Measurand",
@@ -57731,7 +57731,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -57788,7 +57788,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -57845,7 +57845,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -57902,7 +57902,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -57959,7 +57959,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58016,7 +58016,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58073,7 +58073,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58130,7 +58130,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58187,7 +58187,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58244,7 +58244,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58301,7 +58301,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58358,7 +58358,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58415,7 +58415,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58472,7 +58472,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58529,7 +58529,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58586,7 +58586,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58643,7 +58643,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58700,7 +58700,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58757,7 +58757,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58814,7 +58814,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58871,7 +58871,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58928,7 +58928,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -58985,7 +58985,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59042,7 +59042,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59099,7 +59099,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59156,7 +59156,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59213,7 +59213,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59270,7 +59270,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59327,7 +59327,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59384,7 +59384,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59441,7 +59441,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59498,7 +59498,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -59555,7 +59555,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -59612,7 +59612,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -59669,7 +59669,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -59726,7 +59726,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -59783,7 +59783,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -59840,7 +59840,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -59897,7 +59897,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -59954,7 +59954,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60011,7 +60011,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60068,7 +60068,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60125,7 +60125,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60182,7 +60182,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60239,7 +60239,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60296,7 +60296,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60353,7 +60353,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60410,7 +60410,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60467,7 +60467,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60524,7 +60524,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60581,7 +60581,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60638,7 +60638,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60695,7 +60695,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60752,7 +60752,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60809,7 +60809,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60866,7 +60866,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60923,7 +60923,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -60980,7 +60980,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61037,7 +61037,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61094,7 +61094,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61151,7 +61151,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61208,7 +61208,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61265,7 +61265,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61322,7 +61322,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61379,7 +61379,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61436,7 +61436,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61493,7 +61493,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61550,7 +61550,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61607,7 +61607,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61664,7 +61664,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61721,7 +61721,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61778,7 +61778,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61835,7 +61835,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61892,7 +61892,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -61949,7 +61949,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62006,7 +62006,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62063,7 +62063,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62120,7 +62120,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62177,7 +62177,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62234,7 +62234,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62291,7 +62291,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62348,7 +62348,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62405,7 +62405,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62462,7 +62462,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62519,7 +62519,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62576,7 +62576,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62633,7 +62633,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62690,7 +62690,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62747,7 +62747,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62804,7 +62804,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62861,7 +62861,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62918,7 +62918,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -62975,7 +62975,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63032,7 +63032,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63089,7 +63089,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63146,7 +63146,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63203,7 +63203,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63260,7 +63260,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63317,7 +63317,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63374,7 +63374,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63431,7 +63431,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63488,7 +63488,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63545,7 +63545,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63602,7 +63602,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63659,7 +63659,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63716,7 +63716,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63773,7 +63773,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63830,7 +63830,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63887,7 +63887,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -63944,7 +63944,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -64001,7 +64001,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -64058,7 +64058,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -64115,7 +64115,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -64172,7 +64172,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -64229,7 +64229,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64286,7 +64286,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64343,7 +64343,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64400,7 +64400,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64457,7 +64457,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64514,7 +64514,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64571,7 +64571,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64628,7 +64628,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64685,7 +64685,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64742,7 +64742,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64799,7 +64799,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64856,7 +64856,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64913,7 +64913,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -64970,7 +64970,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65027,7 +65027,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65084,7 +65084,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65141,7 +65141,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65198,7 +65198,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65255,7 +65255,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65312,7 +65312,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65369,7 +65369,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65426,7 +65426,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -65483,7 +65483,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65540,7 +65540,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65597,7 +65597,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65654,7 +65654,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65711,7 +65711,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65768,7 +65768,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65825,7 +65825,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65882,7 +65882,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65939,7 +65939,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -65996,7 +65996,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66053,7 +66053,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66110,7 +66110,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66167,7 +66167,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66224,7 +66224,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66281,7 +66281,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66338,7 +66338,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66395,7 +66395,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66452,7 +66452,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66509,7 +66509,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66566,7 +66566,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66623,7 +66623,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66680,7 +66680,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66737,7 +66737,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66794,7 +66794,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66851,7 +66851,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66908,7 +66908,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -66965,7 +66965,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67022,7 +67022,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67079,7 +67079,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67136,7 +67136,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67193,7 +67193,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67250,7 +67250,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67307,7 +67307,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67364,7 +67364,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67421,7 +67421,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67478,7 +67478,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67535,7 +67535,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67592,7 +67592,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67649,7 +67649,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67706,7 +67706,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67763,7 +67763,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67820,7 +67820,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67877,7 +67877,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67934,7 +67934,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -67991,7 +67991,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68048,7 +68048,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68105,7 +68105,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68162,7 +68162,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68219,7 +68219,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68276,7 +68276,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68333,7 +68333,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68390,7 +68390,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68447,7 +68447,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68504,7 +68504,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68561,7 +68561,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68618,7 +68618,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68675,7 +68675,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68732,7 +68732,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68789,7 +68789,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68846,7 +68846,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68903,7 +68903,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -68960,7 +68960,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69017,7 +69017,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69074,7 +69074,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69131,7 +69131,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69188,7 +69188,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69245,7 +69245,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69302,7 +69302,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69359,7 +69359,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69416,7 +69416,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69473,7 +69473,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69530,7 +69530,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69587,7 +69587,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69644,7 +69644,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69701,7 +69701,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69758,7 +69758,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69815,7 +69815,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69872,7 +69872,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69929,7 +69929,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -69986,7 +69986,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70043,7 +70043,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70100,7 +70100,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70157,7 +70157,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70214,7 +70214,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70271,7 +70271,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70328,7 +70328,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70385,7 +70385,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70442,7 +70442,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70499,7 +70499,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70556,7 +70556,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70613,7 +70613,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70670,7 +70670,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70727,7 +70727,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70784,7 +70784,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70841,7 +70841,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70898,7 +70898,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -70955,7 +70955,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71012,7 +71012,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71069,7 +71069,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71126,7 +71126,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71183,7 +71183,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71240,7 +71240,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71297,7 +71297,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71354,7 +71354,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71411,7 +71411,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71468,7 +71468,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71525,7 +71525,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71582,7 +71582,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71639,7 +71639,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71696,7 +71696,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71753,7 +71753,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71810,7 +71810,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71867,7 +71867,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71924,7 +71924,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -71981,7 +71981,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72038,7 +72038,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72095,7 +72095,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72152,7 +72152,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72209,7 +72209,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72266,7 +72266,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72323,7 +72323,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72380,7 +72380,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72437,7 +72437,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72494,7 +72494,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72551,7 +72551,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72608,7 +72608,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72665,7 +72665,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72722,7 +72722,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72779,7 +72779,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72836,7 +72836,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -72893,7 +72893,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -72950,7 +72950,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -73007,7 +73007,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-SPECIFIC HEAT & HUMIDITY"
+          "value": "Thermal - Specific Heat & Humidity"
         },
         {
           "name": "Instrument / Measurand",
@@ -73066,7 +73066,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73123,7 +73123,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73180,7 +73180,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73237,7 +73237,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73294,7 +73294,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73351,7 +73351,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73408,7 +73408,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73465,7 +73465,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73522,7 +73522,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73579,7 +73579,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73636,7 +73636,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73693,7 +73693,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73750,7 +73750,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73807,7 +73807,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73864,7 +73864,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73921,7 +73921,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -73978,7 +73978,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74035,7 +74035,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74092,7 +74092,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74149,7 +74149,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74206,7 +74206,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74263,7 +74263,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74320,7 +74320,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74377,7 +74377,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74434,7 +74434,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74491,7 +74491,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74548,7 +74548,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74605,7 +74605,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74662,7 +74662,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74719,7 +74719,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74776,7 +74776,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74833,7 +74833,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74890,7 +74890,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -74947,7 +74947,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75004,7 +75004,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75061,7 +75061,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75118,7 +75118,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75175,7 +75175,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75232,7 +75232,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75289,7 +75289,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75346,7 +75346,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75403,7 +75403,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75460,7 +75460,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75517,7 +75517,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75574,7 +75574,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75631,7 +75631,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75688,7 +75688,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75745,7 +75745,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75802,7 +75802,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75859,7 +75859,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75916,7 +75916,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -75973,7 +75973,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76030,7 +76030,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76087,7 +76087,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76144,7 +76144,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76201,7 +76201,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76258,7 +76258,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76315,7 +76315,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76372,7 +76372,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76429,7 +76429,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76486,7 +76486,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76543,7 +76543,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76600,7 +76600,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76657,7 +76657,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76714,7 +76714,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76771,7 +76771,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76828,7 +76828,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76885,7 +76885,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76942,7 +76942,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -76999,7 +76999,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77056,7 +77056,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77113,7 +77113,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77170,7 +77170,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77227,7 +77227,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77284,7 +77284,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77341,7 +77341,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77400,7 +77400,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77457,7 +77457,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77514,7 +77514,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77571,7 +77571,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77628,7 +77628,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77685,7 +77685,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77742,7 +77742,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77799,7 +77799,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77856,7 +77856,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77913,7 +77913,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -77970,7 +77970,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78027,7 +78027,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78084,7 +78084,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78141,7 +78141,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78198,7 +78198,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78255,7 +78255,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78312,7 +78312,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78369,7 +78369,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78426,7 +78426,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78483,7 +78483,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78540,7 +78540,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78597,7 +78597,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78654,7 +78654,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78711,7 +78711,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "THERMAL-TEMPERATURE"
+          "value": "Thermal - Temperature"
         },
         {
           "name": "Instrument / Measurand",
@@ -78770,7 +78770,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -78827,7 +78827,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -78884,7 +78884,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -78941,7 +78941,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -78998,7 +78998,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -79055,7 +79055,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -79112,7 +79112,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -79169,7 +79169,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -79226,7 +79226,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -79283,7 +79283,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OPTICAL"
+          "value": "Optical - Optical"
         },
         {
           "name": "Instrument / Measurand",
@@ -79340,7 +79340,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79397,7 +79397,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79454,7 +79454,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79511,7 +79511,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79568,7 +79568,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79625,7 +79625,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79682,7 +79682,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79739,7 +79739,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79796,7 +79796,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79853,7 +79853,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-OTHERS"
+          "value": "Optical - Others"
         },
         {
           "name": "Instrument / Measurand",
@@ -79910,7 +79910,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -79967,7 +79967,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80024,7 +80024,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80081,7 +80081,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80138,7 +80138,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80195,7 +80195,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80252,7 +80252,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80309,7 +80309,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80366,7 +80366,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80423,7 +80423,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80480,7 +80480,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80537,7 +80537,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80594,7 +80594,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80651,7 +80651,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80708,7 +80708,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80765,7 +80765,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "OPTICAL-Optical Equipments"
+          "value": "Optical - Optical Equipments"
         },
         {
           "name": "Instrument / Measurand",
@@ -80824,7 +80824,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -80881,7 +80881,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -80938,7 +80938,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -80995,7 +80995,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81052,7 +81052,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81109,7 +81109,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81166,7 +81166,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81223,7 +81223,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81280,7 +81280,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81337,7 +81337,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81394,7 +81394,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81451,7 +81451,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81508,7 +81508,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81565,7 +81565,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81622,7 +81622,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81679,7 +81679,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81736,7 +81736,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81793,7 +81793,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81850,7 +81850,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81907,7 +81907,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -81964,7 +81964,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82021,7 +82021,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82078,7 +82078,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82135,7 +82135,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82192,7 +82192,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82249,7 +82249,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82306,7 +82306,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82363,7 +82363,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82420,7 +82420,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82477,7 +82477,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82534,7 +82534,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82591,7 +82591,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82648,7 +82648,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82705,7 +82705,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82762,7 +82762,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82819,7 +82819,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82876,7 +82876,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -82933,7 +82933,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Discipline / Group",
-          "value": "MECHANICAL - ACCELERATION AND SPEED"
+          "value": "Mechanical - Acceleration and Speed"
         },
         {
           "name": "Instrument / Measurand",
@@ -83322,10 +83322,60 @@ function openLabDetails(labId) {
                 ${(() => {
                   const specItems = [];
                   const excludedSpecs = new Set(['nabl scope s.no', 'nabl scope s.no.', 'nabl s.no', 's.no', 's.no.', 'scope s.no', 'input', 'output']);
+                  const formatDisciplineGroup = (val) => {
+                    if (!val || typeof val !== 'string') return val;
+                    const map = {
+                      'ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Measure]': 'Electro-Technical - Alternating Current (< 1 GHz) [Measure]',
+                      'ELECTRO-TECHNICAL - Alternating Current (< 1 GHz) [Source]': 'Electro-Technical - Alternating Current (< 1 GHz) [Source]',
+                      'ELECTRO-TECHNICAL - DIRECT CURRENT [Measure]': 'Electro-Technical - Direct Current [Measure]',
+                      'ELECTRO-TECHNICAL - DIRECT CURRENT [Source]': 'Electro-Technical - Direct Current [Source]',
+                      'ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Measure]': 'Electro-Technical - Electrical Equipment [Measure]',
+                      'ELECTRO-TECHNICAL - ELECTRICAL EQUIPMENT [Source]': 'Electro-Technical - Electrical Equipment [Source]',
+                      'ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Measure]': 'Electro-Technical - Temperature Simulation [Measure]',
+                      'ELECTRO-TECHNICAL - TEMPERATURE SIMULATION [Source]': 'Electro-Technical - Temperature Simulation [Source]',
+                      'ELECTRO-TECHNICAL - TIME & FREQUENCY [Measure]': 'Electro-Technical - Time & Frequency [Measure]',
+                      'ELECTRO-TECHNICAL - TIME & FREQUENCY [Source]': 'Electro-Technical - Time & Frequency [Source]',
+                      'ELECTRO-TECHNICAL-Alternating Current (< 1 GHz)(Source)': 'Electro-Technical - Alternating Current (< 1 GHz) [Source]',
+                      'ELECTRO-TECHNICAL-ELECTRICAL EQUIPMENT (Source)': 'Electro-Technical - Electrical Equipment [Source]',
+                      'ELECTRO-TECHNICAL-TIME & FREQUENCY (Measure)': 'Electro-Technical - Time & Frequency [Measure]',
+                      'ELECTRO-TECHNICAL-TIME & FREQUENCY (Source)': 'Electro-Technical - Time & Frequency [Source]',
+                      'FLUID FLOW - FLOW MEASURING DEVICES': 'Fluid Flow - Flow Measuring Devices',
+                      'MECHANICAL - ACCELERATION AND SPEED': 'Mechanical - Acceleration and Speed',
+                      'MECHANICAL - DENSITY AND VISCOSITY': 'Mechanical - Density and Viscosity',
+                      'MECHANICAL - DUROMETER': 'Mechanical - Durometer',
+                      'MECHANICAL - HARDNESS TESTING MACHINES': 'Mechanical - Hardness Testing Machines',
+                      'MECHANICAL - IMPACT TESTING MACHINE': 'Mechanical - Impact Testing Machine',
+                      'MECHANICAL - PRESSURE INDICATING DEVICES': 'Mechanical - Pressure Indicating Devices',
+                      'MECHANICAL - TORQUE GENERATING DEVICES': 'Mechanical - Torque Generating Devices',
+                      'MECHANICAL - UTM, TENSION CREEP AND TORSION TESTING MACHINE': 'Mechanical - UTM, Tension Creep and Torsion Testing Machine',
+                      'MECHANICAL - VOLUME': 'Mechanical - Volume',
+                      'MECHANICAL-ACOUSTICS': 'Mechanical - Acoustics',
+                      'MECHANICAL-DIMENSION (BASIC MEASURING INSTRUMENT, GAUGE ETC.)': 'Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)',
+                      'MECHANICAL-DIMENSION (PRECISION INSTRUMENTS)': 'Mechanical - Dimension (Precision Instruments)',
+                      'MECHANICAL-MOBILE FORCE MEASURING SYSTEM': 'Mechanical - Mobile Force Measuring System',
+                      'MECHANICAL-PRESSURE BALANCE OR DEAD WEIGHT TESTER': 'Mechanical - Pressure Balance or Dead Weight Tester',
+                      'MECHANICAL-TORQUE MEASURING DEVICES': 'Mechanical - Torque Measuring Devices',
+                      'MECHANICAL-WEIGHTS': 'Mechanical - Weights',
+                      'MECHANICAL/WEIGHING SCALE AND BALANCE': 'Mechanical - Weighing Scale and Balance',
+                      'Mechanical - Dimension (Basic Measuring Instrument, Gauge Etc.)': 'Mechanical - Dimension (Basic Measuring Instrument, Gauge etc.)',
+                      'Mechanical - Dimension Precision Instruments': 'Mechanical - Dimension (Precision Instruments)',
+                      'Mechanical - Torque Generating Devices': 'Mechanical - Torque Generating Devices',
+                      'OPTICAL-OPTICAL': 'Optical - Optical',
+                      'OPTICAL-OTHERS': 'Optical - Others',
+                      'OPTICAL-Optical Equipments': 'Optical - Optical Equipments',
+                      'THERMAL-SPECIFIC HEAT & HUMIDITY': 'Thermal - Specific Heat & Humidity',
+                      'THERMAL-TEMPERATURE': 'Thermal - Temperature'
+                    };
+                    return map[val] || val;
+                  };
                   if (Array.isArray(inst.specs) && inst.specs.length > 0) {
                     inst.specs.forEach(s => {
                       if (s.name && s.value && !excludedSpecs.has(s.name.trim().toLowerCase())) {
-                        specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">${s.name}</div><div class="lab-inst-spec-desc">${s.value}</div></div>`);
+                        let displayVal = s.value;
+                        if (s.name && s.name.trim().toLowerCase().includes('discipline')) {
+                          displayVal = formatDisciplineGroup(displayVal);
+                        }
+                        specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">${s.name}</div><div class="lab-inst-spec-desc">${displayVal}</div></div>`);
                       }
                     });
                   } else {
