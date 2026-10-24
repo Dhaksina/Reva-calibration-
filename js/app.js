@@ -256,12 +256,13 @@ document.addEventListener('DOMContentLoaded', () => {
         footerPhone.textContent = contact.primaryPhone;
       }
 
-      // Secondary / Complaints Phone
+      // Feedback & Complaints Phone
       const feedbackPhone = document.getElementById('contact-feedback-phone');
-      if (feedbackPhone && contact.secondaryPhone) {
-        feedbackPhone.href = `tel:${contact.secondaryPhone.replace(/\s+/g, '')}`;
+      if (feedbackPhone) {
+        const phone = contact.whatsappNumber || '+91 99405 64261';
+        feedbackPhone.href = `tel:${phone.replace(/\s+/g, '')}`;
         const span = feedbackPhone.querySelector('span');
-        if (span) span.textContent = contact.secondaryPhone;
+        if (span) span.textContent = phone;
       }
 
       // Primary Email

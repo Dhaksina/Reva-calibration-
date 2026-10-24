@@ -2419,49 +2419,128 @@
 .dept-desks-grid {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 16px;
 }
 
 .dept-desk-card {
-  background: var(--bg-surface);
-  border: 1px solid var(--border-graphite);
-  border-radius: var(--radius-sm);
-  padding: 1.25rem 1.5rem;
-  transition: all var(--transition-fast);
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border-radius: 18px;
+  padding: 1.35rem 1.6rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
 }
 
 .dept-desk-card:hover {
-  border-color: var(--orange-border);
-  background: var(--bg-surface-elevated);
+  transform: translateY(-2px);
+}
+
+/* 1. Blue Card for Enquiry & Quote */
+.dept-desk-card.dept-card-blue {
+  background: #031b61;
+  background: linear-gradient(135deg, #021752 0%, #062378 100%);
+  border: 1px solid rgba(241, 90, 36, 0.45);
+  box-shadow: 0 10px 28px rgba(2, 23, 82, 0.45);
+}
+
+.dept-desk-card.dept-card-blue:hover {
+  box-shadow: 0 14px 34px rgba(2, 23, 82, 0.65), 0 0 20px rgba(241, 90, 36, 0.25);
+}
+
+.dept-desk-card.dept-card-blue .dept-desk-icon-wrap {
+  border-color: #f15a24;
+  background: rgba(3, 27, 97, 0.85);
+  color: #f15a24;
+}
+
+/* 2, 3, 4. Orange Cards for Technical Support, Feedback, Accounts */
+.dept-desk-card.dept-card-orange {
+  background: #f15a24;
+  background: linear-gradient(135deg, #f15a24 0%, #dc4a16 100%);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 10px 28px rgba(241, 90, 36, 0.35);
+}
+
+.dept-desk-card.dept-card-orange:hover {
+  box-shadow: 0 14px 34px rgba(241, 90, 36, 0.55), 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.dept-desk-card.dept-card-orange .dept-desk-icon-wrap {
+  border-color: rgba(255, 255, 255, 0.55);
+  background: rgba(0, 0, 0, 0.12);
+  color: #FFFFFF;
+}
+
+/* Circular Icon Wrap */
+.dept-desk-icon-wrap {
+  width: 54px;
+  height: 54px;
+  min-width: 54px;
+  border-radius: 50%;
+  border: 2.5px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease;
+}
+
+.dept-desk-card:hover .dept-desk-icon-wrap {
+  transform: scale(1.06);
+}
+
+.dept-desk-body {
+  flex: 1;
+  min-width: 0;
 }
 
 .dept-desk-title {
-  font-family: var(--font-technical);
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--orange-primary);
-  margin-bottom: 6px;
+  font-family: var(--font-display, "Space Grotesk", sans-serif);
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #FFFFFF;
+  margin: 0 0 5px 0;
+  letter-spacing: -0.01em;
+  text-transform: none;
 }
 
 .dept-desk-contact-links {
   display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 14px;
-  font-size: 0.9rem;
+  flex-direction: column;
+  gap: 3px;
 }
 
-.dept-link {
+.dept-card-blue .dept-link {
   color: #FFFFFF;
+  font-size: 0.92rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease, color 0.2s ease;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  transition: color var(--transition-fast);
+  word-break: break-all;
 }
 
-.dept-link:hover {
-  color: var(--orange-primary);
+.dept-card-blue .dept-link:hover {
+  color: #FFA726;
+  opacity: 0.95;
+}
+
+.dept-card-orange .dept-link {
+  color: #FFFFFF;
+  font-size: 0.92rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  word-break: break-all;
+}
+
+.dept-card-orange .dept-link:hover {
+  opacity: 0.85;
 }
 
 .hq-address-card {
