@@ -800,7 +800,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -852,7 +852,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -904,7 +904,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -956,7 +956,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1008,7 +1008,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1060,7 +1060,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1112,7 +1112,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1164,7 +1164,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1216,7 +1216,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1372,7 +1372,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1424,7 +1424,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1892,7 +1892,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1944,7 +1944,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -1996,7 +1996,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -2048,7 +2048,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -2100,7 +2100,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -2152,7 +2152,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -2204,7 +2204,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -2256,7 +2256,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -2308,7 +2308,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3296,7 +3296,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3348,7 +3348,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3400,7 +3400,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3452,7 +3452,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3504,7 +3504,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3556,7 +3556,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3608,7 +3608,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3660,7 +3660,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3712,7 +3712,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3764,7 +3764,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3816,7 +3816,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3868,7 +3868,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -3920,7 +3920,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4284,7 +4284,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4336,7 +4336,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4388,7 +4388,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4440,7 +4440,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4492,7 +4492,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4544,7 +4544,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4596,7 +4596,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4648,7 +4648,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4804,7 +4804,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -4960,7 +4960,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -5012,7 +5012,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -5064,7 +5064,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -5116,7 +5116,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -5168,7 +5168,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -5480,7 +5480,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -5532,7 +5532,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -5584,7 +5584,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -5636,7 +5636,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6000,7 +6000,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6052,7 +6052,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6104,7 +6104,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6156,7 +6156,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6208,7 +6208,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6260,7 +6260,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6312,7 +6312,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6364,7 +6364,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6416,7 +6416,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6468,7 +6468,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6520,7 +6520,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6572,7 +6572,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6624,7 +6624,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6676,7 +6676,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6728,7 +6728,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6780,7 +6780,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -6832,7 +6832,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7352,7 +7352,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7404,7 +7404,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7456,7 +7456,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7508,7 +7508,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7560,7 +7560,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7612,7 +7612,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7664,7 +7664,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7716,7 +7716,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -7768,7 +7768,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8184,7 +8184,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8236,7 +8236,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8288,7 +8288,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8340,7 +8340,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8392,7 +8392,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8444,7 +8444,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8496,7 +8496,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8548,7 +8548,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8600,7 +8600,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8652,7 +8652,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8704,7 +8704,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8756,7 +8756,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8808,7 +8808,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8860,7 +8860,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -8912,7 +8912,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9380,7 +9380,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9432,7 +9432,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9484,7 +9484,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9536,7 +9536,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9588,7 +9588,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9640,7 +9640,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9692,7 +9692,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9744,7 +9744,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9848,7 +9848,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9900,7 +9900,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -9952,7 +9952,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10004,7 +10004,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10056,7 +10056,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10108,7 +10108,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10160,7 +10160,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10212,7 +10212,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10264,7 +10264,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10316,7 +10316,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10368,7 +10368,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10420,7 +10420,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10472,7 +10472,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10524,7 +10524,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10576,7 +10576,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10732,7 +10732,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10784,7 +10784,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10836,7 +10836,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10888,7 +10888,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -10992,7 +10992,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11044,7 +11044,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11096,7 +11096,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11148,7 +11148,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11200,7 +11200,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11252,7 +11252,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11304,7 +11304,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11356,7 +11356,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11408,7 +11408,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11460,7 +11460,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11512,7 +11512,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11564,7 +11564,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11616,7 +11616,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11668,7 +11668,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11720,7 +11720,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11772,7 +11772,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11824,7 +11824,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11876,7 +11876,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11928,7 +11928,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -11980,7 +11980,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12396,7 +12396,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12500,7 +12500,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12552,7 +12552,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12604,7 +12604,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12656,7 +12656,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12708,7 +12708,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12760,7 +12760,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12812,7 +12812,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12864,7 +12864,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12916,7 +12916,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -12968,7 +12968,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13020,7 +13020,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13072,7 +13072,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13124,7 +13124,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13176,7 +13176,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13228,7 +13228,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13280,7 +13280,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13332,7 +13332,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13384,7 +13384,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13436,7 +13436,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13488,7 +13488,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13540,7 +13540,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13748,7 +13748,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13852,7 +13852,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -13956,7 +13956,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14008,7 +14008,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14060,7 +14060,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14112,7 +14112,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14216,7 +14216,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14268,7 +14268,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14320,7 +14320,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14372,7 +14372,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14424,7 +14424,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14580,7 +14580,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14632,7 +14632,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14684,7 +14684,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14736,7 +14736,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14788,7 +14788,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14840,7 +14840,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14892,7 +14892,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14944,7 +14944,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -14996,7 +14996,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -15048,7 +15048,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -15100,7 +15100,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -15152,7 +15152,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -15204,7 +15204,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -15256,7 +15256,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -15308,7 +15308,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
@@ -15360,7 +15360,7 @@ const REVA_LAB_INSTRUMENTS = {
         },
         {
           "name": "Least Count",
-          "value": "Not specified in source scope"
+          "value": "Not Applicable"
         },
         {
           "name": "Master Used / Calibration Method",
