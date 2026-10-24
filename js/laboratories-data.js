@@ -700,12 +700,37 @@ function renderLaboratories(filteredLabs) {
     container.className = 'labs-grid';
     container.innerHTML = labsToRender.map(lab => {
       const insts = getLabInstruments(lab);
-      const previewPills = insts.slice(0, 3).map(i => `<span class="lab-preview-pill">${i.name.split('(')[0].trim()}</span>`).join('');
-      const moreCount = insts.length > 3 ? `<span class="lab-preview-pill lab-preview-more">+${insts.length - 3} more</span>` : '';
+
+      // Extract distinct, cleanly-formatted instrument names (no duplicates, no bracket noise)
+      const seenPills = new Set();
+      const distinctPillNames = [];
+      for (const inst of insts) {
+        const raw = inst.name || '';
+        const base = raw
+          .replace(/\[.*?\]/g, '')
+          .split('(')[0]
+          .split(' - ')[0]
+          .split(',')[0]
+          .trim();
+        if (base && !seenPills.has(base.toLowerCase())) {
+          seenPills.add(base.toLowerCase());
+          distinctPillNames.push(base);
+          if (distinctPillNames.length >= 3) break;
+        }
+      }
+
+      const previewPills = distinctPillNames.map(name => `<span class="lab-preview-pill" title="${name}">${name}</span>`).join('');
+      const remainingCount = insts.length - distinctPillNames.length;
+      const moreCount = remainingCount > 0 
+        ? `<span class="lab-preview-pill lab-preview-more">+${remainingCount} more</span>` 
+        : '';
+
+      const safeScope = (lab.scope || '').replace(/"/g, '&quot;');
+
       return `
       <div class="lab-item-card corner-accents" data-category="${lab.category}" onclick="openLabDetails(${lab.id})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLabDetails(${lab.id});}" role="button" tabindex="0" aria-label="View specifications for ${lab.name}">
         <div class="lab-card-top">
-          <span class="lab-index-tag">${String(lab.id).padStart(2, '0')} // ${lab.code}</span>
+          <span class="lab-index-tag">${String(lab.id).padStart(2, '0')} // ${lab.code || 'LAB-' + lab.id}</span>
           <div class="badge-pill" style="font-size: 0.65rem; padding: 2px 8px;">
             ${lab.onSite ? 'On-Site / Lab' : 'Lab Primary'}
           </div>
@@ -714,7 +739,7 @@ function renderLaboratories(filteredLabs) {
           ${getLabSvgIcon(lab.id, 42)}
         </div>
         <h3 class="lab-name-heading">${lab.name}</h3>
-        <p class="lab-scope-details">${lab.scope}</p>
+        <p class="lab-scope-details" title="${safeScope}">${lab.scope}</p>
         <div class="lab-card-instruments-preview">
           ${previewPills}
           ${moreCount}
