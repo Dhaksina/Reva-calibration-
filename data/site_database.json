@@ -148,31 +148,31 @@
     "metrics": [
       {
         "id": 1,
-        "number": "25",
-        "suffix": "+",
-        "label": "Years of Excellence",
-        "sub": "In Precision Metrology & Quality"
-      },
-      {
-        "id": 2,
         "number": "2500",
         "suffix": "+",
         "label": "Our Clients",
         "sub": "Automotive, Aerospace & Energy"
       },
       {
-        "id": 3,
+        "id": 2,
         "number": "50",
         "suffix": "+",
         "label": "Countries Served",
         "sub": "Across India, the Middle East, Asia & the US"
       },
       {
-        "id": 4,
+        "id": 3,
         "number": "35",
         "suffix": "+",
         "label": "Integrated Laboratories",
         "sub": "Under One Industrial Roof"
+      },
+      {
+        "id": 4,
+        "number": "25",
+        "suffix": "+",
+        "label": "Years of Excellence",
+        "sub": "In Precision Metrology & Quality"
       }
     ],
     "about": {
