@@ -127,44 +127,33 @@
 .hero-nabl-card {
   cursor: pointer;
   outline: none;
-}
-
-.hero-nabl-seal-disc {
-  position: relative;
-  width: 155px;
-  height: 155px;
-  border-radius: 50%;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  animation: badgeFloating 4s ease-in-out infinite alternate-reverse;
-  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .hero-nabl-badge-img {
   width: 100%;
-  height: 100%;
-  border-radius: 50%;
+  max-width: 165px;
+  height: auto;
   object-fit: contain;
   display: block;
-  filter: drop-shadow(0 0 35px rgba(244, 122, 60, 0.4)) drop-shadow(0 15px 35px rgba(0, 0, 0, 0.9));
+  filter: drop-shadow(0 0 35px rgba(244, 122, 60, 0.45)) drop-shadow(0 15px 35px rgba(0, 0, 0, 0.9));
   transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), filter 0.4s ease;
+  animation: badgeFloating 4s ease-in-out infinite alternate-reverse;
 }
 
 .hero-nabl-card:hover .hero-nabl-badge-img {
-  transform: translateY(-6px) scale(1.05);
-  filter: drop-shadow(0 0 55px rgba(244, 122, 60, 0.75)) drop-shadow(0 22px 45px rgba(0, 0, 0, 0.95));
+  transform: translateY(-6px) scale(1.04);
+  filter: drop-shadow(0 0 55px rgba(244, 122, 60, 0.75)) drop-shadow(0 20px 45px rgba(0, 0, 0, 0.95));
 }
 
 .hero-nabl-interactive-pill {
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  transform: translateX(-50%);
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 10px;
+  margin-top: 10px;
+  padding: 4px 12px;
   background: rgba(14, 17, 23, 0.94);
   border: 1px solid var(--orange-primary);
   border-radius: 999px;
@@ -750,7 +739,6 @@
 .about-nabl-disc-img {
   width: 38px;
   height: 38px;
-  border-radius: 50%;
   object-fit: contain;
   flex-shrink: 0;
   filter: drop-shadow(0 0 10px rgba(244, 122, 60, 0.4));
@@ -837,10 +825,9 @@
 
 .footer-nabl-badge-img {
   height: 48px;
-  width: 48px;
-  border-radius: 50%;
+  width: auto;
   object-fit: contain;
-  filter: drop-shadow(0 0 15px rgba(244, 122, 60, 0.35));
+  filter: drop-shadow(0 0 15px rgba(244, 122, 60, 0.45));
 }
 
 .about-matrix-3p {

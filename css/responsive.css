@@ -301,13 +301,9 @@
     gap: 0.75rem;
   }
 
-  .hero-years-badge-img {
-    max-width: 135px;
-  }
-
-  .hero-nabl-seal-disc {
-    width: 130px;
-    height: 130px;
+  .hero-years-badge-img,
+  .hero-nabl-badge-img {
+    max-width: 130px;
   }
 
   .hero-nabl-interactive-pill {
