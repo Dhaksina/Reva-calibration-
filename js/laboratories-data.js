@@ -650,10 +650,10 @@ window.REVA_35_LABORATORIES = REVA_35_LABORATORIES;
  * Metrology Official Symbol Generator for all 35 Accredited Laboratories
  * 100% faithful to the official Reva Calibration & NABL accredited scope reference chart.
  */
-function getLabSvgIcon(labId, size = 48) {
+function getLabSvgIcon(labId, size = 58) {
   const id = Number(labId);
   if (id >= 1 && id <= 35) {
-    return `<img src="assets/images/labs/lab_${id}.png?v=orange" alt="Lab ${id} Metrology Symbol" class="lab-metrology-icon" width="${size}" height="${size}" loading="lazy">`;
+    return `<img src="assets/images/labs/lab_${id}.png?v=hd_crisp" alt="Lab ${id} Metrology Symbol" class="lab-metrology-icon" width="${size}" height="${size}" loading="lazy">`;
   }
   return `<svg width="${size}" height="${size}" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2"><rect x="12" y="12" width="24" height="24" rx="4"/><circle cx="24" cy="24" r="6"/></svg>`;
 }
@@ -681,7 +681,6 @@ function renderLaboratories(filteredLabs) {
   }
 
   // 1. Symbol Matrix View (Grid of all 35 Lab Symbols & Names - Faithful to Official Reference Chart)
-  // 1. Symbol Matrix View (Grid of all 35 Lab Symbols & Names - Faithful to Official Reference Chart)
   if (window.currentLabViewMode === 'matrix') {
     container.className = 'lab-symbol-matrix';
     container.innerHTML = labsToRender.map(lab => {
@@ -689,7 +688,7 @@ function renderLaboratories(filteredLabs) {
       return `
       <div class="lab-symbol-tile corner-accents" data-category="${lab.category}" onclick="openLabDetails(${lab.id})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLabDetails(${lab.id});}" role="button" tabindex="0" aria-label="View specifications for ${lab.name}" title="Click to open ${lab.name} and inspect all ${insts.length} accredited instruments">
         <div class="lab-symbol-box">
-          ${getLabSvgIcon(lab.id, 52)}
+          ${getLabSvgIcon(lab.id, 58)}
         </div>
         <h3 class="lab-symbol-name">${lab.name}</h3>
       </div>
