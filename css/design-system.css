@@ -143,7 +143,7 @@ html.lenis, html.lenis body {
   overscroll-behavior: contain;
 }
 
-.lenis.lenis-stopped {
+.lenis.lenis-stopped:not(.lab-modal-open) {
   overflow: hidden;
 }
 

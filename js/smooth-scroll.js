@@ -23,6 +23,13 @@
       touchMultiplier: 1.4,
       infinite: false,
       autoResize: true,
+      prevent: (node) => {
+        return Boolean(
+          node &&
+          node.closest &&
+          node.closest('#lab-detail-modal, .lab-detail-modal, #quote-modal, .quote-modal, #enquiry-modal, .enquiry-modal, #lightbox-modal, .lightbox-modal, [data-lenis-prevent]')
+        );
+      },
     });
 
     window.lenis = lenis;
@@ -152,15 +159,22 @@
 
     // Watch for modal visibility changes
     const modalObserver = new MutationObserver(() => {
-      const isAnyModalOpen =
-        document.querySelector('.modal.active, .enquiry-modal.active, .lightbox-modal.active, .lightbox-overlay.active, .lab-detail-modal.active, .quote-modal.active, .lab-modal-backdrop.open') ||
-        document.body.classList.contains('modal-open') ||
-        document.body.style.overflow === 'hidden';
+      const isLabModalOpen = Boolean(document.querySelector('.lab-detail-modal.active'));
+      const isAnyOtherModalOpen =
+        document.querySelector('.modal.active, .enquiry-modal.active, .lightbox-modal.active, .lightbox-overlay.active, .quote-modal.active, .lab-modal-backdrop.open') ||
+        document.body.classList.contains('modal-open');
 
-      if (isAnyModalOpen) {
-        lenis.stop();
+      if (isLabModalOpen) {
+        document.body.classList.add('lab-modal-open');
+        document.documentElement.classList.add('lab-modal-open');
       } else {
-        lenis.start();
+        document.body.classList.remove('lab-modal-open');
+        document.documentElement.classList.remove('lab-modal-open');
+        if (isAnyOtherModalOpen) {
+          lenis.stop();
+        } else {
+          lenis.start();
+        }
       }
     });
 

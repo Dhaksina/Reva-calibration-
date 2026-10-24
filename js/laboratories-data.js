@@ -83349,10 +83349,9 @@ function openLabDetails(labId) {
   modal.setAttribute('data-lenis-prevent-wheel', 'true');
   modal.setAttribute('data-lenis-prevent-touch', 'true');
   modal.classList.add('active');
-  document.body.style.overflow = 'hidden';
-  if (typeof window.lenis !== 'undefined' && window.lenis) {
-    try { window.lenis.stop(); } catch (e) {}
-  }
+  document.body.classList.add('lab-modal-open');
+  document.documentElement.classList.add('lab-modal-open');
+  try { modal.focus(); } catch (e) {}
 }
 
 function toggleInstrument(index) {
@@ -83416,10 +83415,9 @@ function closeLabDetails() {
   if (modal) {
     modal.classList.remove('active');
   }
+  document.body.classList.remove('lab-modal-open');
+  document.documentElement.classList.remove('lab-modal-open');
   document.body.style.overflow = '';
-  if (typeof window.lenis !== 'undefined' && window.lenis) {
-    try { window.lenis.start(); } catch (e) {}
-  }
 }
 
 // Global modal bindings
@@ -83434,12 +83432,6 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.setAttribute('data-lenis-prevent', 'true');
     modal.setAttribute('data-lenis-prevent-wheel', 'true');
     modal.setAttribute('data-lenis-prevent-touch', 'true');
-    modal.addEventListener('wheel', (e) => {
-      e.stopPropagation();
-    }, { passive: true });
-    modal.addEventListener('touchmove', (e) => {
-      e.stopPropagation();
-    }, { passive: true });
     modal.addEventListener('click', (e) => {
       if (e.target === modal) closeLabDetails();
     });
@@ -83454,6 +83446,20 @@ document.addEventListener('DOMContentLoaded', () => {
         navigateLab(-1);
       } else if (e.key === 'ArrowRight') {
         navigateLab(1);
+      } else if (e.key === 'ArrowDown') {
+        modal.scrollBy({ top: 100, behavior: 'smooth' });
+      } else if (e.key === 'ArrowUp') {
+        modal.scrollBy({ top: -100, behavior: 'smooth' });
+      } else if (e.key === 'PageDown' || (e.key === ' ' && !['INPUT', 'TEXTAREA', 'BUTTON'].includes(e.target.tagName))) {
+        e.preventDefault();
+        modal.scrollBy({ top: window.innerHeight * 0.75, behavior: 'smooth' });
+      } else if (e.key === 'PageUp') {
+        e.preventDefault();
+        modal.scrollBy({ top: -window.innerHeight * 0.75, behavior: 'smooth' });
+      } else if (e.key === 'Home') {
+        modal.scrollTo({ top: 0, behavior: 'smooth' });
+      } else if (e.key === 'End') {
+        modal.scrollTo({ top: modal.scrollHeight, behavior: 'smooth' });
       }
     }
   });
