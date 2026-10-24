@@ -279,17 +279,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // Headquarters Address
       const contactHq = document.getElementById('contact-hq-address-block');
-      if (contactHq && contact.addressLine1) {
+      if (contactHq) {
         contactHq.innerHTML = `
           <strong>Reva Phoenix Complex</strong><br>
-          ${contact.addressLine1}<br>
-          ${contact.addressLine2 || ''}<br>
-          ${contact.cityStateZip || ''}
+          No. 14, 4th Street, Rajarajeswari Nagar, Madipakkam,<br>
+          Chennai – 600 091, Tamil Nadu, India.
         `;
       }
       const footerHq = document.getElementById('footer-hq-address');
-      if (footerHq && contact.addressLine1) {
-        footerHq.textContent = `${contact.addressLine1} ${contact.addressLine2 || ''} ${contact.cityStateZip || ''}`.replace(/\s+/g, ' ');
+      if (footerHq) {
+        footerHq.innerHTML = `
+          Reva Phoenix Complex, No. 14,<br>
+          4th Street, Rajarajeswari Nagar,<br>
+          Madipakkam, Chennai – 600 091,<br>
+          Tamil Nadu, India.
+        `;
       }
     }
 
