@@ -463,29 +463,25 @@
         "id": "enquiry",
         "title": "Enquiry & Quote",
         "phone": "+91 98406 72352",
-        "email": "enquiry@revaphoenix.com",
-        "theme": "blue"
+        "email": "enquiry@revaphoenix.com"
       },
       {
         "id": "technicalSupport",
         "title": "Technical Support",
         "phone": "+91 99403 48159",
-        "email": "director@revaphoenix.com",
-        "theme": "orange"
+        "email": "director@revaphoenix.com"
       },
       {
         "id": "feedback",
         "title": "Feedback & Complaints",
         "phone": "+91 99405 64261",
-        "email": "mani.venkatesh@revaphoenix.com",
-        "theme": "orange"
+        "email": "mani.venkatesh@revaphoenix.com"
       },
       {
         "id": "accounts",
         "title": "Accounts & Invoice",
         "phone": "+91 95000 32931",
-        "email": "accounts@revaphoenix.com",
-        "theme": "orange"
+        "email": "accounts@revaphoenix.com"
       }
     ]
   },
