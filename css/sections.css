@@ -1889,7 +1889,7 @@
   display: flex;
   width: max-content;
   will-change: transform;
-  animation: marqueeScroll 38s linear infinite;
+  animation: marqueeScroll 52s linear infinite;
 }
 
 .client-marquee-container:hover .client-marquee-track {
@@ -1910,8 +1910,8 @@
   display: flex;
   align-items: center;
   flex-shrink: 0;
-  gap: clamp(48px, 6vw, 84px);
-  padding-right: clamp(48px, 6vw, 84px);
+  gap: clamp(24px, 3vw, 36px);
+  padding-right: clamp(24px, 3vw, 36px);
 }
 
 .client-logo-item {
@@ -1919,22 +1919,26 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  background: transparent;
-  border: none;
-  box-shadow: none;
-  padding: 0;
-  height: 64px;
-  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.3s ease;
+  background: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 8px 18px;
+  height: 60px;
+  min-width: 120px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s ease, border-color 0.3s ease;
 }
 
 .client-logo-item:hover {
-  transform: scale(1.08);
+  transform: translateY(-3px) scale(1.05);
+  border-color: var(--orange-primary);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 16px rgba(255, 102, 0, 0.3);
 }
 
 .client-marquee-logo {
-  height: 52px;
+  height: 42px;
   width: auto;
-  max-width: 180px;
+  max-width: 140px;
   object-fit: contain;
   display: block;
 }
@@ -1950,21 +1954,23 @@
   }
 
   .client-marquee-track {
-    animation-duration: 26s;
+    animation-duration: 38s;
   }
 
   .client-marquee-group {
-    gap: 36px;
-    padding-right: 36px;
+    gap: 16px;
+    padding-right: 16px;
   }
 
   .client-logo-item {
     height: 48px;
+    min-width: 95px;
+    padding: 6px 12px;
   }
 
   .client-marquee-logo {
-    height: 38px;
-    max-width: 130px;
+    height: 32px;
+    max-width: 110px;
   }
 }
 
