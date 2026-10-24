@@ -1696,12 +1696,13 @@ html.lab-modal-open {
 
 /* Card interactive trigger styling */
 .lab-card-action-bar {
-  margin-top: 1rem;
-  padding-top: 0.75rem;
-  border-top: 1px dashed rgba(255, 255, 255, 0.1);
+  margin-top: auto;
+  padding-top: 0.85rem;
+  border-top: 1px dashed rgba(255, 255, 255, 0.12);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
   font-family: var(--font-technical);
   font-size: 0.78rem;
   letter-spacing: 0.05em;
