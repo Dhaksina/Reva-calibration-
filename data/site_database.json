@@ -438,10 +438,18 @@
       },
       {
         "id": 3,
+        "meta": "ACCREDITATION: NABL ISO/IEC 17025 // PNG",
+        "title": "ISO/IEC 17025:2017",
+        "desc": "Official NABL Certificate of Accreditation (CC-4178) certifying Reva Phoenix Labs & Consultants in accordance with ISO/IEC 17025:2017 competence.",
+        "fileUrl": "assets/images/reva-nabl-iso-17025-certificate.png",
+        "buttonText": "Download"
+      },
+      {
+        "id": 4,
         "meta": "ACCREDITATION: NABL SCOPE // JPEG",
         "title": "35 Integrated Labs Master Scope",
         "desc": "Authoritative 35 Integrated Laboratories reference chart detailing all parameters, disciplines, and on-site/off-site calibration ranges.",
-        "fileUrl": "assets/uploads/1791903325_Screen_Saver.png",
+        "fileUrl": "assets/images/35-integrated-labs-reference.jpeg",
         "buttonText": "Download"
       }
     ]

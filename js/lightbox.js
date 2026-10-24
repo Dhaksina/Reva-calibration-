@@ -127,10 +127,18 @@
     openLightbox(index);
   };
 
-  window.openFacilityLightboxBySrc = function (src) {
+  window.openFacilityLightboxBySrc = function (src, title, subtitle) {
     const idx = galleryItems.findIndex(item => item.src === src);
     if (idx !== -1) {
       openLightbox(idx);
+    } else if (modal && imgElement) {
+      imgElement.src = src;
+      imgElement.alt = title || 'Document Preview';
+      if (captionElement) {
+        captionElement.innerHTML = `<h3>${title || 'Accreditation Document'}</h3><p>${subtitle || 'Reva Phoenix Metrology & Quality Infrastructure'}</p>`;
+      }
+      modal.classList.add('active');
+      document.body.style.overflow = 'hidden';
     } else {
       openLightbox(0);
     }
