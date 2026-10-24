@@ -38,6 +38,8 @@
     if (index < 0 || index >= galleryItems.length) return;
     activeIndex = index;
     updateLightboxContent();
+    if (prevBtn) prevBtn.style.display = galleryItems.length > 1 ? '' : 'none';
+    if (nextBtn) nextBtn.style.display = galleryItems.length > 1 ? '' : 'none';
     modal.classList.add('active');
     document.body.style.overflow = 'hidden';
   }
@@ -67,13 +69,13 @@
   }
 
   function nextImage() {
-    if (galleryItems.length === 0) return;
+    if (galleryItems.length <= 1) return;
     activeIndex = (activeIndex + 1) % galleryItems.length;
     updateLightboxContent();
   }
 
   function prevImage() {
-    if (galleryItems.length === 0) return;
+    if (galleryItems.length <= 1) return;
     activeIndex = (activeIndex - 1 + galleryItems.length) % galleryItems.length;
     updateLightboxContent();
   }
@@ -93,8 +95,10 @@
   window.addEventListener('keydown', (e) => {
     if (!modal.classList.contains('active')) return;
     if (e.key === 'Escape') closeLightbox();
-    if (e.key === 'ArrowRight') nextImage();
-    if (e.key === 'ArrowLeft') prevImage();
+    if (galleryItems.length > 1) {
+      if (e.key === 'ArrowRight') nextImage();
+      if (e.key === 'ArrowLeft') prevImage();
+    }
   });
 
   // Mobile Touch Swipe Handling
@@ -111,6 +115,7 @@
   }, { passive: true });
 
   function handleSwipe() {
+    if (galleryItems.length <= 1) return;
     const swipeThreshold = 50;
     const diff = touchEndX - touchStartX;
     if (Math.abs(diff) > swipeThreshold) {
@@ -132,6 +137,8 @@
     if (idx !== -1) {
       openLightbox(idx);
     } else if (modal && imgElement) {
+      if (prevBtn) prevBtn.style.display = 'none';
+      if (nextBtn) nextBtn.style.display = 'none';
       imgElement.src = src;
       imgElement.alt = title || 'Document Preview';
       if (captionElement) {
