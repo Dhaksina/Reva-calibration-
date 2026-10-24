@@ -103,7 +103,7 @@ body {
 }
 
 .login-brand img {
-  height: 48px;
+  height: 72px;
   object-fit: contain;
 }
 
@@ -256,7 +256,7 @@ body {
 }
 
 .topbar-logo {
-  height: 38px;
+  height: 56px;
   object-fit: contain;
 }
 
