@@ -406,6 +406,7 @@
         "id": 1,
         "meta": "DOCUMENT: RPEC-CORP-BROCHURE // PDF",
         "title": "Reva Phoenix Corporate Brochure",
+        "category": "Brochure",
         "desc": "Comprehensive overview of Reva Phoenix Labs & Consultants Pvt. Ltd., consulting methodologies, API auditing credentials, training courses, and consulting division scope.",
         "fileUrl": "assets/docs/Reva-Phoenix-Corporate-Brochure.pdf",
         "buttonText": "Download"
@@ -414,14 +415,25 @@
         "id": 2,
         "meta": "CERTIFICATION: ISO 9001:2015 // PDF",
         "title": "ISO 9001 Quality Certificate",
+        "category": "Certificate",
         "desc": "Official Quality Management System Certificate verifying Reva Phoenix Labs & Consultants adherence to international QMS benchmarks.",
         "fileUrl": "assets/docs/Reva-Phoenix-ISO-9001-Certificate.pdf",
         "buttonText": "Download"
       },
       {
         "id": 3,
+        "meta": "ACCREDITATION: NABL ISO/IEC 17025 // PNG",
+        "title": "ISO/IEC 17025: 2017 Certificate",
+        "category": "Certificate",
+        "desc": "Official NABL Certificate of Accreditation (CC-4178) certifying Reva Phoenix Labs & Consultants competence in testing and calibration.",
+        "fileUrl": "assets/images/reva-nabl-iso-17025-certificate.png",
+        "buttonText": "Download"
+      },
+      {
+        "id": 4,
         "meta": "ACCREDITATION: NABL SCOPE // PDF (192 PAGES)",
         "title": "35 Integrated Labs Master Scope",
+        "category": "Accreditation",
         "desc": "Authoritative 35 Integrated Laboratories reference chart detailing all parameters, disciplines, and on-site/off-site calibration ranges.",
         "fileUrl": "assets/docs/Reva-Phoenix-NABL-ISO-17025-Scope-Accreditation.pdf",
         "buttonText": "Download"
