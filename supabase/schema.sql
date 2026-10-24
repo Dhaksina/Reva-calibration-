@@ -432,7 +432,7 @@ ON CONFLICT (id) DO UPDATE SET
   title = EXCLUDED.title, category = EXCLUDED.category, description = EXCLUDED.description,
   file_url = EXCLUDED.file_url, updated_at = NOW();
 INSERT INTO public.documents (id, meta, title, category, description, file_url, button_text)
-VALUES (3, 'ACCREDITATION: NABL SCOPE // JPEG', '35 Integrated Labs Master Scope', NULL, 'Authoritative 35 Integrated Laboratories reference chart detailing all parameters, disciplines, and on-site/off-site calibration ranges.', 'assets/uploads/1791903325_Screen_Saver.png', 'Download')
+VALUES (3, 'ACCREDITATION: NABL SCOPE // PDF (192 PAGES)', '35 Integrated Labs Master Scope', NULL, 'Authoritative 35 Integrated Laboratories reference chart detailing all parameters, disciplines, and on-site/off-site calibration ranges.', 'assets/docs/Reva-Phoenix-NABL-ISO-17025-Scope-Accreditation.pdf', 'Download')
 ON CONFLICT (id) DO UPDATE SET
   title = EXCLUDED.title, category = EXCLUDED.category, description = EXCLUDED.description,
   file_url = EXCLUDED.file_url, updated_at = NOW();
