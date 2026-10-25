@@ -32,37 +32,62 @@ document.addEventListener('DOMContentLoaded', () => {
   updateActivePill();
 
   // 2. Smooth Scroll with offset for internal anchor clicks
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function(e) {
-      const targetId = this.getAttribute('href');
-      if (targetId === '#' || targetId === '') return;
-      const targetEl = document.querySelector(targetId);
+  function scrollToAboutSection(targetId, smooth = true) {
+    if (!targetId || targetId === '#' || targetId === '#top') {
+      window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
+      return;
+    }
+    const cleanId = targetId.startsWith('#') ? targetId : '#' + targetId;
+    const targetEl = document.querySelector(cleanId);
+    if (targetEl) {
+      const headerOffset = 135;
+      const targetPos = targetEl.getBoundingClientRect().top + window.pageYOffset - headerOffset;
+      window.scrollTo({
+        top: Math.max(0, targetPos),
+        behavior: smooth ? 'smooth' : 'auto'
+      });
+      if (history.pushState) {
+        history.pushState(null, null, cleanId);
+      }
+    }
+  }
+
+  document.addEventListener('click', function(e) {
+    const anchor = e.target.closest('a');
+    if (!anchor) return;
+    const href = anchor.getAttribute('href');
+    if (!href) return;
+
+    let targetHash = null;
+    if (href.startsWith('#')) {
+      targetHash = href;
+    } else if (href.includes('#')) {
+      const url = new URL(anchor.href, window.location.href);
+      const currentPath = window.location.pathname.replace(/\/$/, '');
+      const linkPath = url.pathname.replace(/\/$/, '');
+      if (linkPath === currentPath || linkPath.endsWith('/about-us.html')) {
+        targetHash = url.hash;
+      }
+    }
+
+    if (targetHash && targetHash !== '#' && targetHash !== '#top') {
+      const targetEl = document.querySelector(targetHash);
       if (targetEl) {
         e.preventDefault();
-        const headerOffset = 130;
-        const targetPos = targetEl.getBoundingClientRect().top + window.pageYOffset - headerOffset;
-        window.scrollTo({
-          top: targetPos,
-          behavior: 'smooth'
-        });
-        history.replaceState(null, null, targetId);
+        anchor.blur();
+        scrollToAboutSection(targetHash, true);
       }
-    });
+    }
   });
 
   // Handle direct hash navigation on page load
   if (window.location.hash) {
-    setTimeout(() => {
-      const targetEl = document.querySelector(window.location.hash);
-      if (targetEl) {
-        const headerOffset = 130;
-        const targetPos = targetEl.getBoundingClientRect().top + window.pageYOffset - headerOffset;
-        window.scrollTo({
-          top: targetPos,
-          behavior: 'smooth'
-        });
-      }
-    }, 200);
+    scrollToAboutSection(window.location.hash, false);
+    setTimeout(() => scrollToAboutSection(window.location.hash, true), 150);
+    setTimeout(() => scrollToAboutSection(window.location.hash, true), 400);
+    window.addEventListener('load', () => {
+      setTimeout(() => scrollToAboutSection(window.location.hash, true), 80);
+    }, { once: true });
   }
 
   // 3. Industry Search & Filter

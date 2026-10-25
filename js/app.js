@@ -484,10 +484,25 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // 8. Smooth Scroll with Header Offset
-  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      const targetId = this.getAttribute('href');
-      if (targetId === '#' || targetId === '') return;
+  document.addEventListener('click', function (e) {
+    const anchor = e.target.closest('a');
+    if (!anchor) return;
+    const href = anchor.getAttribute('href');
+    if (!href) return;
+
+    let targetId = null;
+    if (href.startsWith('#')) {
+      targetId = href;
+    } else if (href.includes('#')) {
+      const url = new URL(anchor.href, window.location.href);
+      const currentPath = window.location.pathname.replace(/\/$/, '');
+      const linkPath = url.pathname.replace(/\/$/, '');
+      if (linkPath === currentPath || linkPath.endsWith('/index.html') || linkPath === '') {
+        targetId = url.hash;
+      }
+    }
+
+    if (targetId && targetId !== '#' && targetId !== '#top') {
       const targetElement = document.querySelector(targetId);
       if (targetElement) {
         e.preventDefault();
@@ -499,8 +514,11 @@ document.addEventListener('DOMContentLoaded', () => {
           top: offsetPosition,
           behavior: 'smooth'
         });
+        if (history.pushState) {
+          history.pushState(null, null, targetId);
+        }
       }
-    });
+    }
   });
 
   // 9. Portfolio Filter Tabs (Company vs Events)
