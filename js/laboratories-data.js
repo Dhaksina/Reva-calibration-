@@ -83293,8 +83293,8 @@ function openLabDetails(labId) {
     if (instruments.length === 0) {
       accordionContainer.innerHTML = `<div style="padding: 2rem; text-align: center; color: var(--text-muted);">No specific instruments logged for this laboratory.</div>`;
     } else {
-      accordionContainer.innerHTML = instruments.map((inst, idx) => `
-        <div class="lab-instrument-item corner-accents" id="lab-inst-${idx}" style="--inst-delay: ${(idx * 0.045).toFixed(2)}s;">
+      const renderItemHtml = (inst, idx) => `
+        <div class="lab-instrument-item corner-accents" id="lab-inst-${idx}" style="--inst-delay: ${(Math.min(idx, 20) * 0.045).toFixed(2)}s;">
           <div class="lab-instrument-summary" onclick="toggleInstrument(${idx})" role="button" tabindex="0" aria-expanded="false" aria-controls="lab-inst-drawer-${idx}">
             <div class="lab-inst-left">
               <span class="lab-inst-num">#${String(idx + 1).padStart(2, '0')}</span>
@@ -83387,7 +83387,7 @@ function openLabDetails(labId) {
                   if (inst.resolution) specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Resolution</div><div class="lab-inst-spec-desc">${inst.resolution}</div></div>`);
                   if (inst.display) specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Display / Readout</div><div class="lab-inst-spec-desc">${inst.display}</div></div>`);
                   if (inst.applications) specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Applications</div><div class="lab-inst-spec-desc">${inst.applications}</div></div>`);
-                  if (inst.features) { const cleanF = inst.features.replace(/\s*\(S\.No:\s*\d+\)\.?/gi, "").trim(); specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Features</div><div class="lab-inst-spec-desc">${cleanF.endsWith(".") ? cleanF : cleanF + "."}</div></div>`); }
+                  if (inst.features) { const cleanF = inst.features.replace(/\\s*\\(S\\.No:\\s*\\d+\\)\\.?/gi, "").trim(); specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Features</div><div class="lab-inst-spec-desc">${cleanF.endsWith(".") ? cleanF : cleanF + "."}</div></div>`); }
                   return specItems.join('');
                 })()}
               </div>
@@ -83404,7 +83404,32 @@ function openLabDetails(labId) {
             </div>
           </div>
         </div>
-      `).join('');
+      `;
+
+      const BATCH_SIZE = 30;
+      const initialItems = instruments.slice(0, BATCH_SIZE);
+      accordionContainer.innerHTML = initialItems.map((inst, idx) => renderItemHtml(inst, idx)).join('');
+
+      if (instruments.length > BATCH_SIZE) {
+        if (window._labBatchTimeout) clearTimeout(window._labBatchTimeout);
+        let cursor = BATCH_SIZE;
+        const renderChunk = () => {
+          if (!modal.classList.contains('active')) return;
+          const chunk = instruments.slice(cursor, cursor + BATCH_SIZE);
+          if (chunk.length > 0) {
+            const wrapper = document.createElement('div');
+            wrapper.innerHTML = chunk.map((inst, i) => renderItemHtml(inst, cursor + i)).join('');
+            while (wrapper.firstChild) {
+              accordionContainer.appendChild(wrapper.firstChild);
+            }
+            cursor += BATCH_SIZE;
+            if (cursor < instruments.length) {
+              window._labBatchTimeout = setTimeout(renderChunk, 20);
+            }
+          }
+        };
+        window._labBatchTimeout = setTimeout(renderChunk, 30);
+      }
     }
   }
 

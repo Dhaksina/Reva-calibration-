@@ -56,7 +56,7 @@
       gsap.ticker.add((time) => {
         lenis.raf(time * 1000);
       });
-      gsap.ticker.lagSmoothing(0);
+      gsap.ticker.lagSmoothing(500, 33);
     } else {
       function raf(time) {
         lenis.raf(time);
@@ -141,47 +141,58 @@
       document.getElementById('lightbox-modal'),
       document.getElementById('quote-modal'),
       document.getElementById('quick-quote-modal'),
-    ];
+    ].filter(Boolean);
 
     modalContainers.forEach((container) => {
-      if (container) {
-        container.setAttribute('data-lenis-prevent', 'true');
-        container.setAttribute('data-lenis-prevent-wheel', 'true');
-        container.setAttribute('data-lenis-prevent-touch', 'true');
-        const scrollables = container.querySelectorAll('.modal-content, .lab-modal-dialog, .lab-modal-container, .lab-modal-body, .lab-modal-main');
-        scrollables.forEach((scrollable) => {
-          scrollable.setAttribute('data-lenis-prevent', 'true');
-          scrollable.setAttribute('data-lenis-prevent-wheel', 'true');
-          scrollable.setAttribute('data-lenis-prevent-touch', 'true');
-        });
-      }
+      container.setAttribute('data-lenis-prevent', 'true');
+      container.setAttribute('data-lenis-prevent-wheel', 'true');
+      container.setAttribute('data-lenis-prevent-touch', 'true');
+      const scrollables = container.querySelectorAll('.modal-content, .lab-modal-dialog, .lab-modal-container, .lab-modal-body, .lab-modal-main');
+      scrollables.forEach((scrollable) => {
+        scrollable.setAttribute('data-lenis-prevent', 'true');
+        scrollable.setAttribute('data-lenis-prevent-wheel', 'true');
+        scrollable.setAttribute('data-lenis-prevent-touch', 'true');
+      });
     });
 
-    // Watch for modal visibility changes
-    const modalObserver = new MutationObserver(() => {
-      const isLabModalOpen = Boolean(document.querySelector('.lab-detail-modal.active'));
-      const isAnyOtherModalOpen =
-        document.querySelector('.modal.active, .enquiry-modal.active, .lightbox-modal.active, .lightbox-overlay.active, .quote-modal.active, .lab-modal-backdrop.open') ||
-        document.body.classList.contains('modal-open');
+    // Watch for modal visibility changes with targeted observers (NO subtree / style flood)
+    let lastLabModalOpen = null;
+    let lastOtherModalOpen = null;
 
-      if (isLabModalOpen) {
-        document.body.classList.add('lab-modal-open');
-        document.documentElement.classList.add('lab-modal-open');
-      } else {
-        document.body.classList.remove('lab-modal-open');
-        document.documentElement.classList.remove('lab-modal-open');
-        if (isAnyOtherModalOpen) {
-          lenis.stop();
+    function checkModalStates() {
+      const isLabModalOpen = Boolean(document.querySelector('.lab-detail-modal.active'));
+      const isOtherModalOpen = Boolean(
+        document.querySelector('.modal.active, .enquiry-modal.active, .lightbox-modal.active, .lightbox-overlay.active, .quote-modal.active, .lab-modal-backdrop.open') ||
+        document.body.classList.contains('modal-open')
+      );
+
+      if (isLabModalOpen !== lastLabModalOpen) {
+        lastLabModalOpen = isLabModalOpen;
+        if (isLabModalOpen) {
+          document.body.classList.add('lab-modal-open');
+          document.documentElement.classList.add('lab-modal-open');
         } else {
+          document.body.classList.remove('lab-modal-open');
+          document.documentElement.classList.remove('lab-modal-open');
+        }
+      }
+
+      if (isOtherModalOpen !== lastOtherModalOpen) {
+        lastOtherModalOpen = isOtherModalOpen;
+        if (isOtherModalOpen) {
+          lenis.stop();
+        } else if (!isLabModalOpen) {
           lenis.start();
         }
       }
-    });
+    }
 
-    modalObserver.observe(document.body, {
-      attributes: true,
-      attributeFilter: ['class', 'style'],
-      subtree: true,
+    const modalObserver = new MutationObserver(checkModalStates);
+    modalContainers.forEach((container) => {
+      modalObserver.observe(container, {
+        attributes: true,
+        attributeFilter: ['class'],
+      });
     });
 
     console.log('[SmoothScroll] Lenis smooth scrolling initialized successfully with GSAP.');
