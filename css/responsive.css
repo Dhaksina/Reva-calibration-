@@ -303,7 +303,9 @@
 
   .hero-years-badge-img,
   .hero-nabl-badge-img {
-    max-width: 130px;
+    height: clamp(120px, 32vw, 150px);
+    width: auto;
+    max-width: 100%;
   }
 
   .hero-nabl-interactive-pill {

@@ -94,7 +94,7 @@
 
 .hero-medallions-duo {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: clamp(1rem, 2.5vw, 1.75rem);
   width: 100%;
@@ -109,9 +109,9 @@
 }
 
 .hero-years-badge-img {
-  width: 100%;
-  max-width: 165px;
-  height: auto;
+  height: clamp(140px, 16vw, 205px);
+  width: auto;
+  max-width: 100%;
   object-fit: contain;
   display: block;
   filter: drop-shadow(0 0 35px rgba(255, 85, 0, 0.35)) drop-shadow(0 15px 35px rgba(0, 0, 0, 0.9));
@@ -133,9 +133,9 @@
 }
 
 .hero-nabl-badge-img {
-  width: 100%;
-  max-width: 165px;
-  height: auto;
+  height: clamp(140px, 16vw, 205px);
+  width: auto;
+  max-width: 100%;
   object-fit: contain;
   display: block;
   filter: drop-shadow(0 0 35px rgba(244, 122, 60, 0.45)) drop-shadow(0 15px 35px rgba(0, 0, 0, 0.9));
