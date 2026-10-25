@@ -654,12 +654,16 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity var(--transition-normal);
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity var(--transition-normal), visibility var(--transition-normal);
 }
 
 .lightbox-modal.active {
   display: flex;
   opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .lightbox-content {
@@ -748,12 +752,16 @@
   justify-content: center;
   padding: 1.5rem;
   opacity: 0;
-  transition: opacity var(--transition-normal);
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity var(--transition-normal), visibility var(--transition-normal);
 }
 
 .quote-modal.active {
   display: flex;
   opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .quote-modal-dialog {
@@ -854,11 +862,13 @@
   z-index: 99999;
   display: none;
   opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
   overflow-y: auto !important;
   overflow-x: hidden !important;
   overscroll-behavior: contain;
   touch-action: pan-y;
-  transition: opacity 0.28s ease-out;
+  transition: opacity 0.28s ease-out, visibility 0.28s ease-out;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: thin;
   scrollbar-color: var(--orange-primary) rgba(18, 21, 26, 0.98);
@@ -867,6 +877,8 @@
 .lab-detail-modal.active {
   display: block;
   opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 /* Styled scrollbar for laboratory inspector modal */

@@ -285,13 +285,14 @@
     });
   }
 
-  // Global listeners for buttons with data-open-quote
-  document.querySelectorAll('[data-open-quote]').forEach(btn => {
-    btn.addEventListener('click', (e) => {
+  // Delegated listener for buttons with data-open-quote (works for dynamic and static elements)
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-open-quote]');
+    if (btn) {
       e.preventDefault();
       const service = btn.getAttribute('data-open-quote') || '';
       openQuoteModal(service);
-    });
+    }
   });
 
   if (quoteModalClose) {

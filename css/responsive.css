@@ -34,12 +34,14 @@
   backdrop-filter: blur(4px);
   z-index: 9999;
   opacity: 0;
+  visibility: hidden;
   pointer-events: none;
-  transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
 .mobile-drawer-overlay.active {
   opacity: 1;
+  visibility: visible;
   pointer-events: auto;
 }
 
