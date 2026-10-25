@@ -1,10 +1,14 @@
 /**
  * SERVICES PAGE JAVASCRIPT — REVA PHOENIX CALIBRATION LABORATORIES
- * Handles sticky sub-navigation, smooth anchor scrolling with header offset,
+ * Handles sticky sub-navigation pills, smooth anchor scrolling with header offset,
  * direct hash navigation, category tab switching, equipment search filtering, and quotation triggers.
  */
 
+let isProgrammaticScrolling = false;
+let scrollFinishTimeout = null;
+
 document.addEventListener('DOMContentLoaded', () => {
+  initSubnavPills();
   initSmoothAnchorScrolling();
   initSubnavScrollSpy();
   initCatalogTabsAndSearch();
@@ -12,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
   handleInitialHashScroll();
 });
 
-// 1. Precise Section Scrolling with Double-Header Offset (Site Header 72px + Sticky Subnav 56px + Breathing Room = 140px)
+// 1. Precise Section Scrolling with Double-Header Offset (Site Header 72px + Sticky Subnav 56px + Breathing Room = 135px)
 function scrollToSection(targetId, smooth = true) {
   if (!targetId || targetId === '#' || targetId === '#top') {
     window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
@@ -23,61 +27,111 @@ function scrollToSection(targetId, smooth = true) {
   const targetElement = document.querySelector(cleanId);
   if (!targetElement) return;
 
-  const headerOffset = 140;
-  const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
-  const targetPosition = Math.max(0, elementPosition - headerOffset);
+  // Signal that programmatic scroll is active to prevent ScrollSpy from conflicting
+  isProgrammaticScrolling = true;
+  if (scrollFinishTimeout) clearTimeout(scrollFinishTimeout);
 
+  const headerOffset = 135;
+  const elementPosition = targetElement.getBoundingClientRect().top + window.pageYOffset;
+  const targetPosition = Math.max(0, Math.round(elementPosition - headerOffset));
+
+  // Perform window scroll
   window.scrollTo({
     top: targetPosition,
     behavior: smooth ? 'smooth' : 'auto'
   });
 
-  // Update URL hash without causing a default browser jump
+  // Fallback for non-smooth or restricted environments
+  if (!smooth) {
+    document.documentElement.scrollTop = targetPosition;
+    document.body.scrollTop = targetPosition;
+  }
+
+  // Update URL hash without causing default browser page jump
   if (window.history && window.history.pushState) {
     window.history.pushState(null, null, cleanId);
   }
 
-  // Update active pill in subnav
+  // Highlight the active pill immediately
   updateActivePill(cleanId);
+
+  // Reset scroll lock after smooth scrolling completes
+  scrollFinishTimeout = setTimeout(() => {
+    isProgrammaticScrolling = false;
+  }, 750);
 }
 
+// 2. Subnav Pill State & Container Horizontal Scrolling (NEVER uses window-scrolling scrollIntoView)
 function updateActivePill(targetId) {
   const pills = document.querySelectorAll('.services-pill');
+  const subnavContainer = document.querySelector('.services-subnav-container');
+
   pills.forEach(pill => {
     const href = pill.getAttribute('href');
     if (href === targetId || href.endsWith(targetId)) {
       pill.classList.add('active');
-      pill.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+
+      // Scroll ONLY the horizontal subnav container if pills overflow horizontally
+      if (subnavContainer && subnavContainer.scrollWidth > subnavContainer.clientWidth) {
+        const pillLeft = pill.offsetLeft;
+        const pillWidth = pill.offsetWidth;
+        const containerWidth = subnavContainer.clientWidth;
+        subnavContainer.scrollTo({
+          left: Math.max(0, pillLeft - (containerWidth / 2) + (pillWidth / 2)),
+          behavior: 'smooth'
+        });
+      }
     } else {
       pill.classList.remove('active');
     }
   });
 }
 
-// 2. Intercept All Anchor Clicks for Services Sections
+// 3. Dedicated Pill Click Handler for Instant Responsiveness
+function initSubnavPills() {
+  const pills = document.querySelectorAll('.services-pill');
+  pills.forEach(pill => {
+    pill.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const targetHash = pill.getAttribute('href');
+      if (targetHash) {
+        pill.blur();
+        scrollToSection(targetHash, true);
+      }
+    });
+  });
+}
+
+// 4. Intercept All Other Anchor Clicks for Services Sections
 function initSmoothAnchorScrolling() {
   document.addEventListener('click', (e) => {
     const anchor = e.target.closest('a');
-    if (!anchor) return;
+    if (!anchor || anchor.classList.contains('services-pill')) return;
 
     const href = anchor.getAttribute('href');
     if (!href) return;
 
     let targetHash = null;
 
-    // Direct hash on current page: "#cnc-calibration"
+    // Direct hash on current page: "#inspection"
     if (href.startsWith('#')) {
       targetHash = href;
     }
     // Full or relative path to services.html with hash: "services.html#cnc-calibration"
     else if (href.includes('#')) {
-      const url = new URL(anchor.href, window.location.href);
-      const currentPath = window.location.pathname.replace(/\/$/, '');
-      const linkPath = url.pathname.replace(/\/$/, '');
-      
-      // If link points to current page (or services.html)
-      if (linkPath === currentPath || linkPath.endsWith('/services.html')) {
-        targetHash = url.hash;
+      try {
+        const url = new URL(anchor.href, window.location.href);
+        const currentPath = window.location.pathname.replace(/\/$/, '');
+        const linkPath = url.pathname.replace(/\/$/, '');
+
+        if (linkPath === currentPath || linkPath.endsWith('/services.html')) {
+          targetHash = url.hash;
+        }
+      } catch (err) {
+        if (href.startsWith('services.html#')) {
+          targetHash = href.substring(href.indexOf('#'));
+        }
       }
     }
 
@@ -107,7 +161,7 @@ function initSmoothAnchorScrolling() {
   });
 }
 
-// 3. Handle Direct Hash on Page Load (with multiple checkpoints for image/font rendering)
+// 5. Handle Direct Hash on Page Load
 function handleInitialHashScroll() {
   if (!window.location.hash) return;
   const hash = window.location.hash;
@@ -115,26 +169,25 @@ function handleInitialHashScroll() {
   // Immediate attempt
   scrollToSection(hash, false);
 
-  // Microtask checkpoint
-  setTimeout(() => scrollToSection(hash, true), 120);
+  // Checkpoint after initial paint
+  setTimeout(() => scrollToSection(hash, true), 150);
 
-  // Layout checkpoint (after fonts and catalog items paint)
-  setTimeout(() => scrollToSection(hash, true), 350);
+  // Checkpoint after dynamic images/fonts layout
+  setTimeout(() => scrollToSection(hash, true), 400);
 
-  // Complete page assets loaded checkpoint
   window.addEventListener('load', () => {
     setTimeout(() => scrollToSection(hash, true), 100);
   }, { once: true });
 }
 
-// 4. Sub-navigation Active State ScrollSpy
+// 6. Sub-navigation Active State ScrollSpy
 function initSubnavScrollSpy() {
   const sections = document.querySelectorAll('.service-section-wrap');
-  const pills = document.querySelectorAll('.services-pill');
-
-  if (!sections.length || !pills.length) return;
+  if (!sections.length) return;
 
   const observer = new IntersectionObserver((entries) => {
+    if (isProgrammaticScrolling) return; // Prevent fight with programmatic scrolling
+
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         const id = entry.target.getAttribute('id');
@@ -149,7 +202,7 @@ function initSubnavScrollSpy() {
   sections.forEach(sec => observer.observe(sec));
 }
 
-// 5. Equipment Catalog Category Tabs & Search Filter
+// 7. Equipment Catalog Category Tabs & Search Filter
 function initCatalogTabsAndSearch() {
   const tabBtns = document.querySelectorAll('.catalog-tab-btn');
   const searchInput = document.getElementById('catalog-search-input');
@@ -191,7 +244,7 @@ function initCatalogTabsAndSearch() {
   }
 }
 
-// 6. Quote Modal Dispatcher for Service Pages
+// 8. Quote Modal Dispatcher for Service Pages
 function initQuoteTriggers() {
   const quoteModal = document.getElementById('quote-modal');
   const quoteClose = document.getElementById('quote-modal-close');
