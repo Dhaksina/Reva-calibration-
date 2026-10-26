@@ -1,0 +1,968 @@
+[
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Check Master",
+    "image": "assets/images/equipment/1-check-master.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Cylindrical Setting Master",
+    "image": "assets/images/equipment/2-cylindrical-setting-master.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Dial Calibration Tester",
+    "image": "assets/images/equipment/3-dial-calibration-tester.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Floating Carriage Dia Measuring Machine",
+    "image": "assets/images/equipment/4-floating-carriage-dia-measuring-machine.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Gauge Blocks",
+    "image": "assets/images/equipment/5-gauge-blocks.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Glass Scale",
+    "image": "assets/images/equipment/6-glass-scale.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Length Measuring Machine",
+    "image": "assets/images/equipment/7-length-measuring-meachine.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Length bar",
+    "image": "assets/images/equipment/8-length-bar.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Electronic Level",
+    "image": "assets/images/equipment/15-master-spirit-level.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Lever Dial",
+    "image": "assets/images/equipment/9-lever-dial.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Profile Projector",
+    "image": "assets/images/equipment/10-profile-projector.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Surface Plate",
+    "image": "assets/images/equipment/12-surface-plate.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Spirit Level",
+    "image": "assets/images/equipment/11-spirit-level.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Thread Measuring Wire",
+    "image": "assets/images/equipment/13-thread-measuring-wire.jpg",
+    "exists": true
+  },
+  {
+    "category": "dimensional",
+    "category_display": "Dimensional Metrology",
+    "name": "Steel Scale / Steel Rule",
+    "image": "assets/images/equipment/14-glass-scale-profile.jpg",
+    "exists": true
+  },
+  {
+    "category": "torque",
+    "category_display": "Torque Metrology",
+    "name": "Torque Screw Driver",
+    "image": "assets/images/equipment/torque-screw-driver.jpg",
+    "exists": true
+  },
+  {
+    "category": "torque",
+    "category_display": "Torque Metrology",
+    "name": "Digital Torque Wrench",
+    "image": "assets/images/equipment/torque-wrench-scaled.jpg",
+    "exists": true
+  },
+  {
+    "category": "torque",
+    "category_display": "Torque Metrology",
+    "name": "Torque Wrench \u2013 Beam Type",
+    "image": "assets/images/equipment/torque-wrench-2.jpg",
+    "exists": true
+  },
+  {
+    "category": "torque",
+    "category_display": "Torque Metrology",
+    "name": "Torque Wrench \u2013 Dial Type",
+    "image": "assets/images/equipment/torque-wrench-dial-type.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Dead Weight Tester",
+    "image": "assets/images/equipment/Dead-Weight-Tester.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Pressure Calibrator",
+    "image": "assets/images/equipment/Pressure-Calibrator.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Digital Mnaometer",
+    "image": "assets/images/equipment/Digital-Manometer.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Digital Pressure Gauge",
+    "image": "assets/images/equipment/digital-pressure-gauge.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Manometer",
+    "image": "assets/images/equipment/manometer.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Pressure Gauge",
+    "image": "assets/images/equipment/pressure-gauge.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Pressure Transducer",
+    "image": "assets/images/equipment/pressure-transducer.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Pressure Switch",
+    "image": "assets/images/equipment/switch.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Pressure Transmitter",
+    "image": "assets/images/equipment/transmitter.jpg",
+    "exists": true
+  },
+  {
+    "category": "pressure",
+    "category_display": "Pressure & Acoustics Metrology",
+    "name": "Vacuum Gauge",
+    "image": "assets/images/equipment/vacuum-gauge.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Analytical Balance",
+    "image": "assets/images/equipment/analytical-balance.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Medium Balance",
+    "image": "assets/images/equipment/medium-balance.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Precision Balance",
+    "image": "assets/images/equipment/precision-balance.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Semi Micro Balance",
+    "image": "assets/images/equipment/semi-micro-balance.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Standard Weights E2 Class",
+    "image": "assets/images/equipment/Standard-Weights-E2-Class.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Standard Weights F1 Class",
+    "image": "assets/images/equipment/Standard-Weights-F1-Class.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Standard Weights F2 Class",
+    "image": "assets/images/equipment/Standard-Weights-F2-Class.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Standard Weights M1 Class",
+    "image": "assets/images/equipment/Standard-Weights-M1-Class.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Ordinary Balance",
+    "image": "assets/images/equipment/600kg-Weighing-Balance.png",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Beaker",
+    "image": "assets/images/equipment/beaker.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Conical Flask",
+    "image": "assets/images/equipment/conical-flask.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Graduate Burette",
+    "image": "assets/images/equipment/graduate-burette.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Measuring Cylinder",
+    "image": "assets/images/equipment/measuring-cylinder.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Micro Pipette",
+    "image": "assets/images/equipment/micro-pipette.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Pipette",
+    "image": "assets/images/equipment/pipette.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Standard Flask",
+    "image": "assets/images/equipment/standard-flask.jpg",
+    "exists": true
+  },
+  {
+    "category": "mass_volume",
+    "category_display": "Mass & Volume Metrology",
+    "name": "Volumetric Pipette",
+    "image": "assets/images/equipment/volumetric-pipette.jpeg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Multifunction Calibration",
+    "image": "assets/images/equipment/multifunction-calibrator.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "MPC with Current Coil",
+    "image": "assets/images/equipment/mpc-with-current-coil.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Precision Multimeter",
+    "image": "assets/images/equipment/6.5-digital-multimeter-1.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Analog AC Voltmeter",
+    "image": "assets/images/equipment/ac-volt.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Analog DC Voltmeter",
+    "image": "assets/images/equipment/analog-voltmeter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Analog DC Ammeter",
+    "image": "assets/images/equipment/amps.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Analog Megohm Meter",
+    "image": "assets/images/equipment/analog-megohm-meter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Analog Multimeter",
+    "image": "assets/images/equipment/analog-multimeter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Analog Wattmeter",
+    "image": "assets/images/equipment/analog-wattmeter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "5.5 Digital Multimeter",
+    "image": "assets/images/equipment/5.5-digital-multimeter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Analog Earth Resistor",
+    "image": "assets/images/equipment/analog-earth-resistor.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Capacitance Box",
+    "image": "assets/images/equipment/capacitance-box.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "DC Electronic Load",
+    "image": "assets/images/equipment/dc-electronic-load.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "DC Power Supply",
+    "image": "assets/images/equipment/dc-power-supply.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "DC Regulated Power Supply",
+    "image": "assets/images/equipment/dc-regulated-power-supply.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Timers",
+    "image": "assets/images/equipment/timers.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Decade Capacitance Box",
+    "image": "assets/images/equipment/decade-capacitance-box.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Decade Inductance Box",
+    "image": "assets/images/equipment/decade-inductance-box.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Digital Clamp Meter",
+    "image": "assets/images/equipment/digital-clamp-meter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Digital Multimeter",
+    "image": "assets/images/equipment/digital-multimeter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Digital Storage Oscilloscope",
+    "image": "assets/images/equipment/digital-storage-oscilloscope.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Digital Temperature Controller",
+    "image": "assets/images/equipment/digital-temperature-controller.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Digital Timer",
+    "image": "assets/images/equipment/digital-timer.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Digital Volt Meter",
+    "image": "assets/images/equipment/digital-volt-meter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Earth Tester",
+    "image": "assets/images/equipment/earth-tester.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Frequency Meter Analog",
+    "image": "assets/images/equipment/frequency-meter-analog.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Frequency Meter Digital",
+    "image": "assets/images/equipment/frequency-meter-digital.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "High Voltage Tester",
+    "image": "assets/images/equipment/high-voltage-tester-zoom.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Insulation Tester",
+    "image": "assets/images/equipment/insulation-tester.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "LCR Meter",
+    "image": "assets/images/equipment/lcr-meter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Loop Calibrator",
+    "image": "assets/images/equipment/loop-calibrator.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Resistance Meter",
+    "image": "assets/images/equipment/megger.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Megger Analog",
+    "image": "assets/images/equipment/megger-analog.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Megohm Box",
+    "image": "assets/images/equipment/megohm-box.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Power Factor Meter \u2013 Digital",
+    "image": "assets/images/equipment/pf-meter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Portable Calibrator",
+    "image": "assets/images/equipment/portable-calibrator.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Power Factor Meter Analog",
+    "image": "assets/images/equipment/power-factor-meter-analog.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Power Meter",
+    "image": "assets/images/equipment/power-meter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Resistance Box",
+    "image": "assets/images/equipment/resistance-box.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Resistance Meter",
+    "image": "assets/images/equipment/resistance-meter.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Signal Generators",
+    "image": "assets/images/equipment/signal-generators.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Stopwatch",
+    "image": "assets/images/equipment/stopwatch.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Temperature Indicator",
+    "image": "assets/images/equipment/temperature-indicator.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Temperature Recorder",
+    "image": "assets/images/equipment/temperature-recorder.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "Temperature Simulator",
+    "image": "assets/images/equipment/temperature-simulator.jpg",
+    "exists": true
+  },
+  {
+    "category": "electro",
+    "category_display": "Electro-Technical Metrology",
+    "name": "High Voltage Probe",
+    "image": "assets/images/equipment/high-voltage-probe.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Humidity Sensor",
+    "image": "assets/images/equipment/humidity-sensor.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Multifunction Calibrator (MFC)",
+    "image": "assets/images/equipment/Multifunction-Calibrator-MFC.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "N Type Thermocouple",
+    "image": "assets/images/equipment/n-type.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Platinum Resistance Thermometer (PRT)",
+    "image": "assets/images/equipment/Platinum-Resistance-Thermometer-PRT.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Portable Calibrator 650",
+    "image": "assets/images/equipment/Portable-Calibrator-650.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Portable Thermocouple Calibrator",
+    "image": "assets/images/equipment/Portable-Thermocouple-Calibrator.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "PRT with Indicator",
+    "image": "assets/images/equipment/prt-with-indicator.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "RTD",
+    "image": "assets/images/equipment/RTD.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Temperature Bath",
+    "image": "assets/images/equipment/Temperature-Bath.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Temperature Recorder",
+    "image": "assets/images/equipment/temperture-recorder.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Thermocouple Sensor (S-Type)",
+    "image": "assets/images/equipment/Thermocouple-Sensor-S-type.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Thermocouple",
+    "image": "assets/images/equipment/thermocouple.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Temperature Transmitter",
+    "image": "assets/images/equipment/temperature-transmitter.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Temperature Gauge",
+    "image": "assets/images/equipment/temperature-gauge.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "RTD",
+    "image": "assets/images/equipment/rtd-1.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "RTD with Indicator",
+    "image": "assets/images/equipment/rtd-with-indicator.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Portable Autoclave",
+    "image": "assets/images/equipment/portable-autoclave.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Muffle Furnace",
+    "image": "assets/images/equipment/muffle-furnace.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Laboratory Incubator",
+    "image": "assets/images/equipment/laboratory-incubator.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "K \u2013 Type Thermocouple",
+    "image": "assets/images/equipment/k-type-thermocouple.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Humidity Chamber",
+    "image": "assets/images/equipment/humidity-chamber.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "J \u2013 Type",
+    "image": "assets/images/equipment/j-type.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Hot Air Oven",
+    "image": "assets/images/equipment/hot-air-oven.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Glass Thermometer",
+    "image": "assets/images/equipment/glass-thermometer-scaled.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Furnace",
+    "image": "assets/images/equipment/furnace.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Dry Block Calibrator",
+    "image": "assets/images/equipment/dry-block-calibrator.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Deep Freezer",
+    "image": "assets/images/equipment/deep-freezer.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Digital Thermometer",
+    "image": "assets/images/equipment/digital-thermometer.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Autoclave",
+    "image": "assets/images/equipment/autoclave.jpg",
+    "exists": true
+  },
+  {
+    "category": "thermal",
+    "category_display": "Thermal Metrology",
+    "name": "Water Bath",
+    "image": "assets/images/equipment/water-bath.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Brinell Hardness Tester",
+    "image": "assets/images/equipment/1-Brinell-Hardness-Tester.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Compression Testing Machine",
+    "image": "assets/images/equipment/2-Compression-testing-machine.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Durometer",
+    "image": "assets/images/equipment/3-Durometer.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Impact Testing Machine",
+    "image": "assets/images/equipment/4-Impact-Testing-Machine.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Leeb Portable Hardness Tester",
+    "image": "assets/images/equipment/5-Leeb-Portable-Hardness-Tester.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Push & Pull Gauges",
+    "image": "assets/images/equipment/6-Push-Pull-gauges.jpeg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Rockwell Hardness Testing Machines",
+    "image": "assets/images/equipment/7-Rockwell-Hardness-Testing-Machines.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Tensile Testing Machines",
+    "image": "assets/images/equipment/8-Tensile-Testing-Machines.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Universal Testing Machine",
+    "image": "assets/images/equipment/9-Universal-Testing-Machine.jpg",
+    "exists": true
+  },
+  {
+    "category": "force_hardness",
+    "category_display": "Force, Hardness & Impact Metrology",
+    "name": "Vickers Hardness Testing Machine",
+    "image": "assets/images/equipment/10-Vickers-Hardness-Testing-Machine.jpg",
+    "exists": true
+  },
+  {
+    "category": "fluid_speed_optical",
+    "category_display": "Fluid Flow Metrology",
+    "name": "Vane Type Anemometer",
+    "image": "assets/images/equipment/Vane-type-anemometer.jpg",
+    "exists": true
+  },
+  {
+    "category": "fluid_speed_optical",
+    "category_display": "Fluid Flow Metrology",
+    "name": "Hot Wire Anemometer",
+    "image": "assets/images/equipment/Hot-wire-Anemometer.jpg",
+    "exists": true
+  },
+  {
+    "category": "fluid_speed_optical",
+    "category_display": "Acceleration & Speed Metrology",
+    "name": "Stroboscope",
+    "image": "assets/images/equipment/Stroboscope.jpg",
+    "exists": true
+  },
+  {
+    "category": "fluid_speed_optical",
+    "category_display": "Acceleration & Speed Metrology",
+    "name": "Tachometer",
+    "image": "assets/images/equipment/Tachometer.png",
+    "exists": true
+  },
+  {
+    "category": "fluid_speed_optical",
+    "category_display": "Optical Metrology",
+    "name": "Tungsten Halogen Lamp",
+    "image": "assets/images/equipment/1-Tungsten-Halogen-Lamp.jpg",
+    "exists": true
+  },
+  {
+    "category": "fluid_speed_optical",
+    "category_display": "Optical Metrology",
+    "name": "Lux Meter",
+    "image": "assets/images/equipment/2-Lux-meter.jpg",
+    "exists": true
+  }
+]

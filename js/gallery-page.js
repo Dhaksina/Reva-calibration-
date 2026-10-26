@@ -129,20 +129,4 @@ document.addEventListener('DOMContentLoaded', function () {
       if (e.target === quoteModal) closeQuoteModal();
     });
   }
-
-  const quoteForm = document.getElementById('quote-modal-form');
-  if (quoteForm) {
-    quoteForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      const toast = document.getElementById('toast-notice');
-      const toastMsg = document.getElementById('toast-message');
-      if (toast && toastMsg) {
-        toastMsg.textContent = 'Quotation request submitted! Our engineering desk will respond promptly.';
-        toast.classList.add('active');
-        setTimeout(() => toast.classList.remove('active'), 4500);
-      }
-      quoteForm.reset();
-      closeQuoteModal();
-    });
-  }
 });

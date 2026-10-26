@@ -1,0 +1,219 @@
+[
+  {
+    "category": "materials",
+    "category_display": "Paint & Coatings",
+    "title": "Flow Cups (Viscosity)",
+    "desc": "Ford, Zahn, and DIN efflux cups calibrated for kinematic viscosity and orifice timing against certified Newtonian reference oils.",
+    "image": "assets/images/non-accredited/Flow-Cup.jpg"
+  },
+  {
+    "category": "materials",
+    "category_display": "Coatings & Mechanical",
+    "title": "Cylindrical Mandrels",
+    "desc": "ASTM D522 / ISO 1519 cylindrical mandrel bend testers verified for diameter conformity and coating flexibility testing.",
+    "image": "assets/images/non-accredited/Cylindrical-Mandrel.jpg"
+  },
+  {
+    "category": "materials",
+    "category_display": "Paint & Film Thickness",
+    "title": "Cryptometer",
+    "desc": "Pfund cryptometer glass wedge calibrated for paint hiding power, opacity constants, and wet film thickness evaluation.",
+    "image": "assets/images/non-accredited/cryptometer.jpg"
+  },
+  {
+    "category": "ndt",
+    "category_display": "Ultrasonic NDT Standards",
+    "title": "Flat Bottom Hole (FBH) Blocks",
+    "desc": "ASTM E127 / E428 reference test blocks verified for hole diameter, depth precision, and ultrasonic response sensitivity.",
+    "image": "assets/images/non-accredited/Flat-Bottom-Hole.png"
+  },
+  {
+    "category": "materials",
+    "category_display": "Coatings & Surface",
+    "title": "Pencil Hardness Tester",
+    "desc": "ASTM D3363 / ISO 15184 scratch hardness verification, pencil lead 45-degree angle fixture, and calibrated 750g load force.",
+    "image": "assets/images/non-accredited/pencil-hardness-tester.jpg"
+  },
+  {
+    "category": "materials",
+    "category_display": "Impact Metrology",
+    "title": "Impact Weight (Falling Dart)",
+    "desc": "ASTM D2794 / ISO 6272 falling dart impact weights calibrated for mass, nose radius, and drop-height energy absorption.",
+    "image": "assets/images/non-accredited/Impact-Weight.jpg"
+  },
+  {
+    "category": "chemical",
+    "category_display": "Chemical & Pharma",
+    "title": "Alcohol Meter / Analyzer",
+    "desc": "Hydrometric and electronic breath/solution alcohol density meters verified with certified ethanol-water concentration standards.",
+    "image": "assets/images/non-accredited/Alcohol-meter.jpg"
+  },
+  {
+    "category": "chemical",
+    "category_display": "Fluid Dynamics",
+    "title": "Industrial Flow Meter",
+    "desc": "Positive displacement, magnetic, and vortex flow meters calibrated for volumetric and mass flow rates.",
+    "image": "assets/images/non-accredited/Flow-meter.png"
+  },
+  {
+    "category": "optical",
+    "category_display": "Metallography & Optics",
+    "title": "Microscope (Above 100X)",
+    "desc": "Optical magnification, field depth, and eyepiece reticle scale calibration using certified stage micrometers.",
+    "image": "assets/images/non-accredited/microscope.jpg"
+  },
+  {
+    "category": "optical",
+    "category_display": "Optical & Textile",
+    "title": "Color Matching Booth / Cabinet",
+    "desc": "D65 daylight, TL84 store light, CWF, UV, and incandescent sources verified for spectral lux output and correlated color temperature.",
+    "image": "assets/images/non-accredited/Color-Matching-cabinaet.jpg"
+  },
+  {
+    "category": "materials",
+    "category_display": "Elastomers & Polymers",
+    "title": "Durometer Hardness Blocks",
+    "desc": "Shore A, Shore D, and Shore OO reference rubber test blocks verified for hardness durometer gauge validation.",
+    "image": "assets/images/non-accredited/Durometer-hardness.jpg"
+  },
+  {
+    "category": "ndt",
+    "category_display": "Dimensional Linear",
+    "title": "Steel Scale (Above 1 Meter)",
+    "desc": "Heavy engineering stainless steel rules (2m, 3m, 5m) calibrated against laser interferometer bench systems.",
+    "image": "assets/images/non-accredited/steel-scale-1024x911.jpg"
+  },
+  {
+    "category": "ndt",
+    "category_display": "Ultrasonic NDT Standards",
+    "title": "V1 & V2 Calibration Blocks",
+    "desc": "ISO 2400 / EN 12223 ultrasonic flaw detector calibration blocks verified for geometry, arc radii, and beam angle index marks.",
+    "image": "assets/images/non-accredited/v1-V2-block-300x225.jpg"
+  },
+  {
+    "category": "materials",
+    "category_display": "Pharmaceutical QA",
+    "title": "Tablet Hardness Tester",
+    "desc": "Crush strength testing load cells calibrated in Newtons (N), Kiloponds (kp), and Strong-Cobb (SC) using calibrated deadweights.",
+    "image": "assets/images/non-accredited/Tablet-Hardness-tester.png"
+  },
+  {
+    "category": "chemical",
+    "category_display": "Density Metrology",
+    "title": "Specific Gravity Balance",
+    "desc": "Archimedean specific gravity kit and density balance verification using distilled water and high-purity immersion liquids.",
+    "image": "assets/images/non-accredited/Specific-Gravity-Balance.jpg"
+  },
+  {
+    "category": "materials",
+    "category_display": "Surface Damping",
+    "title": "Pendulum Hardness Tester",
+    "desc": "K\u00f6nig and Persoz pendulum damping testers calibrated for oscillation period, dampening count, and ball indenter radius.",
+    "image": "assets/images/non-accredited/Pendulum_Tester.jpg"
+  },
+  {
+    "category": "chemical",
+    "category_display": "Electrochemical",
+    "title": "pH Meter & Electrodes",
+    "desc": "Digital pH meters and combination glass electrodes calibrated across pH 4.01, 7.00, and 9.21 certified NIST traceable buffers.",
+    "image": "assets/images/non-accredited/PH-meter.jpg"
+  },
+  {
+    "category": "chemical",
+    "category_display": "Electrochemical",
+    "title": "Conductivity Meter",
+    "desc": "Conductivity and TDS meters calibrated with precision potassium chloride (KCl) conductivity standard solutions.",
+    "image": "assets/images/non-accredited/conductivity-meter.jpg"
+  },
+  {
+    "category": "electrical",
+    "category_display": "Electrical Power",
+    "title": "Energy Meter (Single & 3-Phase)",
+    "desc": "Electronic and electromechanical energy meters calibrated for active (kWh) and reactive (kVARh) power measurement accuracy.",
+    "image": "assets/images/non-accredited/Energy-Meter.jpg"
+  },
+  {
+    "category": "ndt",
+    "category_display": "Profile & Form",
+    "title": "Contrace / Contour Measuring Machine",
+    "desc": "Stylus-based 2D contour tracing machines calibrated for arc radius, step height, angle, and coordinate linearity.",
+    "image": "assets/images/non-accredited/Comtrace-Machine-1024x768.jpg"
+  },
+  {
+    "category": "electrical",
+    "category_display": "Electro-Technical",
+    "title": "AC/DC Current Probe",
+    "desc": "Hall-effect and Rogowski current probes calibrated for ratio linearity, phase shift, and frequency response up to 1000A.",
+    "image": "assets/images/non-accredited/AC-DC-Current-probe.jpg"
+  },
+  {
+    "category": "ndt",
+    "category_display": "Radiation Protection",
+    "title": "Lead Standards (Shielding)",
+    "desc": "X-ray shielding lead sheet and barrier standards verified for lead equivalence (mmPb) and uniform radiographic density.",
+    "image": "assets/images/non-accredited/Lead-Standard.jpg"
+  },
+  {
+    "category": "chemical",
+    "category_display": "Fluid & Aerodynamics",
+    "title": "Air & Water Flow Meter",
+    "desc": "Rotameters, variable-area flow meters, and hot-wire anemometers calibrated for volumetric liquid and gas flow velocities.",
+    "image": "assets/images/non-accredited/AIR-and-water-Flow-meter.jpg"
+  },
+  {
+    "category": "electrical",
+    "category_display": "Electronics Manufacturing",
+    "title": "Soldering Station & Iron",
+    "desc": "Lead-free soldering iron tip temperature verification (up to 480\u00b0C) and millivolt ESD ground leakage potential testing.",
+    "image": "assets/images/non-accredited/soldering-station.jpg"
+  },
+  {
+    "category": "electrical",
+    "category_display": "High-Current Standards",
+    "title": "Current Calibration Coil",
+    "desc": "10-turn and 50-turn precision clamp meter multiplier coils calibrated for ampere-turns accuracy and heat dissipation.",
+    "image": "assets/images/non-accredited/Current-coil.jpg"
+  },
+  {
+    "category": "materials",
+    "category_display": "Rubber & Polymers",
+    "title": "Resilience Tester (Rebound)",
+    "desc": "Schob-type rubber resilience elasticity testers verified for rebound angle, potential energy, and pendulum friction loss.",
+    "image": "assets/images/non-accredited/Resilience-tester.png"
+  },
+  {
+    "category": "materials",
+    "category_display": "Surface Abrasion",
+    "title": "Taper Type Abrasion Tester",
+    "desc": "Rotary platform Taber-type abrasion testers calibrated for disc rotational speed, turntable runout, and specimen contact load.",
+    "image": "assets/images/non-accredited/Taber-Abrasion-Tester.jpg"
+  },
+  {
+    "category": "materials",
+    "category_display": "Abrasive Standards",
+    "title": "S42 Sand Paper Strip for Tester",
+    "desc": "Calibrated sandpaper strips for Taber and scrub testers certified for abrasive grit particle distribution and thickness.",
+    "image": "assets/images/non-accredited/S24-Sand-paper.jpg"
+  },
+  {
+    "category": "optical",
+    "category_display": "Optical Radiometry",
+    "title": "UV Radiometer / Light Meter",
+    "desc": "UVA, UVB, and UVC radiometers calibrated for spectral irradiance (mW/cm\u00b2) against certified standard photodetectors.",
+    "image": "assets/images/non-accredited/UV-meter.jpg"
+  },
+  {
+    "category": "ndt",
+    "category_display": "Electrical Safety Probes",
+    "title": "Jointed Test Finger (IEC 60529)",
+    "desc": "Precision articulated test probes calibrated for knuckle dimensions, bending angle stops, and 10N / 30N spring forces.",
+    "image": "assets/images/non-accredited/Joined-test-finger-300x201.jpg"
+  },
+  {
+    "category": "electrical",
+    "category_display": "ESD & Static Protection",
+    "title": "Wrist Strap & Footwear Tester",
+    "desc": "Operator ESD ground testers calibrated for resistance cutoffs (750k\u03a9 lower limit, 35M\u03a9 upper limit) and megohm continuity.",
+    "image": "assets/images/non-accredited/wriststrap-footwear-tester-300x216.jpg"
+  }
+]

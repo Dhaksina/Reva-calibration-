@@ -1,6 +1,6 @@
 {
-  "version": "5.2",
-  "lastUpdated": "2026-10-24T11:02:13Z",
+  "version": "8.0",
+  "lastUpdated": "2026-10-25T13:05:36Z",
   "auth": {
     "adminEmail": "admin@revaphoenix.com",
     "adminPassword": "reva2026"
@@ -158,7 +158,7 @@
         "number": "50",
         "suffix": "+",
         "label": "Countries Served",
-        "sub": "Across India, the Middle East, Asia & the US"
+        "sub": "Across India, Middle East, Asia & US"
       },
       {
         "id": 3,
@@ -450,7 +450,7 @@
     "secondaryPhone": "+91 44 2258 0214",
     "whatsappNumber": "+91 99405 64261",
     "primaryEmail": "enquiry@revaphoenix.com",
-    "supportEmail": "info@revaphoenix.com",
+    "supportEmail": "enquiry@revaphoenix.com",
     "labEmail": "enquiry@revaphoenix.com",
     "workingHours": "Monday – Saturday: 08:30 AM – 06:30 PM IST",
     "coordinates": "12.9698° N, 80.1948° E",
@@ -557,6 +557,7 @@
     "logoImage": "assets/images/logo.png",
     "badge25YearsImage": "assets/images/25-years-badge.png",
     "labScopeChart": "assets/images/35-integrated-labs-reference.jpeg",
+    "labScopePdf": "assets/docs/Reva-Phoenix-NABL-ISO-17025-Scope-Accreditation.pdf",
     "corporateBrochurePdf": "assets/docs/Reva-Phoenix-Corporate-Brochure.pdf",
     "isoCertificatePdf": "assets/docs/Reva-Phoenix-ISO-9001-Certificate.pdf",
     "catalogPdf": "assets/docs/Reva-Phoenix-Catalog.pdf"
@@ -625,7 +626,7 @@
       "name": "Dimension - Basic Instruments",
       "category": "dimensional",
       "code": "LAB-DIM-01",
-      "tagline": "NABL Accredited ISO/IEC 17025: 2017 • Unbroken Traceability to NPL & NIST",
+      "tagline": "NABL Accredited ISO/IEC 17025:2017 • Unbroken Traceability to NPL & NIST",
       "scope": "Comprehensive NABL Scope: Calipers, Micrometers, Height Gauges, Dial Indicators, Gauges, Setting Standards, Surface Plates, Machine Tools (Linear & Positioning Accuracy up to 40,000 mm), and 2D Height Gauges.",
       "onSite": true,
       "labBased": true,
@@ -633,15 +634,17 @@
       "equipment": "Long Slip Gauges & Gauge Blocks, Length Measuring Machine (LMM), Laser Interferometer with Linear & Angular Optics, Profile Projectors, Caliper Checkers, Precision Granite Surface Plates.",
       "parameters": "Linear displacement, external/internal diameters, thread effective diameters, pitch, flatness, parallelism, squareness, angular deflection, transmission errors, machine tool positioning.",
       "cmc": "Down to ± 0.05 µm (Reference Spheres) | Calipers: ± 3.59 µm | Micrometers: ± 0.54 µm | Laser Linear: ± (0.5 + √(L/1000)) µm",
-      "standards": "ISO/IEC 17025: 2017, IS 3651, JIS B 7507, JIS B 7502, ASME B89, DIN 5480, ISO 148, ASTM E18",
+      "standards": "ISO/IEC 17025:2017, IS 3651, JIS B 7507, JIS B 7502, ASME B89, DIN 5480, ISO 148, ASTM E18",
       "applications": "Machine shops, precision toolrooms, aerospace components, automotive manufacturing, quality control inspection, gauge verification.",
-      "statCmc": "± 0.05 µm / ± (0.5 + √(L/1000)) µm",
+      "statCmc": "Down to ± 0.05 µm (Reference Spheres) | Calipers: ± 3.59 µm | Micrometers: ± 0.54 µm | Laser Linear: ± (0.5 + √(L/1000)) µm",
       "instCount": "283 NABL Scopes",
       "image": "assets/images/labs/lab_1.png",
-      "catalogUrl": "assets/docs/Reva-Phoenix-Catalog.pdf",
-      "catalogName": "Dimension-Basic-Instruments-Catalog.pdf",
-      "documentData": "assets/docs/Reva-Phoenix-Catalog.pdf",
-      "documentName": "Dimension-Basic-Instruments-Catalog.pdf"
+      "catalogUrl": "assets/uploads/1791908099_1._RevaPhoenix_Calibration_Catalogue_Dimension_Basic_Instruments_updated.pdf",
+      "catalogName": "1. RevaPhoenix_Calibration_Catalogue_Dimension_Basic_Instruments_updated.pdf",
+      "documentData": "assets/uploads/1791908099_1._RevaPhoenix_Calibration_Catalogue_Dimension_Basic_Instruments_updated.pdf",
+      "documentName": "1. RevaPhoenix_Calibration_Catalogue_Dimension_Basic_Instruments_updated.pdf",
+      "tat": "24–48h",
+      "envControl": "2\\0°C ± 1°"
     },
     {
       "id": 2,

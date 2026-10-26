@@ -20,7 +20,7 @@
 
   let inMemoryDb = null;
   let isFetching = false;
-  const CURRENT_APP_VERSION = '5.2';
+  const CURRENT_APP_VERSION = '8.0';
 
   // Load from local cache synchronously on script evaluation
   function getCachedDatabase() {
@@ -31,10 +31,17 @@
         const parsed = JSON.parse(stored);
         if (!parsed || parsed.version !== CURRENT_APP_VERSION) {
           console.log('[SiteData] Database version updated (' + (parsed ? parsed.version : 'none') + ' -> ' + CURRENT_APP_VERSION + '). Invalidating client cache.');
-          localStorage.removeItem(STORAGE_KEYS.DB);
-          localStorage.removeItem(STORAGE_KEYS.LABS);
-          localStorage.removeItem(STORAGE_KEYS.INSTRUMENTS);
+          Object.values(STORAGE_KEYS).forEach(key => {
+            try { localStorage.removeItem(key); } catch (e) {}
+          });
           return null;
+        }
+        if (parsed.content && Array.isArray(parsed.content.metrics)) {
+          parsed.content.metrics.forEach(m => {
+            if (m.id === 2 && m.sub) {
+              m.sub = 'Across India, Middle East, Asia & US';
+            }
+          });
         }
         inMemoryDb = parsed;
         return inMemoryDb;

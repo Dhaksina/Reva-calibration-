@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSmoothAnchorScrolling();
   initSubnavScrollSpy();
   initCatalogTabsAndSearch();
+  initNonAccTabsAndSearch();
   initQuoteTriggers();
   handleInitialHashScroll();
 });
@@ -244,6 +245,49 @@ function initCatalogTabsAndSearch() {
   }
 }
 
+// 7B. Non-Accredited Scope Category Tabs & Search Filter
+function initNonAccTabsAndSearch() {
+  const tabBtns = document.querySelectorAll('.nonacc-tab-btn');
+  const searchInput = document.getElementById('nonacc-search-input');
+  const items = document.querySelectorAll('.nonacc-card');
+
+  let currentCategory = 'all';
+  let searchQuery = '';
+
+  function filterNonAccItems() {
+    items.forEach(item => {
+      const itemCat = item.getAttribute('data-category') || '';
+      const itemName = (item.querySelector('.nonacc-title')?.textContent || '').toLowerCase();
+      const itemDesc = (item.querySelector('.nonacc-desc')?.textContent || '').toLowerCase();
+
+      const matchesCat = (currentCategory === 'all') || (itemCat === currentCategory);
+      const matchesSearch = !searchQuery || itemName.includes(searchQuery) || itemDesc.includes(searchQuery);
+
+      if (matchesCat && matchesSearch) {
+        item.style.display = 'flex';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  }
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      currentCategory = btn.getAttribute('data-filter') || 'all';
+      filterNonAccItems();
+    });
+  });
+
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim().toLowerCase();
+      filterNonAccItems();
+    });
+  }
+}
+
 // 8. Quote Modal Dispatcher for Service Pages
 function initQuoteTriggers() {
   const quoteModal = document.getElementById('quote-modal');
@@ -259,7 +303,7 @@ function initQuoteTriggers() {
         quoteModal.classList.add('active');
         document.body.classList.add('modal-open');
         if (quoteSubtitle && serviceName) {
-          quoteSubtitle.innerHTML = `Requesting Quotation for: <strong style="color: var(--orange-primary);">${serviceName}</strong>. Sent directly to Owner WhatsApp (+91 99405 64261).`;
+          quoteSubtitle.innerHTML = `Requesting Quotation for: <strong style="color: var(--orange-primary);">${serviceName}</strong>. Sent directly via Owner WhatsApp (<strong style="color: #25D366;">+91 99405 64261</strong>) or Email (<strong style="color: var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
         }
         if (quoteServiceInput && serviceName) {
           quoteServiceInput.value = serviceName;
@@ -279,6 +323,41 @@ function initQuoteTriggers() {
         quoteModal.classList.remove('active');
         document.body.classList.remove('modal-open');
       }
+    });
+  }
+
+  // Handle Email RFQ Button
+  const emailBtn = document.getElementById('quote-submit-email-btn');
+  if (emailBtn) {
+    emailBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('quote-name-input')?.value.trim();
+      const phone = document.getElementById('quote-phone-input')?.value.trim();
+      const email = document.getElementById('quote-email-input')?.value.trim();
+      const company = document.getElementById('quote-company-input')?.value.trim();
+      const service = document.getElementById('quote-service-input')?.value.trim() || 'Specialized Metrology & Calibration Service';
+
+      if (!name || !phone) {
+        alert('Please provide your Name and Phone Number to submit the quote request.');
+        return;
+      }
+
+      const subject = `Calibration Quotation Request: ${service} | ${company || name}`;
+      const body = `CALIBRATION QUOTATION REQUEST (RFQ) - REVA PHOENIX\n` +
+                   `====================================================\n\n` +
+                   `Client Name     : ${name}\n` +
+                   `Company / Org   : ${company || 'Not provided'}\n` +
+                   `Official Email  : ${email || 'Not provided'}\n` +
+                   `Mobile / Phone  : ${phone}\n` +
+                   `Service / Lab   : ${service}\n\n` +
+                   `====================================================\n` +
+                   `Submitted via: Reva Phoenix Calibration Portal (revacalibration.com)\n` +
+                   `Direct Email: enquiry@revaphoenix.com\n` +
+                   `Direct Owner WhatsApp: +91 99405 64261\n`;
+
+      window.location.href = `mailto:enquiry@revaphoenix.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+      if (quoteModal) quoteModal.classList.remove('active');
+      document.body.classList.remove('modal-open');
     });
   }
 }

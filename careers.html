@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Careers — Join Reva Phoenix Labs &amp; Consultants | NABL Calibration Jobs Chennai</title>
+  <meta name="description" content="Careers at Reva Phoenix Labs — Join India's largest integrated NABL Accredited Calibration Laboratory. Open positions for Calibration Engineers, Graduate Trainees, Business Development &amp; Documentation Executives.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://revacalibration.com/careers/">
+  <meta property="og:title" content="Careers — Reva Phoenix Labs | Calibration Jobs Chennai">
+  <meta property="og:description" content="Build your career in precision metrology. Join India's largest NABL accredited calibration lab.">
+  <link rel="stylesheet" href="css/design-system.css?v=20.0">
+  <link rel="stylesheet" href="css/components.css?v=27.0">
+  <link rel="stylesheet" href="css/sections.css?v=27.0">
+  <link rel="stylesheet" href="css/responsive.css?v=25.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --section-bg: #080b18;
+    }
+    .careers-hero {
+      background: linear-gradient(135deg, #0a0d1a 0%, #101730 50%, #0d1528 100%);
+      min-height: 520px;
+      display: flex;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      padding: 120px 0 80px;
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .careers-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 60% 40%, var(--orange-subtle) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .careers-hero::after {
+      content: '';
+      position: absolute;
+      bottom: -1px;
+      left: 0; right: 0;
+      height: 80px;
+      background: linear-gradient(to bottom, transparent, var(--section-bg));
+    }
+    .careers-hero-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 2rem;
+      position: relative;
+      z-index: 1;
+    }
+    .careers-breadcrumb {
+      display: flex; align-items: center; gap: 6px;
+      font-size: 0.78rem; color: rgba(255,255,255,0.45);
+      margin-bottom: 1.25rem; font-family: 'Inter', sans-serif;
+    }
+    .careers-breadcrumb a { color: var(--orange-primary); text-decoration: none; }
+    .careers-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--orange-subtle); border: 1px solid var(--orange-border);
+      color: var(--orange-primary); font-size: 0.73rem; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      padding: 5px 12px; border-radius: 100px; margin-bottom: 1.5rem;
+      font-family: 'Inter', sans-serif;
+    }
+    .careers-hero-title {
+      font-family: 'Montserrat', sans-serif;
+      font-size: clamp(2rem, 4vw, 3.2rem);
+      font-weight: 800; color: #fff; line-height: 1.18;
+      margin: 0 0 1.25rem;
+    }
+    .careers-hero-title .text-orange { color: var(--orange-primary); }
+    .careers-hero-subtitle {
+      font-size: 1rem; color: rgba(255,255,255,0.62);
+      line-height: 1.75; margin: 0 0 2rem; font-family: 'Inter', sans-serif;
+    }
+    .careers-why-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
+    .careers-why-list li {
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 0.9rem; color: rgba(255,255,255,0.75); font-family: 'Inter', sans-serif;
+    }
+    .careers-why-list li::before { content: '✦'; color: var(--orange-primary); font-size: 0.65rem; margin-top: 4px; flex-shrink: 0; }
+    .careers-hero-image-wrap { position: relative; }
+    .careers-hero-image-wrap img {
+      width: 100%; border-radius: 16px; object-fit: cover; display: block;
+      filter: brightness(0.88); box-shadow: 0 32px 80px rgba(0,0,0,0.55), 0 0 0 1px rgba(255,255,255,0.07);
+    }
+    .careers-hero-image-badge {
+      position: absolute; bottom: -16px; left: 50%; transform: translateX(-50%);
+      background: linear-gradient(135deg, var(--orange-primary) 0%, var(--orange-highlight) 100%); color: #fff;
+      font-size: 0.78rem; font-weight: 700; padding: 8px 20px;
+      border-radius: 100px; white-space: nowrap; font-family: 'Inter', sans-serif;
+      border: 1px solid var(--orange-highlight);
+      box-shadow: 0 8px 24px var(--orange-glow);
+    }
+    .careers-stats-bar {
+      background: linear-gradient(135deg, var(--orange-primary) 0%, var(--orange-highlight) 100%);
+      padding: 18px 0;
+      box-shadow: 0 4px 20px var(--orange-glow);
+    }
+    .careers-stats-inner {
+      max-width: 1200px; margin: 0 auto; padding: 0 2rem;
+      display: grid; grid-template-columns: repeat(4,1fr); gap: 1rem; text-align: center;
+    }
+    .careers-stat-item .stat-num {
+      font-family: 'Montserrat', sans-serif; font-size: 1.6rem;
+      font-weight: 800; color: #fff; line-height: 1;
+    }
+    .careers-stat-item .stat-lbl {
+      font-size: 0.72rem; color: rgba(255,255,255,0.92); font-weight: 600;
+      text-transform: uppercase; letter-spacing: 0.06em; margin-top: 4px; font-family: 'Inter', sans-serif;
+    }
+    .careers-main { background: var(--section-bg); padding: 80px 0 120px; }
+    .careers-content-wrap {
+      max-width: 1200px; margin: 0 auto; padding: 0 2rem;
+      display: grid; grid-template-columns: 1fr 420px; gap: 3.5rem; align-items: start;
+    }
+    .careers-section-header { margin-bottom: 2.5rem; }
+    .careers-section-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--orange-primary); font-family: 'Inter', sans-serif;
+      margin-bottom: 10px; display: flex; align-items: center; gap: 8px;
+    }
+    .careers-section-label::before { content: ''; display: block; width: 24px; height: 2px; background: var(--orange-primary); }
+    .careers-section-title {
+      font-family: 'Montserrat', sans-serif; font-size: clamp(1.6rem,2.5vw,2.2rem);
+      font-weight: 800; color: #fff; line-height: 1.2; margin: 0 0 0.75rem;
+    }
+    .careers-section-desc { font-size: 0.95rem; color: rgba(255,255,255,0.55); line-height: 1.7; font-family: 'Inter', sans-serif; }
+    .jobs-list { display: flex; flex-direction: column; gap: 1.5rem; }
+    .job-card {
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 14px; overflow: hidden;
+      transition: border-color 0.25s, background 0.25s, transform 0.2s, box-shadow 0.25s;
+    }
+    .job-card:hover {
+      background: rgba(255,255,255,0.06); border-color: var(--orange-border);
+      transform: translateY(-2px); box-shadow: 0 12px 40px var(--orange-subtle);
+    }
+    .job-card-header {
+      padding: 1.4rem 1.6rem; cursor: pointer;
+      display: flex; align-items: flex-start; justify-content: space-between;
+      gap: 1rem; user-select: none;
+    }
+    .job-card-header-left { display: flex; align-items: flex-start; gap: 1rem; }
+    .job-icon {
+      width: 48px; height: 48px; border-radius: 12px;
+      display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+    }
+    .job-icon-orange { background: var(--orange-subtle); }
+    .job-icon-blue   { background: rgba(59,130,246,0.12); }
+    .job-icon-green  { background: rgba(34,197,94,0.10); }
+    .job-icon-purple { background: rgba(139,92,246,0.12); }
+    .job-card-title {
+      font-family: 'Montserrat', sans-serif; font-size: 1.05rem;
+      font-weight: 700; color: #fff; margin: 0 0 6px; line-height: 1.3;
+    }
+    .job-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+    .job-tag {
+      font-size: 0.7rem; font-weight: 600; padding: 3px 9px;
+      border-radius: 100px; font-family: 'Inter', sans-serif; letter-spacing: 0.04em;
+    }
+    .tag-type { background: var(--orange-subtle); color: var(--orange-primary); border: 1px solid var(--orange-border); }
+    .tag-exp  { background: rgba(255,255,255,0.05); color: rgba(255,255,255,0.6); border: 1px solid rgba(255,255,255,0.08); }
+    .tag-open { background: rgba(34,197,94,0.1); color: #4ade80; border: 1px solid rgba(34,197,94,0.2); }
+    .job-card-chevron { color: rgba(255,255,255,0.4); transition: transform 0.3s, color 0.2s; flex-shrink: 0; margin-top: 2px; }
+    .job-card.open .job-card-chevron { transform: rotate(180deg); color: var(--orange-primary); }
+    .job-card-body { max-height: 0; overflow: hidden; transition: max-height 0.4s cubic-bezier(0.4,0,0.2,1); }
+    .job-card.open .job-card-body { max-height: 800px; }
+    .job-card-content {
+      padding: 1.25rem 1.6rem 1.6rem;
+      border-top: 1px solid rgba(255,255,255,0.06);
+    }
+    .job-requirements { list-style: none; padding: 0; margin: 0 0 1.5rem; display: flex; flex-direction: column; gap: 8px; }
+    .job-requirements li {
+      display: flex; align-items: flex-start; gap: 10px;
+      font-size: 0.875rem; color: rgba(255,255,255,0.7); line-height: 1.55; font-family: 'Inter', sans-serif;
+    }
+    .job-requirements li::before { content: '›'; color: var(--orange-primary); font-weight: 700; font-size: 1rem; line-height: 1.4; flex-shrink: 0; }
+    .job-apply-btn {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: linear-gradient(135deg, var(--orange-primary) 0%, var(--orange-highlight) 100%); color: #fff;
+      border: 1px solid var(--orange-highlight); border-radius: 8px; padding: 10px 22px;
+      font-size: 0.875rem; font-weight: 600; font-family: 'Inter', sans-serif;
+      cursor: pointer; transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 6px 20px var(--orange-glow);
+    }
+    .job-apply-btn:hover { opacity: 0.95; transform: translateY(-1px); box-shadow: 0 10px 28px rgba(244,122,60,0.45); }
+    .careers-form-panel { position: sticky; top: 100px; }
+    .careers-form-card {
+      background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 16px; overflow: hidden; transition: box-shadow 0.3s;
+    }
+    .careers-form-card-header {
+      background: linear-gradient(135deg, var(--orange-primary) 0%, var(--orange-highlight) 100%);
+      padding: 1.4rem 1.6rem;
+      border-bottom: 1px solid var(--orange-highlight);
+    }
+    .careers-form-card-header h3 {
+      font-family: 'Montserrat', sans-serif; font-size: 1.15rem; font-weight: 800; color: #fff; margin: 0 0 4px;
+    }
+    .careers-form-card-header p { font-size: 0.8rem; color: rgba(255,255,255,0.92); margin: 0; font-family: 'Inter', sans-serif; }
+    .careers-form-body { padding: 1.6rem; }
+    .cform-field { margin-bottom: 1.1rem; }
+    .cform-label {
+      display: block; font-size: 0.78rem; font-weight: 600;
+      color: rgba(255,255,255,0.7); margin-bottom: 6px; font-family: 'Inter', sans-serif;
+    }
+    .cform-input, .cform-select, .cform-textarea {
+      width: 100%; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px; color: #fff; font-size: 0.875rem; font-family: 'Inter', sans-serif;
+      padding: 10px 14px; outline: none; box-sizing: border-box;
+      transition: border-color 0.2s, background 0.2s, box-shadow 0.2s; -webkit-appearance: none;
+    }
+    .cform-input:focus, .cform-select:focus, .cform-textarea:focus {
+      border-color: var(--orange-primary); background: var(--orange-subtle); box-shadow: 0 0 0 3px var(--orange-glow);
+    }
+    .cform-input::placeholder, .cform-textarea::placeholder { color: rgba(255,255,255,0.28); }
+    .cform-select option { background: #1a1d2e; color: #fff; }
+    .cform-textarea { resize: vertical; min-height: 90px; }
+    .cform-file-zone {
+      border: 1.5px dashed var(--orange-border); border-radius: 8px;
+      background: var(--orange-subtle); padding: 16px; text-align: center; cursor: pointer;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .cform-file-zone:hover { border-color: var(--orange-primary); background: rgba(244,122,60,0.12); }
+    .cform-file-zone input[type="file"] { display: none; }
+    .cform-file-label { font-size: 0.82rem; color: rgba(255,255,255,0.55); font-family: 'Inter', sans-serif; margin-top: 6px; display: block; }
+    .cform-file-label strong { color: var(--orange-primary); }
+    .cform-file-preview {
+      display: none; align-items: center; gap: 10px;
+      background: rgba(255,255,255,0.05); border: 1px solid var(--orange-border);
+      border-radius: 6px; padding: 8px 12px; margin-top: 8px;
+      font-size: 0.8rem; color: rgba(255,255,255,0.75); font-family: 'Inter', sans-serif;
+    }
+    .cform-file-preview.visible { display: flex; }
+    .cform-file-preview button { background: none; border: none; cursor: pointer; color: rgba(255,255,255,0.4); padding: 0; margin-left: auto; font-size: 1rem; }
+    .cform-submit-btn {
+      width: 100%; background: linear-gradient(135deg, var(--orange-primary) 0%, var(--orange-highlight) 100%); color: #fff;
+      border: 1px solid var(--orange-highlight); border-radius: 10px; padding: 14px; font-size: 0.95rem;
+      font-weight: 700; font-family: 'Montserrat', sans-serif; cursor: pointer;
+      display: flex; align-items: center; justify-content: center; gap: 10px;
+      transition: opacity 0.2s, transform 0.15s, box-shadow 0.2s;
+      box-shadow: 0 8px 28px var(--orange-glow); margin-top: 0.5rem;
+    }
+    .cform-submit-btn:hover { opacity: 0.95; transform: translateY(-1px); box-shadow: 0 12px 36px rgba(244,122,60,0.45); }
+    .cform-submit-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+    .cform-email-hint { text-align: center; font-size: 0.72rem; color: rgba(255,255,255,0.4); font-family: 'Inter', sans-serif; margin-top: 8px; }
+    .cform-email-hint a { color: var(--orange-primary); text-decoration: none; }
+    .cform-success { display: none; flex-direction: column; align-items: center; text-align: center; gap: 12px; padding: 2rem; }
+    .cform-success.visible { display: flex; }
+    .cform-success-icon { width: 60px; height: 60px; border-radius: 50%; background: rgba(34,197,94,0.12); border: 2px solid rgba(34,197,94,0.4); display: flex; align-items: center; justify-content: center; }
+    .cform-success h4 { font-family: 'Montserrat', sans-serif; font-size: 1.1rem; font-weight: 700; color: #fff; margin: 0; }
+    .cform-success p { font-size: 0.85rem; color: rgba(255,255,255,0.6); font-family: 'Inter', sans-serif; margin: 0; line-height: 1.6; }
+    .cform-reset-btn {
+      background: none; border: 1px solid rgba(255,255,255,0.15); color: rgba(255,255,255,0.6);
+      border-radius: 8px; padding: 8px 20px; font-size: 0.82rem; font-family: 'Inter', sans-serif; cursor: pointer;
+    }
+    .cform-reset-btn:hover { border-color: var(--orange-border); color: var(--orange-primary); }
+    .careers-why-section {
+      background: linear-gradient(180deg, var(--section-bg) 0%, #0d1528 100%);
+      padding: 80px 0; border-top: 1px solid rgba(255,255,255,0.04);
+    }
+    .careers-why-inner { max-width: 1200px; margin: 0 auto; padding: 0 2rem; }
+    .why-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; margin-top: 3rem; }
+    .why-card {
+      background: rgba(255,255,255,0.025); border: 1px solid rgba(255,255,255,0.07);
+      border-radius: 14px; padding: 1.75rem; transition: border-color 0.25s, transform 0.2s;
+    }
+    .why-card:hover { border-color: var(--orange-border); transform: translateY(-3px); }
+    .why-icon {
+      width: 44px; height: 44px; border-radius: 10px;
+      background: var(--orange-subtle); border: 1px solid var(--orange-border);
+      display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;
+    }
+    .why-card h4 { font-family: 'Montserrat', sans-serif; font-size: 1rem; font-weight: 700; color: #fff; margin: 0 0 8px; }
+    .why-card p { font-size: 0.85rem; color: rgba(255,255,255,0.55); line-height: 1.65; margin: 0; font-family: 'Inter', sans-serif; }
+    @media (max-width: 1024px) {
+      .careers-hero-grid { grid-template-columns: 1fr; }
+      .careers-hero-image-wrap { display: none; }
+      .careers-content-wrap { grid-template-columns: 1fr; }
+      .careers-form-panel { position: static; }
+      .why-grid { grid-template-columns: 1fr 1fr; }
+      .careers-stats-inner { grid-template-columns: repeat(2,1fr); }
+    }
+    @media (max-width: 640px) {
+      .careers-hero { padding: 100px 0 60px; min-height: auto; }
+      .why-grid { grid-template-columns: 1fr; }
+    }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body class="careers-page">
+
+  <!-- NAVIGATION -->
+  <header class="site-header" id="site-header">
+    <div class="nav-container">
+      <a href="index.html#hero" class="brand-wrapper" title="Reva Phoenix Calibration &amp; Consultancy">
+        <div class="brand-phoenix-creative">
+          <img src="assets/images/reva-phoenix-brand-logo.png" alt="Reva Phoenix Calibration" class="brand-phoenix-logo-img">
+          <div class="brand-tagline" aria-label="Precision Measured. Quality Assured.">
+            <span class="laser-beacon" aria-hidden="true"><span class="beacon-pulse"></span><span class="beacon-core"></span></span>
+            <span class="tagline-lead">Precision Measured.</span>
+            <span class="tagline-divider" aria-hidden="true">•</span>
+            <span class="tagline-sub">Quality Assured.</span>
+          </div>
+        </div>
+      </a>
+      <nav aria-label="Main Navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html#hero" class="nav-link">Home</a></li>
+          <li class="nav-item nav-item-dropdown">
+            <a href="about-us.html" class="nav-link nav-dropdown-toggle">About Us <svg class="dropdown-chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+            <ul class="nav-dropdown-menu">
+              <li class="nav-dropdown-item"><a href="about-us.html#overview" class="nav-dropdown-link">About Reva Phoenix</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#message-from-md" class="nav-dropdown-link">Message from MD</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#mission-vision" class="nav-dropdown-link">Mission &amp; Vision</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#quality-policy" class="nav-dropdown-link">Quality Policy</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#unique-features" class="nav-dropdown-link">Unique Features</a></li>
+              <li class="nav-dropdown-item"><a href="about-us.html#industry-we-serve" class="nav-dropdown-link">Industry We Serve</a></li>
+            </ul>
+          </li>
+          <li class="nav-item nav-item-dropdown">
+            <a href="services.html" class="nav-link nav-dropdown-toggle">Services <svg class="dropdown-chevron" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg></a>
+            <ul class="nav-dropdown-menu">
+              <li class="nav-dropdown-item"><a href="services.html#sales" class="nav-dropdown-link">Sales</a></li>
+              <li class="nav-dropdown-item"><a href="services.html#inspection" class="nav-dropdown-link">Inspection</a></li>
+              <li class="nav-dropdown-item"><a href="services.html#cnc-calibration" class="nav-dropdown-link">CNC Machine Calibration</a></li>
+              <li class="nav-dropdown-item"><a href="services.html#amc" class="nav-dropdown-link">AMC for Calibration</a></li>
+              <li class="nav-dropdown-item"><a href="services.html#non-accredited" class="nav-dropdown-link">Non Accredited Calibration</a></li>
+              <li class="nav-dropdown-item"><a href="services.html#lims-software" class="nav-dropdown-link">LIMS Software</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a href="index.html#laboratories" class="nav-link">35 Labs</a></li>
+          <li class="nav-item"><a href="index.html#industries" class="nav-link">Industries</a></li>
+          <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li class="nav-item"><a href="index.html#resources" class="nav-link">Downloads</a></li>
+          <li class="nav-item"><a href="careers.html" class="nav-link active">Careers</a></li>
+          <li class="nav-item"><a href="index.html#contact" class="nav-link">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div style="display:flex;align-items:center;gap:14px;">
+        <button class="nav-cta-btn" data-open-quote="Calibration Quotation Request">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
+          Get Quote
+        </button>
+        <button class="mobile-nav-toggle" id="mobile-nav-toggle" aria-label="Toggle navigation menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer-overlay" id="mobile-drawer-overlay"></div>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div class="mobile-drawer-header">
+        <div style="display:flex;align-items:center;gap:12px;">
+          <img src="assets/images/reva-phoenix-brand-logo.png" alt="Reva Calibration Logo" style="height:42px;width:auto;object-fit:contain;">
+          <div class="brand-tagline">
+            <span class="laser-beacon" aria-hidden="true"><span class="beacon-pulse"></span><span class="beacon-core"></span></span>
+            <span class="tagline-lead">Precision Measured.</span>
+            <span class="tagline-divider" aria-hidden="true">•</span>
+            <span class="tagline-sub">Quality Assured.</span>
+          </div>
+        </div>
+        <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+      <ul class="mobile-drawer-menu">
+        <li><a href="index.html#hero" class="mobile-drawer-link">Home</a></li>
+        <li><a href="about-us.html" class="mobile-drawer-link">About Us</a></li>
+        <li><a href="services.html" class="mobile-drawer-link">Services</a></li>
+        <li><a href="index.html#laboratories" class="mobile-drawer-link">35 Integrated Labs</a></li>
+        <li><a href="gallery.html" class="mobile-drawer-link">Gallery</a></li>
+        <li><a href="index.html#resources" class="mobile-drawer-link">Downloads</a></li>
+        <li><a href="careers.html" class="mobile-drawer-link" style="color:var(--orange-primary);font-weight:600;">Careers &rarr;</a></li>
+        <li><a href="index.html#contact" class="mobile-drawer-link">Contact Us</a></li>
+      </ul>
+    </div>
+    <div style="padding:1.5rem 1.25rem;">
+      <button class="btn btn-primary" style="width:100%;margin-bottom:1rem;" data-open-quote="Mobile Navigation Request">Request A Calibration Quote</button>
+      <div style="font-family:var(--font-mono);font-size:0.75rem;color:var(--text-muted);text-align:center;">Lab Direct: +91 98406 72352<br>Chennai - 600 091, India</div>
+    </div>
+  </aside>
+
+  <!-- HERO -->
+  <section class="careers-hero" id="careers-hero">
+    <div class="careers-hero-grid">
+      <div>
+        <div class="careers-breadcrumb">
+          <a href="index.html">Home</a>
+          <span>/</span>
+          <span>Careers</span>
+        </div>
+        <div class="careers-badge">
+          <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="8"/></svg>
+          We're Hiring — 4 Open Positions
+        </div>
+        <h1 class="careers-hero-title">
+          Build Your Career in <span class="text-orange">Precision Metrology</span> &amp; Calibration Science
+        </h1>
+        <p class="careers-hero-subtitle">
+          Reva Phoenix Labs &amp; Consultants Pvt. Ltd. — India's largest integrated NABL Accredited (ISO/IEC 17025: 2017) calibration laboratory — is expanding PAN India &amp; Middle East. Join a world-class team of metrologists.
+        </p>
+        <ul class="careers-why-list">
+          <li>25+ years of organizational excellence in Metrology &amp; Calibration</li>
+          <li>Serving 1,000+ customers across 40+ countries including Oil &amp; Gas, Pharma, Aerospace</li>
+          <li>8,000 sq. ft. complex with 35 environmentally controlled lab disciplines</li>
+          <li>Small, professional &amp; ethical organization — set your career basics right!</li>
+          <li>PAN India &amp; Middle East expansion — growing opportunities ahead</li>
+        </ul>
+      </div>
+      <div class="careers-hero-image-wrap">
+        <img src="https://revacalibration.com/wp-content/uploads/2024/08/mechanical-engineer.jpg"
+             alt="Calibration Engineer at Reva Phoenix Labs"
+             onerror="this.src='assets/images/building-office.jpg'">
+        <div class="careers-hero-image-badge">&#10022; NABL Accredited &middot; CC-4178</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS BAR -->
+  <div class="careers-stats-bar">
+    <div class="careers-stats-inner">
+      <div class="careers-stat-item"><div class="stat-num">2,500+</div><div class="stat-lbl">Customers Served</div></div>
+      <div class="careers-stat-item"><div class="stat-num">50+</div><div class="stat-lbl">Countries</div></div>
+      <div class="careers-stat-item"><div class="stat-num">35+</div><div class="stat-lbl">Integrated Labs</div></div>
+      <div class="careers-stat-item"><div class="stat-num">25+</div><div class="stat-lbl">Years Experience</div></div>
+    </div>
+  </div>
+
+  <!-- JOB LISTINGS + APPLICATION FORM -->
+  <section class="careers-main" id="open-positions">
+    <div class="careers-content-wrap">
+
+      <!-- Left: Jobs -->
+      <div>
+        <div class="careers-section-header">
+          <div class="careers-section-label">Open Positions</div>
+          <h2 class="careers-section-title">Currently Hiring For These Roles</h2>
+          <p class="careers-section-desc">Click any role to view full requirements. Hit <strong style="color:var(--orange-primary);">"Apply for This Role"</strong> to prefill the form — your application goes directly to <strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong></p>
+        </div>
+        <div class="jobs-list">
+
+          <!-- Job 1 -->
+          <div class="job-card" id="job-card-1">
+            <div class="job-card-header" onclick="toggleJob('job-card-1','Calibration Engineer / Calibration Manager')" role="button" tabindex="0" aria-expanded="false">
+              <div class="job-card-header-left">
+                <div class="job-icon job-icon-orange">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2" stroke-linecap="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                </div>
+                <div>
+                  <h3 class="job-card-title">Calibration Engineer / Calibration Manager</h3>
+                  <div class="job-tags">
+                    <span class="job-tag tag-type">Full-Time</span>
+                    <span class="job-tag tag-exp">2-10 Years Exp.</span>
+                    <span class="job-tag tag-open">&#9679; Actively Hiring</span>
+                  </div>
+                </div>
+              </div>
+              <svg class="job-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+            <div class="job-card-body">
+              <div class="job-card-content">
+                <ul class="job-requirements">
+                  <li>Well dressed and being a professional is a basic requirement</li>
+                  <li>Prepare an introduction about yourself; Learning attitude and respect for all</li>
+                  <li>Graduate with a clear passed-out Degree &amp; good communication skills are essentials</li>
+                  <li>E-Graduate in Mech, Mechatronics, EEE, ECE, ICE or equivalent, with a clear Degree certificate</li>
+                  <li>2 to 10 years of experience in NABL Accredited Calibration Lab is required</li>
+                  <li>High level of commitment and professionalism; willing to work on job rotation in all departments</li>
+                  <li>Core of the job is Technical Calibration &amp; Testing at our 35+ integrated Labs</li>
+                  <li>E-mail your updated resume to <a href="mailto:enquiry@revaphoenix.com" style="color:var(--orange-primary);">enquiry@revaphoenix.com</a></li>
+                </ul>
+                <button class="job-apply-btn" onclick="prefillJob('Calibration Engineer / Calibration Manager')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                  Apply for This Role
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Job 2 -->
+          <div class="job-card" id="job-card-2">
+            <div class="job-card-header" onclick="toggleJob('job-card-2','Graduate Trainee Engineer')" role="button" tabindex="0" aria-expanded="false">
+              <div class="job-card-header-left">
+                <div class="job-icon job-icon-blue">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <div>
+                  <h3 class="job-card-title">Graduate Trainee Engineer</h3>
+                  <div class="job-tags">
+                    <span class="job-tag tag-type">Full-Time</span>
+                    <span class="job-tag tag-exp">Freshers Welcome</span>
+                    <span class="job-tag tag-open">&#9679; Actively Hiring</span>
+                  </div>
+                </div>
+              </div>
+              <svg class="job-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+            <div class="job-card-body">
+              <div class="job-card-content">
+                <ul class="job-requirements">
+                  <li>Well dressed and being a professional is a basic requirement</li>
+                  <li>Prepare an introduction about yourself; Learning attitude and respect for all</li>
+                  <li>Graduate with a clear passed-out Degree &amp; good communication skills are essentials</li>
+                  <li>E-Graduate in Mech, Auto, Mechatronics, EEE, ECE, ICE or equivalent, with a clear Degree certificate</li>
+                  <li>Freshers can apply; 1 or 2 years of experience in NABL Accredited Calibration Lab is an added advantage</li>
+                  <li>High level of commitment and professionalism; willing to work on job rotation in all departments</li>
+                  <li>Core of the job is Technical Calibration &amp; Testing at our 35+ integrated Labs</li>
+                  <li>E-mail your updated resume to <a href="mailto:enquiry@revaphoenix.com" style="color:var(--orange-primary);">enquiry@revaphoenix.com</a></li>
+                </ul>
+                <button class="job-apply-btn" onclick="prefillJob('Graduate Trainee Engineer')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                  Apply for This Role
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Job 3 -->
+          <div class="job-card" id="job-card-3">
+            <div class="job-card-header" onclick="toggleJob('job-card-3','Customer Support Executive / Business Development Executive')" role="button" tabindex="0" aria-expanded="false">
+              <div class="job-card-header-left">
+                <div class="job-icon job-icon-green">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2" stroke-linecap="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                </div>
+                <div>
+                  <h3 class="job-card-title">Customer Support Executive / Business Development Executive</h3>
+                  <div class="job-tags">
+                    <span class="job-tag tag-type">Full-Time</span>
+                    <span class="job-tag tag-exp">2-10 Years Exp.</span>
+                    <span class="job-tag tag-open">&#9679; Actively Hiring</span>
+                  </div>
+                </div>
+              </div>
+              <svg class="job-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+            <div class="job-card-body">
+              <div class="job-card-content">
+                <ul class="job-requirements">
+                  <li>Well dressed and being a professional is a basic requirement</li>
+                  <li>Prepare an introduction about yourself; Learning attitude and respect for all</li>
+                  <li>Graduate with a clear passed-out Degree &amp; excellent communication skills are essentials</li>
+                  <li>2 to 10 years of experience in Customer Support / Business Development</li>
+                  <li>NABL Lab experience is an added advantage</li>
+                  <li>Core of the job is Lead generation, Customer support and Business development activities</li>
+                  <li>Excellent Salary; fixed as well as performance-based monthly incentives</li>
+                  <li>E-mail your updated resume to <a href="mailto:enquiry@revaphoenix.com" style="color:var(--orange-primary);">enquiry@revaphoenix.com</a></li>
+                </ul>
+                <button class="job-apply-btn" onclick="prefillJob('Customer Support Executive / Business Development Executive')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                  Apply for This Role
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Job 4 -->
+          <div class="job-card" id="job-card-4">
+            <div class="job-card-header" onclick="toggleJob('job-card-4','Documentation Executive')" role="button" tabindex="0" aria-expanded="false">
+              <div class="job-card-header-left">
+                <div class="job-icon job-icon-purple">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                </div>
+                <div>
+                  <h3 class="job-card-title">Documentation Executive</h3>
+                  <div class="job-tags">
+                    <span class="job-tag tag-type">Full-Time</span>
+                    <span class="job-tag tag-exp">0-5 Years Exp.</span>
+                    <span class="job-tag tag-open">&#9679; Actively Hiring</span>
+                  </div>
+                </div>
+              </div>
+              <svg class="job-card-chevron" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </div>
+            <div class="job-card-body">
+              <div class="job-card-content">
+                <ul class="job-requirements">
+                  <li>Well dressed and being a professional is a basic requirement</li>
+                  <li>Prepare an introduction about yourself; Learning attitude and respect for all</li>
+                  <li>Graduate with a clear passed-out Degree &amp; good communication / documentation skills are essentials</li>
+                  <li>Freshers to 2-5 years of experience in back-office / Documentation</li>
+                  <li>NABL Lab experience is an added advantage</li>
+                  <li>Strong attention to detail, organized and deadline-driven</li>
+                  <li>E-mail your updated resume to <a href="mailto:enquiry@revaphoenix.com" style="color:var(--orange-primary);">enquiry@revaphoenix.com</a></li>
+                </ul>
+                <button class="job-apply-btn" onclick="prefillJob('Documentation Executive')">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                  Apply for This Role
+                </button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Right: Application Form -->
+      <div class="careers-form-panel">
+        <div class="careers-form-card" id="careers-form-card">
+          <div class="careers-form-card-header">
+            <h3>Apply Now — Send Your CV</h3>
+            <p>Direct application to our HR metrology recruitment team</p>
+          </div>
+          <div class="careers-form-body">
+
+            <div class="cform-success" id="cform-success">
+              <div class="cform-success-icon">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+              </div>
+              <h4 id="success-heading">Application Sent!</h4>
+              <p id="success-desc">Your details have been registered. Please send the opened chat or email to complete your application.</p>
+              <button class="cform-reset-btn" onclick="resetForm()">Submit Another Application</button>
+            </div>
+
+            <form id="careers-application-form" novalidate>
+              <div class="cform-field">
+                <label class="cform-label" for="cf-name">Full Name *</label>
+                <input type="text" id="cf-name" class="cform-input" placeholder="Your Full Name" required autocomplete="name">
+              </div>
+              <div class="cform-field">
+                <label class="cform-label" for="cf-email">Email Address *</label>
+                <input type="email" id="cf-email" class="cform-input" placeholder="name@email.com" required autocomplete="email">
+              </div>
+              <div class="cform-field">
+                <label class="cform-label" for="cf-phone">Mobile Number *</label>
+                <input type="tel" id="cf-phone" class="cform-input" placeholder="+91 98XXX XXXXX" required autocomplete="tel">
+              </div>
+              <div class="cform-field">
+                <label class="cform-label" for="cf-position">Position Applying For *</label>
+                <select id="cf-position" class="cform-select" required>
+                  <option value="">-- Select a Position --</option>
+                  <option value="Calibration Engineer / Calibration Manager">Calibration Engineer / Calibration Manager</option>
+                  <option value="Graduate Trainee Engineer">Graduate Trainee Engineer</option>
+                  <option value="Customer Support Executive / Business Development Executive">Customer Support / Business Development Executive</option>
+                  <option value="Documentation Executive">Documentation Executive</option>
+                  <option value="Other / Open Application">Other / Open Application</option>
+                </select>
+              </div>
+              <div class="cform-field">
+                <label class="cform-label" for="cf-experience">Years of Experience</label>
+                <select id="cf-experience" class="cform-select">
+                  <option value="Fresher (0 years)">Fresher (0 years)</option>
+                  <option value="Less than 1 year">Less than 1 year</option>
+                  <option value="1-3 years">1-3 years</option>
+                  <option value="3-5 years">3-5 years</option>
+                  <option value="5-10 years">5-10 years</option>
+                  <option value="10+ years">10+ years</option>
+                </select>
+              </div>
+              <div class="cform-field">
+                <label class="cform-label" for="cf-message">Cover Note / About Yourself</label>
+                <textarea id="cf-message" class="cform-textarea" placeholder="Briefly introduce yourself, your calibration experience, and why you would like to join Reva Phoenix..."></textarea>
+              </div>
+
+              <!-- Upload Dropzone matching user screenshot -->
+              <div class="cform-field">
+                <label class="cform-label" style="text-transform: uppercase; letter-spacing: 0.05em; font-size: 0.78rem;">Attach Resume / Scope Details (PDF / Excel / Images)</label>
+                <div class="file-upload-dropzone" id="file-upload-dropzone" onclick="document.getElementById('cf-file-input').click()" style="border: 1px dashed var(--orange-border, rgba(255, 85, 0, 0.4)); background: rgba(255, 85, 0, 0.04); border-radius: 6px; padding: 18px 16px; text-align: center; cursor: pointer; transition: all 0.2s ease;">
+                  <input type="file" id="cf-file-input" style="display: none;" accept=".pdf,.doc,.docx,.xls,.xlsx,.png,.jpg,.jpeg" onchange="handleFileSelect(this)">
+                  <div id="file-upload-prompt" style="display: flex; flex-direction: column; align-items: center; gap: 6px;">
+                    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+                    <span style="font-size: 0.88rem; color: #FFFFFF; font-weight: 500;">Click to upload equipment list / file</span>
+                    <span style="font-size: 0.75rem; color: rgba(255,255,255,0.45);">PDF, Excel, Word, or Image files (up to 15 MB)</span>
+                  </div>
+                  <div id="file-upload-preview" style="display: none; align-items: center; justify-content: space-between; background: rgba(255,255,255,0.06); padding: 8px 12px; border-radius: 4px; border: 1px solid var(--orange-border);">
+                    <div style="display: flex; align-items: center; gap: 8px; overflow: hidden;">
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline></svg>
+                      <span id="file-upload-name" style="font-size: 0.85rem; color: #FFFFFF; text-overflow: ellipsis; overflow: hidden; white-space: nowrap;"></span>
+                    </div>
+                    <button type="button" onclick="removeFile(event)" style="background: none; border: none; color: rgba(255,255,255,0.6); cursor: pointer; padding: 4px;" title="Remove file">
+                      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Single Primary Email Application Submit Button -->
+              <button type="submit" class="cform-submit-btn" id="cf-submit-btn" style="width: 100%; margin-top: 1.25rem; background: linear-gradient(135deg, var(--orange-primary) 0%, var(--orange-highlight) 100%); border: 1px solid var(--orange-highlight); display: flex; align-items: center; justify-content: center; gap: 10px; padding: 14px 18px; border-radius: 6px; font-weight: 600; font-size: 0.95rem; cursor: pointer; color: #FFFFFF; box-shadow: 0 4px 16px var(--orange-glow); font-family: 'Montserrat', sans-serif; letter-spacing: 0.03em;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                Send Application to enquiry@revaphoenix.com
+              </button>
+              <p class="cform-email-hint" style="margin-top: 8px; text-align: center;">Applications are sent directly to <a href="mailto:enquiry@revaphoenix.com" style="color: var(--orange-primary); font-weight: 600;">enquiry@revaphoenix.com</a></p>
+            </form>
+
+          </div>
+        </div>
+
+        <!-- Direct Contact Info Card -->
+        <div style="background:rgba(255,255,255,0.025);border:1px solid rgba(255,255,255,0.07);border-radius:12px;padding:1.25rem;margin-top:1rem;">
+          <p style="font-size:0.8rem;color:rgba(255,255,255,0.5);margin:0 0 8px;font-family:'Inter',sans-serif;">Prefer to connect directly?</p>
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <a href="mailto:enquiry@revaphoenix.com" style="display:flex;align-items:center;gap:8px;color:var(--orange-primary);font-size:0.88rem;font-weight:600;font-family:'Inter',sans-serif;text-decoration:none;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              Email: enquiry@revaphoenix.com
+            </a>
+            <div style="display:flex;align-items:center;gap:8px;color:rgba(255,255,255,0.6);font-size:0.82rem;font-family:'Inter',sans-serif;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 13.5 19.79 19.79 0 0 1 1.61 4.9 2 2 0 0 1 3.58 2.72h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 10.1a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              Lab Complex: +91 98406 72352
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY JOIN REVA PHOENIX -->
+  <section class="careers-why-section">
+    <div class="careers-why-inner">
+      <div style="text-align:center;margin-bottom:1rem;">
+        <div class="careers-section-label" style="justify-content:center;">Why Reva Phoenix</div>
+        <h2 class="careers-section-title" style="text-align:center;">A Career Worth Building</h2>
+        <p class="careers-section-desc" style="text-align:center;max-width:600px;margin:0 auto;">Join a world-class environment where calibration science meets a culture of continuous learning, integrity and growth.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg></div>
+          <h4>NABL Accredited Organization</h4>
+          <p>Work in India's largest ISO/IEC 17025:2017 NABL accredited laboratory with global traceability to NPL &amp; NIST. Certification number CC-4178.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg></div>
+          <h4>Learning &amp; Growth Culture</h4>
+          <p>Continuous training, job rotation across 35 lab disciplines, and mentorship from seasoned metrologists. Set your technical career fundamentals right.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></div>
+          <h4>Global Exposure</h4>
+          <p>Serve customers across 50+ countries including UAE, Saudi Arabia, Singapore, USA &amp; Germany. Work across Oil &amp; Gas, Pharma, Aerospace sectors.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2"><line x1="12" y1="1" x2="12" y2="23"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg></div>
+          <h4>Competitive Compensation</h4>
+          <p>Competitive fixed salaries, performance-based monthly incentives, and structured career progression paths aligned to your skills and aspirations.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg></div>
+          <h4>World-Class Infrastructure</h4>
+          <p>8,000 sq. ft. purpose-built lab complex in Chennai with 35 integrated, environmentally controlled metrological laboratory suites.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-icon"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div>
+          <h4>Professional &amp; Ethical Culture</h4>
+          <p>Dedicated team of professionals with a long-standing reputation for integrity, technical excellence and customer-first values since 1999.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- ========================================================================
+       PREMIUM METROLOGY FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="footer-watermark">REVA PHOENIX</div>
+    
+    <div class="container">
+      <!-- Fast Metrology Connect Strip -->
+      <div class="footer-top-connect-bar">
+        <div class="footer-top-status">
+          <span class="footer-live-dot"></span>
+          <div>
+            <div style="font-size: 0.88rem; font-weight: 700; color: #FFFFFF;">35+ Laboratories Active &amp; Operational</div>
+            <div style="font-size: 0.75rem; color: var(--text-muted);">Real-Time Metrology Desk • Direct Fast-Track Dispatch</div>
+          </div>
+        </div>
+        <div class="footer-top-actions">
+          <a href="https://wa.me/919940564261?text=Hello%20Reva%20Phoenix%2C%20I%20would%20like%20to%20inquire%20about%20calibration%20services." target="_blank" rel="noopener noreferrer" class="footer-fast-btn whatsapp" title="Chat with Owner on WhatsApp">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" style="flex-shrink: 0;"><path fill="#25D366" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.63C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.04 14.69 2 12.04 2Z"/><path fill="#FFFFFF" d="M17.53 14.37C17.23 14.22 15.76 13.5 15.49 13.4C15.22 13.3 15.02 13.25 14.82 13.55C14.62 13.85 14.05 14.52 13.88 14.72C13.71 14.92 13.53 14.94 13.23 14.8C12.93 14.65 11.97 14.34 10.84 13.33C9.95 12.54 9.35 11.57 9.18 11.27C9.01 10.97 9.16 10.81 9.31 10.66C9.45 10.53 9.61 10.31 9.76 10.14C9.91 9.97 9.96 9.85 10.06 9.65C10.16 9.45 10.11 9.28 10.04 9.13C9.96 8.98 9.38 7.55 9.14 6.95C8.9 6.37 8.66 6.45 8.48 6.44L7.91 6.43C7.71 6.43 7.39 6.5 7.12 6.8C6.85 7.1 6.09 7.82 6.09 9.28C6.09 10.74 7.15 12.15 7.3 12.35C7.45 12.55 9.4 15.55 12.38 16.84C13.09 17.15 13.65 17.33 14.08 17.47C14.79 17.7 15.44 17.67 15.95 17.59C16.52 17.51 17.71 16.87 17.96 16.17C18.21 15.48 18.21 14.88 18.13 14.76C18.06 14.63 17.83 14.52 17.53 14.37Z"/></svg>
+            WhatsApp Fast Dispatch
+          </a>
+          <button type="button" class="footer-fast-btn quote" onclick="if(window.openQuoteModal) openQuoteModal();" title="Open RFQ / Quotation Form">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+            Request Calibration Quote
+          </button>
+        </div>
+      </div>
+
+      <!-- Main 4-Column Grid -->
+      <div class="footer-columns-grid">
+        <!-- Col 1: Brand & Credentials -->
+        <div class="footer-brand-col">
+          <div style="display: flex; align-items: center; gap: 14px; margin-bottom: 1.2rem; flex-wrap: wrap;">
+            <img src="assets/images/reva-phoenix-brand-logo.png" alt="Reva Phoenix Calibration &amp; Consultancy" style="height: 60px; width: auto; object-fit: contain;">
+            <div class="brand-tagline" aria-label="Precision Measured. Quality Assured.">
+              <span class="laser-beacon" aria-hidden="true">
+                <span class="beacon-pulse"></span>
+                <span class="beacon-core"></span>
+              </span>
+              <span class="tagline-lead">Precision Measured.</span>
+              <span class="tagline-divider" aria-hidden="true">•</span>
+              <span class="tagline-sub">Quality Assured.</span>
+            </div>
+          </div>
+
+          <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 1.25rem; line-height: 1.6;">
+            <strong>Reva Calibration Laboratories</strong> is India's Largest Integrated NABL Accredited ISO/IEC 17025: 2017 Calibration Facility, housing 35 specialized metrology laboratories under one roof.
+          </p>
+
+          <div class="footer-badges-cluster">
+            <div class="footer-badge-pill-item" title="NABL Certificate CC-4178">
+              <img src="assets/images/nabl-transparent-white.png" alt="NABL CC-4178" style="height: 28px; width: auto; object-fit: contain;">
+              <div>
+                <div style="font-family: var(--font-technical); font-size: 0.72rem; font-weight: 700; color: #FFF;">NABL CC-4178</div>
+                <div style="font-size: 0.65rem; color: var(--text-muted);">ISO/IEC 17025: 2017</div>
+              </div>
+            </div>
+            <div class="footer-badge-pill-item" title="25+ Years of Metrology Excellence">
+              <img src="assets/images/25-years-badge.png" alt="25 Years Badge" style="height: 28px; width: auto; object-fit: contain;">
+              <div>
+                <div style="font-family: var(--font-technical); font-size: 0.72rem; font-weight: 700; color: #FFF;">25+ YEARS</div>
+                <div style="font-size: 0.65rem; color: var(--text-muted);">Metrology Excellence</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div class="footer-social-icons" aria-label="Follow Reva Phoenix on Social Media">
+            <a href="https://www.instagram.com/revaphoenix/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Instagram" title="Instagram">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://www.facebook.com/revaphoenix/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Facebook" title="Facebook">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://www.youtube.com/@revaphoenix" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="YouTube" title="YouTube">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+            </a>
+            <a href="https://twitter.com/revaphoenix" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="Twitter / X" title="Twitter / X">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg>
+            </a>
+            <a href="https://www.linkedin.com/company/reva-phoenix-labs-&-consultants-pvt-ltd/" target="_blank" rel="noopener noreferrer" class="footer-social-btn" aria-label="LinkedIn" title="LinkedIn">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Col 2: Services / Disciplines -->
+        <div class="footer-links-col">
+          <div class="footer-col-title">Calibration Scopes</div>
+          <ul class="footer-links-list">
+            <li><a href="services.html#equipment-catalog" class="footer-link"><span class="footer-num">01</span> Equipment Supply (138)</a></li>
+            <li><a href="services.html#third-party" class="footer-link"><span class="footer-num">02</span> Third Party Inspection</a></li>
+            <li><a href="services.html#cnc-calibration" class="footer-link"><span class="footer-num">03</span> CNC Renishaw Metrology</a></li>
+            <li><a href="services.html#lims-software" class="footer-link"><span class="footer-num">04</span> LIMS Lab Software</a></li>
+            <li><a href="services.html#non-accredited" class="footer-link"><span class="footer-num">05</span> Traceable Scopes (31)</a></li>
+            <li><a href="services.html#api-gauges" class="footer-link"><span class="footer-num">06</span> API Thread Gauge Calibration</a></li>
+            <li><a href="services.html#turnkey-amc" class="footer-link"><span class="footer-num">07</span> Industrial Turnkey AMC</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Quick Links & Company -->
+        <div class="footer-links-col">
+          <div class="footer-col-title">Quick Portals</div>
+          <ul class="footer-links-list">
+            <li><a href="about-us.html#overview" class="footer-link"><span class="footer-num">»</span> About Reva Phoenix</a></li>
+            <li><a href="index.html#laboratories" class="footer-link"><span class="footer-num">»</span> 35+ Integrated Labs</a></li>
+            <li><a href="gallery.html" class="footer-link"><span class="footer-num">»</span> Metrology &amp; Lab Gallery</a></li>
+            <li><a href="careers.html" class="footer-link"><span class="footer-num">»</span> Careers &amp; Openings</a></li>
+            <li><a href="about-us.html#quality-policy" class="footer-link"><span class="footer-num">»</span> ISO/IEC 17025 Quality Policy</a></li>
+            <li><a href="about-us.html#message-from-md" class="footer-link"><span class="footer-num">»</span> Leadership &amp; MD Desk</a></li>
+            <li><a href="admin.html" class="footer-link"><span class="footer-num">»</span> Staff CMS Admin Login</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Metrology Headquarters -->
+        <div class="footer-hq-col">
+          <div class="footer-col-title">Headquarters</div>
+          <div class="footer-hq-card">
+            <div class="footer-contact-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--orange-primary); flex-shrink: 0; margin-top: 3px;"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <div>
+                <strong>Reva Phoenix Complex</strong><br>
+                No. 14, 4th Street, Rajarajeswari Nagar, Madipakkam, Chennai – 600 091, Tamil Nadu, India.
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--orange-primary); flex-shrink: 0;"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <div>Phone: <a href="tel:+919840672352">+91 98406 72352</a></div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" style="flex-shrink: 0;"><path fill="#25D366" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91C2.13 13.66 2.59 15.36 3.45 16.86L2.05 22L7.3 20.63C8.75 21.41 10.38 21.83 12.04 21.83C17.5 21.83 21.95 17.38 21.95 11.92C21.95 9.27 20.92 6.78 19.05 4.91C17.18 3.04 14.69 2 12.04 2Z"/><path fill="#FFFFFF" d="M17.53 14.37C17.23 14.22 15.76 13.5 15.49 13.4C15.22 13.3 15.02 13.25 14.82 13.55C14.62 13.85 14.05 14.52 13.88 14.72C13.71 14.92 13.53 14.94 13.23 14.8C12.93 14.65 11.97 14.34 10.84 13.33C9.95 12.54 9.35 11.57 9.18 11.27C9.01 10.97 9.16 10.81 9.31 10.66C9.45 10.53 9.61 10.31 9.76 10.14C9.91 9.97 9.96 9.85 10.06 9.65C10.16 9.45 10.11 9.28 10.04 9.13C9.96 8.98 9.38 7.55 9.14 6.95C8.9 6.37 8.66 6.45 8.48 6.44L7.91 6.43C7.71 6.43 7.39 6.5 7.12 6.8C6.85 7.1 6.09 7.82 6.09 9.28C6.09 10.74 7.15 12.15 7.3 12.35C7.45 12.55 9.4 15.55 12.38 16.84C13.09 17.15 13.65 17.33 14.08 17.47C14.79 17.7 15.44 17.67 15.95 17.59C16.52 17.51 17.71 16.87 17.96 16.17C18.21 15.48 18.21 14.88 18.13 14.76C18.06 14.63 17.83 14.52 17.53 14.37Z"/></svg>
+              <div>WhatsApp: <a href="https://wa.me/919940564261" target="_blank" rel="noopener noreferrer" style="color: #25d366;">+91 99405 64261</a></div>
+            </div>
+
+            <div class="footer-contact-row" style="margin-bottom: 14px;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="color: var(--orange-primary); flex-shrink: 0;"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <div>Email: <a href="mailto:enquiry@revaphoenix.com">enquiry@revaphoenix.com</a></div>
+            </div>
+
+            <a href="https://revacalibration.com/" target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; text-align: center; justify-content: center; padding: 7px 12px; font-size: 0.76rem;">
+              revacalibration.com
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Trust & Certification Credentials Strip -->
+      <div class="footer-trust-strip">
+        <div class="footer-trust-item">
+          <div class="footer-trust-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+          </div>
+          <div>
+            <div class="footer-trust-title">NABL CC-4178</div>
+            <div class="footer-trust-sub">ISO/IEC 17025:2017 Accredited</div>
+          </div>
+        </div>
+
+        <div class="footer-trust-item">
+          <div class="footer-trust-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+          </div>
+          <div>
+            <div class="footer-trust-title">ILAC MRA Signatory</div>
+            <div class="footer-trust-sub">Global Mutual Recognition</div>
+          </div>
+        </div>
+
+        <div class="footer-trust-item">
+          <div class="footer-trust-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          </div>
+          <div>
+            <div class="footer-trust-title">5S QCFI &amp; AOTS</div>
+            <div class="footer-trust-sub">Certified Workplace Benchmark</div>
+          </div>
+        </div>
+
+        <div class="footer-trust-item">
+          <div class="footer-trust-icon">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div>
+            <div class="footer-trust-title">2,500+ Clients</div>
+            <div class="footer-trust-sub">India, Asia, Middle East &amp; US</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 Reva Phoenix Labs &amp; Consultants Pvt. Ltd. All Rights Reserved.
+        </div>
+        <div style="display: flex; gap: 16px; align-items: center; flex-wrap: wrap;">
+          <span>GSTIN: 33AAFCR4885G1Z6</span>
+          <span>•</span>
+          <span>SAC: 998346</span>
+          <span>•</span>
+          <a href="#top" class="footer-back-top-btn" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;">
+            Back to Top ↑
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       QUOTATION / RFQ MODAL
+       ======================================================================== -->
+  <div class="quote-modal" id="quote-modal" data-lenis-prevent="true" data-lenis-prevent-wheel="true" data-lenis-prevent-touch="true" role="dialog" aria-modal="true" aria-label="Request A Quote">
+    <div class="quote-modal-dialog corner-accents" data-lenis-prevent="true" data-lenis-prevent-wheel="true" data-lenis-prevent-touch="true">
+      <button class="quote-modal-close" id="quote-modal-close" aria-label="Close modal">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <div style="font-family: var(--font-technical); font-size: 0.8rem; letter-spacing: 0.15em; color: var(--orange-primary); text-transform: uppercase; margin-bottom: 6px;">
+        Rapid Quotation &amp; Feasibility Scoping
+      </div>
+      <h3 style="font-family: var(--font-display); font-size: 1.6rem; color: #FFFFFF; margin-bottom: 8px;">
+        Request Calibration Quotation
+      </h3>
+      <p id="quote-modal-subtitle" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">
+        Submit your calibration details directly via Owner WhatsApp (<strong style="color: #25D366;">+91 99405 64261</strong>) or Email (<strong style="color: var(--orange-primary);">enquiry@revaphoenix.com</strong>) for instant review and pricing.
+      </p>
+
+      <form id="quote-form">
+        <div class="form-group-row">
+          <div class="form-field">
+            <label for="quote-name" class="form-label">Full Name *</label>
+            <input type="text" id="quote-name" class="form-input" placeholder="Your Name" required>
+          </div>
+          <div class="form-field">
+            <label for="quote-company" class="form-label">Company / Organization *</label>
+            <input type="text" id="quote-company" class="form-input" placeholder="Organization Name" required>
+          </div>
+        </div>
+
+        <div class="form-group-row">
+          <div class="form-field">
+            <label for="quote-email" class="form-label">Email Address *</label>
+            <input type="email" id="quote-email" class="form-input" placeholder="name@company.com" required>
+          </div>
+          <div class="form-field">
+            <label for="quote-phone" class="form-label">Mobile / WhatsApp *</label>
+            <input type="tel" id="quote-phone" class="form-input" placeholder="+91 98XXX XXXXX" required>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn-primary" id="quote-submit-btn" style="width: 100%; margin-top: 0.75rem; background: #25D366; border-color: #25D366; color: #FFFFFF; font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 10px; box-shadow: 0 0 22px rgba(37, 211, 102, 0.35);">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Submit Details &amp; Send to Owner WhatsApp
+        </button>
+        <span style="display: block; text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 6px;">
+          Direct WhatsApp dispatch to Owner: <strong style="color: #25D366;">+91 99405 64261</strong>
+        </span>
+
+        <!-- Divider -->
+        <div style="display: flex; align-items: center; gap: 10px; margin: 14px 0 10px;">
+          <div style="flex: 1; height: 1px; background: rgba(255,255,255,0.08);"></div>
+          <span style="font-size: 0.72rem; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.05em;">OR REQUEST VIA EMAIL</span>
+          <div style="flex: 1; height: 1px; background: rgba(255,255,255,0.08);"></div>
+        </div>
+
+        <!-- Submit to Email Button -->
+        <button type="button" class="btn btn-outline quote-submit-email-btn" id="quote-submit-email-btn" style="width: 100%; border-color: var(--orange-border); color: var(--orange-primary); background: var(--orange-subtle); font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 18px; border-radius: var(--radius-sm, 6px); font-size: 0.88rem; cursor: pointer; transition: all 0.2s ease;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          Submit RFQ to enquiry@revaphoenix.com
+        </button>
+        <span style="display: block; text-align: center; font-size: 0.75rem; color: var(--text-muted); margin-top: 6px;">
+          Direct Email dispatch: <strong style="color: var(--orange-primary);"><a href="mailto:enquiry@revaphoenix.com" style="color: inherit; text-decoration: none;">enquiry@revaphoenix.com</a></strong>
+        </span>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notice -->
+  <div class="toast-notice" id="toast-notice" role="status" aria-live="polite">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+    <span id="toast-message">Notification message</span>
+  </div>
+
+  <script src="js/enquiry-modal.js?v=2.1"></script>
+  <script>
+    const OWNER_WA_PHONE = '919940564261';
+    let selectedFile = null;
+
+    function toggleJob(id, title) {
+      var card = document.getElementById(id);
+      var isOpen = card.classList.contains('open');
+      document.querySelectorAll('.job-card').forEach(function(c) { c.classList.remove('open'); });
+      if (!isOpen) { card.classList.add('open'); }
+    }
+
+    document.querySelectorAll('.job-card-header').forEach(function(h) {
+      h.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); h.click(); }
+      });
+    });
+
+    function prefillJob(title) {
+      var sel = document.getElementById('cf-position');
+      sel.value = title;
+      document.querySelector('.careers-form-panel').scrollIntoView({ behavior: 'smooth', block: 'start' });
+      var card = document.getElementById('careers-form-card');
+      card.style.boxShadow = '0 0 0 2px var(--orange-primary), 0 20px 60px var(--orange-glow)';
+      setTimeout(function() { card.style.boxShadow = ''; }, 1800);
+    }
+
+    function handleFileSelect(input) {
+      if (input.files && input.files[0]) {
+        var file = input.files[0];
+        if (file.size > 15 * 1024 * 1024) { 
+          showToast('File too large. Max 15 MB.'); 
+          input.value = ''; 
+          return; 
+        }
+        selectedFile = file;
+        document.getElementById('file-upload-name').textContent = file.name;
+        document.getElementById('file-upload-prompt').style.display = 'none';
+        document.getElementById('file-upload-preview').style.display = 'flex';
+      }
+    }
+
+    function removeFile(e) {
+      if (e) e.stopPropagation();
+      document.getElementById('cf-file-input').value = '';
+      document.getElementById('file-upload-name').textContent = '';
+      document.getElementById('file-upload-preview').style.display = 'none';
+      document.getElementById('file-upload-prompt').style.display = 'flex';
+      selectedFile = null;
+    }
+
+    function validateApplicationForm() {
+      var name = document.getElementById('cf-name').value.trim();
+      var email = document.getElementById('cf-email').value.trim();
+      var phone = document.getElementById('cf-phone').value.trim();
+      var pos = document.getElementById('cf-position').value;
+      if (!name) { showToast('Please enter your full name.'); return null; }
+      if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) { showToast('Please enter a valid email address.'); return null; }
+      if (!phone) { showToast('Please enter your contact phone number.'); return null; }
+      if (!pos) { showToast('Please select the position you are applying for.'); return null; }
+      var exp = document.getElementById('cf-experience').value;
+      var msg = document.getElementById('cf-message').value.trim();
+      return { name: name, email: email, phone: phone, pos: pos, exp: exp, msg: msg };
+    }
+
+    // Email Application Submission to enquiry@revaphoenix.com
+    document.getElementById('careers-application-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      var data = validateApplicationForm();
+      if (!data) return;
+
+      var btn = document.getElementById('cf-submit-btn');
+      btn.disabled = true;
+      btn.textContent = 'Opening email client...';
+
+      var subject = encodeURIComponent('Job Application: ' + data.pos + ' | ' + data.name);
+      var body = encodeURIComponent(
+        'JOB APPLICATION - REVA PHOENIX LABS & CONSULTANTS\n' +
+        '==================================================\n\n' +
+        'Candidate Name : ' + data.name + '\n' +
+        'Position Applied: ' + data.pos + '\n' +
+        'Email Address  : ' + data.email + '\n' +
+        'Mobile Number  : ' + data.phone + '\n' +
+        'Experience     : ' + data.exp + '\n\n' +
+        'COVER NOTE / INTRO:\n' +
+        '-------------------\n' +
+        (data.msg || 'No cover note provided.') + '\n\n' +
+        (selectedFile ? 'ATTACHED RESUME: ' + selectedFile.name + '\n(Please attach the resume file to this email before sending)\n\n' : '') +
+        '--------------------------------------------------\n' +
+        'Submitted via: Reva Calibration Careers Page\n' +
+        'Website: https://revacalibration.com/careers/'
+      );
+
+      window.location.href = 'mailto:enquiry@revaphoenix.com?subject=' + subject + '&body=' + body;
+
+      setTimeout(function() {
+        document.getElementById('careers-application-form').style.display = 'none';
+        document.getElementById('success-heading').textContent = 'Application Ready!';
+        document.getElementById('success-desc').innerHTML = 'Your email client has opened with your application pre-filled for <strong>enquiry@revaphoenix.com</strong>. Please click send to complete.';
+        document.getElementById('cform-success').classList.add('visible');
+        showToast('Application ready! Please send the email that opened.');
+      }, 1000);
+    });
+
+    function resetForm() {
+      document.getElementById('careers-application-form').reset();
+      document.getElementById('careers-application-form').style.display = '';
+      document.getElementById('cform-success').classList.remove('visible');
+      removeFile();
+      var btn = document.getElementById('cf-submit-btn');
+      btn.disabled = false;
+      btn.innerHTML = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg> Send Application to enquiry@revaphoenix.com';
+    }
+
+    function showToast(msg) {
+      var t = document.getElementById('toast-notice');
+      var s = document.getElementById('toast-message');
+      if (!t || !s) return;
+      s.textContent = msg;
+      t.classList.add('visible');
+      setTimeout(function() { t.classList.remove('visible'); }, 3500);
+    }
+
+    // Mobile nav drawer toggle
+    const mobileToggle = document.getElementById('mobile-nav-toggle');
+    const mobileClose = document.getElementById('mobile-drawer-close');
+    const mobileOverlay = document.getElementById('mobile-drawer-overlay');
+    const mobileDrawer = document.getElementById('mobile-nav-drawer');
+    if (mobileToggle && mobileDrawer && mobileOverlay) {
+      mobileToggle.addEventListener('click', () => {
+        mobileDrawer.classList.add('active');
+        mobileOverlay.classList.add('active');
+      });
+      [mobileClose, mobileOverlay].forEach(el => {
+        if (el) el.addEventListener('click', () => {
+          mobileDrawer.classList.remove('active');
+          mobileOverlay.classList.remove('active');
+        });
+      });
+    }
+  </script>
+</body>
+</html>

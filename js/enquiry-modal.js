@@ -130,14 +130,14 @@
     const subtitle = document.getElementById('quote-modal-subtitle');
     if (subtitle) {
       if (serviceName) {
-        subtitle.innerHTML = `Submit your specifications for <strong style="color:var(--orange-primary);">${serviceName}</strong> directly to the Owner WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>).`;
+        subtitle.innerHTML = `Submit your specifications for <strong style="color:var(--orange-primary);">${serviceName}</strong> via Owner WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
       } else {
-        subtitle.innerHTML = `Submit your calibration details directly to the Owner WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) for instant review and pricing.`;
+        subtitle.innerHTML = `Submit your calibration details directly via Owner WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>) for instant review and pricing.`;
       }
     }
 
     if (labData) {
-      const notesEl = document.getElementById('quote-notes');
+      const notesEl = document.getElementById('quote-notes') || document.getElementById('quote-message');
       if (notesEl && !notesEl.value && labData.scope) {
         notesEl.placeholder = `Requirements for ${labData.name}: e.g. ${labData.scope.substring(0, 90)}...`;
       }
@@ -160,77 +160,163 @@
     document.body.style.overflow = '';
   }
 
-  // Handle Quote Form Submit -> Dispatch to Owner WhatsApp (9940564261)
+  // Extract and validate quote form coordinates
+  function getQuoteFormData() {
+    const name = (document.getElementById('quote-name') || document.getElementById('quote-name-input'))?.value.trim() || '';
+    const company = (document.getElementById('quote-company') || document.getElementById('quote-company-input'))?.value.trim() || '';
+    const email = (document.getElementById('quote-email') || document.getElementById('quote-email-input'))?.value.trim() || '';
+    const phone = (document.getElementById('quote-phone') || document.getElementById('quote-phone-input'))?.value.trim() || '';
+    const serviceSelect = document.getElementById('quote-service-select');
+    const serviceInput = document.getElementById('quote-service-input');
+    const service = serviceSelect ? (serviceSelect.options[serviceSelect.selectedIndex]?.text || serviceSelect.value) : (serviceInput?.value.trim() || 'Specialized Calibration Service');
+    const modeRadio = document.querySelector('input[name="quote-mode"]:checked');
+    const mode = modeRadio ? modeRadio.value : 'Permanent Facility Lab';
+    const notesEl = document.getElementById('quote-notes') || document.getElementById('quote-message');
+    const message = notesEl ? notesEl.value.trim() : '';
+
+    if (!name || !email || !phone) {
+      showToast('Please fill in all mandatory contact coordinates (Name, Email, Phone).');
+      return null;
+    }
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      showToast('Please provide a valid email address.');
+      return null;
+    }
+
+    return { name, company, email, phone, service, mode, message };
+  }
+
+  // Dispatch Quote to Owner WhatsApp (9940564261)
+  function dispatchQuoteWhatsApp() {
+    const data = getQuoteFormData();
+    if (!data) return;
+
+    if (window.SupabaseDB && window.SupabaseDB.isConfigured()) {
+      try {
+        window.SupabaseDB.submitEnquiry({
+          name: data.name,
+          company: data.company,
+          email: data.email,
+          phone: data.phone,
+          message: `[Service: ${data.service}] [Mode: ${data.mode}] ${selectedQuoteFile ? '[Attached: ' + selectedQuoteFile.name + '] ' : ''}${data.message}`.trim()
+        });
+      } catch (err) {
+        console.warn('[Supabase] Enquiry dispatch warning:', err);
+      }
+    }
+
+    let waText = `*NEW CALIBRATION QUOTATION REQUEST*\n` +
+                `━━━━━━━━━━━━━━━━━━━━\n` +
+                `👤 *Client Name:* ${data.name}\n` +
+                (data.company ? `🏢 *Company / Org:* ${data.company}\n` : '') +
+                `📧 *Official Email:* ${data.email}\n` +
+                `📞 *Contact / WhatsApp:* ${data.phone}\n` +
+                `🔬 *Laboratory / Service:* ${data.service}\n` +
+                `📍 *Calibration Mode:* ${data.mode}\n`;
+
+    if (data.message) {
+      waText += `📝 *Scope Requirements & Notes:*\n${data.message}\n`;
+    }
+
+    if (selectedQuoteFile) {
+      waText += `📎 *Attached Scope Document:* ${selectedQuoteFile.name} (${formatFileSize(selectedQuoteFile.size)})\n` +
+                `_(Kindly send this document in our chat after clicking send)_\n`;
+    }
+
+    waText += `━━━━━━━━━━━━━━━━━━━━\n` +
+              `🌐 _Directed via Reva Phoenix Calibration Portal_`;
+
+    const waUrl = `https://api.whatsapp.com/send?phone=${OWNER_WHATSAPP_NUMBER}&text=${encodeURIComponent(waText)}`;
+
+    showToast(`Quotation registered! Opening Owner WhatsApp (+91 99405 64261)...`);
+    window.open(waUrl, '_blank');
+
+    closeQuoteModal();
+    if (quoteForm) quoteForm.reset();
+    const otherForm = document.getElementById('quote-modal-form');
+    if (otherForm) otherForm.reset();
+    setFile(null);
+  }
+
+  // Dispatch Quote to enquiry@revaphoenix.com via Email
+  function dispatchQuoteEmail() {
+    const data = getQuoteFormData();
+    if (!data) return;
+
+    if (window.SupabaseDB && window.SupabaseDB.isConfigured()) {
+      try {
+        window.SupabaseDB.submitEnquiry({
+          name: data.name,
+          company: data.company,
+          email: data.email,
+          phone: data.phone,
+          message: `[Email RFQ] [Service: ${data.service}] [Mode: ${data.mode}] ${selectedQuoteFile ? '[Attached: ' + selectedQuoteFile.name + '] ' : ''}${data.message}`.trim()
+        });
+      } catch (err) {
+        console.warn('[Supabase] Enquiry dispatch warning:', err);
+      }
+    }
+
+    const subject = `Calibration Quotation Request: ${data.service} | ${data.company || data.name}`;
+    let body = `CALIBRATION QUOTATION REQUEST (RFQ) - REVA PHOENIX\n` +
+               `====================================================\n\n` +
+               `Client Name     : ${data.name}\n` +
+               `Company / Org   : ${data.company || 'Not provided'}\n` +
+               `Official Email  : ${data.email}\n` +
+               `Mobile / Phone  : ${data.phone}\n` +
+               `Service / Lab   : ${data.service}\n` +
+               `Calibration Mode: ${data.mode}\n\n` +
+               `SCOPE REQUIREMENTS & NOTES:\n` +
+               `---------------------------\n` +
+               `${data.message || 'No additional scope notes provided.'}\n\n`;
+
+    if (selectedQuoteFile) {
+      body += `ATTACHED SCOPE DOCUMENT: ${selectedQuoteFile.name} (${formatFileSize(selectedQuoteFile.size)})\n` +
+              `(Please attach this document file to your email before sending)\n\n`;
+    }
+
+    body += `====================================================\n` +
+            `Submitted via: Reva Phoenix Calibration Portal (revacalibration.com)\n` +
+            `Direct Email: enquiry@revaphoenix.com\n` +
+            `Direct Owner WhatsApp: +91 99405 64261\n`;
+
+    const mailtoUrl = `mailto:enquiry@revaphoenix.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
+    showToast(`Opening email client for enquiry@revaphoenix.com...`);
+    window.location.href = mailtoUrl;
+
+    closeQuoteModal();
+    if (quoteForm) quoteForm.reset();
+    const otherForm = document.getElementById('quote-modal-form');
+    if (otherForm) otherForm.reset();
+    setFile(null);
+  }
+
+  // Handle Quote Form Submit -> Default to WhatsApp dispatch
   if (quoteForm) {
-    quoteForm.addEventListener('submit', async function (e) {
+    quoteForm.addEventListener('submit', function (e) {
       e.preventDefault();
-      const name = document.getElementById('quote-name').value.trim();
-      const company = document.getElementById('quote-company').value.trim();
-      const email = document.getElementById('quote-email').value.trim();
-      const phone = document.getElementById('quote-phone').value.trim();
-      const serviceSelect = document.getElementById('quote-service-select');
-      const service = serviceSelect ? (serviceSelect.options[serviceSelect.selectedIndex]?.text || serviceSelect.value) : '';
-      const modeRadio = document.querySelector('input[name="quote-mode"]:checked');
-      const mode = modeRadio ? modeRadio.value : 'Permanent Facility Lab';
-      const notesEl = document.getElementById('quote-notes');
-      const message = notesEl ? notesEl.value.trim() : '';
-
-      if (!name || !email || !phone) {
-        showToast('Please fill in all mandatory contact coordinates (Name, Email, Phone).');
-        return;
-      }
-
-      // Submit to Supabase DB if configured
-      if (window.SupabaseDB && window.SupabaseDB.isConfigured()) {
-        try {
-          await window.SupabaseDB.submitEnquiry({
-            name,
-            company,
-            email,
-            phone,
-            message: `[Service: ${service}] [Mode: ${mode}] ${selectedQuoteFile ? '[Attached: ' + selectedQuoteFile.name + '] ' : ''}${message}`.trim()
-          });
-        } catch (err) {
-          console.warn('[Supabase] Enquiry dispatch warning:', err);
-        }
-      }
-
-      // Format WhatsApp Message to Owner (9940564261)
-      let waText = `*NEW CALIBRATION QUOTATION REQUEST*\n` +
-                  `━━━━━━━━━━━━━━━━━━━━\n` +
-                  `👤 *Client Name:* ${name}\n` +
-                  `🏢 *Company / Org:* ${company}\n` +
-                  `📧 *Official Email:* ${email}\n` +
-                  `📞 *Contact / WhatsApp:* ${phone}\n` +
-                  `🔬 *Laboratory / Service:* ${service}\n` +
-                  `📍 *Calibration Mode:* ${mode}\n`;
-
-      if (message) {
-        waText += `📝 *Scope Requirements & Notes:*\n${message}\n`;
-      }
-
-      if (selectedQuoteFile) {
-        waText += `📎 *Attached Scope Document:* ${selectedQuoteFile.name} (${formatFileSize(selectedQuoteFile.size)})\n` +
-                  `_(Kindly send this document in our chat after clicking send)_\n`;
-      }
-
-      waText += `━━━━━━━━━━━━━━━━━━━━\n` +
-                `🌐 _Directed via Reva Phoenix Calibration Portal_`;
-
-      const waUrl = `https://api.whatsapp.com/send?phone=${OWNER_WHATSAPP_NUMBER}&text=${encodeURIComponent(waText)}`;
-
-      // Feedback to client
-      showToast(`Quotation registered! Opening Owner WhatsApp (+91 99405 64261)...`);
-
-      // Open Owner WhatsApp in new window/tab
-      window.open(waUrl, '_blank');
-
-      // Reset and close
-      closeQuoteModal();
-      quoteForm.reset();
-      setFile(null);
+      dispatchQuoteWhatsApp();
     });
   }
+
+  // Handle Quote Modal Form in Gallery (if present)
+  const quoteModalForm = document.getElementById('quote-modal-form');
+  if (quoteModalForm) {
+    quoteModalForm.addEventListener('submit', function (e) {
+      e.preventDefault();
+      dispatchQuoteWhatsApp();
+    });
+  }
+
+  // Delegated Email Button Click inside Quote Modal
+  document.addEventListener('click', function (e) {
+    const emailBtn = e.target.closest('#quote-submit-email-btn, .quote-submit-email-btn');
+    if (emailBtn) {
+      e.preventDefault();
+      dispatchQuoteEmail();
+    }
+  });
 
   // Handle Inline Contact Form Submit -> Also route to Owner WhatsApp (9940564261)
   if (inlineContactForm) {

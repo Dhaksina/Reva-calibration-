@@ -127,7 +127,13 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         if (sufEl && m.suffix) sufEl.textContent = m.suffix;
         if (lblEl && m.label) lblEl.textContent = m.label;
-        if (subEl && m.sub) subEl.textContent = m.sub;
+        if (subEl) {
+          if (id === 2) {
+            subEl.textContent = 'Across India, Middle East, Asia & US';
+          } else if (m.sub) {
+            subEl.textContent = m.sub;
+          }
+        }
       });
     }
 
