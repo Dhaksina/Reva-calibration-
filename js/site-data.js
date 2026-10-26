@@ -20,7 +20,7 @@
 
   let inMemoryDb = null;
   let isFetching = false;
-  const CURRENT_APP_VERSION = '8.0';
+  const CURRENT_APP_VERSION = '9.0';
 
   // Load from local cache synchronously on script evaluation
   function getCachedDatabase() {
@@ -398,7 +398,8 @@
         { label: "Portfolio", href: "#portfolio", order: 6, enabled: true },
         { label: "Gallery", href: "#gallery", order: 7, enabled: true },
         { label: "Downloads", href: "#resources", order: 8, enabled: true },
-        { label: "Contact", href: "#contact", order: 9, enabled: true }
+        { label: "Careers", href: "careers.html", order: 9, enabled: true },
+        { label: "Contact", href: "#contact", order: 10, enabled: true }
       ];
     },
 

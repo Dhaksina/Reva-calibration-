@@ -863,16 +863,43 @@
 /* 9. INDUSTRY WE SERVE SECTION (#industry-we-serve) */
 .industry-banner-wrap {
   width: 100%;
-  border-radius: var(--radius-sm);
+  max-height: 440px;
+  border-radius: 12px;
   overflow: hidden;
   margin-bottom: 36px;
-  border: 1px solid var(--border-graphite);
+  border: 1px solid rgba(255, 107, 0, 0.3);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5), 0 0 35px rgba(255, 107, 0, 0.1);
+  position: relative;
+  background: var(--bg-surface-elevated, #10141a);
 }
 
 .industry-banner-img {
   width: 100%;
-  height: auto;
+  height: 440px;
   display: block;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+@media (max-width: 991px) {
+  .industry-banner-wrap,
+  .industry-banner-img {
+    height: 320px;
+    max-height: 320px;
+  }
+}
+
+@media (max-width: 640px) {
+  .industry-banner-wrap,
+  .industry-banner-img {
+    height: 220px;
+    max-height: 220px;
+  }
+}
+
+.industry-banner-wrap:hover .industry-banner-img {
+  transform: scale(1.02);
 }
 
 .industry-filter-bar {
