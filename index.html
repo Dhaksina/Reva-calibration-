@@ -55,7 +55,7 @@
   <!-- Stylesheets -->
   <link rel="stylesheet" href="css/design-system.css?v=19.0">
   <link rel="stylesheet" href="css/components.css?v=25.0">
-  <link rel="stylesheet" href="css/sections.css?v=27.0">
+  <link rel="stylesheet" href="css/sections.css?v=29.0">
   <link rel="stylesheet" href="css/responsive.css?v=25.0">
 </head>
 <body>
@@ -123,6 +123,7 @@
           <li class="nav-item"><a href="#industries" class="nav-link">Industries</a></li>
           <li class="nav-item"><a href="gallery.html" class="nav-link">Gallery</a></li>
           <li class="nav-item"><a href="#resources" class="nav-link">Downloads</a></li>
+          <li class="nav-item"><a href="careers.html" class="nav-link">Careers</a></li>
           <li class="nav-item"><a href="#contact" class="nav-link">Contact Us</a></li>
         </ul>
       </nav>
@@ -194,6 +195,7 @@
         <li><a href="#industries" class="mobile-drawer-link">Industries We Serve</a></li>
         <li><a href="gallery.html" class="mobile-drawer-link" style="color: var(--orange-primary); font-weight: 600;">Corporate Gallery (63 Photos) &rarr;</a></li>
         <li><a href="#resources" class="mobile-drawer-link">Scope Charts &amp; Downloads</a></li>
+        <li><a href="careers.html" class="mobile-drawer-link" style="color: var(--orange-primary); font-weight: 600;">Careers &rarr;</a></li>
         <li><a href="#contact" class="mobile-drawer-link">Contact Us</a></li>
       </ul>
     </div>
@@ -442,7 +444,7 @@
         </div>
 
         <!-- Right: Reva Phoenix Complex Building Photo -->
-        <div class="about-visual-card about-building-card corner-accents" data-gallery-src="assets/images/building-office.jpg" data-gallery-title="Reva Phoenix Complex — Headquarters" data-gallery-sub="Madipakkam, Chennai, Tamil Nadu, India">
+        <div class="about-visual-card about-building-card corner-accents" onclick="openFacilityLightboxBySrc('assets/images/building-office.jpg', 'Reva Phoenix Complex — Headquarters', 'Madipakkam, Chennai, Tamil Nadu, India')" style="cursor: pointer;">
           <img src="assets/images/building-office.jpg" alt="Reva Phoenix Complex — Headquarters &amp; Calibration Facility" class="about-building-img">
           
           <!-- Floating Official NABL Stamp -->
@@ -956,7 +958,7 @@
               <img src="assets/images/clients/tefoc.png" alt="TeFoc Technology Focus" class="client-marquee-logo" loading="lazy">
             </div>
             <div class="client-logo-item">
-              <img src="assets/images/clients/acetech.png" alt="ACETECH" class="client-marquee-logo" loading="lazy">
+              <img src="assets/images/clients/acetech_clean.jpg" alt="ACETECH" class="client-marquee-logo" loading="lazy">
             </div>
           </div>
 
@@ -1032,7 +1034,7 @@
               <img src="assets/images/clients/tefoc.png" alt="TeFoc Technology Focus" class="client-marquee-logo" loading="lazy">
             </div>
             <div class="client-logo-item">
-              <img src="assets/images/clients/acetech.png" alt="ACETECH" class="client-marquee-logo" loading="lazy">
+              <img src="assets/images/clients/acetech_clean.jpg" alt="ACETECH" class="client-marquee-logo" loading="lazy">
             </div>
           </div>
         </div>
@@ -1057,58 +1059,73 @@
         </p>
       </div>
 
-      <div class="gallery-grid">
-        <!-- 1: Reva Phoenix Complex -->
-        <div class="gallery-card corner-accents" data-gallery-src="assets/images/building-office.jpg" data-gallery-title="Reva Phoenix Complex — Headquarters" data-gallery-sub="Madipakkam, Chennai, Tamil Nadu, India">
-          <img src="assets/images/building-office.jpg" alt="Reva Phoenix Office Building" class="gallery-card-img">
-          <div class="gallery-overlay">
-            <div class="gallery-caption-title">Reva Phoenix Complex</div>
-            <div class="gallery-caption-sub">Headquarters // Chennai, India</div>
+      <div class="gallery-grid-wrapper">
+        <!-- Line 1: 4 Images -->
+        <div class="gallery-grid gallery-grid-row-1" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 18px; margin-bottom: 18px;">
+          <!-- 1: Reva Phoenix Complex -->
+          <div class="gallery-card corner-accents" style="height: 240px;" data-gallery-src="assets/images/building-office.jpg" data-gallery-title="Reva Phoenix Complex — Headquarters" data-gallery-sub="Madipakkam, Chennai, Tamil Nadu, India">
+            <img src="assets/images/building-office.jpg" alt="Reva Phoenix Office Building" class="gallery-card-img">
+            <div class="gallery-overlay">
+              <div class="gallery-caption-title">Reva Phoenix Complex</div>
+              <div class="gallery-caption-sub">Headquarters // Chennai, India</div>
+            </div>
+          </div>
+
+          <!-- 2: 35 Integrated Labs Chart -->
+          <div class="gallery-card corner-accents" style="height: 240px;" data-gallery-src="assets/images/35-integrated-labs-reference.jpeg" data-gallery-title="35 Integrated Laboratories Reference Chart" data-gallery-sub="Authoritative NABL Scope Overview">
+            <img src="assets/images/35-integrated-labs-reference.jpeg" alt="35 Integrated Laboratories" class="gallery-card-img">
+            <div class="gallery-overlay">
+              <div class="gallery-caption-title">35 Integrated Labs Chart</div>
+              <div class="gallery-caption-sub">Authoritative NABL Scope Document</div>
+            </div>
+          </div>
+
+          <!-- 3: Dimension Calibration -->
+          <div class="gallery-card corner-accents" style="height: 240px;" data-gallery-src="assets/images/scope_dimension_calibration.jpg" data-gallery-title="Dimension - Basic &amp; Precision Calibration Scope" data-gallery-sub="Vernier, Micrometer, Gauge Blocks &amp; Angle Standards">
+            <img src="assets/images/scope_dimension_calibration.jpg" alt="Dimension Calibration Scope" class="gallery-card-img">
+            <div class="gallery-overlay">
+              <div class="gallery-caption-title">Dimension Calibration</div>
+              <div class="gallery-caption-sub">Basic &amp; Precision Metrology Scope</div>
+            </div>
+          </div>
+
+          <!-- 4: Electro-Technical & Torque Wrench Calibration -->
+          <div class="gallery-card corner-accents" style="height: 240px;" data-gallery-src="assets/images/scope_electrotech_torque_calibration.jpg" data-gallery-title="Electro-Technical &amp; Torque Wrench Calibration" data-gallery-sub="Electrical Standards &amp; ISO:6789 Torque Tools">
+            <img src="assets/images/scope_electrotech_torque_calibration.jpg" alt="Electro-Technical and Torque Calibration Scope" class="gallery-card-img">
+            <div class="gallery-overlay">
+              <div class="gallery-caption-title">Electro-Technical &amp; Torque</div>
+              <div class="gallery-caption-sub">Electrical Standards &amp; Torque Verification</div>
+            </div>
           </div>
         </div>
 
-        <!-- 2: 35 Integrated Labs Chart -->
-        <div class="gallery-card corner-accents" data-gallery-src="assets/images/35-integrated-labs-reference.jpeg" data-gallery-title="35 Integrated Laboratories Reference Chart" data-gallery-sub="Authoritative NABL Scope Overview">
-          <img src="assets/images/35-integrated-labs-reference.jpeg" alt="35 Integrated Laboratories" class="gallery-card-img">
-          <div class="gallery-overlay">
-            <div class="gallery-caption-title">35 Integrated Labs Chart</div>
-            <div class="gallery-caption-sub">Authoritative NABL Scope Document</div>
+        <!-- Line 2: 3 Images -->
+        <div class="gallery-grid gallery-grid-row-2" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 18px;">
+          <!-- 5: Mass & Volume Calibration -->
+          <div class="gallery-card corner-accents" style="height: 250px;" data-gallery-src="assets/images/scope_mass_volume_calibration.jpg" data-gallery-title="Mass &amp; Volume Calibration Scope" data-gallery-sub="E1 Class Weights, Balances &amp; Volumetric Glassware">
+            <img src="assets/images/scope_mass_volume_calibration.jpg" alt="Mass and Volume Calibration Scope" class="gallery-card-img">
+            <div class="gallery-overlay">
+              <div class="gallery-caption-title">Mass &amp; Volume Calibration</div>
+              <div class="gallery-caption-sub">E1 Weights, Balances &amp; Glassware</div>
+            </div>
           </div>
-        </div>
 
-        <!-- 3: 2nd Image - Dimension Calibration -->
-        <div class="gallery-card corner-accents" data-gallery-src="assets/images/scope_dimension_calibration.jpg" data-gallery-title="Dimension - Basic &amp; Precision Calibration Scope" data-gallery-sub="Vernier, Micrometer, Gauge Blocks &amp; Angle Standards">
-          <img src="assets/images/scope_dimension_calibration.jpg" alt="Dimension Calibration Scope" class="gallery-card-img">
-          <div class="gallery-overlay">
-            <div class="gallery-caption-title">Dimension Calibration</div>
-            <div class="gallery-caption-sub">Basic &amp; Precision Metrology Scope</div>
+          <!-- 6: Thermal & Hardness Machine Calibration -->
+          <div class="gallery-card corner-accents" style="height: 250px;" data-gallery-src="assets/images/scope_thermal_hardness_calibration.jpg" data-gallery-title="Thermal &amp; Hardness Machine Calibration Scope" data-gallery-sub="Temperature Metrology &amp; Hardness Testers">
+            <img src="assets/images/scope_thermal_hardness_calibration.jpg" alt="Thermal and Hardness Machine Calibration Scope" class="gallery-card-img">
+            <div class="gallery-overlay">
+              <div class="gallery-caption-title">Thermal &amp; Hardness Calibration</div>
+              <div class="gallery-caption-sub">Temperature Metrology &amp; Hardness Testers</div>
+            </div>
           </div>
-        </div>
 
-        <!-- 4: 3rd Image - Electro-Technical & Torque Wrench Calibration -->
-        <div class="gallery-card corner-accents" data-gallery-src="assets/images/scope_electrotech_torque_calibration.jpg" data-gallery-title="Electro-Technical &amp; Torque Wrench Calibration" data-gallery-sub="Electrical Standards &amp; ISO:6789 Torque Tools">
-          <img src="assets/images/scope_electrotech_torque_calibration.jpg" alt="Electro-Technical and Torque Calibration Scope" class="gallery-card-img">
-          <div class="gallery-overlay">
-            <div class="gallery-caption-title">Electro-Technical &amp; Torque</div>
-            <div class="gallery-caption-sub">Electrical Standards &amp; Torque Verification</div>
-          </div>
-        </div>
-
-        <!-- 5: 4th Image - Mass & Volume Calibration -->
-        <div class="gallery-card corner-accents" data-gallery-src="assets/images/scope_mass_volume_calibration.jpg" data-gallery-title="Mass &amp; Volume Calibration Scope" data-gallery-sub="E1 Class Weights, Balances &amp; Volumetric Glassware">
-          <img src="assets/images/scope_mass_volume_calibration.jpg" alt="Mass and Volume Calibration Scope" class="gallery-card-img">
-          <div class="gallery-overlay">
-            <div class="gallery-caption-title">Mass &amp; Volume Calibration</div>
-            <div class="gallery-caption-sub">E1 Weights, Balances &amp; Glassware</div>
-          </div>
-        </div>
-
-        <!-- 6: 5th Image - Thermal & Hardness Machine Calibration -->
-        <div class="gallery-card corner-accents" data-gallery-src="assets/images/scope_thermal_hardness_calibration.jpg" data-gallery-title="Thermal &amp; Hardness Machine Calibration Scope" data-gallery-sub="Temperature Metrology &amp; Hardness Testers">
-          <img src="assets/images/scope_thermal_hardness_calibration.jpg" alt="Thermal and Hardness Machine Calibration Scope" class="gallery-card-img">
-          <div class="gallery-overlay">
-            <div class="gallery-caption-title">Thermal &amp; Hardness Calibration</div>
-            <div class="gallery-caption-sub">Temperature Metrology &amp; Hardness Testers</div>
+          <!-- 7: Awards & Appreciation -->
+          <div class="gallery-card corner-accents" style="height: 250px;" data-gallery-src="assets/images/awards-and-appreciation.png" data-gallery-title="Awards &amp; Appreciation" data-gallery-sub="NABL CC-4178 &bull; ISO 9001 Certified &bull; Corporate Honors">
+            <img src="assets/images/awards-and-appreciation.png" alt="Awards and Appreciation — Reva Phoenix" class="gallery-card-img">
+            <div class="gallery-overlay">
+              <div class="gallery-caption-title">Awards &amp; Appreciation</div>
+              <div class="gallery-caption-sub">NABL CC-4178 &bull; ISO 9001 Honors</div>
+            </div>
           </div>
         </div>
       </div>
@@ -2110,7 +2127,7 @@
   <script src="js/cloud-config.js?v=2.0"></script>
   <script src="js/supabase-db.js?v=2.0"></script>
 
-  <script src="js/site-data.js?v=7.9"></script>
+  <script src="js/site-data.js?v=20261026.1"></script>
   <script src="js/gsap.min.js"></script>
   <script src="js/ScrollTrigger.min.js"></script>
   <script src="js/lenis.min.js"></script>
@@ -2119,7 +2136,7 @@
   <script src="js/stats-counter.js"></script>
   <script src="js/lightbox.js?v=2.1"></script>
   <script src="js/enquiry-modal.js?v=2.1"></script>
-  <script src="js/laboratories-data.js?v=9.6"></script>
-  <script src="js/app.js?v=6.3"></script>
+  <script src="js/laboratories-data.js?v=20261026.1"></script>
+  <script src="js/app.js?v=20261026.1"></script>
 </body>
 </html>
