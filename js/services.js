@@ -303,7 +303,7 @@ function initQuoteTriggers() {
         quoteModal.classList.add('active');
         document.body.classList.add('modal-open');
         if (quoteSubtitle && serviceName) {
-          quoteSubtitle.innerHTML = `Requesting Quotation for: <strong style="color: var(--orange-primary);">${serviceName}</strong>. Sent directly via Owner WhatsApp (<strong style="color: #25D366;">+91 99405 64261</strong>) or Email (<strong style="color: var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
+          quoteSubtitle.innerHTML = `Requesting Quotation for: <strong style="color: var(--orange-primary);">${serviceName}</strong>. Sent directly via WhatsApp (<strong style="color: #25D366;">+91 99405 64261</strong>) or Email (<strong style="color: var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
         }
         if (quoteServiceInput && serviceName) {
           quoteServiceInput.value = serviceName;
@@ -353,7 +353,7 @@ function initQuoteTriggers() {
                    `====================================================\n` +
                    `Submitted via: Reva Phoenix Calibration Portal (revacalibration.com)\n` +
                    `Direct Email: enquiry@revaphoenix.com\n` +
-                   `Direct Owner WhatsApp: +91 99405 64261\n`;
+                   `Direct WhatsApp: +91 99405 64261\n`;
 
       window.location.href = `mailto:enquiry@revaphoenix.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
       if (quoteModal) quoteModal.classList.remove('active');

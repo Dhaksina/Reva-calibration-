@@ -130,9 +130,9 @@
     const subtitle = document.getElementById('quote-modal-subtitle');
     if (subtitle) {
       if (serviceName) {
-        subtitle.innerHTML = `Submit your specifications for <strong style="color:var(--orange-primary);">${serviceName}</strong> via Owner WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
+        subtitle.innerHTML = `Submit your specifications for <strong style="color:var(--orange-primary);">${serviceName}</strong> via WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
       } else {
-        subtitle.innerHTML = `Submit your calibration details directly via Owner WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>) for instant review and pricing.`;
+        subtitle.innerHTML = `Submit your calibration details directly via WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>) for instant review and pricing.`;
       }
     }
 
@@ -228,7 +228,7 @@
 
     const waUrl = `https://api.whatsapp.com/send?phone=${OWNER_WHATSAPP_NUMBER}&text=${encodeURIComponent(waText)}`;
 
-    showToast(`Quotation registered! Opening Owner WhatsApp (+91 99405 64261)...`);
+    showToast(`Quotation registered! Opening WhatsApp (+91 99405 64261)...`);
     window.open(waUrl, '_blank');
 
     closeQuoteModal();
@@ -278,7 +278,7 @@
     body += `====================================================\n` +
             `Submitted via: Reva Phoenix Calibration Portal (revacalibration.com)\n` +
             `Direct Email: enquiry@revaphoenix.com\n` +
-            `Direct Owner WhatsApp: +91 99405 64261\n`;
+            `Direct WhatsApp: +91 99405 64261\n`;
 
     const mailtoUrl = `mailto:enquiry@revaphoenix.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
@@ -364,7 +364,7 @@
 
       const waUrl = `https://api.whatsapp.com/send?phone=${OWNER_WHATSAPP_NUMBER}&text=${encodeURIComponent(waText)}`;
 
-      showToast(`Thank you, ${name}. Directing your request to the Owner WhatsApp (+91 99405 64261)...`);
+      showToast(`Thank you, ${name}. Directing your request to WhatsApp (+91 99405 64261)...`);
       window.open(waUrl, '_blank');
 
       inlineContactForm.reset();
