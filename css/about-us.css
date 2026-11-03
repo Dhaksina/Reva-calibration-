@@ -929,22 +929,31 @@
 
 .industry-category-pills {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+  flex-wrap: nowrap;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.industry-category-pills::-webkit-scrollbar {
+  display: none;
 }
 
 .cat-pill {
-  padding: 6px 14px;
+  padding: 6px 12px;
   font-family: var(--font-technical);
   font-size: 0.75rem;
   font-weight: 600;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text-secondary);
   background: var(--bg-surface);
   border: 1px solid var(--border-graphite);
   border-radius: 999px;
   cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
   transition: all var(--transition-fast);
 }
 
