@@ -91,13 +91,6 @@
     "image": "assets/images/non-accredited/Lead-Standard.jpg"
   },
   {
-    "category": "chemical",
-    "category_display": "Fluid & Aerodynamics",
-    "title": "Air & Water Flow Meter",
-    "desc": "Rotameters, variable-area flow meters, and hot-wire anemometers calibrated for volumetric liquid and gas flow velocities.",
-    "image": "assets/images/non-accredited/AIR-and-water-Flow-meter.jpg"
-  },
-  {
     "category": "electrical",
     "category_display": "Electronics Manufacturing",
     "title": "Soldering Station & Iron",
@@ -138,13 +131,6 @@
     "title": "UV Radiometer / Light Meter",
     "desc": "UVA, UVB, and UVC radiometers calibrated for spectral irradiance (mW/cm\u00b2) against certified standard photodetectors.",
     "image": "assets/images/non-accredited/UV-meter.jpg"
-  },
-  {
-    "category": "ndt",
-    "category_display": "Electrical Safety Probes",
-    "title": "Jointed Test Finger (IEC 60529)",
-    "desc": "Precision articulated test probes calibrated for knuckle dimensions, bending angle stops, and 10N / 30N spring forces.",
-    "image": "assets/images/non-accredited/Joined-test-finger-300x201.jpg"
   },
   {
     "category": "electrical",
