@@ -130,6 +130,10 @@
   .brand-wrapper {
     gap: 8px;
   }
+
+  .hero-headline {
+    font-size: clamp(1.9rem, 2.6vw, 2.75rem);
+  }
 }
 
 /* Tablet & Smaller Laptops (<= 1140px) */
@@ -185,6 +189,10 @@
     width: 85%;
     opacity: 0.7;
   }
+
+  .hero-headline {
+    font-size: clamp(2rem, 4vw, 3.1rem);
+  }
 }
 
 /* Tablet (<= 860px) */
@@ -218,6 +226,14 @@
   .about-matrix-3p {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+
+  .hero-headline .hero-line {
+    white-space: normal;
+  }
+
+  .hero-headline {
+    font-size: clamp(1.85rem, 4.8vw, 2.5rem);
   }
 }
 
