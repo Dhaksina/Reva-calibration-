@@ -151,9 +151,12 @@
       }
     }
 
-    // 3. Fallback to /api/data REST API (for non-local or when cloud unavailable)
+    // 3. Fallback to /api/data or static /data/site_database.json (for Vercel static hosting)
     try {
-      const res = await fetch('/api/data', { cache: 'no-store' });
+      let res = await fetch('/api/data', { cache: 'no-store' });
+      if (!res.ok) {
+        res = await fetch('/data/site_database.json?v=12.2', { cache: 'no-store' });
+      }
       if (res.ok) {
         const data = await res.json();
         if (data && typeof data === 'object' && Object.keys(data).length > 0) {
