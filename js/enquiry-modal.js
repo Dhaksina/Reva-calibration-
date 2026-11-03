@@ -130,9 +130,9 @@
     const subtitle = document.getElementById('quote-modal-subtitle');
     if (subtitle) {
       if (serviceName) {
-        subtitle.innerHTML = `Submit your specifications for <strong style="color:var(--orange-primary);">${serviceName}</strong> via WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
+        subtitle.innerHTML = `Submit your specifications for <strong style="color:var(--orange-primary);">${serviceName}</strong><br>via WhatsApp (<strong style="color:#25D366; white-space:nowrap;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
       } else {
-        subtitle.innerHTML = `Submit your calibration details directly via WhatsApp (<strong style="color:#25D366;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>) for instant review and pricing.`;
+        subtitle.innerHTML = `Submit your calibration details directly<br>via WhatsApp (<strong style="color:#25D366; white-space:nowrap;">+91 99405 64261</strong>) or Email (<strong style="color:var(--orange-primary);">enquiry@revaphoenix.com</strong>) for instant review and pricing.`;
       }
     }
 

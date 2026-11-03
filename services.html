@@ -3294,8 +3294,8 @@
       <h3 style="font-family: var(--font-display); font-size: 1.6rem; color: #FFFFFF; margin-bottom: 8px;">
         Request Specialized Service Quotation
       </h3>
-      <p id="quote-modal-subtitle" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem;">
-        Submit your service details directly via WhatsApp (<strong style="color: #25D366;">+91 99405 64261</strong>) or Email (<strong style="color: var(--orange-primary);">enquiry@revaphoenix.com</strong>) for instant review and pricing.
+      <p id="quote-modal-subtitle" style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1.25rem; line-height: 1.5;">
+        Submit your service details directly<br>via WhatsApp (<strong style="color: #25D366; white-space: nowrap;">+91 99405 64261</strong>) or Email (<strong style="color: var(--orange-primary);">enquiry@revaphoenix.com</strong>) for instant review and pricing.
       </p>
 
       <form id="quote-form" onsubmit="event.preventDefault(); const name = document.getElementById('quote-name-input').value.trim(); const email = document.getElementById('quote-email-input').value.trim(); const phone = document.getElementById('quote-phone-input').value.trim(); const comp = document.getElementById('quote-company-input').value.trim(); const serv = document.getElementById('quote-service-input').value.trim(); window.open('https://wa.me/919940564261?text=' + encodeURIComponent('*NEW SPECIALIZED SERVICE QUOTATION REQUEST*\n━━━━━━━━━━━━━━━━━━━━\n👤 *Client Name:* ' + name + '\n🏢 *Company:* ' + comp + '\n📧 *Email:* ' + email + '\n📞 *Phone:* ' + phone + '\n🔬 *Service Scope:* ' + serv + '\n━━━━━━━━━━━━━━━━━━━━\n🌐 _Directed via Reva Phoenix Calibration Portal_'), '_blank'); document.getElementById('quote-modal').classList.remove('active');">
@@ -3348,7 +3348,7 @@
     </div>
   </div>
 
-  <script src="js/services.js?v=2.3"></script>
+  <script src="js/services.js?v=2.4"></script>
   <script>
     // Mobile Drawer Toggle
     const mobileToggle = document.getElementById('mobile-nav-toggle');

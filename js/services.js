@@ -303,7 +303,7 @@ function initQuoteTriggers() {
         quoteModal.classList.add('active');
         document.body.classList.add('modal-open');
         if (quoteSubtitle && serviceName) {
-          quoteSubtitle.innerHTML = `Requesting Quotation for: <strong style="color: var(--orange-primary);">${serviceName}</strong>. Sent directly via WhatsApp (<strong style="color: #25D366;">+91 99405 64261</strong>) or Email (<strong style="color: var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
+          quoteSubtitle.innerHTML = `Requesting Quotation for: <strong style="color: var(--orange-primary);">${serviceName}</strong>.<br>Sent directly via WhatsApp (<strong style="color: #25D366; white-space: nowrap;">+91 99405 64261</strong>) or Email (<strong style="color: var(--orange-primary);">enquiry@revaphoenix.com</strong>).`;
         }
         if (quoteServiceInput && serviceName) {
           quoteServiceInput.value = serviceName;
