@@ -213,7 +213,7 @@ ON CONFLICT (id) DO UPDATE SET
   parameters = EXCLUDED.parameters, catalog_url = EXCLUDED.catalog_url,
   catalog_name = EXCLUDED.catalog_name, updated_at = NOW();
 INSERT INTO public.laboratories (id, code, name, category, tagline, cmc, stat_cmc, tat, env_control, inst_count, scope, equipment, standards, parameters, catalog_url, catalog_name, document_data, document_name)
-VALUES (12, 'LAB-PRS-12', 'Pressure - Vacuum - Acoustics', 'pressure', NULL, 'Sound Level Meter: ± 0.58 dB (94 dB & 114 dB @ 1 kHz, Weighting A & C).', '± 0.58 dB', NULL, NULL, '2 NABL Scopes', 'Sound Level Meter @ 1 kHz (Weighting A & C) Acoustic Calibration.', 'Class 1 Sound Level Calibrator, Reference Acoustic Standard.', 'IS 15575-2, OIML R 58, IEC 61672-1, IEC 60942, ISO/IEC 17025.', 'Sound pressure levels (94 dB & 114 dB @ 1 kHz), frequency weighting (A & C) direct comparison as per IS 15575-2 & OIML R58.', NULL, NULL, NULL, NULL)
+VALUES (12, 'LAB-PRS-12', 'Pressure - Acoustics', 'pressure', NULL, 'Sound Level Meter: ± 0.58 dB (94 dB & 114 dB @ 1 kHz, Weighting A & C).', '± 0.58 dB', NULL, NULL, '2 NABL Scopes', 'Sound Level Meter @ 1 kHz (Weighting A & C) Acoustic Calibration.', 'Class 1 Sound Level Calibrator, Reference Acoustic Standard.', 'IS 15575-2, OIML R 58, IEC 61672-1, IEC 60942, ISO/IEC 17025.', 'Sound pressure levels (94 dB & 114 dB @ 1 kHz), frequency weighting (A & C) direct comparison as per IS 15575-2 & OIML R58.', NULL, NULL, NULL, NULL)
 ON CONFLICT (id) DO UPDATE SET
   code = EXCLUDED.code, name = EXCLUDED.name, category = EXCLUDED.category,
   tagline = EXCLUDED.tagline, cmc = EXCLUDED.cmc, stat_cmc = EXCLUDED.stat_cmc,

@@ -930,7 +930,7 @@
     },
     {
       "id": 12,
-      "name": "Pressure - Vacuum - Acoustics",
+      "name": "Pressure - Acoustics",
       "category": "pressure",
       "code": "LAB-PRS-12",
       "scope": "Sound Level Meter @ 1 kHz (Weighting A & C) Acoustic Calibration.",

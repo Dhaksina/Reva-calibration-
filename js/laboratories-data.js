@@ -233,10 +233,10 @@ const REVA_35_LABORATORIES = [
     applications: "Automotive assembly lines, heavy engineering, aerospace structural bolting, hydraulic tensioning & process fastening.",
     instCount: "10 Scopes"
   },
-  // 12. Pressure - Vacuum - Acoustics
+  // 12. Pressure - Acoustics
   {
     id: 12,
-    name: "Pressure - Vacuum - Acoustics",
+    name: "Pressure - Acoustics",
     category: "pressure",
     code: "LAB-PRS-12",
     scope: "Sound Level Meter @ 1 kHz (Weighting A & C) Acoustic Calibration.",
