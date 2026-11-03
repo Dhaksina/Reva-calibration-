@@ -285,7 +285,7 @@ const REVA_35_LABORATORIES = [
     standards: "DKD-R 6-1, OIML R 97, OIML R 110, EN 837-1, ASME B40.100, IS 3624, ISO/IEC 17025.",
     applications: "Process plants, oil & gas hydraulics, boiler safety, power generation, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum furnaces & chamber calibration.",
     statCmc: "± 0.01% rdg / 0.00042 bar",
-    instCount: "39 Scopes"
+    instCount: "31 Scopes"
   },
   // 15. Verification of Impact Test M/c
   {
@@ -31410,234 +31410,6 @@ const REVA_LAB_INSTRUMENTS = {
   ],
   "14": [
     {
-      "id": "inst-prs-1",
-      "labId": 14,
-      "category": "pressure",
-      "name": "Hydraulic Dead Weight Tester & Calibrator [Permanent] (1 bar to 35 bar)",
-      "shortDescription": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1",
-      "description": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Data Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with / without Indicator - Hydraulic Pressure - Range: 1 bar to 35 bar. Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1. Permanent Facility Calibration.",
-      "range": "1 bar to 35 bar",
-      "accuracy": "\u00b1 0.010 %rdg",
-      "resolution": "0.0001 bar / 0.001 mbar / 0.01 bar",
-      "display": "Digital Readout / Precision Bourdon Dial / Transmitter Signal",
-      "parameters": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1",
-      "equipment": "Hydraulic Dead Weight Tester & Pressure Calibrator",
-      "cmc": "0.010 %rdg",
-      "standards": "DKD-R 6-1, EURAMET cg-3, ISO/IEC 17025",
-      "applications": "Boiler safety inspections, refinery piping, chemical process plants, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum systems, hydraulic test benches.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_14.png",
-      "images": [],
-      "enabled": true,
-      "order": 1,
-      "type": "hydraulic-dwt",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Pressure Indicating Devices"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Data Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with / without Indicator - Hydraulic Pressure"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "1 bar to 35 bar"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "0.010 %rdg"
-        },
-        {
-          "name": "Method / Procedure",
-          "value": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1"
-        },
-        {
-          "name": "Master Reference Equipment",
-          "value": "Hydraulic Dead Weight Tester & Pressure Calibrator"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "DKD-R 6-1, EURAMET cg-3, ISO/IEC 17025"
-        }
-      ]
-    },
-    {
-      "id": "inst-prs-2",
-      "labId": 14,
-      "category": "pressure",
-      "name": "Hydraulic Dead Weight Tester & Calibrator [Permanent] (14 bar to 200 bar)",
-      "shortDescription": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1",
-      "description": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Data Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with / without Indicator - Hydraulic Pressure - Range: 14 bar to 200 bar. Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1. Permanent Facility Calibration.",
-      "range": "14 bar to 200 bar",
-      "accuracy": "\u00b1 0.021 %rdg",
-      "resolution": "0.0001 bar / 0.001 mbar / 0.01 bar",
-      "display": "Digital Readout / Precision Bourdon Dial / Transmitter Signal",
-      "parameters": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1",
-      "equipment": "Hydraulic Dead Weight Tester & Pressure Calibrator",
-      "cmc": "0.021 %rdg",
-      "standards": "DKD-R 6-1, EURAMET cg-3, ISO/IEC 17025",
-      "applications": "Boiler safety inspections, refinery piping, chemical process plants, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum systems, hydraulic test benches.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_14.png",
-      "images": [],
-      "enabled": true,
-      "order": 2,
-      "type": "hydraulic-dwt",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Pressure Indicating Devices"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Data Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with / without Indicator - Hydraulic Pressure"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "14 bar to 200 bar"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "0.021 %rdg"
-        },
-        {
-          "name": "Method / Procedure",
-          "value": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1"
-        },
-        {
-          "name": "Master Reference Equipment",
-          "value": "Hydraulic Dead Weight Tester & Pressure Calibrator"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "DKD-R 6-1, EURAMET cg-3, ISO/IEC 17025"
-        }
-      ]
-    },
-    {
-      "id": "inst-prs-3",
-      "labId": 14,
-      "category": "pressure",
-      "name": "Hydraulic Dead Weight Tester & Calibrator [Permanent] (200 bar to 700 bar)",
-      "shortDescription": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1",
-      "description": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Data Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with / without Indicator - Hydraulic Pressure - Range: 200 bar to 700 bar. Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1. Permanent Facility Calibration.",
-      "range": "200 bar to 700 bar",
-      "accuracy": "\u00b1 0.012 %rdg",
-      "resolution": "0.0001 bar / 0.001 mbar / 0.01 bar",
-      "display": "Digital Readout / Precision Bourdon Dial / Transmitter Signal",
-      "parameters": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1",
-      "equipment": "Hydraulic Dead Weight Tester & Pressure Calibrator",
-      "cmc": "0.012 %rdg",
-      "standards": "DKD-R 6-1, EURAMET cg-3, ISO/IEC 17025",
-      "applications": "Boiler safety inspections, refinery piping, chemical process plants, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum systems, hydraulic test benches.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_14.png",
-      "images": [],
-      "enabled": true,
-      "order": 3,
-      "type": "hydraulic-dwt",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Pressure Indicating Devices"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Data Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with / without Indicator - Hydraulic Pressure"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "200 bar to 700 bar"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "0.012 %rdg"
-        },
-        {
-          "name": "Method / Procedure",
-          "value": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1"
-        },
-        {
-          "name": "Master Reference Equipment",
-          "value": "Hydraulic Dead Weight Tester & Pressure Calibrator"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "DKD-R 6-1, EURAMET cg-3, ISO/IEC 17025"
-        }
-      ]
-    },
-    {
-      "id": "inst-prs-4",
-      "labId": 14,
-      "category": "pressure",
-      "name": "Hydraulic Dead Weight Tester & Calibrator [Permanent] (700 bar to 1379 bar)",
-      "shortDescription": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1",
-      "description": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Data Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with / without Indicator - Hydraulic Pressure - Range: 700 bar to 1379 bar. Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1. Permanent Facility Calibration.",
-      "range": "700 bar to 1379 bar",
-      "accuracy": "\u00b1 0.012 %rdg",
-      "resolution": "0.0001 bar / 0.001 mbar / 0.01 bar",
-      "display": "Digital Readout / Precision Bourdon Dial / Transmitter Signal",
-      "parameters": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1",
-      "equipment": "Hydraulic Dead Weight Tester & Pressure Calibrator",
-      "cmc": "0.012 %rdg",
-      "standards": "DKD-R 6-1, EURAMET cg-3, ISO/IEC 17025",
-      "applications": "Boiler safety inspections, refinery piping, chemical process plants, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum systems, hydraulic test benches.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_14.png",
-      "images": [],
-      "enabled": true,
-      "order": 4,
-      "type": "hydraulic-dwt",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Pressure Indicating Devices"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Data Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with / without Indicator - Hydraulic Pressure"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "700 bar to 1379 bar"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "0.012 %rdg"
-        },
-        {
-          "name": "Method / Procedure",
-          "value": "Using Hydraulic Dead Weight Tester & Pressure Calibrator by Direct Method as per DKD-R 6-1"
-        },
-        {
-          "name": "Master Reference Equipment",
-          "value": "Hydraulic Dead Weight Tester & Pressure Calibrator"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "DKD-R 6-1, EURAMET cg-3, ISO/IEC 17025"
-        }
-      ]
-    },
-    {
       "id": "inst-prs-5",
       "labId": 14,
       "category": "pressure",
@@ -31657,7 +31429,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 5,
+      "order": 1,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -31714,7 +31486,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 6,
+      "order": 2,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -31771,7 +31543,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 7,
+      "order": 3,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -31828,7 +31600,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 8,
+      "order": 4,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -31885,7 +31657,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 9,
+      "order": 5,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -31942,7 +31714,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 10,
+      "order": 6,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -31999,7 +31771,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 11,
+      "order": 7,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -32056,7 +31828,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 12,
+      "order": 8,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -32113,7 +31885,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 13,
+      "order": 9,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -32151,120 +31923,6 @@ const REVA_LAB_INSTRUMENTS = {
       ]
     },
     {
-      "id": "inst-prs-14",
-      "labId": 14,
-      "category": "pressure",
-      "name": "Pneumatic Dead Weight Tester & Calibrator [Permanent] (2 bar to 20 bar)",
-      "shortDescription": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1",
-      "description": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with or without Indicator, Pressure Switch - Pneumatic Pressure - Range: 2 bar to 20 bar. Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1. Permanent Facility Calibration.",
-      "range": "2 bar to 20 bar",
-      "accuracy": "\u00b1 0.01 %rdg",
-      "resolution": "0.0001 bar / 0.001 mbar / 0.01 bar",
-      "display": "Digital Readout / Precision Bourdon Dial / Transmitter Signal",
-      "parameters": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1",
-      "equipment": "Pneumatic Dead Weight Tester, Pressure Calibrator",
-      "cmc": "0.01 %rdg",
-      "standards": "DKD-R 6-1, OIML R 110, ISO/IEC 17025",
-      "applications": "Boiler safety inspections, refinery piping, chemical process plants, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum systems, hydraulic test benches.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_14.png",
-      "images": [],
-      "enabled": true,
-      "order": 14,
-      "type": "pneumatic-pressure",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Pressure Indicating Devices"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with or without Indicator, Pressure Switch - Pneumatic Pressure"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "2 bar to 20 bar"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "0.01 %rdg"
-        },
-        {
-          "name": "Method / Procedure",
-          "value": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1"
-        },
-        {
-          "name": "Master Reference Equipment",
-          "value": "Pneumatic Dead Weight Tester, Pressure Calibrator"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "DKD-R 6-1, OIML R 110, ISO/IEC 17025"
-        }
-      ]
-    },
-    {
-      "id": "inst-prs-15",
-      "labId": 14,
-      "category": "pressure",
-      "name": "Pneumatic Dead Weight Tester & Calibrator [Permanent] (20 bar to 35 bar)",
-      "shortDescription": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1",
-      "description": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with or without Indicator, Pressure Switch - Pneumatic Pressure - Range: 20 bar to 35 bar. Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1. Permanent Facility Calibration.",
-      "range": "20 bar to 35 bar",
-      "accuracy": "\u00b1 0.01 %rdg",
-      "resolution": "0.0001 bar / 0.001 mbar / 0.01 bar",
-      "display": "Digital Readout / Precision Bourdon Dial / Transmitter Signal",
-      "parameters": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1",
-      "equipment": "Pneumatic Dead Weight Tester, Pressure Calibrator",
-      "cmc": "0.01 %rdg",
-      "standards": "DKD-R 6-1, OIML R 110, ISO/IEC 17025",
-      "applications": "Boiler safety inspections, refinery piping, chemical process plants, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum systems, hydraulic test benches.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_14.png",
-      "images": [],
-      "enabled": true,
-      "order": 15,
-      "type": "pneumatic-pressure",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Pressure Indicating Devices"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Analog / Digital - Pressure Gauge, Pressure Calibrator, Pressure Indicator, Pressure Controller, Pressure Recorder, Pressure Logger, Pressure Module, Pressure Transmitter, Pressure Transducer with or without Indicator, Pressure Switch - Pneumatic Pressure"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "20 bar to 35 bar"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "0.01 %rdg"
-        },
-        {
-          "name": "Method / Procedure",
-          "value": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1"
-        },
-        {
-          "name": "Master Reference Equipment",
-          "value": "Pneumatic Dead Weight Tester, Pressure Calibrator"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "DKD-R 6-1, OIML R 110, ISO/IEC 17025"
-        }
-      ]
-    },
-    {
       "id": "inst-prs-16",
       "labId": 14,
       "category": "pressure",
@@ -32284,7 +31942,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 16,
+      "order": 10,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -32341,7 +31999,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 17,
+      "order": 11,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -32398,7 +32056,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 18,
+      "order": 12,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -32455,7 +32113,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 19,
+      "order": 13,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -32512,7 +32170,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 20,
+      "order": 14,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -32569,7 +32227,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 21,
+      "order": 15,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -32626,7 +32284,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 22,
+      "order": 16,
       "type": "absolute-pressure",
       "specs": [
         {
@@ -32664,120 +32322,6 @@ const REVA_LAB_INSTRUMENTS = {
       ]
     },
     {
-      "id": "inst-prs-23",
-      "labId": 14,
-      "category": "pressure",
-      "name": "Vacuum Gauge / Calibrator / Transmitter [Permanent] ((-) 960 mbar to 0 mbar)",
-      "shortDescription": "Using Digital Pressure Calibrator and Pressure Calibrator by Comparison Method as per DKD-R 6-1",
-      "description": "Analog / Digital - Vacuum Gauge, Vacuum Calibrator, Vacuum Indicator, Vacuum Controller, Vacuum Logger, Vacuum Module, Vacuum Transmitter, Vacuum Transducer, Manometer, Vacuum Switch - Pneumatic Pressure - Range: (-) 960 mbar to 0 mbar. Using Digital Pressure Calibrator and Pressure Calibrator by Comparison Method as per DKD-R 6-1. Permanent Facility Calibration.",
-      "range": "(-) 960 mbar to 0 mbar",
-      "accuracy": "\u00b1 0.2 mbar",
-      "resolution": "0.0001 bar / 0.001 mbar / 0.01 bar",
-      "display": "Digital Readout / Precision Bourdon Dial / Transmitter Signal",
-      "parameters": "Using Digital Pressure Calibrator and Pressure Calibrator by Comparison Method as per DKD-R 6-1",
-      "equipment": "Digital Pressure Calibrator and Pressure Calibrator",
-      "cmc": "0.2 mbar",
-      "standards": "DKD-R 6-1, EN 837-1, ISO/IEC 17025",
-      "applications": "Boiler safety inspections, refinery piping, chemical process plants, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum systems, hydraulic test benches.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_14.png",
-      "images": [],
-      "enabled": true,
-      "order": 23,
-      "type": "vacuum-gauge",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Pressure Indicating Devices"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Analog / Digital - Vacuum Gauge, Vacuum Calibrator, Vacuum Indicator, Vacuum Controller, Vacuum Logger, Vacuum Module, Vacuum Transmitter, Vacuum Transducer, Manometer, Vacuum Switch - Pneumatic Pressure"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "(-) 960 mbar to 0 mbar"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "0.2 mbar"
-        },
-        {
-          "name": "Method / Procedure",
-          "value": "Using Digital Pressure Calibrator and Pressure Calibrator by Comparison Method as per DKD-R 6-1"
-        },
-        {
-          "name": "Master Reference Equipment",
-          "value": "Digital Pressure Calibrator and Pressure Calibrator"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "DKD-R 6-1, EN 837-1, ISO/IEC 17025"
-        }
-      ]
-    },
-    {
-      "id": "inst-prs-24",
-      "labId": 14,
-      "category": "pressure",
-      "name": "Vacuum Dead Weight Tester / Calibrator [Permanent] ((-) 1000 mbar to (-) 30 mbar)",
-      "shortDescription": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1",
-      "description": "Analog / Digital - Vacuum Gauge, Vacuum Calibrator, Vacuum Indicator, Vacuum Controller, Vacuum Logger, Vacuum Module, Vacuum Transmitter, Vacuum Transducer, Manometer, Vacuum Switch - Pneumatic Pressure - Range: (-) 1000 mbar to (-) 30 mbar. Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1. Permanent Facility Calibration.",
-      "range": "(-) 1000 mbar to (-) 30 mbar",
-      "accuracy": "\u00b1 0.12 mbar",
-      "resolution": "0.0001 bar / 0.001 mbar / 0.01 bar",
-      "display": "Digital Readout / Precision Bourdon Dial / Transmitter Signal",
-      "parameters": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1",
-      "equipment": "Pneumatic Dead Weight Tester, Pressure Calibrator",
-      "cmc": "0.12 mbar",
-      "standards": "DKD-R 6-1, OIML R 110, ISO/IEC 17025",
-      "applications": "Boiler safety inspections, refinery piping, chemical process plants, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum systems, hydraulic test benches.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_14.png",
-      "images": [],
-      "enabled": true,
-      "order": 24,
-      "type": "vacuum-gauge",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Pressure Indicating Devices"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Analog / Digital - Vacuum Gauge, Vacuum Calibrator, Vacuum Indicator, Vacuum Controller, Vacuum Logger, Vacuum Module, Vacuum Transmitter, Vacuum Transducer, Manometer, Vacuum Switch - Pneumatic Pressure"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "(-) 1000 mbar to (-) 30 mbar"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "0.12 mbar"
-        },
-        {
-          "name": "Method / Procedure",
-          "value": "Using Pneumatic Dead Weight Tester, Pressure Calibrator by Comparison Method as per DKD-R 6-1"
-        },
-        {
-          "name": "Master Reference Equipment",
-          "value": "Pneumatic Dead Weight Tester, Pressure Calibrator"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "DKD-R 6-1, OIML R 110, ISO/IEC 17025"
-        }
-      ]
-    },
-    {
       "id": "inst-prs-25",
       "labId": 14,
       "category": "pressure",
@@ -32797,7 +32341,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 25,
+      "order": 17,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -32854,7 +32398,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 26,
+      "order": 18,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -32911,7 +32455,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 27,
+      "order": 19,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -32968,7 +32512,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 28,
+      "order": 20,
       "type": "hydraulic-pressure",
       "specs": [
         {
@@ -33025,7 +32569,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 29,
+      "order": 21,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -33082,7 +32626,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 30,
+      "order": 22,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -33139,7 +32683,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 31,
+      "order": 23,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -33196,7 +32740,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 32,
+      "order": 24,
       "type": "pneumatic-pressure",
       "specs": [
         {
@@ -33253,7 +32797,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 33,
+      "order": 25,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -33310,7 +32854,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 34,
+      "order": 26,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -33367,7 +32911,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 35,
+      "order": 27,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -33424,7 +32968,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 36,
+      "order": 28,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -33481,7 +33025,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 37,
+      "order": 29,
       "type": "low-pressure-manometer",
       "specs": [
         {
@@ -33538,7 +33082,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 38,
+      "order": 30,
       "type": "absolute-pressure",
       "specs": [
         {
@@ -33595,7 +33139,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_14.png",
       "images": [],
       "enabled": true,
-      "order": 39,
+      "order": 31,
       "type": "vacuum-gauge",
       "specs": [
         {
