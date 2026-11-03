@@ -802,6 +802,360 @@ html {
   transform: scale(1.06);
 }
 
+/* ==========================================================================
+   8B. THIRD-PARTY INSPECTION (TPI) & EXPEDITING
+   ========================================================================== */
+.tpi-hero-banner {
+  background: linear-gradient(135deg, rgba(20, 24, 33, 0.95) 0%, rgba(13, 17, 23, 0.98) 100%);
+  border: 1px solid var(--border-graphite);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  margin-bottom: 32px;
+  position: relative;
+  overflow: hidden;
+}
+
+.tpi-hero-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--orange-primary) 0%, rgba(241, 90, 36, 0.2) 100%);
+}
+
+.tpi-overview-lead {
+  font-size: 1.05rem;
+  color: #FFFFFF;
+  line-height: 1.75;
+  margin-bottom: 16px;
+}
+
+.tpi-overview-sub {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.tpi-itp-highlight {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: rgba(241, 90, 36, 0.08);
+  border: 1px solid rgba(241, 90, 36, 0.25);
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: #ff9d66;
+  line-height: 1.5;
+}
+
+.tpi-itp-highlight svg {
+  color: var(--orange-primary);
+  flex-shrink: 0;
+}
+
+/* Regulatory Framework Strip */
+.tpi-framework-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-graphite);
+  border-radius: var(--radius-md);
+  padding: 24px 28px;
+  margin-bottom: 36px;
+}
+
+.tpi-framework-header {
+  margin-bottom: 16px;
+}
+
+.tpi-framework-title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.tpi-framework-subtitle {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.tpi-framework-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.tpi-code-badge {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #E2E8F0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.2s ease;
+}
+
+.tpi-code-badge:hover {
+  border-color: var(--orange-primary);
+  color: #FFFFFF;
+  background: rgba(241, 90, 36, 0.12);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(241, 90, 36, 0.15);
+}
+
+.tpi-code-badge .badge-sub {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* 7 Core Services Grid */
+.tpi-section-heading {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #FFFFFF;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tpi-section-lead {
+  font-size: 0.92rem;
+  color: var(--text-secondary);
+  margin-bottom: 22px;
+}
+
+.tpi-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+  margin-bottom: 36px;
+}
+
+.tpi-service-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-graphite);
+  border-radius: var(--radius-md);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: all 0.25s ease;
+}
+
+.tpi-service-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--orange-border);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+.tpi-service-num {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--orange-primary);
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tpi-service-heading {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tpi-service-heading svg {
+  color: var(--orange-primary);
+  flex-shrink: 0;
+}
+
+.tpi-service-text {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+/* Benefits Grid */
+.tpi-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-bottom: 36px;
+}
+
+.tpi-benefit-card {
+  background: linear-gradient(180deg, rgba(255, 102, 0, 0.04) 0%, rgba(20, 24, 33, 0.85) 100%);
+  border: 1px solid var(--border-graphite);
+  border-top: 3px solid var(--orange-primary);
+  border-radius: var(--radius-md);
+  padding: 26px 24px;
+  transition: all 0.25s ease;
+}
+
+.tpi-benefit-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--orange-primary);
+  box-shadow: 0 8px 24px rgba(241, 90, 36, 0.15);
+}
+
+.tpi-benefit-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 8px;
+  background: rgba(241, 90, 36, 0.12);
+  border: 1px solid rgba(241, 90, 36, 0.25);
+  color: var(--orange-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.tpi-benefit-title {
+  font-family: var(--font-display);
+  font-size: 1.18rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.tpi-benefit-desc {
+  font-size: 0.88rem;
+  color: var(--text-secondary);
+  line-height: 1.65;
+}
+
+/* Industry Verticals Grid */
+.tpi-industries-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  margin-bottom: 36px;
+}
+
+.tpi-industry-card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-graphite);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  transition: all 0.25s ease;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.tpi-industry-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--orange-primary);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+}
+
+.tpi-industry-img-wrap {
+  width: 100%;
+  aspect-ratio: 16 / 11;
+  overflow: hidden;
+  background: #0d1117;
+  position: relative;
+}
+
+.tpi-industry-img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+.tpi-industry-card:hover .tpi-industry-img-wrap img {
+  transform: scale(1.08);
+}
+
+.tpi-industry-caption {
+  padding: 12px 10px;
+  text-align: center;
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  background: var(--bg-surface);
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 0.01em;
+}
+
+/* Disciplines Grid */
+.tpi-disciplines-box {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-graphite);
+  border-radius: var(--radius-md);
+  padding: 26px 28px;
+  margin-bottom: 32px;
+}
+
+.tpi-disciplines-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.tpi-discipline-pill {
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 0.84rem;
+  color: #CBD5E1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.2s ease;
+}
+
+.tpi-discipline-pill:hover {
+  background: rgba(241, 90, 36, 0.1);
+  border-color: var(--orange-border);
+  color: #FFFFFF;
+  transform: translateX(2px);
+}
+
+.tpi-discipline-pill .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--orange-primary);
+  flex-shrink: 0;
+  box-shadow: 0 0 8px rgba(241, 90, 36, 0.6);
+}
+
 /* 9. RESPONSIVE BREAKPOINTS */
 @media (max-width: 1024px) {
   .services-stats-grid {
@@ -812,6 +1166,12 @@ html {
   }
   .service-photo-gallery {
     grid-template-columns: repeat(2, 1fr);
+  }
+  .tpi-industries-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .tpi-benefits-grid {
+    grid-template-columns: 1fr;
   }
 }
 
@@ -837,5 +1197,14 @@ html {
   }
   .nonacc-search-wrap {
     max-width: 100%;
+  }
+  .tpi-industries-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .tpi-services-grid {
+    grid-template-columns: 1fr;
+  }
+  .tpi-hero-banner {
+    padding: 24px 20px;
   }
 }
