@@ -744,7 +744,7 @@ function renderLaboratories(filteredLabs) {
       return `
       <div class="lab-item-card corner-accents" data-category="${lab.category}" onclick="openLabDetails(${lab.id})" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openLabDetails(${lab.id});}" role="button" tabindex="0" aria-label="View specifications for ${lab.name}">
         <div class="lab-card-top">
-          <span class="lab-index-tag">${String(lab.id).padStart(2, '0')} // ${lab.code || 'LAB-' + lab.id}</span>
+          <span class="lab-index-tag">${lab.code || 'LAB-' + lab.id}</span>
           <div class="badge-pill" style="font-size: 0.65rem; padding: 2px 8px;">
             ${lab.onSite ? 'On-Site / Lab' : 'Lab Primary'}
           </div>
@@ -83293,7 +83293,7 @@ function openLabDetails(labId) {
   const siteEl = document.getElementById('lab-modal-site');
   const titleEl = document.getElementById('lab-modal-title');
   const taglineEl = document.getElementById('lab-modal-tagline');
-  if (codeEl) codeEl.textContent = `${String(lab.id).padStart(2, '0')} // ${lab.code || 'LAB-' + lab.id}`;
+  if (codeEl) codeEl.textContent = lab.code || 'LAB-' + lab.id;
   if (catEl) catEl.textContent = (lab.category || 'METROLOGY').toUpperCase();
   if (siteEl) siteEl.textContent = lab.onSite ? 'On-Site & Permanent Lab' : 'Permanent Lab Facility';
   if (titleEl) titleEl.textContent = lab.name;
