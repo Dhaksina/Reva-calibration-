@@ -504,9 +504,13 @@
 /* 3. About Reva Phoenix & Executive Editorial */
 .about-grid {
   display: grid;
-  grid-template-columns: 1.3fr 0.8fr;
-  gap: clamp(1.75rem, 3vw, 2.75rem);
+  grid-template-columns: minmax(0, 1.25fr) minmax(340px, 475px);
+  gap: clamp(2rem, 3.5vw, 3.5rem);
   align-items: center;
+}
+
+.about-editorial-text {
+  min-width: 0;
 }
 
 .about-section-title {
@@ -515,22 +519,20 @@
   font-weight: 700;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.25;
   margin-bottom: 1.5rem;
 }
 
 .about-section-title .heading-line {
   display: block;
-  white-space: nowrap;
+  white-space: normal;
+  word-break: normal;
 }
 
 @media (max-width: 768px) {
   .about-section-title {
     font-size: clamp(1.45rem, 5vw, 1.85rem);
     line-height: 1.25;
-  }
-  .about-section-title .heading-line {
-    white-space: normal;
   }
 }
 
@@ -644,7 +646,7 @@
   aspect-ratio: 4 / 4.8;
   margin: 0;
   align-self: center;
-  justify-self: start;
+  justify-self: center;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -985,17 +987,17 @@
 
 @media (min-width: 1025px) {
   .about-visual-card.about-building-card {
-    margin-left: -0.75rem;
+    margin-left: 0;
   }
 
   .about-quote-ribbon {
-    margin-right: -0.75rem;
+    margin-right: 0;
     position: relative;
     z-index: 1;
   }
 
   .about-signoff-card {
-    margin-right: -2rem;
+    margin-right: 0;
     position: relative;
     z-index: 1;
   }
