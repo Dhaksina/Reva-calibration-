@@ -35,7 +35,7 @@ const REVA_35_LABORATORIES = [
     standards: "ISO/IEC 17025: 2017, IS 3651, JIS B 7507, JIS B 7502, ASME B89, DIN 5480, ISO 148, ASTM E18",
     applications: "Machine shops, precision toolrooms, aerospace components, automotive manufacturing, quality control inspection, gauge verification.",
     statCmc: "\u00b1 0.05 \u00b5m / \u00b1 (0.5 + \u221a(L/1000)) \u00b5m",
-    instCount: "283 NABL Scopes",
+    instCount: "283 Scopes",
     image: "assets/images/labs/lab_1.png",
     catalogUrl: "assets/docs/Reva-Phoenix-Catalog.pdf",
     catalogName: "Dimension-Basic-Instruments-Catalog.pdf",
@@ -50,7 +50,7 @@ const REVA_35_LABORATORIES = [
     code: "LAB-DIM-02",
     tagline: "NABL Accredited ISO/IEC 17025: 2017",
     statCmc: "± 0.03 µm",
-    instCount: "146 NABL Scopes",
+    instCount: "146 Scopes",
     image: "assets/images/labs/lab_2.png",
     scope: "Ultra-Precision Dimensional Metrology: Gauge Block Calibrators, Slip Gauges Grade 0/1/2, Optical Flats & Parallels, 2D Linear Height Gauges, ULM & Length Measuring Machines (up to 3000 mm), Coordinate Measuring Machines (CMM up to 8000 mm), Portable Arm CMM, Laser Interferometer Linear & Angular Systems, Profile Projectors, Video Measuring Machines (VMM), Tool Makers Microscopes, Floating Carriage Diameter Measuring Machines, Sine Bars & Centers, Surface Roughness Testers & Specimens, Dial Calibration Testers, Electronic Levels, and Setting Masters.",
     onSite: true,
@@ -78,7 +78,7 @@ const REVA_35_LABORATORIES = [
     standards: "ISO 230-2, ISO 230-1, ASME B5.54, VDI/DGQ 3441, ISO/IEC 17025: 2017.",
     applications: "CNC Vertical/Horizontal Machining Centers (VMC/HMC), CNC Lathes, 5-Axis Gantry Milling Machines, Boring Mills, Rotary Indexing Tables.",
     statCmc: "± 2.4 arcsec / (0.5 + √(L/1000)) µm",
-    instCount: "3 NABL Scopes",
+    instCount: "3 Scopes",
     image: "assets/images/labs/lab_3.png",
     overview: "REVA's CNC Machine Tool Calibration Laboratory provides certified on-site laser volumetric error mapping and kinematic evaluation. Accredited under ISO/IEC 17025: 2017 with unbroken traceability to NPL/NIST standards, covering linear positional accuracy up to 40 meters, pitch & yaw angular errors, and full 360° rotary indexing table positioning."
   },
@@ -98,7 +98,7 @@ const REVA_35_LABORATORIES = [
     standards: "OIML R 76-1, OIML R 111-1, IS 16514-1:2024, ISO/IEC 17025: 2017",
     applications: "Pharmaceutical compounding, analytical chemistry, testing laboratories, bullion & precious metal inspection, industrial weighing & automation.",
     statCmc: "\u00b1 0.001 mg / 0.002 mg",
-    instCount: "45 NABL Scopes",
+    instCount: "45 Scopes",
     image: "assets/images/labs/lab_4.png"
   },
   // 5. Volume
@@ -117,7 +117,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 0.025 µl",
     standards: "ISO 4787:2021, ISO 8655-6:2022, ISO 3507:1999.",
     applications: "Pharmaceutical formulations, biotechnology testing, analytical chemistry, clinical pathology & petrochemical laboratories.",
-    instCount: "30 NABL Scopes"
+    instCount: "30 Scopes"
   },
   // 6. Density - Viscosity
   {
@@ -135,7 +135,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 0.00004 g/ml",
     standards: "IS 3608, IS 1255, IS 7324, IS 4730, IS 3944, ASTM D1200, ISO 2555, ISO 1652, OIML G14.",
     applications: "Petroleum refineries, lubricants, paints, coatings, beverages, sugar, dairy, chemical manufacturing & polymer research.",
-    instCount: "15 NABL Scopes"
+    instCount: "15 Scopes"
   },
   // 7. Mechanical - UTM - TTM - CTM
   {
@@ -153,7 +153,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 0.3% / 0.06 mm",
     standards: "IS 1828 (Part 1):2022, ISO 7500-1:2018, JIS B 7221-2010, ASTM E4, ISO 9513:2012, ASTM E2309-20, ASTM E2658-23.",
     applications: "Civil structural materials testing, concrete cube testing, steel wire & rebar mills, metallurgical test houses.",
-    instCount: "07 NABL Scopes",
+    instCount: "07 Scopes",
     image: "assets/images/labs/lab_7.png",
     overview: "REVA's UTM, TTM & CTM Testing Machine Calibration Laboratory delivers accredited force and kinematic verification for both Permanent Laboratory and On-Site customer facilities. Fully accredited under ISO/IEC 17025: 2017 with unbroken traceability to NPL/NIST standards, covering tension and compression loads up to 1000 kN, crosshead displacement up to 1000 mm, and traverse speed from 1.5 to 1000 mm/min."
   },
@@ -173,7 +173,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 0.5 N / 3.06 N",
     standards: "VDI/VDE 2624 Part 2.1, ISO/IEC 17025: 2017.",
     applications: "Terminal wire crimp testing, packaging seal peel strength, spring rate verification, automotive assembly lines, component push/pull testing.",
-    instCount: "2 NABL Scopes",
+    instCount: "2 Scopes",
     image: "assets/images/labs/lab_8.png",
     overview: "REVA's Mobile Force - Push-Pull Calibration Laboratory specializes in certified calibration for push-pull gauges, mechanical/digital force gauges, and tension gauges up to 2000 N. Accredited under ISO/IEC 17025: 2017 with direct traceability to NPL/NIST standards, utilizing precision differential denominations of Newton weights in accordance with VDI/VDE 2624 Part 2.1."
   },
@@ -193,7 +193,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 0.53 HR / 1.35%",
     standards: "IS 1500-2:2021, IS 1586-2:2018, IS 1501-2:2020, ISO 6506-2:2017, ISO 6508-2:2023, ISO 6507-2:2018, ASTM E10-23, ASTM E18-22, ASTM E384-22, ASTM A956.",
     applications: "Commercial heat treatment plants, automotive transmission manufacturing, foundries, tool & die makers.",
-    instCount: "22 NABL Scopes"
+    instCount: "22 Scopes"
   },
   // 10. Torque - Measuring Device, Sensor
   {
@@ -203,7 +203,7 @@ const REVA_35_LABORATORIES = [
     code: "LAB-TRQ-10",
     tagline: "NABL Accredited ISO/IEC 17025: 2017",
     statCmc: "± 0.12%",
-    instCount: "2 NABL Scopes (10 Instrument Variants)",
+    instCount: "2 Scopes (10 Instrument Variants)",
     image: "assets/images/labs/lab_10.png",
     scope: "High-Precision Torque Calibration: Torque Sensors with Indicator / Calibrator, Torque Transducers with / without Indicator, Torque Meters, Rotary / Impact / Torque Gauges, and Torque Testers from 0.05 Nm to 3000 Nm.",
     onSite: true,
@@ -231,7 +231,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 0.14% rdg",
     standards: "ISO 6789-1:2017, ISO 6789-2:2017, ISO 5393:2017, ISO/TS 17104:2006.",
     applications: "Automotive assembly lines, heavy engineering, aerospace structural bolting, hydraulic tensioning & process fastening.",
-    instCount: "10 NABL Scopes"
+    instCount: "10 Scopes"
   },
   // 12. Pressure - Vacuum - Acoustics
   {
@@ -249,7 +249,7 @@ const REVA_35_LABORATORIES = [
     standards: "IS 15575-2, OIML R 58, IEC 61672-1, IEC 60942, ISO/IEC 17025.",
     applications: "Occupational health noise monitoring, environmental acoustics, industrial noise mapping, factory safety compliance, audiometry screening room verification.",
     statCmc: "± 0.58 dB",
-    instCount: "2 NABL Scopes"
+    instCount: "2 Scopes"
   },
   // 13. Pressure Balance - Dead Weight Tester
   {
@@ -267,7 +267,7 @@ const REVA_35_LABORATORIES = [
     standards: "EURAMET cg-3, OIML R 110, ISO/IEC 17025: 2017.",
     applications: "Primary calibration standards, national metrology institutes, defense & aerospace calibration centers, secondary calibration laboratories, deepwater oil & gas instrumentation.",
     statCmc: "± 0.0074% rdg",
-    instCount: "6 NABL Scopes"
+    instCount: "6 Scopes"
   },
   // 14. Pressure Indicating Devices
   {
@@ -285,7 +285,7 @@ const REVA_35_LABORATORIES = [
     standards: "DKD-R 6-1, OIML R 97, OIML R 110, EN 837-1, ASME B40.100, IS 3624, ISO/IEC 17025.",
     applications: "Process plants, oil & gas hydraulics, boiler safety, power generation, aerospace pneumatics, cleanroom differential pressure monitoring, vacuum furnaces & chamber calibration.",
     statCmc: "± 0.01% rdg / 0.00042 bar",
-    instCount: "39 NABL Scopes"
+    instCount: "39 Scopes"
   },
   // 15. Verification of Impact Test M/c
   {
@@ -303,7 +303,7 @@ const REVA_35_LABORATORIES = [
     standards: "ISO 148-2:2016, ASTM-E23-23, BS 131-4:2020.",
     applications: "Metallurgical testing laboratories, steel manufacturers, foundries, pipeline materials qualification, automotive & defense component verification.",
     statCmc: "± 0.6% / 0.95%",
-    instCount: "02 NABL Scopes"
+    instCount: "02 Scopes"
   },
   // 16. Durometer - Rubber Hardness
   {
@@ -321,7 +321,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 0.3 Shore",
     standards: "ASTM D2240, ASTM A956, IS 1500 : Part 2 : 2021, IS 1586 : Part 2 : 2018, IS 1501 : Part 2 : 2020, ISO 6506-2, ISO 6508-2, ISO 6507-2.",
     applications: "Automotive tire testing, elastomer seals & gaskets, polymers, rubber components, metallurgy & tool hardening.",
-    instCount: "26 NABL Scopes"
+    instCount: "26 Scopes"
   },
   // 17. Fluid Flow - Liquid
   {
@@ -339,7 +339,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 1.2% rdg",
     standards: "ISO 4064, ISO 9104, BS EN 29104, ISO 12242.",
     applications: "Water supply utilities, pharmaceutical liquid processing, chemical process metering, beverage production, cooling water circuits.",
-    instCount: "02 NABL Scopes"
+    instCount: "02 Scopes"
   },
   // 18. Fluid Flow - Gas
   {
@@ -357,7 +357,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 0.9% rdg",
     standards: "ISO 5167, ISO 9300, EURAMET cg-19, SEMI E12.",
     applications: "Natural gas distribution grids, medical oxygen pipelines, industrial burner combustion, semiconductor gas delivery.",
-    instCount: "06 NABL Scopes"
+    instCount: "06 Scopes"
   },
   // 19. Fluid Flow - Air - Flow Velocity
   {
@@ -375,7 +375,7 @@ const REVA_35_LABORATORIES = [
     statCmc: "± 4.5% rdg",
     standards: "ISO 16622, EN 60584, EPA Method 2.",
     applications: "Cleanroom HVAC validation, fume hood certification, wind energy siting, automotive aerodynamics, environmental airflow.",
-    instCount: "04 NABL Scopes"
+    instCount: "04 Scopes"
   },
   // 20. Electro Technical - AC - DC
   {
@@ -393,7 +393,7 @@ const REVA_35_LABORATORIES = [
     standards: "ISO/IEC 17025: 2017, EURAMET cg-15, IEEE 1241, IS 1248, IEC 60051.",
     applications: "Electronics manufacturing, power utilities & substations, defense avionics, renewable energy inverters, precision calibration laboratories, pharmaceutical instrumentation, high-voltage test setups.",
     statCmc: "± 0.00062% / 0.015°C",
-    instCount: "312 NABL Scopes",
+    instCount: "312 Scopes",
     image: "assets/images/labs/lab_20.png",
     overview: "REVA's Electro Technical Calibration Laboratory delivers world-class accuracy for AC & DC voltage, current, power, energy, high voltage, RF impedance, temperature simulation, and time & frequency parameters. Accredited under ISO/IEC 17025: 2017 for both Permanent Facility and On-Site calibration with direct traceability to NPL/NIST standard references."
   },
@@ -413,7 +413,7 @@ const REVA_35_LABORATORIES = [
     standards: "IEEE 1057, EURAMET cg-20, ISO/IEC 17025: 2017",
     applications: "High-speed digital communications, avionics radar & pulse testing, RF electronics manufacturing, precision automated test equipment (ATE).",
     statCmc: "\u00b1 0.03 % to 0.58 % (Time Base) | 6 % (1.1 GHz Bandwidth)",
-    instCount: "10 NABL Scopes",
+    instCount: "10 Scopes",
     image: "assets/images/labs/lab_21.png"
   },
   // 22. Time - Frequency
@@ -432,7 +432,7 @@ const REVA_35_LABORATORIES = [
     standards: "ISO/IEC 17025: 2017, IEEE 1131, NIST SP 250-91.",
     applications: "Telecommunications, timer & relay testing, stopwatch verification, process automation controllers, oscilloscope timebase calibration, speed & RPM synchronization.",
     statCmc: "± 0.0003% / 0.011 s",
-    instCount: "22 NABL Scopes"
+    instCount: "22 Scopes"
   },
   // 23. EMI - EMC
   {
@@ -466,7 +466,7 @@ const REVA_35_LABORATORIES = [
     standards: "IEC 62053, IS 13779, IS 14697, OIML R 46, ASTM D1125, ISO/IEC 17025: 2017",
     applications: "Power utilities & substations, energy audit, NDT magnetic particle inspection, chemical & pharmaceutical analysis, water purification & environmental monitoring.",
     statCmc: "\u00b1 0.16 % to 0.21 % (Energy) | 6.6 % (Gauss)",
-    instCount: "39 NABL Scopes",
+    instCount: "39 Scopes",
     image: "assets/images/labs/lab_24.png"
   },
   // 25. Temperature & Relative Humidity
@@ -485,7 +485,7 @@ const REVA_35_LABORATORIES = [
     standards: "ITS-90, ASTM E220, ASTM E77, IEC 60751, IEC 60068-3-5, EURAMET cg-8, ISO/IEC 17025: 2017.",
     applications: "Pharmaceutical cleanrooms, stability test chambers, cold storage warehouses, autoclave validation, semiconductor cleanrooms, chemical reactors, meteorology, food processing.",
     statCmc: "± 0.04°C / 1.27% RH",
-    instCount: "269 NABL Scopes"
+    instCount: "269 Scopes"
   },
   // 26. Thermal - Contact - Non-Contact
   {
@@ -503,7 +503,7 @@ const REVA_35_LABORATORIES = [
     standards: "ASTM E2847, ASTM E1862, IEC TS 62492, VDI/VDE 3511, EURAMET cg-20, ASTM E220, ISO/IEC 17025: 2017.",
     applications: "Steel & metallurgy smelting, petrochemical flares & furnaces, glass manufacturing, electrical thermography inspections, cement kilns, thermal imaging surveillance, heat treatment plants.",
     statCmc: "± 1.55°C / 1.56°C",
-    instCount: "76 NABL Scopes"
+    instCount: "76 Scopes"
   },
   // 27. Thermal Mapping
   {
@@ -521,7 +521,7 @@ const REVA_35_LABORATORIES = [
     standards: "AMS 2750G, CQI-9, IS 14150, EN 285, WHO TRS 961, ISO/IEC 17025: 2017.",
     applications: "Pharmaceutical cold storage & warehouse validation, composite curing autoclaves, aerospace vacuum & atmospheric furnaces, automotive heat treating (CQI-9), semiconductor environmental chambers.",
     statCmc: "± 0.82°C / 2.7°C",
-    instCount: "24 NABL Scopes"
+    instCount: "24 Scopes"
   },
   // 28. Optical - Photometry - Radiometry
   {
@@ -539,7 +539,7 @@ const REVA_35_LABORATORIES = [
     standards: "CIE Publication 69, ISO/CIE 19476, ASTM D23-08, ISO 2813, ASTM E2297, DIN 5032.",
     applications: "NDT fluorescent inspection (ASTM E1444/E1417), UV curing, germicidal/disinfection systems, automotive displays, architectural lighting, phototherapy.",
     statCmc: "± 1.82% / 0.6 GU",
-    instCount: "36 NABL Scopes"
+    instCount: "36 Scopes"
   },
   // 29. Acceleration - Speed - Vibration
   {
@@ -557,7 +557,7 @@ const REVA_35_LABORATORIES = [
     standards: "ISO 16063-21, ISO 16063-11, ISO 2954, ISO 10816, BS 4675, JIS B 0907.",
     applications: "Rotating machinery diagnostics, predictive maintenance, centrifuge speed verification, turbine & pump vibration condition monitoring, environmental shaker qualification.",
     statCmc: "± 0.3 RPM / 2.4%",
-    instCount: "38 NABL Scopes"
+    instCount: "38 Scopes"
   },
   // 30. Biomedical
   {
@@ -83219,7 +83219,7 @@ function getLabInstruments(lab) {
     }).filter(i => i.name.length > 1);
   }
 
-  const COMPLIANCE_FEATURE = "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.";
+  const COMPLIANCE_FEATURE = "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited for calibration with an unbroken traceability chain.";
   instruments.forEach(i => {
     if (i && (!i.features || i.features.includes("unbroken traceability") || i.features.includes("NPL/NIST") || i.features.includes("NABL accredited calibration"))) {
       i.features = COMPLIANCE_FEATURE;
@@ -83320,8 +83320,8 @@ function openLabDetails(labId) {
   const statHumidSubEl = document.getElementById('lab-modal-stat-humidity-sub');
 
   const countDisplay = (instruments && instruments.length > 0)
-    ? `${instruments.length} NABL Scopes`
-    : (lab.instCount || 'Direct NABL Scope');
+    ? `${instruments.length} Scopes`
+    : ((lab.instCount || 'Accredited Scope').replace(/NABL\s*/gi, ''));
   if (instCountEl) instCountEl.textContent = countDisplay;
   if (instSubEl) instSubEl.remove();
 
@@ -83378,7 +83378,7 @@ function openLabDetails(labId) {
               </div>
             </div>
             <div class="lab-inst-right">
-              <span class="lab-inst-status">NABL ISO 17025</span>
+              <span class="lab-inst-status">ISO/IEC 17025</span>
               <div class="lab-inst-chevron">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="6 9 12 15 18 9"></polyline></svg>
               </div>
@@ -83454,7 +83454,7 @@ function openLabDetails(labId) {
                   if (inst.accuracy && !specItems.some(i => i.includes(inst.accuracy))) specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Accuracy / CMC</div><div class="lab-inst-spec-desc">${inst.accuracy}</div></div>`);
                   if (inst.resolution) specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Resolution</div><div class="lab-inst-spec-desc">${inst.resolution}</div></div>`);
                   if (inst.display) specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Display / Readout</div><div class="lab-inst-spec-desc">${inst.display}</div></div>`);
-                  const featureText = "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.";
+                  const featureText = "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited for calibration with an unbroken traceability chain.";
                   specItems.push(`<div class="lab-inst-spec-col"><div class="lab-inst-spec-title">Features</div><div class="lab-inst-spec-desc">${featureText}</div></div>`);
                   return specItems.join('');
                 })()}
