@@ -20,7 +20,6 @@
 
   let inMemoryDb = null;
   let isFetching = false;
-  const CURRENT_APP_VERSION = '11.0';
   const CURRENT_APP_VERSION = '12.0';
 
   // Load from local cache synchronously on script evaluation
@@ -76,7 +75,28 @@
     if (isFetching) return inMemoryDb;
     isFetching = true;
 
-    // 1. Try Supabase Main Database if configured
+    const isLocal = typeof window !== 'undefined' && 
+      (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname === '');
+
+    // 1. On localhost, always prioritize local server REST API (/api/data)
+    if (isLocal) {
+      try {
+        const res = await fetch('/api/data', { cache: 'no-store' });
+        if (res.ok) {
+          const data = await res.json();
+          if (data && typeof data === 'object' && Object.keys(data).length > 0) {
+            setCachedDatabase(data);
+            window.dispatchEvent(new CustomEvent('reva_data_updated', { detail: data }));
+            isFetching = false;
+            return data;
+          }
+        }
+      } catch (e) {
+        console.warn('Local /api/data fetch error, falling back:', e);
+      }
+    }
+
+    // 2. Try Supabase Main Database if configured
     if (typeof window !== 'undefined' && window.SupabaseDB && window.SupabaseDB.isConfigured()) {
       try {
         const [cloudLabs, cloudDocs, cloudImages] = await Promise.all([
@@ -131,7 +151,7 @@
       }
     }
 
-    // 2. Fallback to /api/data REST API
+    // 3. Fallback to /api/data REST API (for non-local or when cloud unavailable)
     try {
       const res = await fetch('/api/data', { cache: 'no-store' });
       if (res.ok) {
@@ -148,6 +168,19 @@
       isFetching = false;
     }
     return getCachedDatabase();
+  }
+
+  // Cross-tab synchronization via storage event
+  if (typeof window !== 'undefined') {
+    window.addEventListener('storage', (e) => {
+      if (e.key === STORAGE_KEYS.DB || e.key === STORAGE_KEYS.LABS) {
+        inMemoryDb = null;
+        const fresh = getCachedDatabase();
+        if (fresh) {
+          window.dispatchEvent(new CustomEvent('reva_data_updated', { detail: fresh }));
+        }
+      }
+    });
   }
 
   // Kick off immediate async fetch

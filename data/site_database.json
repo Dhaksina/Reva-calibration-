@@ -1,6 +1,6 @@
 {
   "version": "12.0",
-  "lastUpdated": "2026-11-03T07:55:50Z",
+  "lastUpdated": "2026-11-03T09:13:01Z",
   "auth": {
     "adminEmail": "admin@revaphoenix.com",
     "adminPassword": "reva2026"
@@ -637,9 +637,9 @@
       "documentName": "1. RevaPhoenix_Calibration_Catalogue_Dimension_Basic_Instruments_updated.pdf",
       "tat": "24–48h",
       "envControl": "20°C ± 1°, 50 ± 10% RH",
-      "temperature": "20°C ± 1°",
+      "temperature": "20°C ± 1°C",
       "temperatureSub": "Thermally Stabilized",
-      "humidity": "50 ± 10% RH",
+      "humidity": "RH 45% ± 5%",
       "humiditySub": "Class 100k Cleanroom"
     },
     {

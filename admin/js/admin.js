@@ -309,10 +309,44 @@
 
   // --- 2. Data Initialization ---
   async function initApp() {
+    let loadedFromLocal = false;
     let loadedFromSupabase = false;
+    const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' || window.location.hostname === '';
 
-    // 1. Try Supabase Main Database first
-    if (window.SupabaseDB && window.SupabaseDB.isConfigured()) {
+    // 1. On localhost, always prioritize local /api/data first so local edits are immediately seen
+    if (isLocal) {
+      try {
+        const res = await fetch('/api/data', { cache: 'no-store' });
+        if (res.ok) {
+          siteDatabase = await res.json();
+          if (siteDatabase && Array.isArray(siteDatabase.laboratories) && siteDatabase.laboratories.length > 0) {
+            allLaboratories = siteDatabase.laboratories;
+            if (siteDatabase.content && Array.isArray(siteDatabase.content.resources)) {
+              allDocuments = siteDatabase.content.resources;
+            }
+            if (Array.isArray(siteDatabase.siteImages)) {
+              siteDatabase.siteImages.forEach(savedImg => {
+                const found = SITE_IMAGES_REGISTRY.find(i => i.id === savedImg.id);
+                if (found) {
+                  if (savedImg.title) found.title = savedImg.title;
+                  if (savedImg.sub) found.sub = savedImg.sub;
+                  if (savedImg.section) found.section = savedImg.section;
+                  if (savedImg.desc) found.desc = savedImg.desc;
+                  if (savedImg.path) found.path = savedImg.path;
+                }
+              });
+            }
+            loadedFromLocal = true;
+            console.log('[AdminApp] Initialized laboratories and content from local /api/data.');
+          }
+        }
+      } catch (e) {
+        console.warn('Could not fetch /api/data on init:', e);
+      }
+    }
+
+    // 2. Try Supabase Main Database if not loaded from local
+    if (!loadedFromLocal && window.SupabaseDB && window.SupabaseDB.isConfigured()) {
       try {
         const [cloudLabs, cloudDocs, cloudImages] = await Promise.all([
           window.SupabaseDB.getLaboratories(),
@@ -718,6 +752,25 @@
     const index = allLaboratories.findIndex(l => Number(l.id) === labId);
     if (index !== -1) {
       allLaboratories[index] = updatedLab;
+    }
+
+    // Update localStorage cache directly for instant reflection on localhost
+    try {
+      const stored = localStorage.getItem('reva_site_database');
+      let db = stored ? JSON.parse(stored) : {};
+      if (!Array.isArray(db.laboratories)) {
+        db.laboratories = allLaboratories;
+      }
+      const lIdx = db.laboratories.findIndex(l => Number(l.id) === labId);
+      if (lIdx !== -1) {
+        db.laboratories[lIdx] = updatedLab;
+      } else {
+        db.laboratories.push(updatedLab);
+      }
+      localStorage.setItem('reva_site_database', JSON.stringify(db));
+      localStorage.setItem('reva_laboratories', JSON.stringify(db.laboratories));
+    } catch (e) {
+      console.warn('Could not update localStorage in admin:', e);
     }
 
     // Save to Supabase Cloud if configured
