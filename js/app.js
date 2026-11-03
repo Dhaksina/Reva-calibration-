@@ -55,10 +55,8 @@ document.addEventListener('DOMContentLoaded', () => {
       const subheadEl = document.getElementById('hero-subhead-text');
       if (subheadEl && content.hero.subhead) {
         const lines = content.hero.subhead.split('\n').filter(l => l.trim().length > 0);
-        if (lines.length >= 3) {
-          subheadEl.innerHTML = `<span class="hero-subhead-services">${lines[0]}<br>${lines[1]}</span><span class="hero-subhead-trust">${lines.slice(2).join(' ')}</span>`;
-        } else if (lines.length === 2) {
-          subheadEl.innerHTML = `<span class="hero-subhead-services">${lines[0]}</span><span class="hero-subhead-trust">${lines[1]}</span>`;
+        if (lines.length >= 2) {
+          subheadEl.innerHTML = `<span class="hero-subhead-services">${lines[0]}</span><span class="hero-subhead-trust">${lines.slice(1).join(' ')}</span>`;
         } else {
           subheadEl.textContent = content.hero.subhead;
         }
