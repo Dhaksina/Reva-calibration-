@@ -2444,6 +2444,16 @@
 }
 
 /* 14. Industrial Contact & RFQ Hub */
+.contact-desc-singleline {
+  display: inline-block;
+}
+
+@media (min-width: 992px) {
+  .contact-desc-singleline {
+    white-space: nowrap;
+  }
+}
+
 .contact-hub-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
