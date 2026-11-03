@@ -20,7 +20,7 @@
 
   let inMemoryDb = null;
   let isFetching = false;
-  const CURRENT_APP_VERSION = '12.0';
+  const CURRENT_APP_VERSION = '13.0';
 
   // Load from local cache synchronously on script evaluation
   function getCachedDatabase() {

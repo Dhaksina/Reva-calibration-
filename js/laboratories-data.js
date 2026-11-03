@@ -98,7 +98,7 @@ const REVA_35_LABORATORIES = [
     standards: "OIML R 76-1, OIML R 111-1, IS 16514-1:2024, ISO/IEC 17025: 2017",
     applications: "Pharmaceutical compounding, analytical chemistry, testing laboratories, bullion & precious metal inspection, industrial weighing & automation.",
     statCmc: "\u00b1 0.001 mg / 0.002 mg",
-    instCount: "45 Scopes",
+    instCount: "44 Scopes",
     image: "assets/images/labs/lab_4.png"
   },
   // 5. Volume
@@ -24241,63 +24241,6 @@ const REVA_LAB_INSTRUMENTS = {
       ]
     },
     {
-      "id": "inst-mas-18",
-      "labId": 4,
-      "category": "dimensional",
-      "name": "Electronic Weighing Balance (Class IV and Coarser, Readability: 500 g) [Permanent - 4000 kg]",
-      "shortDescription": "Electronic Weighing Balance (Class IV and Coarser) with Readability : 500 g (Permanent Facility)",
-      "description": "Electronic Weighing Balance (Class IV and Coarser) with Readability : 500 g. Using F2, M1 Class Weights by Comparison Method as per OIML R 76-1. Facility: Permanent Facility.",
-      "range": "0 to 4000 kg",
-      "accuracy": "\u00b1 400 g",
-      "resolution": "500 g",
-      "display": "Digital Precision Display / Microbalance Controller",
-      "parameters": "Using F2, M1 Class Weights by Comparison Method as per OIML R 76-1",
-      "equipment": "Class F2, M1 Standard Weights",
-      "cmc": "\u00b1 400 g",
-      "standards": "OIML R 76-1, ISO/IEC 17025: 2017",
-      "applications": "Pharmaceutical compounding, analytical chemistry, quality control, jewellery/precious metals, industrial inventory.",
-      "features": "Upto unbroken traceability ISO/IEC 17025 : 2017 accredited by NABL for calibration with an unbroken traceability chain.",
-      "image": "assets/images/labs/lab_4.png",
-      "images": [],
-      "enabled": true,
-      "order": 18,
-      "type": "balance",
-      "specs": [
-        {
-          "name": "Facility Type",
-          "value": "Permanent Facility"
-        },
-        {
-          "name": "Discipline / Group",
-          "value": "Mechanical - Weighing Scale and Balance"
-        },
-        {
-          "name": "Instrument / Measurand",
-          "value": "Electronic Weighing Balance (Class IV and Coarser) with Readability : 500 g"
-        },
-        {
-          "name": "Calibration Range",
-          "value": "0 to 4000 kg"
-        },
-        {
-          "name": "Calibration & Measurement Capability (CMC \u00b1)",
-          "value": "\u00b1 400 g"
-        },
-        {
-          "name": "Calibration Method / Procedure",
-          "value": "Using F2, M1 Class Weights by Comparison Method as per OIML R 76-1"
-        },
-        {
-          "name": "Master Standard Weights / Equipment",
-          "value": "Class F2, M1 Standard Weights"
-        },
-        {
-          "name": "Governing Standards",
-          "value": "OIML R 76-1, ISO/IEC 17025: 2017"
-        }
-      ]
-    },
-    {
       "id": "inst-mas-19",
       "labId": 4,
       "category": "dimensional",
@@ -24317,7 +24260,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 19,
+      "order": 18,
       "type": "balance",
       "specs": [
         {
@@ -24374,7 +24317,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 20,
+      "order": 19,
       "type": "balance",
       "specs": [
         {
@@ -24431,7 +24374,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 21,
+      "order": 20,
       "type": "weight",
       "specs": [
         {
@@ -24488,7 +24431,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 22,
+      "order": 21,
       "type": "weight",
       "specs": [
         {
@@ -24545,7 +24488,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 23,
+      "order": 22,
       "type": "weight",
       "specs": [
         {
@@ -24602,7 +24545,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 24,
+      "order": 23,
       "type": "weight",
       "specs": [
         {
@@ -24659,7 +24602,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 25,
+      "order": 24,
       "type": "weight",
       "specs": [
         {
@@ -24716,7 +24659,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 26,
+      "order": 25,
       "type": "weight",
       "specs": [
         {
@@ -24773,7 +24716,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 27,
+      "order": 26,
       "type": "weight",
       "specs": [
         {
@@ -24830,7 +24773,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 28,
+      "order": 27,
       "type": "balance",
       "specs": [
         {
@@ -24887,7 +24830,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 29,
+      "order": 28,
       "type": "balance",
       "specs": [
         {
@@ -24944,7 +24887,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 30,
+      "order": 29,
       "type": "balance",
       "specs": [
         {
@@ -25001,7 +24944,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 31,
+      "order": 30,
       "type": "balance",
       "specs": [
         {
@@ -25058,7 +25001,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 32,
+      "order": 31,
       "type": "balance",
       "specs": [
         {
@@ -25115,7 +25058,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 33,
+      "order": 32,
       "type": "balance",
       "specs": [
         {
@@ -25172,7 +25115,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 34,
+      "order": 33,
       "type": "balance",
       "specs": [
         {
@@ -25229,7 +25172,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 35,
+      "order": 34,
       "type": "balance",
       "specs": [
         {
@@ -25286,7 +25229,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 36,
+      "order": 35,
       "type": "balance",
       "specs": [
         {
@@ -25343,7 +25286,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 37,
+      "order": 36,
       "type": "balance",
       "specs": [
         {
@@ -25400,7 +25343,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 38,
+      "order": 37,
       "type": "balance",
       "specs": [
         {
@@ -25457,7 +25400,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 39,
+      "order": 38,
       "type": "balance",
       "specs": [
         {
@@ -25514,7 +25457,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 40,
+      "order": 39,
       "type": "balance",
       "specs": [
         {
@@ -25571,7 +25514,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 41,
+      "order": 40,
       "type": "balance",
       "specs": [
         {
@@ -25628,7 +25571,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 42,
+      "order": 41,
       "type": "balance",
       "specs": [
         {
@@ -25685,7 +25628,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 43,
+      "order": 42,
       "type": "balance",
       "specs": [
         {
@@ -25742,7 +25685,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 44,
+      "order": 43,
       "type": "balance",
       "specs": [
         {
@@ -25799,7 +25742,7 @@ const REVA_LAB_INSTRUMENTS = {
       "image": "assets/images/labs/lab_4.png",
       "images": [],
       "enabled": true,
-      "order": 45,
+      "order": 44,
       "type": "balance",
       "specs": [
         {
