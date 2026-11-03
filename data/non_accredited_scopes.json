@@ -1,20 +1,6 @@
 [
   {
     "category": "materials",
-    "category_display": "Paint & Coatings",
-    "title": "Flow Cups (Viscosity)",
-    "desc": "Ford, Zahn, and DIN efflux cups calibrated for kinematic viscosity and orifice timing against certified Newtonian reference oils.",
-    "image": "assets/images/non-accredited/Flow-Cup.jpg"
-  },
-  {
-    "category": "materials",
-    "category_display": "Coatings & Mechanical",
-    "title": "Cylindrical Mandrels",
-    "desc": "ASTM D522 / ISO 1519 cylindrical mandrel bend testers verified for diameter conformity and coating flexibility testing.",
-    "image": "assets/images/non-accredited/Cylindrical-Mandrel.jpg"
-  },
-  {
-    "category": "materials",
     "category_display": "Paint & Film Thickness",
     "title": "Cryptometer",
     "desc": "Pfund cryptometer glass wedge calibrated for paint hiding power, opacity constants, and wet film thickness evaluation.",
@@ -29,13 +15,6 @@
   },
   {
     "category": "materials",
-    "category_display": "Coatings & Surface",
-    "title": "Pencil Hardness Tester",
-    "desc": "ASTM D3363 / ISO 15184 scratch hardness verification, pencil lead 45-degree angle fixture, and calibrated 750g load force.",
-    "image": "assets/images/non-accredited/pencil-hardness-tester.jpg"
-  },
-  {
-    "category": "materials",
     "category_display": "Impact Metrology",
     "title": "Impact Weight (Falling Dart)",
     "desc": "ASTM D2794 / ISO 6272 falling dart impact weights calibrated for mass, nose radius, and drop-height energy absorption.",
@@ -47,13 +26,6 @@
     "title": "Alcohol Meter / Analyzer",
     "desc": "Hydrometric and electronic breath/solution alcohol density meters verified with certified ethanol-water concentration standards.",
     "image": "assets/images/non-accredited/Alcohol-meter.jpg"
-  },
-  {
-    "category": "chemical",
-    "category_display": "Fluid Dynamics",
-    "title": "Industrial Flow Meter",
-    "desc": "Positive displacement, magnetic, and vortex flow meters calibrated for volumetric and mass flow rates.",
-    "image": "assets/images/non-accredited/Flow-meter.png"
   },
   {
     "category": "optical",
@@ -75,13 +47,6 @@
     "title": "Durometer Hardness Blocks",
     "desc": "Shore A, Shore D, and Shore OO reference rubber test blocks verified for hardness durometer gauge validation.",
     "image": "assets/images/non-accredited/Durometer-hardness.jpg"
-  },
-  {
-    "category": "ndt",
-    "category_display": "Dimensional Linear",
-    "title": "Steel Scale (Above 1 Meter)",
-    "desc": "Heavy engineering stainless steel rules (2m, 3m, 5m) calibrated against laser interferometer bench systems.",
-    "image": "assets/images/non-accredited/steel-scale-1024x911.jpg"
   },
   {
     "category": "ndt",
@@ -110,34 +75,6 @@
     "title": "Pendulum Hardness Tester",
     "desc": "K\u00f6nig and Persoz pendulum damping testers calibrated for oscillation period, dampening count, and ball indenter radius.",
     "image": "assets/images/non-accredited/Pendulum_Tester.jpg"
-  },
-  {
-    "category": "chemical",
-    "category_display": "Electrochemical",
-    "title": "pH Meter & Electrodes",
-    "desc": "Digital pH meters and combination glass electrodes calibrated across pH 4.01, 7.00, and 9.21 certified NIST traceable buffers.",
-    "image": "assets/images/non-accredited/PH-meter.jpg"
-  },
-  {
-    "category": "chemical",
-    "category_display": "Electrochemical",
-    "title": "Conductivity Meter",
-    "desc": "Conductivity and TDS meters calibrated with precision potassium chloride (KCl) conductivity standard solutions.",
-    "image": "assets/images/non-accredited/conductivity-meter.jpg"
-  },
-  {
-    "category": "electrical",
-    "category_display": "Electrical Power",
-    "title": "Energy Meter (Single & 3-Phase)",
-    "desc": "Electronic and electromechanical energy meters calibrated for active (kWh) and reactive (kVARh) power measurement accuracy.",
-    "image": "assets/images/non-accredited/Energy-Meter.jpg"
-  },
-  {
-    "category": "ndt",
-    "category_display": "Profile & Form",
-    "title": "Contrace / Contour Measuring Machine",
-    "desc": "Stylus-based 2D contour tracing machines calibrated for arc radius, step height, angle, and coordinate linearity.",
-    "image": "assets/images/non-accredited/Comtrace-Machine-1024x768.jpg"
   },
   {
     "category": "electrical",
