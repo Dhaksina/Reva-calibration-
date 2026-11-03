@@ -40,7 +40,7 @@
     // 2. State-of-the-Art Infrastructure ("Facilities Engineered for Precision")
     {
       id: 'labs-reference-chart',
-      title: '35 Integrated Labs Master Reference Chart',
+      title: '35+ Integrated Labs Master Reference Chart',
       sub: 'Authoritative NABL Scope Overview',
       section: 'State-of-the-Art Infrastructure',
       category: 'infrastructure',
