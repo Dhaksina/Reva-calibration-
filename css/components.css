@@ -1211,9 +1211,7 @@ html.lab-modal-open {
 }
 
 .lab-metric-sub {
-  font-size: 0.76rem;
-  color: var(--text-muted);
-  margin-top: 4px;
+  display: none !important;
 }
 
 /* Section 1: Interactive Instruments Showcase & Rich Animations */

@@ -83297,7 +83297,7 @@ function openLabDetails(labId) {
     ? `${instruments.length} NABL Scopes`
     : (lab.instCount || 'Direct NABL Scope');
   if (instCountEl) instCountEl.textContent = countDisplay;
-  if (instSubEl) instSubEl.textContent = lab.instSub || 'Direct NABL Scope';
+  if (instSubEl) instSubEl.remove();
 
   // Box 2: Environmental Condition / Temperature
   const isElectro = lab.category === 'electrotechnical' || [20, 21, 22, 23, 24].includes(Number(lab.id));
@@ -83310,9 +83310,8 @@ function openLabDetails(labId) {
     .replace(/2\\0°/g, '20°C')
     .replace(/2\\0/g, '20');
 
-  const tempSubVal = lab.temperatureSub || (isElectro ? 'Controlled Ambient' : 'Thermally Stabilized');
   if (statTempEl) statTempEl.textContent = tempVal;
-  if (statTempSubEl) statTempSubEl.textContent = tempSubVal;
+  if (statTempSubEl) statTempSubEl.remove();
 
   // Box 3: Environmental Condition / Humidity
   let humidVal = lab.humidity || '';
@@ -83320,9 +83319,8 @@ function openLabDetails(labId) {
     humidVal = lab.envControl.split(',').slice(1).join(',').trim();
   }
   humidVal = (humidVal || (isElectro ? 'RH 50% ± 10%' : 'RH 45% ± 5%')).toString();
-  const humidSubVal = lab.humiditySub || (isElectro ? 'ESD Protected Area' : 'Class 100k Cleanroom');
   if (statHumidEl) statHumidEl.textContent = humidVal;
-  if (statHumidSubEl) statHumidSubEl.textContent = humidSubVal;
+  if (statHumidSubEl) statHumidSubEl.remove();
 
   // Section 1: Interactive Instruments Showcase
   const instCountHeading = document.getElementById('lab-modal-instruments-count');
