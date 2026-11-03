@@ -490,15 +490,15 @@
   display: inline-flex;
   align-items: center;
   font-family: var(--font-mono);
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   font-weight: 700;
   letter-spacing: 0.08em;
-  color: #FFA34D;
+  text-transform: uppercase;
+  color: var(--orange-primary, #ff6600);
   background: rgba(255, 102, 0, 0.12);
   border: 1px solid rgba(255, 102, 0, 0.28);
-  padding: 3px 8px;
+  padding: 4px 10px;
   border-radius: 4px;
-  margin-right: 8px;
 }
 
 /* 3. About Reva Phoenix & Executive Editorial */
