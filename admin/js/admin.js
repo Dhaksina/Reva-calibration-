@@ -144,9 +144,9 @@
     {
       id: 4,
       meta: 'ACCREDITATION: NABL SCOPE // PDF (192 PAGES)',
-      title: '35 Integrated Labs Master Scope',
+      title: '35+ Integrated Labs Master Scope',
       category: 'Accreditation',
-      desc: 'Authoritative 35 Integrated Laboratories reference chart detailing all parameters, disciplines, and on-site/off-site calibration ranges.',
+      desc: 'Authoritative 35+ Integrated Laboratories reference chart detailing all parameters, disciplines, and In-House/on-site calibration ranges.',
       fileUrl: 'assets/docs/Reva-Phoenix-NABL-ISO-17025-Scope-Accreditation.pdf',
       buttonText: 'Download'
     },
