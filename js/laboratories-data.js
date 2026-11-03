@@ -24,7 +24,7 @@ const REVA_35_LABORATORIES = [
     name: "Dimension - Basic Instruments",
     category: "dimensional",
     code: "LAB-DIM-01",
-    tagline: "NABL Accredited ISO/IEC 17025: 2017 \u2022 Unbroken Traceability to NPL & NIST",
+    tagline: "NABL Accredited ISO/IEC 17025: 2017",
     scope: "Comprehensive NABL Scope: Calipers, Micrometers, Height Gauges, Dial Indicators, Gauges, Setting Standards, Surface Plates, Machine Tools (Linear & Positioning Accuracy up to 40,000 mm), and 2D Height Gauges.",
     onSite: true,
     labBased: true,
@@ -48,7 +48,7 @@ const REVA_35_LABORATORIES = [
     name: "Dimension - Precision Instruments",
     category: "dimensional",
     code: "LAB-DIM-02",
-    tagline: "NABL Accredited ISO/IEC 17025: 2017 • Unbroken Traceability to NPL & NIST",
+    tagline: "NABL Accredited ISO/IEC 17025: 2017",
     statCmc: "± 0.03 µm",
     instCount: "146 NABL Scopes",
     image: "assets/images/labs/lab_2.png",
@@ -201,7 +201,7 @@ const REVA_35_LABORATORIES = [
     name: "Torque - Measuring Device, Sensor",
     category: "mechanical",
     code: "LAB-TRQ-10",
-    tagline: "NABL Accredited ISO/IEC 17025: 2017 • Unbroken Traceability to NPL & NIST",
+    tagline: "NABL Accredited ISO/IEC 17025: 2017",
     statCmc: "± 0.12%",
     instCount: "2 NABL Scopes (10 Instrument Variants)",
     image: "assets/images/labs/lab_10.png",
@@ -83274,7 +83274,10 @@ function openLabDetails(labId) {
   if (catEl) catEl.textContent = (lab.category || 'METROLOGY').toUpperCase();
   if (siteEl) siteEl.textContent = lab.onSite ? 'On-Site & Permanent Lab' : 'Permanent Lab Facility';
   if (titleEl) titleEl.textContent = lab.name;
-  if (taglineEl) taglineEl.textContent = lab.tagline || 'NABL Accredited ISO/IEC 17025: 2017 • Unbroken Traceability to NPL & NIST';
+  const cleanTagline = (lab.tagline || 'NABL Accredited ISO/IEC 17025: 2017')
+    .replace(/\s*[•\u2022&bull;·-]*\s*Unbroken Traceability to NPL & NIST/gi, '')
+    .trim();
+  if (taglineEl) taglineEl.textContent = cleanTagline;
 
   const navIndicator = document.getElementById('lab-nav-indicator');
   if (navIndicator) {
