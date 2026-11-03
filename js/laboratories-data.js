@@ -83462,7 +83462,7 @@ function openLabDetails(labId) {
               <div class="lab-inst-action-bar">
                 <div class="lab-inst-guarantee">
                   <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-                  <span>ISO/IEC 17025 Accredited Calibration Certificate with Traceability to NPL/NIST</span>
+                  <span>ISO/IEC 17025 Accredited Calibration Certificate with Traceability</span>
                 </div>
                 <button type="button" class="btn btn-primary btn-sm lab-inst-quote-btn" onclick="requestInstrumentQuote('${inst.name.replace(/'/g, "\\\'")}', '${lab.name.replace(/'/g, "\\\'")}')">
                   <span>Enquire / Calibrate this Instrument</span>
