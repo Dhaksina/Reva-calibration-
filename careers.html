@@ -47,10 +47,10 @@
     }
     .careers-hero-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 4rem;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 3.5rem;
       align-items: center;
-      max-width: 1200px;
+      max-width: 1240px;
       margin: 0 auto;
       padding: 0 2rem;
       position: relative;
@@ -72,9 +72,18 @@
     }
     .careers-hero-title {
       font-family: 'Montserrat', sans-serif;
-      font-size: clamp(2rem, 4vw, 3.2rem);
-      font-weight: 800; color: #fff; line-height: 1.18;
+      font-size: clamp(1.85rem, 2.6vw, 2.45rem);
+      font-weight: 800; color: #fff; line-height: 1.2;
       margin: 0 0 1.25rem;
+      letter-spacing: -0.01em;
+    }
+    .careers-hero-title .hero-line {
+      display: block;
+    }
+    @media (min-width: 768px) {
+      .careers-hero-title .hero-line {
+        white-space: nowrap;
+      }
     }
     .careers-hero-title .text-orange { color: var(--orange-primary); }
     .careers-hero-subtitle {
@@ -407,7 +416,9 @@
           We're Hiring — 4 Open Positions
         </div>
         <h1 class="careers-hero-title">
-          Build Your Career in <span class="text-orange">Precision Metrology</span> &amp; Calibration Services
+          <span class="hero-line">Build Your Career in</span>
+          <span class="hero-line"><span class="text-orange">Precision Metrology</span> &amp;</span>
+          <span class="hero-line">Calibration Services</span>
         </h1>
         <p class="careers-hero-subtitle">
           Reva Phoenix Labs &amp; Consultants Pvt. Ltd. — India's largest integrated NABL Accredited (ISO/IEC 17025: 2017) calibration laboratory — is expanding Across India, Middle East, Asia &amp; US. Join a world-class team of metrologists.
