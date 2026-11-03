@@ -43,6 +43,7 @@
   position: relative;
   z-index: 10;
   width: 100%;
+  max-width: min(100%, 1580px);
   margin-left: 0 !important;
   margin-right: 0 !important;
   text-align: left;
@@ -54,20 +55,22 @@
 .hero-split-layout {
   display: flex;
   align-items: center;
-  gap: clamp(1.5rem, 3vw, 3.5rem);
+  justify-content: space-between;
+  gap: clamp(1.5rem, 3.5vw, 4.5rem);
 }
 
 .hero-left-col {
-  flex: 1 1 64%;
-  max-width: 66%;
+  flex: 1 1 62%;
+  max-width: 65%;
 }
 
 .hero-right-col {
   flex: 0 0 auto;
-  max-width: 35%;
+  max-width: 36%;
   display: flex;
   align-items: center;
   justify-content: flex-end;
+  margin-left: auto;
 }
 
 .hero-3p-card {
