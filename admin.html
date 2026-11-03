@@ -346,9 +346,43 @@
               <input type="text" id="edit-lab-tat" class="form-input" placeholder="e.g. 24–48h Priority">
             </div>
             <div class="form-group">
-              <label class="form-label" for="edit-lab-env">Environmental Control</label>
-              <input type="text" id="edit-lab-env" class="form-input" placeholder="e.g. 20°C ± 1°C, RH 45%">
+              <label class="form-label" for="edit-lab-inst-count">Box 1: Accredited Instruments Scope</label>
+              <input type="text" id="edit-lab-inst-count" class="form-input" placeholder="e.g. 283 NABL Scopes or Direct NABL Scope">
             </div>
+          </div>
+
+          <!-- Environmental Condition 3-Box Specifications -->
+          <div style="margin: 16px 0 18px; padding: 14px 16px; background: rgba(255, 95, 0, 0.04); border: 1px solid rgba(255, 95, 0, 0.22); border-radius: var(--radius-sm);">
+            <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px;">
+              <div style="display: flex; align-items: center; gap: 8px;">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--orange-primary)" stroke-width="2.2"><path d="M14 4v10.54a4 4 0 1 1-4 0V4a2 2 0 0 1 4 0Z"></path></svg>
+                <span style="font-size: 0.8rem; font-weight: 700; color: var(--orange-primary); text-transform: uppercase; letter-spacing: 0.06em;">Environmental Conditions (Lab Modal Boxes 2 &amp; 3)</span>
+              </div>
+              <span style="font-size: 0.72rem; color: var(--text-muted);">Syncs live to Lab Modal Ribbons</span>
+            </div>
+            
+            <div class="modal-grid-2">
+              <div class="form-group" style="margin-bottom: 10px;">
+                <label class="form-label" for="edit-lab-temperature">Box 2: Environmental Condition / Temperature</label>
+                <input type="text" id="edit-lab-temperature" class="form-input" placeholder="e.g. 20°C ± 1°C">
+              </div>
+              <div class="form-group" style="margin-bottom: 10px;">
+                <label class="form-label" for="edit-lab-temperature-sub">Temperature Status / Subtext</label>
+                <input type="text" id="edit-lab-temperature-sub" class="form-input" placeholder="e.g. Thermally Stabilized">
+              </div>
+            </div>
+
+            <div class="modal-grid-2">
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="edit-lab-humidity">Box 3: Environmental Condition / Humidity</label>
+                <input type="text" id="edit-lab-humidity" class="form-input" placeholder="e.g. RH 45% ± 5%">
+              </div>
+              <div class="form-group" style="margin-bottom: 0;">
+                <label class="form-label" for="edit-lab-humidity-sub">Humidity Status / Subtext</label>
+                <input type="text" id="edit-lab-humidity-sub" class="form-input" placeholder="e.g. Class 100k Cleanroom">
+              </div>
+            </div>
+            <input type="hidden" id="edit-lab-env">
           </div>
 
           <div class="form-group">

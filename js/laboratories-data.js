@@ -83284,24 +83284,45 @@ function openLabDetails(labId) {
   const symbolEl = document.getElementById('lab-modal-symbol-box');
   if (symbolEl) symbolEl.innerHTML = getLabSvgIcon(lab.id, 54);
 
-  // Metrics Ribbon
+  // Metrics Ribbon (3 Boxes: Accredited Instruments, Temperature, Humidity)
   const instruments = getLabInstruments(lab);
   const instCountEl = document.getElementById('lab-modal-inst-count');
   const instSubEl = document.getElementById('lab-modal-inst-sub');
-  const statCmcEl = document.getElementById('lab-modal-stat-cmc');
-  const statCmcSubEl = document.getElementById('lab-modal-stat-cmc-sub');
-  const statEnvEl = document.getElementById('lab-modal-stat-env');
-  const statEnvSubEl = document.getElementById('lab-modal-stat-env-sub');
+  const statTempEl = document.getElementById('lab-modal-stat-temp');
+  const statTempSubEl = document.getElementById('lab-modal-stat-temp-sub');
+  const statHumidEl = document.getElementById('lab-modal-stat-humidity');
+  const statHumidSubEl = document.getElementById('lab-modal-stat-humidity-sub');
 
   const countDisplay = (instruments && instruments.length > 0)
     ? `${instruments.length} NABL Scopes`
     : (lab.instCount || 'Direct NABL Scope');
   if (instCountEl) instCountEl.textContent = countDisplay;
   if (instSubEl) instSubEl.textContent = lab.instSub || 'Direct NABL Scope';
-  if (statCmcEl) statCmcEl.textContent = lab.statCmc || (lab.cmc ? lab.cmc.split('|')[0].replace('Expanded Uncertainty:', '').trim() : '± 1.2 µm');
-  if (statCmcSubEl) statCmcSubEl.textContent = lab.cmcSub || 'Expanded (k=2, 95.45%)';
-  if (statEnvEl) statEnvEl.textContent = lab.envControl || '20°C ± 1°C';
-  if (statEnvSubEl) statEnvSubEl.textContent = lab.envControlSub || 'RH 45% ± 5% Class 100k';
+
+  // Box 2: Environmental Condition / Temperature
+  const isElectro = lab.category === 'electrotechnical' || [20, 21, 22, 23, 24].includes(Number(lab.id));
+  let tempVal = lab.temperature || '';
+  if (!tempVal && lab.envControl) {
+    tempVal = lab.envControl.includes(',') ? lab.envControl.split(',')[0].trim() : lab.envControl;
+  }
+  tempVal = (tempVal || (isElectro ? '23°C ± 2°C' : '20°C ± 1°C')).toString()
+    .replace(/2\\0°C/g, '20°C')
+    .replace(/2\\0°/g, '20°C')
+    .replace(/2\\0/g, '20');
+
+  const tempSubVal = lab.temperatureSub || (isElectro ? 'Controlled Ambient' : 'Thermally Stabilized');
+  if (statTempEl) statTempEl.textContent = tempVal;
+  if (statTempSubEl) statTempSubEl.textContent = tempSubVal;
+
+  // Box 3: Environmental Condition / Humidity
+  let humidVal = lab.humidity || '';
+  if (!humidVal && lab.envControl && lab.envControl.includes(',')) {
+    humidVal = lab.envControl.split(',').slice(1).join(',').trim();
+  }
+  humidVal = (humidVal || (isElectro ? 'RH 50% ± 10%' : 'RH 45% ± 5%')).toString();
+  const humidSubVal = lab.humiditySub || (isElectro ? 'ESD Protected Area' : 'Class 100k Cleanroom');
+  if (statHumidEl) statHumidEl.textContent = humidVal;
+  if (statHumidSubEl) statHumidSubEl.textContent = humidSubVal;
 
   // Section 1: Interactive Instruments Showcase
   const instCountHeading = document.getElementById('lab-modal-instruments-count');

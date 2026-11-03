@@ -331,7 +331,11 @@
             statCmc: l.stat_cmc || l.cmc,
             tat: l.tat,
             envControl: l.env_control,
-            instCount: l.inst_count,
+            temperature: l.temperature || (l.env_control ? (l.env_control.includes(',') ? l.env_control.split(',')[0].trim() : l.env_control) : ''),
+            temperatureSub: l.temperature_sub || l.temperatureSub || '',
+            humidity: l.humidity || (l.env_control && l.env_control.includes(',') ? l.env_control.split(',').slice(1).join(',').trim() : ''),
+            humiditySub: l.humidity_sub || l.humiditySub || '',
+            instCount: l.inst_count || l.instCount,
             scope: l.scope,
             equipment: l.equipment,
             standards: l.standards,
@@ -520,12 +524,16 @@
               <span class="lab-spec-val">${lab.tat || '24–48h Priority'}</span>
             </div>
             <div class="lab-spec-item">
-              <span class="lab-spec-label">Environment</span>
-              <span class="lab-spec-val">${lab.envControl || '20°C ± 1°C'}</span>
+              <span class="lab-spec-label">Env. Temperature</span>
+              <span class="lab-spec-val" style="color: var(--orange-primary); font-weight: 600;">${(lab.temperature || (lab.category === 'electrotechnical' ? '23°C ± 2°C' : '20°C ± 1°C')).replace(/2\\0°C/g, '20°C').replace(/2\\0/g, '20')}</span>
             </div>
             <div class="lab-spec-item">
-              <span class="lab-spec-label">Capability</span>
-              <span class="lab-spec-val">${lab.instCount || 'NABL Scope'}</span>
+              <span class="lab-spec-label">Env. Humidity</span>
+              <span class="lab-spec-val" style="color: var(--cyan-accent); font-weight: 600;">${lab.humidity || (lab.category === 'electrotechnical' ? 'RH 50% ± 10%' : 'RH 45% ± 5%')}</span>
+            </div>
+            <div class="lab-spec-item" style="grid-column: span 2;">
+              <span class="lab-spec-label">Accredited Instruments / Scope</span>
+              <span class="lab-spec-val">${lab.instCount || 'Direct NABL Scope'}</span>
             </div>
           </div>
 
@@ -577,7 +585,45 @@
     document.getElementById('edit-lab-tagline').value = lab.tagline || '';
     document.getElementById('edit-lab-cmc').value = lab.cmc || lab.statCmc || '';
     document.getElementById('edit-lab-tat').value = lab.tat || '24–48h';
-    document.getElementById('edit-lab-env').value = lab.envControl || '20°C ± 1°C';
+
+    // Box 1: Accredited Instruments Scope
+    const instCountEl = document.getElementById('edit-lab-inst-count');
+    if (instCountEl) {
+      instCountEl.value = lab.instCount || '';
+    }
+
+    // Box 2: Environmental Condition / Temperature
+    const isElectro = lab.category === 'electrotechnical' || [20, 21, 22, 23, 24].includes(Number(lab.id));
+    const tempDefault = isElectro ? '23°C ± 2°C' : '20°C ± 1°C';
+    const tempSubDefault = isElectro ? 'Controlled Ambient' : 'Thermally Stabilized';
+    let tempVal = lab.temperature || '';
+    if (!tempVal && lab.envControl) {
+      tempVal = lab.envControl.includes(',') ? lab.envControl.split(',')[0].trim() : lab.envControl;
+    }
+    tempVal = (tempVal || tempDefault).replace(/2\\0°C/g, '20°C').replace(/2\\0/g, '20');
+
+    const tempEl = document.getElementById('edit-lab-temperature');
+    if (tempEl) tempEl.value = tempVal;
+    const tempSubEl = document.getElementById('edit-lab-temperature-sub');
+    if (tempSubEl) tempSubEl.value = lab.temperatureSub || tempSubDefault;
+
+    // Box 3: Environmental Condition / Humidity
+    const humidDefault = isElectro ? 'RH 50% ± 10%' : 'RH 45% ± 5%';
+    const humidSubDefault = isElectro ? 'ESD Protected Area' : 'Class 100k Cleanroom';
+    let humidVal = lab.humidity || '';
+    if (!humidVal && lab.envControl && lab.envControl.includes(',')) {
+      humidVal = lab.envControl.split(',').slice(1).join(',').trim();
+    }
+    humidVal = humidVal || humidDefault;
+
+    const humidEl = document.getElementById('edit-lab-humidity');
+    if (humidEl) humidEl.value = humidVal;
+    const humidSubEl = document.getElementById('edit-lab-humidity-sub');
+    if (humidSubEl) humidSubEl.value = lab.humiditySub || humidSubDefault;
+
+    const envEl = document.getElementById('edit-lab-env');
+    if (envEl) envEl.value = `${tempVal}, ${humidVal}`;
+
     document.getElementById('edit-lab-scope').value = lab.scope || '';
     document.getElementById('edit-lab-equipment').value = lab.equipment || '';
     document.getElementById('edit-lab-standards').value = lab.standards || '';
@@ -635,6 +681,13 @@
     const catUrl = document.getElementById('edit-lab-catalog-url').value.trim();
     const catName = document.getElementById('edit-lab-catalog-name').value.trim();
 
+    const tempVal = document.getElementById('edit-lab-temperature') ? document.getElementById('edit-lab-temperature').value.trim() : '';
+    const tempSub = document.getElementById('edit-lab-temperature-sub') ? document.getElementById('edit-lab-temperature-sub').value.trim() : '';
+    const humidVal = document.getElementById('edit-lab-humidity') ? document.getElementById('edit-lab-humidity').value.trim() : '';
+    const humidSub = document.getElementById('edit-lab-humidity-sub') ? document.getElementById('edit-lab-humidity-sub').value.trim() : '';
+    const instCountVal = document.getElementById('edit-lab-inst-count') ? document.getElementById('edit-lab-inst-count').value.trim() : '';
+    const envCombined = tempVal ? (humidVal ? `${tempVal}, ${humidVal}` : tempVal) : (document.getElementById('edit-lab-env') ? document.getElementById('edit-lab-env').value.trim() : '');
+
     const updatedLab = {
       ...currentEditingLab,
       id: labId,
@@ -645,7 +698,12 @@
       cmc: document.getElementById('edit-lab-cmc').value.trim(),
       statCmc: document.getElementById('edit-lab-cmc').value.trim(),
       tat: document.getElementById('edit-lab-tat').value.trim(),
-      envControl: document.getElementById('edit-lab-env').value.trim(),
+      temperature: tempVal,
+      temperatureSub: tempSub,
+      humidity: humidVal,
+      humiditySub: humidSub,
+      instCount: instCountVal || currentEditingLab.instCount || 'Direct NABL Scope',
+      envControl: envCombined,
       scope: document.getElementById('edit-lab-scope').value.trim(),
       equipment: document.getElementById('edit-lab-equipment').value.trim(),
       standards: document.getElementById('edit-lab-standards').value.trim(),

@@ -1160,6 +1160,7 @@ html.lab-modal-open {
 .lab-modal-metrics-strip {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
   margin-bottom: 2rem;
 }
@@ -1744,6 +1745,8 @@ html.lab-modal-open {
 @media (max-width: 860px) {
   .lab-modal-metrics-strip {
     grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    gap: 12px;
   }
   .lab-inst-specs-grid {
     grid-template-columns: 1fr;

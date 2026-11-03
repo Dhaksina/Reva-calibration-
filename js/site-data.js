@@ -20,7 +20,8 @@
 
   let inMemoryDb = null;
   let isFetching = false;
-  const CURRENT_APP_VERSION = '9.0';
+  const CURRENT_APP_VERSION = '11.0';
+  const CURRENT_APP_VERSION = '12.0';
 
   // Load from local cache synchronously on script evaluation
   function getCachedDatabase() {
@@ -96,7 +97,11 @@
             statCmc: l.stat_cmc || l.cmc,
             tat: l.tat,
             envControl: l.env_control,
-            instCount: l.inst_count,
+            temperature: l.temperature || (l.env_control ? (l.env_control.includes(',') ? l.env_control.split(',')[0].trim() : l.env_control) : ''),
+            temperatureSub: l.temperature_sub || l.temperatureSub || '',
+            humidity: l.humidity || (l.env_control && l.env_control.includes(',') ? l.env_control.split(',').slice(1).join(',').trim() : ''),
+            humiditySub: l.humidity_sub || l.humiditySub || '',
+            instCount: l.inst_count || l.instCount,
             scope: l.scope,
             equipment: l.equipment,
             standards: l.standards,
