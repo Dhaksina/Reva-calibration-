@@ -434,7 +434,7 @@
         { label: "Home", href: "#hero", order: 1, enabled: true },
         { label: "Leadership", href: "#leadership", order: 2, enabled: true },
         { label: "About", href: "#about", order: 3, enabled: true },
-        { label: "35 Labs", href: "#laboratories", order: 4, enabled: true },
+        { label: "35+ Labs", href: "#laboratories", order: 4, enabled: true },
         { label: "Industries", href: "#industries", order: 5, enabled: true },
         { label: "Portfolio", href: "#portfolio", order: 6, enabled: true },
         { label: "Gallery", href: "#gallery", order: 7, enabled: true },
