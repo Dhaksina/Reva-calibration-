@@ -142,10 +142,12 @@
         notesEl.placeholder = `Requirements for ${labData.name}: e.g. ${labData.scope.substring(0, 90)}...`;
       }
       if (labData.onSite && !labData.labBased) {
-        const siteRadio = document.querySelector('input[name="quote-mode"][value="On-Site Calibration at Client Plant"]');
+        const siteRadio = document.querySelector('input[name="quote-mode"][value="On-site Calibration"]') ||
+                          document.querySelector('input[name="quote-mode"][value="On-Site Calibration at Client Plant"]');
         if (siteRadio) siteRadio.checked = true;
       } else if (!labData.onSite && labData.labBased) {
-        const labRadio = document.querySelector('input[name="quote-mode"][value="Permanent Facility Lab-Based"]');
+        const labRadio = document.querySelector('input[name="quote-mode"][value="In-House Calibration"]') ||
+                         document.querySelector('input[name="quote-mode"][value="Permanent Facility Lab-Based"]');
         if (labRadio) labRadio.checked = true;
       }
     }
@@ -170,7 +172,7 @@
     const serviceInput = document.getElementById('quote-service-input');
     const service = serviceSelect ? (serviceSelect.options[serviceSelect.selectedIndex]?.text || serviceSelect.value) : (serviceInput?.value.trim() || 'Specialized Calibration Service');
     const modeRadio = document.querySelector('input[name="quote-mode"]:checked');
-    const mode = modeRadio ? modeRadio.value : 'Permanent Facility Lab';
+    const mode = modeRadio ? modeRadio.value : 'In-House Calibration';
     const notesEl = document.getElementById('quote-notes') || document.getElementById('quote-message');
     const message = notesEl ? notesEl.value.trim() : '';
 
