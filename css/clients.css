@@ -103,13 +103,38 @@ body.clients-page {
 .clients-showcase-container {
   max-width: 980px;
   margin: 0 auto;
-  padding: 45px 20px 80px 20px;
+  padding: 45px 20px 48px 20px;
   background-color: #FFFFFF;
 }
 
 /* Sector Section */
 .client-sector-block {
   margin-bottom: 50px;
+}
+
+.client-sector-block:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer Safety Overrides for Clients Page */
+.clients-page .site-footer {
+  color: #94a3b8 !important;
+}
+
+.clients-page .site-footer strong {
+  color: #FFFFFF !important;
+}
+
+.clients-page .site-footer a {
+  color: #FFFFFF;
+}
+
+.clients-page .footer-contact-row {
+  color: #cbd5e1 !important;
+}
+
+.clients-page .footer-statutory {
+  color: #94a3b8 !important;
 }
 
 .client-sector-title {
