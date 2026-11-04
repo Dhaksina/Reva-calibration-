@@ -286,18 +286,19 @@ document.addEventListener('DOMContentLoaded', () => {
       const contactHq = document.getElementById('contact-hq-address-block');
       if (contactHq) {
         contactHq.innerHTML = `
-          <strong>Reva Phoenix Complex</strong><br>
-          No. 14, 4th Street, Rajarajeswari Nagar, Madipakkam,<br>
-          Chennai – 600 091, Tamil Nadu, India.
+          <strong style="color: #FFFFFF;">Reva Phoenix Labs &amp; Consultants Pvt. Ltd.</strong><br>
+          Reva Phoenix Complex, No.14, 4th Street<br>
+          Rajarajeswari Nagar, Madipakkam<br>
+          Chennai 600 091, Tamil Nadu, India
         `;
       }
       const footerHq = document.getElementById('footer-hq-address');
       if (footerHq) {
         footerHq.innerHTML = `
-          Reva Phoenix Complex, No. 14,<br>
-          4th Street, Rajarajeswari Nagar,<br>
-          Madipakkam, Chennai – 600 091,<br>
-          Tamil Nadu, India.
+          <strong style="color: #FFFFFF;">Reva Phoenix Labs &amp; Consultants Pvt. Ltd.</strong><br>
+          Reva Phoenix Complex, No.14, 4th Street<br>
+          Rajarajeswari Nagar, Madipakkam<br>
+          Chennai 600 091, Tamil Nadu, India
         `;
       }
     }

@@ -2737,8 +2737,8 @@
 /* 4-Column Grid */
 .footer-columns-grid {
   display: grid;
-  grid-template-columns: 1.8fr 1.1fr 1.1fr 1.4fr;
-  gap: clamp(1.8rem, 3vw, 3rem);
+  grid-template-columns: 1.35fr 0.95fr 0.95fr 1.85fr;
+  gap: clamp(1.5rem, 2.5vw, 2.5rem);
   position: relative;
   z-index: 2;
   margin-bottom: 3rem;
@@ -2831,13 +2831,14 @@
 
 /* HQ Card in Column 4 */
 .footer-hq-card {
-  background: rgba(18, 24, 35, 0.6);
+  background: rgba(18, 24, 35, 0.65);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: var(--radius-sm, 6px);
-  padding: 18px;
+  padding: 22px 24px;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .footer-hq-card::before {
@@ -2853,11 +2854,11 @@
 .footer-contact-row {
   display: flex;
   align-items: flex-start;
-  gap: 10px;
-  font-size: 0.85rem;
+  gap: 12px;
+  font-size: 0.86rem;
   color: #cbd5e1;
-  line-height: 1.5;
-  margin-bottom: 12px;
+  line-height: 1.55;
+  margin-bottom: 13px;
 }
 
 .footer-contact-row a {
