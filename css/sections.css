@@ -2614,7 +2614,7 @@
 /* 15. ULTRA-PREMIUM METROLOGY FOOTER */
 .site-footer {
   position: relative;
-  background: radial-gradient(circle at 50% 0%, rgba(255, 102, 0, 0.05) 0%, rgba(10, 14, 22, 0.98) 50%, #06090f 100%);
+  background: #06090f;
   border-top: 1px solid rgba(255, 102, 0, 0.2);
   padding-top: 3.5rem;
   padding-bottom: 2.5rem;
