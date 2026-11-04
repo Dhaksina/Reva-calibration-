@@ -95,10 +95,10 @@
       </nav>
 
       <div style="display: flex; align-items: center; gap: 14px;">
-        <button class="nav-cta-btn" data-open-quote="Calibration Quotation Request">
+        <a href="index.html#contact" class="nav-cta-btn" style="text-decoration: none;">
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
           Get Quote
-        </button>
+        </a>
 
         <!-- Mobile Menu Toggle Button -->
         <button class="mobile-menu-toggle" id="mobile-menu-toggle" aria-label="Toggle Mobile Navigation" aria-expanded="false" aria-controls="mobile-nav-drawer">
@@ -141,10 +141,10 @@
     </div>
 
     <div style="padding-top: 1.5rem; border-top: 1px solid rgba(255, 255, 255, 0.08);">
-      <button class="nav-cta-btn" data-open-quote="Mobile Navigation Request" style="width: 100%; justify-content: center; padding: 14px 20px;">
+      <a href="index.html#contact" class="nav-cta-btn" style="width: 100%; justify-content: center; padding: 14px 20px; text-decoration: none;">
         <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
         Request Instant Quotation
-      </button>
+      </a>
     </div>
   </aside>
 
@@ -309,25 +309,13 @@
           <img src="assets/images/clients/luk.png" alt="LuK India (Schaeffler Group)" class="client-simple-logo-img" loading="lazy">
         </div>
         <div class="client-simple-card" title="Bernhard Schulte Shipmanagement (BSM)">
-          <img src="assets/images/clients/bsm.png" alt="Bernhard Schulte Shipmanagement (BSM)" class="client-simple-logo-img" loading="lazy">
+          <img src="assets/images/clients/bsm_dark.svg" alt="Bernhard Schulte Shipmanagement (BSM)" class="client-simple-logo-img" loading="lazy">
         </div>
         <div class="client-simple-card" title="Vajra Rubber Products">
           <img src="assets/images/clients/vajra.png" alt="Vajra Rubber Products" class="client-simple-logo-img" loading="lazy">
         </div>
       </div>
     </section>
-
-    <!-- Bottom Action CTA -->
-    <div class="clients-bottom-cta">
-      <h3 class="clients-bottom-cta-title">Ready to Partner With Reva Phoenix?</h3>
-      <p class="clients-bottom-cta-desc">
-        Experience gold-standard NABL accredited calibration with rapid express turnaround, on-site mobile van services, and 100% audit defense support.
-      </p>
-      <button class="clients-bottom-cta-btn" data-open-quote="Client Directory RFQ Request">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon></svg>
-        <span>Request Calibration Quotation</span>
-      </button>
-    </div>
 
   </main>
 
@@ -456,79 +444,8 @@
     </div>
   </footer>
 
-  <!-- ========================================================================
-       5. RFQ QUOTATION MODAL
-       ======================================================================== -->
-  <div class="quote-modal-overlay" id="quote-modal-overlay" role="dialog" aria-modal="true" aria-labelledby="quote-modal-title" aria-hidden="true">
-    <div class="quote-modal-card">
-      <div class="quote-modal-header">
-        <div>
-          <span class="laser-beacon" style="margin-bottom: 6px; display: inline-flex;">
-            <span class="beacon-pulse"></span>
-            <span class="beacon-core"></span>
-          </span>
-          <h3 class="quote-modal-title" id="quote-modal-title">Request Calibration Quotation</h3>
-          <p class="quote-modal-subtitle">Specify your instruments and parameters &ndash; receive verified commercial proposal within 4 business hours.</p>
-        </div>
-        <button class="quote-modal-close" id="quote-modal-close" aria-label="Close Modal">&times;</button>
-      </div>
-
-      <form class="quote-form-grid" id="quote-modal-form">
-        <div class="form-group">
-          <label class="form-label" for="quote-name">Full Name *</label>
-          <input type="text" id="quote-name" name="name" class="form-input" placeholder="e.g. Ramesh Kumar" required>
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="quote-company">Company / Organization *</label>
-          <input type="text" id="quote-company" name="company" class="form-input" placeholder="e.g. Bharat Heavy Electricals Ltd" required>
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="quote-email">Corporate Email *</label>
-          <input type="email" id="quote-email" name="email" class="form-input" placeholder="ramesh@bhel.in" required>
-        </div>
-        <div class="form-group">
-          <label class="form-label" for="quote-phone">Mobile / WhatsApp *</label>
-          <input type="tel" id="quote-phone" name="phone" class="form-input" placeholder="+91 98400 00000" required>
-        </div>
-        <div class="form-group" style="grid-column: 1 / -1;">
-          <label class="form-label" for="quote-message">Calibration Requirements &amp; Scope *</label>
-          <textarea id="quote-message" name="message" class="form-textarea" rows="3" placeholder="Specify instruments, quantities, calibration standard (ISO/IEC 17025 / On-Site / In-Lab), or scopes..." required></textarea>
-        </div>
-        <div style="grid-column: 1 / -1; display: flex; flex-direction: column; gap: 10px; margin-top: 8px;">
-          <div style="display: flex; justify-content: flex-end; gap: 12px;">
-            <button type="button" class="btn btn-outline" id="quote-cancel-btn">Cancel</button>
-            <button type="submit" class="btn btn-primary" id="quote-submit-btn" style="background: #25D366; border-color: #25D366; color: #FFFFFF; font-weight: 600; display: flex; align-items: center; gap: 8px; box-shadow: 0 0 22px rgba(37, 211, 102, 0.35);">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/></svg>
-              Send RFQ to WhatsApp (+91 99405 64261)
-            </button>
-          </div>
-
-          <!-- Divider -->
-          <div style="display: flex; align-items: center; margin: 4px 0; gap: 10px;">
-            <div style="flex: 1; height: 1px; background: rgba(255,255,255,0.08);"></div>
-            <span style="font-size: 0.72rem; color: rgba(255,255,255,0.4); text-transform: uppercase; letter-spacing: 0.05em;">OR REQUEST VIA EMAIL</span>
-            <div style="flex: 1; height: 1px; background: rgba(255,255,255,0.08);"></div>
-          </div>
-
-          <!-- Submit to Email Button -->
-          <button type="button" class="btn btn-outline quote-submit-email-btn" id="quote-submit-email-btn" style="width: 100%; border-color: var(--orange-border); color: var(--orange-primary); background: var(--orange-subtle); font-weight: 600; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px 18px; border-radius: var(--radius-sm, 6px); font-size: 0.88rem; cursor: pointer; transition: all 0.2s ease;">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
-            Submit RFQ to enquiry@revaphoenix.com
-          </button>
-        </div>
-      </form>
-    </div>
-  </div>
-
-  <!-- Toast Notification Feedback -->
-  <div class="toast-notice" id="toast-notice" role="status" aria-live="polite">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
-    <span id="toast-message">Notification message</span>
-  </div>
-
   <!-- Scripts -->
   <script src="js/lenis.min.js"></script>
   <script src="js/smooth-scroll.js?v=1.0"></script>
-  <script src="js/enquiry-modal.js?v=2.5"></script>
 </body>
 </html>
