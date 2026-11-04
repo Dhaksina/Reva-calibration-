@@ -138,6 +138,10 @@
 
 /* Tablet & Smaller Laptops (<= 1140px) */
 @media (max-width: 1140px) {
+  .brand-wrapper {
+    margin-left: 0;
+  }
+
   .nav-menu {
     display: none;
   }

@@ -44,6 +44,8 @@
   gap: 10px;
   text-decoration: none;
   flex-shrink: 0;
+  margin-left: clamp(2rem, 4.5vw, 4.5rem);
+  transition: var(--transition-fast);
 }
 
 .brand-logo-img {
