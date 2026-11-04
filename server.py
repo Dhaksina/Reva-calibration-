@@ -14,7 +14,7 @@ import re
 import base64
 import urllib.parse
 import mimetypes
-from http.server import HTTPServer, SimpleHTTPRequestHandler
+from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 
 PORT = 8080
 WORKSPACE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -609,7 +609,7 @@ class RevaCalibrationRequestHandler(SimpleHTTPRequestHandler):
 
 def run(port=PORT):
     server_address = ("", port)
-    httpd = HTTPServer(server_address, RevaCalibrationRequestHandler)
+    httpd = ThreadingHTTPServer(server_address, RevaCalibrationRequestHandler)
     print(f"REVA Calibration Server running on http://localhost:{port}/")
     print(f"Admin Panel accessible at: http://localhost:{port}/admin")
     httpd.serve_forever()
