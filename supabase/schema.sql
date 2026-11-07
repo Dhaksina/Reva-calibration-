@@ -449,7 +449,7 @@ ON CONFLICT (id) DO UPDATE SET
   category = EXCLUDED.category, path = EXCLUDED.path, description = EXCLUDED.description,
   updated_at = NOW();
 INSERT INTO public.site_images (id, title, sub, section, category, path, description)
-VALUES ('labs-reference-chart', '35+ Integrated Labs Master Reference Chart', 'Authoritative NABL Scope Overview', 'State-of-the-Art Infrastructure', 'infrastructure', 'assets/images/35-integrated-labs-reference.jpeg', 'Authoritative master reference chart displaying full metrology scope in gallery.')
+VALUES ('labs-reference-chart', 'Largest Private Lab in India', 'Authoritative NABL Scope Overview', 'State-of-the-Art Infrastructure', 'infrastructure', 'assets/images/35-integrated-labs-reference.jpeg', 'Authoritative master reference chart displaying full metrology scope in gallery.')
 ON CONFLICT (id) DO UPDATE SET
   title = EXCLUDED.title, sub = EXCLUDED.sub, section = EXCLUDED.section,
   category = EXCLUDED.category, path = EXCLUDED.path, description = EXCLUDED.description,
