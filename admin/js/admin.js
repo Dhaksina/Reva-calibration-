@@ -29,7 +29,7 @@
     },
     {
       id: 'facility-building',
-      title: 'Reva Phoenix Headquarters Building',
+      title: 'Head Office & Lab, Chennai, India',
       sub: 'Madipakkam, Chennai, Tamil Nadu, India',
       section: 'Corporate Leadership Statement',
       category: 'leadership',
