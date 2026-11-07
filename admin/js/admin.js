@@ -40,8 +40,8 @@
     // 2. State-of-the-Art Infrastructure ("Integrated Calibration Laboratory & Training Centre")
     {
       id: 'labs-reference-chart',
-      title: 'Largest Private Lab in India',
-      sub: 'Authoritative NABL Scope Overview',
+      title: '35+ Integrated Calibration Labs',
+      sub: 'Largest Private Lab in India',
       section: 'State-of-the-Art Infrastructure',
       category: 'infrastructure',
       path: 'assets/images/35-integrated-labs-reference.jpeg',
