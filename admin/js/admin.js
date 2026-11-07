@@ -117,7 +117,7 @@
     {
       id: 1,
       meta: 'DOCUMENT: RPEC-CORP-BROCHURE // PDF',
-      title: 'Reva Phoenix Corporate Brochure',
+      title: 'Reva Phoenix - Corporate Brochure',
       category: 'Brochure',
       desc: 'Comprehensive overview of Reva Phoenix Labs & Consultants Pvt. Ltd., consulting methodologies, API auditing credentials, training courses, and consulting division scope.',
       fileUrl: 'assets/docs/Reva-Phoenix-Corporate-Brochure.pdf',
