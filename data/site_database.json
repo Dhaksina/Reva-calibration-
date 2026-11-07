@@ -369,22 +369,6 @@
         "organization": "Peekay Steels Calicut • QA Department",
         "service": "Onsite Calibration & QA Services",
         "rating": 5
-      },
-      {
-        "id": 8,
-        "quote": "Exceptional calibration services with high precision and strict adherence to ISO/IEC 17025 standards. Prompt turnaround time, dependable measurement accuracy for our pressure and flow instruments, and certified NABL reports.",
-        "author": "Kesavaram K.",
-        "organization": "API & Flow Control Engineering",
-        "service": "Pressure & Flow Calibration",
-        "rating": 5
-      },
-      {
-        "id": 9,
-        "quote": "As part of our quality month celebrations, our technical team really enjoyed the calibration and internal auditor training sessions. Imbued with thorough knowledge sharing, practical metrology demonstrations, and rigorous compliance guidance.",
-        "author": "Acetech Engineering Team",
-        "organization": "Automotive Tier-1 Component Supplier",
-        "service": "Automotive Metrology & AMC",
-        "rating": 5
       }
     ],
     "resources": [
