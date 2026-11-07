@@ -126,7 +126,7 @@
     {
       id: 2,
       meta: 'CERTIFICATION: ISO 9001:2015 // PDF',
-      title: 'ISO 9001 Quality Certificate',
+      title: 'ISO 9001: 2015 QMS Certified',
       category: 'Certificate',
       desc: 'Official Quality Management System Certificate verifying Reva Phoenix Labs & Consultants adherence to international QMS benchmarks.',
       fileUrl: 'assets/docs/Reva-Phoenix-ISO-9001-Certificate.pdf',
@@ -135,7 +135,7 @@
     {
       id: 3,
       meta: 'ACCREDITATION: NABL ISO/IEC 17025 // PNG',
-      title: 'ISO/IEC 17025: 2017 Certificate',
+      title: 'ISO/IEC 17025: 2017 Accredited',
       category: 'Accreditation',
       desc: 'Official NABL Certificate of Accreditation (CC-4178) certifying Reva Phoenix Labs & Consultants competence in testing and calibration.',
       fileUrl: 'assets/images/reva-nabl-iso-17025-certificate.png',
@@ -144,7 +144,7 @@
     {
       id: 4,
       meta: 'ACCREDITATION: NABL SCOPE // PDF (192 PAGES)',
-      title: '35+ Integrated Labs Master Scope',
+      title: 'NABL Accredited Calibration Scope',
       category: 'Accreditation',
       desc: 'Authoritative 35+ Integrated Laboratories reference chart detailing all parameters, disciplines, and In-House/on-site calibration ranges.',
       fileUrl: 'assets/docs/Reva-Phoenix-NABL-ISO-17025-Scope-Accreditation.pdf',
