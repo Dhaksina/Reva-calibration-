@@ -1192,7 +1192,7 @@
   border: 1px solid var(--orange-border);
   padding: 6px 10px;
   border-radius: var(--radius-sm);
-  text-align: center;
+  text-align: left;
 }
 
 .traceability-tier-name {
@@ -1214,7 +1214,7 @@
   font-family: var(--font-mono);
   font-size: 0.78rem;
   color: var(--text-muted);
-  text-align: right;
+  text-align: left;
   border-left: 1px solid var(--border-graphite);
   padding-left: 18px;
   line-height: 1.5;
@@ -2322,10 +2322,10 @@
   .summary-metrics {
     grid-template-columns: 1fr;
     gap: 1rem;
-    text-align: center;
+    text-align: left;
   }
   .summary-metrics .metric-item {
-    align-items: center;
+    align-items: flex-start;
   }
 }
 

@@ -17,7 +17,7 @@ body.clients-page {
 .clients-header-banner {
   background: linear-gradient(180deg, #121115 0%, #16181F 100%);
   padding: calc(var(--nav-height, 80px) + 26px) 0 36px 0;
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   position: relative;
 }
@@ -31,7 +31,7 @@ body.clients-page {
 .clients-breadcrumb {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 8px;
   font-size: 0.8rem;
   color: #8892A0;
@@ -39,6 +39,7 @@ body.clients-page {
   font-family: var(--font-mono, monospace);
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  text-align: left;
 }
 
 .clients-breadcrumb a {
@@ -57,21 +58,23 @@ body.clients-page {
   font-weight: 700;
   color: #FFFFFF;
   margin: 0 0 10px 0;
+  text-align: left;
 }
 
 .clients-page-main-subtitle {
   font-size: 0.96rem;
   color: #C5CBD6;
   max-width: 680px;
-  margin: 0 auto;
+  margin: 0 0 16px 0;
   line-height: 1.6;
+  text-align: left;
 }
 
 /* Quick Navigation Sector Jump Pills */
 .clients-nav-pills {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 12px;
   margin-top: 22px;
   flex-wrap: wrap;
@@ -142,7 +145,7 @@ body.clients-page {
   font-size: 1.35rem;
   font-weight: 700;
   color: #000000;
-  text-align: center;
+  text-align: left;
   margin: 0 0 24px 0;
   letter-spacing: -0.01em;
 }

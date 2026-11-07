@@ -37,7 +37,7 @@
       desc: 'Featured building photo in Corporate Message & Leadership Commitment section.'
     },
 
-    // 2. State-of-the-Art Infrastructure ("Facilities Engineered for Precision")
+    // 2. State-of-the-Art Infrastructure ("Integrated Calibration Laboratory & Training Centre")
     {
       id: 'labs-reference-chart',
       title: '35+ Integrated Labs Master Reference Chart',

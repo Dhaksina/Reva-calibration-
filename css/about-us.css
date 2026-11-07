@@ -420,14 +420,14 @@
 }
 
 .md-profile-col {
-  text-align: center;
+  text-align: left;
 }
 
 .md-portrait-frame {
   position: relative;
   width: 220px;
   height: 270px;
-  margin: 0 auto 20px auto;
+  margin: 0 0 20px 0;
   border-radius: var(--radius-sm);
   overflow: hidden;
   border: 2px solid var(--orange-border);
@@ -606,7 +606,7 @@
   border: 1px solid var(--border-graphite);
   border-radius: var(--radius-sm);
   padding: 24px 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .p-pillar-num {
@@ -1034,11 +1034,11 @@
   }
   .md-layout-grid {
     grid-template-columns: 1fr;
-    text-align: center;
+    text-align: left;
   }
   .md-signatures-row {
-    justify-content: center;
-    text-align: center;
+    justify-content: flex-start;
+    text-align: left;
   }
   .policy-commitments-grid {
     grid-template-columns: 1fr;

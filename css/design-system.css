@@ -99,6 +99,14 @@ body {
   line-height: 1.6;
   overflow-x: hidden;
   position: relative;
+  text-align: left;
+}
+
+/* Global Strict Left-Alignment for All Text Elements */
+h1, h2, h3, h4, h5, h6,
+p, label, ul, ol, li, dl, dt, dd,
+blockquote, figcaption, address {
+  text-align: left;
 }
 
 
@@ -346,13 +354,17 @@ a {
   margin-bottom: clamp(3rem, 5vw, 5rem);
   position: relative;
   z-index: 2;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .section-header.text-center {
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .section-subtitle {
@@ -366,6 +378,7 @@ a {
   align-items: center;
   gap: 12px;
   font-weight: 600;
+  text-align: left;
 }
 
 .section-subtitle::before {
@@ -378,14 +391,9 @@ a {
   border-radius: 1px;
 }
 
-.section-header.text-center .section-subtitle::after {
-  content: '';
-  height: 2px;
-  width: 32px;
-  background: var(--orange-primary);
-  display: inline-block;
-  flex-shrink: 0;
-  border-radius: 1px;
+.section-header.text-center .section-subtitle::after,
+.section-header .section-subtitle::after {
+  display: none;
 }
 
 .section-header:not(.text-center) .section-subtitle::after {
@@ -400,14 +408,18 @@ a {
   color: var(--text-primary);
   text-transform: uppercase;
   line-height: 1.12;
+  text-align: left;
 }
 
 .section-description {
   max-width: 680px;
   margin-top: 1rem;
+  margin-left: 0;
+  margin-right: auto;
   font-size: 1.1rem;
   color: var(--text-secondary);
   line-height: 1.7;
+  text-align: left;
 }
 
 /* ==========================================================================
