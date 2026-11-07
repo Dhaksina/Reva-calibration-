@@ -443,7 +443,7 @@ ON CONFLICT (id) DO UPDATE SET
   category = EXCLUDED.category, path = EXCLUDED.path, description = EXCLUDED.description,
   updated_at = NOW();
 INSERT INTO public.site_images (id, title, sub, section, category, path, description)
-VALUES ('facility-building', 'Reva Phoenix Headquarters Building', 'Madipakkam, Chennai, Tamil Nadu, India', 'Corporate Leadership Statement', 'leadership', 'assets/images/building-office.jpg', 'Featured building photo in Corporate Message & Leadership Commitment section.')
+VALUES ('facility-building', 'Head Office & Lab, Chennai, India', 'Madipakkam, Chennai, Tamil Nadu, India', 'Corporate Leadership Statement', 'leadership', 'assets/images/building-office.jpg', 'Featured building photo in Corporate Message & Leadership Commitment section.')
 ON CONFLICT (id) DO UPDATE SET
   title = EXCLUDED.title, sub = EXCLUDED.sub, section = EXCLUDED.section,
   category = EXCLUDED.category, path = EXCLUDED.path, description = EXCLUDED.description,
