@@ -119,71 +119,80 @@
        2. MOBILE DRAWER NAVIGATION
        ======================================================================== -->
   <div class="mobile-drawer-overlay" id="mobile-drawer-overlay"></div>
-  <aside class="mobile-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation">
-    <div class="mobile-drawer-header">
-      <img src="assets/images/reva-phoenix-brand-logo.png?v=3.0" alt="Reva Phoenix Logo" style="height: 38px;">
-      <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">&times;</button>
-    </div>
-    <ul class="mobile-drawer-list">
-      <li><a href="index.html#hero" class="mobile-drawer-link">Home</a></li>
+  <aside class="mobile-nav-drawer" id="mobile-nav-drawer" aria-label="Mobile Navigation Drawer">
+    <div>
+      <div class="mobile-drawer-header">
+        <div style="display: flex; align-items: center; gap: 12px;">
+          <img src="assets/images/reva-phoenix-brand-logo.png?v=3.0" alt="Reva Calibration Logo" style="height: 42px; width: auto; object-fit: contain;">
+        </div>
+        <button class="mobile-drawer-close" id="mobile-drawer-close" aria-label="Close menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
       
-      <!-- Mobile Dropdown: About Us -->
-      <li class="mobile-drawer-item mobile-drawer-dropdown">
-        <div class="mobile-drawer-toggle" data-drawer-toggle="about">
-          <span>About Us</span>
-          <svg class="drawer-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-        </div>
-        <ul class="mobile-drawer-submenu" id="drawer-menu-about">
-          <li><a href="about-us.html#overview" class="mobile-drawer-sub-link">About Reva Phoenix</a></li>
-          <li><a href="about-us.html#message-from-md" class="mobile-drawer-sub-link">Message from MD</a></li>
-          <li><a href="about-us.html#mission-vision" class="mobile-drawer-sub-link">Mission &amp; Vision</a></li>
-          <li><a href="about-us.html#quality-policy" class="mobile-drawer-sub-link">Quality Policy</a></li>
-          <li><a href="about-us.html#unique-features" class="mobile-drawer-sub-link">Unique Features</a></li>
-          <li><a href="about-us.html#industry-we-serve" class="mobile-drawer-sub-link">Industry We Serve</a></li>
-          <li><a href="clients.html" class="mobile-drawer-sub-link">Client References</a></li>
-        </ul>
-      </li>
+      <ul class="mobile-drawer-menu">
+        <li><a href="index.html#hero" class="mobile-drawer-link">Home</a></li>
+        
+        <!-- Mobile Dropdown Accordion -->
+        <li class="mobile-drawer-has-sub">
+          <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; font-weight: 600; color: var(--text-primary);">
+            <span>About Us</span>
+          </div>
+          <ul class="mobile-drawer-sub-menu">
+            <li><a href="about-us.html#overview" class="mobile-drawer-sub-link">About Reva Phoenix</a></li>
+            <li><a href="about-us.html#message-from-md" class="mobile-drawer-sub-link">Message from MD</a></li>
+            <li><a href="about-us.html#mission-vision" class="mobile-drawer-sub-link">Mission &amp; Vision</a></li>
+            <li><a href="about-us.html#quality-policy" class="mobile-drawer-sub-link">Quality Policy</a></li>
+            <li><a href="about-us.html#unique-features" class="mobile-drawer-sub-link">Unique Features</a></li>
+            <li><a href="about-us.html#industry-we-serve" class="mobile-drawer-sub-link">Industry We Serve</a></li>
+            <li><a href="clients.html" class="mobile-drawer-sub-link">Client References</a></li>
+          </ul>
+        </li>
 
-      <!-- Mobile Dropdown: Services -->
-      <li class="mobile-drawer-item mobile-drawer-dropdown">
-        <div class="mobile-drawer-toggle" data-drawer-toggle="services">
-          <span>Services</span>
-          <svg class="drawer-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-        </div>
-        <ul class="mobile-drawer-submenu" id="drawer-menu-services">
-          <li><a href="services.html#sales" class="mobile-drawer-sub-link">Equipment Sales &amp; Supply</a></li>
-          <li><a href="services.html#inspection" class="mobile-drawer-sub-link">Third Party Inspection</a></li>
-          <li><a href="services.html#cnc-calibration" class="mobile-drawer-sub-link">CNC Machine Calibration</a></li>
-          <li><a href="services.html#amc" class="mobile-drawer-sub-link">AMC for Calibration</a></li>
-          <li><a href="services.html#non-accredited" class="mobile-drawer-sub-link">Non Accredited Calibration</a></li>
-          <li><a href="services.html#lims-software" class="mobile-drawer-sub-link">LIMS Software</a></li>
-          <li><a href="services.html#api-gauges" class="mobile-drawer-sub-link">API Gauges Calibration</a></li>
-          <li><a href="services.html#ndt-equipment" class="mobile-drawer-sub-link">NDT Equipment Calibration</a></li>
-        </ul>
-      </li>
+        <li class="mobile-drawer-has-sub">
+          <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; font-weight: 600; color: var(--orange-primary);">
+            <span>Services</span>
+          </div>
+          <ul class="mobile-drawer-sub-menu">
+            <li><a href="services.html#sales" class="mobile-drawer-sub-link">Equipment Sales &amp; Supply</a></li>
+            <li><a href="services.html#inspection" class="mobile-drawer-sub-link">Third Party Inspection</a></li>
+            <li><a href="services.html#cnc-calibration" class="mobile-drawer-sub-link">CNC Machine Calibration</a></li>
+            <li><a href="services.html#amc" class="mobile-drawer-sub-link">AMC for Calibration</a></li>
+            <li><a href="services.html#non-accredited" class="mobile-drawer-sub-link">Non Accredited Calibration</a></li>
+            <li><a href="services.html#lims-software" class="mobile-drawer-sub-link">LIMS Software</a></li>
+            <li><a href="services.html#api-gauges" class="mobile-drawer-sub-link">API Gauges Calibration</a></li>
+            <li><a href="services.html#ndt-equipment" class="mobile-drawer-sub-link">NDT Equipment Calibration</a></li>
+          </ul>
+        </li>
 
-      <!-- Mobile Dropdown: Training -->
-      <li class="mobile-drawer-item mobile-drawer-dropdown">
-        <div class="mobile-drawer-toggle active" data-drawer-toggle="training">
-          <span>Training</span>
-          <svg class="drawer-chevron" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
-        </div>
-        <ul class="mobile-drawer-submenu open" id="drawer-menu-training" style="display: block;">
-          <li><a href="training.html#overview" class="mobile-drawer-sub-link">Training Overview</a></li>
-          <li><a href="training.html#lead-auditor" class="mobile-drawer-sub-link">Lead Auditor Training</a></li>
-          <li><a href="training.html#internal-auditor" class="mobile-drawer-sub-link">Internal Auditor Training</a></li>
-          <li><a href="training.html#nabl-consultancy" class="mobile-drawer-sub-link">NABL Lab Setup Consultancy</a></li>
-          <li><a href="training.html#best-in-class" class="mobile-drawer-sub-link">Best-in-class Laboratories</a></li>
-        </ul>
-      </li>
+        <li class="mobile-drawer-has-sub">
+          <div style="display: flex; align-items: center; justify-content: space-between; padding: 12px 14px; font-weight: 600; color: var(--orange-primary);">
+            <span>Training</span>
+          </div>
+          <ul class="mobile-drawer-sub-menu">
+            <li><a href="training.html#overview" class="mobile-drawer-sub-link">Training Overview</a></li>
+            <li><a href="training.html#lead-auditor" class="mobile-drawer-sub-link">Lead Auditor Training</a></li>
+            <li><a href="training.html#internal-auditor" class="mobile-drawer-sub-link">Internal Auditor Training</a></li>
+            <li><a href="training.html#nabl-consultancy" class="mobile-drawer-sub-link">NABL Lab Setup Consultancy</a></li>
+            <li><a href="training.html#best-in-class" class="mobile-drawer-sub-link">Best-in-class Laboratories</a></li>
+          </ul>
+        </li>
 
-      <li><a href="index.html#laboratories" class="mobile-drawer-link">35+ Integrated Labs</a></li>
-      <li><a href="index.html#industries" class="mobile-drawer-link">Industries We Serve</a></li>
-      <li><a href="gallery.html" class="mobile-drawer-link">Official Gallery</a></li>
-      <li><a href="index.html#resources" class="mobile-drawer-link">Downloads &amp; Scopes</a></li>
-      <li><a href="careers.html" class="mobile-drawer-link">Careers</a></li>
-      <li><a href="index.html#contact" class="mobile-drawer-link">Contact Us</a></li>
-    </ul>
+        <li><a href="index.html#laboratories" class="mobile-drawer-link">35+ Integrated Labs</a></li>
+        <li><a href="about-us.html#industry-we-serve" class="mobile-drawer-link">Industries We Serve</a></li>
+        <li><a href="gallery.html" class="mobile-drawer-link" style="color: var(--orange-primary); font-weight: 600;">Corporate Gallery &rarr;</a></li>
+        <li><a href="clients.html" class="mobile-drawer-link" style="color: var(--orange-primary); font-weight: 600;">Client References (39+ Logos) &rarr;</a></li>
+        <li><a href="index.html#resources" class="mobile-drawer-link">Scope Charts &amp; Downloads</a></li>
+        <li><a href="careers.html" class="mobile-drawer-link" style="color: var(--orange-primary); font-weight: 600;">Careers &rarr;</a></li>
+        <li><a href="index.html#contact" class="mobile-drawer-link">Contact Us</a></li>
+      </ul>
+    </div>
+    <div style="padding: 1.5rem 1.25rem;">
+      <button class="btn btn-primary" style="width: 100%;" data-open-quote="Mobile Navigation Quote Request">Request A Calibration Quote</button>
+      <div style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--text-muted); text-align: left; margin-top: 10px;">
+        Lab Direct: +91 98406 72352<br>Chennai – 600 091, India
+      </div>
+    </div>
   </aside>
 
   <!-- ========================================================================
@@ -1240,47 +1249,38 @@
   <script src="js/training.js?v=1.0"></script>
   <script src="js/enquiry-modal.js?v=2.5"></script>
   <script>
-    // Mobile Drawer Toggle
+    // Mobile Nav Drawer Toggle
     const mobileToggle = document.getElementById('mobile-nav-toggle');
     const mobileDrawer = document.getElementById('mobile-nav-drawer');
     const mobileOverlay = document.getElementById('mobile-drawer-overlay');
     const mobileClose = document.getElementById('mobile-drawer-close');
 
-    function openMobileMenu() {
-      mobileDrawer.classList.add('active');
-      mobileOverlay.classList.add('active');
-      document.body.classList.add('nav-open');
+    function openMobileDrawer() {
+      if (mobileDrawer && mobileOverlay) {
+        mobileDrawer.classList.add('open');
+        mobileDrawer.classList.add('active');
+        mobileOverlay.classList.add('open');
+        mobileOverlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+      }
     }
 
-    function closeMobileMenu() {
-      mobileDrawer.classList.remove('active');
-      mobileOverlay.classList.remove('active');
-      document.body.classList.remove('nav-open');
+    function closeMobileDrawer() {
+      if (mobileDrawer && mobileOverlay) {
+        mobileDrawer.classList.remove('open');
+        mobileDrawer.classList.remove('active');
+        mobileOverlay.classList.remove('open');
+        mobileOverlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }
     }
 
-    if (mobileToggle) mobileToggle.addEventListener('click', openMobileMenu);
-    if (mobileClose) mobileClose.addEventListener('click', closeMobileMenu);
-    if (mobileOverlay) mobileOverlay.addEventListener('click', closeMobileMenu);
+    if (mobileToggle) mobileToggle.addEventListener('click', openMobileDrawer);
+    if (mobileClose) mobileClose.addEventListener('click', closeMobileDrawer);
+    if (mobileOverlay) mobileOverlay.addEventListener('click', closeMobileDrawer);
 
     document.querySelectorAll('.mobile-drawer-link, .mobile-drawer-sub-link').forEach(link => {
-      link.addEventListener('click', closeMobileMenu);
-    });
-
-    // Mobile Drawer Accordion Toggle
-    document.querySelectorAll('.mobile-drawer-toggle').forEach(btn => {
-      btn.addEventListener('click', function () {
-        const parent = this.closest('.mobile-drawer-dropdown');
-        const submenu = parent.querySelector('.mobile-drawer-submenu');
-        const isOpen = submenu.style.display === 'block';
-        
-        document.querySelectorAll('.mobile-drawer-submenu').forEach(s => s.style.display = 'none');
-        document.querySelectorAll('.mobile-drawer-toggle').forEach(t => t.classList.remove('active'));
-
-        if (!isOpen) {
-          submenu.style.display = 'block';
-          this.classList.add('active');
-        }
-      });
+      link.addEventListener('click', closeMobileDrawer);
     });
   </script>
 </body>

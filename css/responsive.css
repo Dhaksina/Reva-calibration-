@@ -4,7 +4,8 @@
    ========================================================================== */
 
 /* 1. Off-Canvas Mobile Drawer */
-.mobile-nav-drawer {
+.mobile-nav-drawer,
+.mobile-drawer {
   position: fixed;
   top: 0;
   right: -100%;
@@ -23,7 +24,10 @@
   box-shadow: -15px 0 50px rgba(0, 0, 0, 0.9);
 }
 
-.mobile-nav-drawer.open {
+.mobile-nav-drawer.open,
+.mobile-nav-drawer.active,
+.mobile-drawer.open,
+.mobile-drawer.active {
   right: 0;
 }
 
@@ -39,7 +43,8 @@
   transition: opacity 0.3s ease, visibility 0.3s ease;
 }
 
-.mobile-drawer-overlay.active {
+.mobile-drawer-overlay.active,
+.mobile-drawer-overlay.open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
