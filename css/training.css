@@ -352,9 +352,10 @@ html {
 /* 5. COURSE SYLLABUS & SESSION BREAKDOWN (LEAD AUDITOR) */
 .syllabus-container {
   display: grid;
-  grid-template-columns: 1.1fr 0.9fr;
+  grid-template-columns: 1.15fr 0.85fr;
   gap: 36px;
   margin-top: 36px;
+  align-items: start;
 }
 
 .course-details-box {
@@ -405,19 +406,21 @@ html {
 }
 
 .course-sidebar-card {
-  background: rgba(17, 23, 34, 0.9);
-  border: 1px solid rgba(244, 122, 60, 0.25);
-  border-radius: 12px;
+  background: linear-gradient(165deg, rgba(17, 23, 34, 0.96) 0%, rgba(13, 17, 26, 0.98) 100%);
+  border: 1px solid rgba(244, 122, 60, 0.3);
+  border-radius: 14px;
   padding: 30px;
   position: sticky;
-  top: 150px;
-  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.4);
+  top: 130px;
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.5), 0 0 25px rgba(244, 122, 60, 0.08);
+  height: auto;
+  align-self: start;
 }
 
 .spec-list {
   list-style: none;
   padding: 0;
-  margin: 20px 0;
+  margin: 18px 0;
 }
 
 .spec-item {
@@ -437,6 +440,77 @@ html {
   color: #ffffff;
   font-weight: 600;
   font-family: var(--font-technical, 'Chakra Petch', monospace);
+}
+
+/* Sidebar Highlights / What's Included */
+.sidebar-highlights-box {
+  margin: 18px 0;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.025);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 8px;
+}
+
+.sidebar-highlights-title {
+  font-family: var(--font-technical, monospace);
+  font-size: 0.76rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--orange-primary, #ff6b00);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sidebar-highlights-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-highlights-list li {
+  font-size: 0.82rem;
+  color: var(--text-secondary, #cbd5e1);
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  line-height: 1.45;
+}
+
+.sidebar-highlights-list li svg {
+  color: #22c55e;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.sidebar-whatsapp-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  margin-top: 10px;
+  padding: 11px 16px;
+  background: rgba(37, 211, 102, 0.1);
+  border: 1px solid rgba(37, 211, 102, 0.35);
+  color: #25d366;
+  font-family: var(--font-technical, monospace);
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.sidebar-whatsapp-btn:hover {
+  background: #25d366;
+  color: #0b1323;
+  box-shadow: 0 0 16px rgba(37, 211, 102, 0.4);
 }
 
 /* 6. NABL CRITERIA BROCHURE DOWNLOAD GRID (15 ITEMS) */
