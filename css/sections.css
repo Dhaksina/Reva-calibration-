@@ -1339,9 +1339,31 @@
 }
 
 /* 7. 35 Integrated Laboratories (Engineering Control Interface) */
+#laboratories .container {
+  max-width: min(100%, 1560px);
+}
+
 .labs-section-header {
   position: relative;
   margin-bottom: 3.5rem;
+}
+
+.labs-tagline-singleline,
+p.section-description.labs-tagline-singleline {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: auto;
+  line-height: 1.6;
+}
+
+@media (min-width: 992px) {
+  .labs-tagline-singleline,
+  p.section-description.labs-tagline-singleline {
+    white-space: nowrap !important;
+    font-size: clamp(0.78rem, 0.88vw, 1.05rem);
+  }
 }
 
 .labs-giant-watermark {
