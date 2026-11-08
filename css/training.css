@@ -568,66 +568,7 @@ html {
   color: var(--text-secondary, #cbd5e1);
 }
 
-/* 8. ENROLLMENT & ENQUIRY FORM */
-.training-form-wrap {
-  background: rgba(17, 23, 34, 0.95);
-  border: 1px solid rgba(244, 122, 60, 0.35);
-  border-radius: 14px;
-  padding: 40px;
-  max-width: 860px;
-  margin: 0 auto;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
-}
-
-.form-grid-2col {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-.t-form-field {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 20px;
-}
-
-.t-form-label {
-  font-family: var(--font-technical, 'Chakra Petch', monospace);
-  font-size: 0.8rem;
-  font-weight: 600;
-  color: var(--text-secondary, #cbd5e1);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin-bottom: 8px;
-}
-
-.t-form-input,
-.t-form-select,
-.t-form-textarea {
-  background: rgba(7, 9, 13, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 6px;
-  padding: 12px 14px;
-  color: #ffffff;
-  font-family: var(--font-body, 'Inter', sans-serif);
-  font-size: 0.92rem;
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.t-form-input:focus,
-.t-form-select:focus,
-.t-form-textarea:focus {
-  outline: none;
-  border-color: var(--orange-primary, #ff6b00);
-  box-shadow: 0 0 12px rgba(244, 122, 60, 0.25);
-}
-
-.t-form-textarea {
-  min-height: 110px;
-  resize: vertical;
-}
-
-/* 9. RESPONSIVE QUERIES */
+/* 8. RESPONSIVE QUERIES */
 @media (max-width: 1024px) {
   .training-metrics-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -661,13 +602,6 @@ html {
   }
   .turnkey-disciplines-grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-  .form-grid-2col {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-  .training-form-wrap {
-    padding: 24px;
   }
 }
 

@@ -33,31 +33,25 @@ document.addEventListener('DOMContentLoaded', function () {
 
   window.addEventListener('scroll', updateActivePill, { passive: true });
 
-  // 2. Pre-select Program in Enrollment Form when clicking "Enroll" or "Enquire" buttons
+  // 2. Training Quote Dispatcher
   window.selectTrainingProgram = function (programName) {
-    const selectEl = document.getElementById('enroll-program');
-    if (selectEl) {
-      for (let i = 0; i < selectEl.options.length; i++) {
-        if (selectEl.options[i].value === programName || selectEl.options[i].text.includes(programName)) {
-          selectEl.selectedIndex = i;
-          break;
+    const quoteModal = document.getElementById('quote-modal');
+    if (quoteModal) {
+      const serviceSelect = document.getElementById('quote-service-select');
+      if (serviceSelect && programName) {
+        for (let i = 0; i < serviceSelect.options.length; i++) {
+          if (serviceSelect.options[i].text.toLowerCase().includes(programName.toLowerCase()) || 
+              serviceSelect.options[i].value.toLowerCase().includes(programName.toLowerCase())) {
+            serviceSelect.selectedIndex = i;
+            break;
+          }
         }
       }
-    }
-    const targetSection = document.getElementById('enrollment');
-    if (targetSection) {
-      targetSection.scrollIntoView({ behavior: 'smooth' });
+      quoteModal.classList.add('open');
+      quoteModal.classList.add('active');
+      document.body.style.overflow = 'hidden';
     }
   };
-
-  // 3. Training Enrollment Form Handler
-  const enrollForm = document.getElementById('training-enroll-form');
-  if (enrollForm) {
-    enrollForm.addEventListener('submit', function (e) {
-      e.preventDefault();
-      submitTrainingEnquiry('whatsapp');
-    });
-  }
 
   window.submitTrainingEnquiry = function (channel) {
     const name = document.getElementById('enroll-name')?.value.trim();
