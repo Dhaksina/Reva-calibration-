@@ -331,7 +331,10 @@
 
 .hero-headline .hero-line {
   display: block;
-  white-space: nowrap;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 100%;
 }
 
 .hero-headline .highlight-word {
@@ -351,10 +354,13 @@
   font-size: clamp(1.02rem, 1.15vw, 1.18rem);
   color: var(--text-muted);
   line-height: 1.65;
-  max-width: 720px;
+  width: 100%;
+  max-width: 100%;
   margin-bottom: 2.25rem;
   font-weight: 400;
   text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .hero-subhead-services {
@@ -367,12 +373,10 @@
   margin-bottom: 1.25rem;
   line-height: 1.45;
   text-transform: uppercase;
-}
-
-@media (min-width: 768px) {
-  .hero-subhead-services {
-    white-space: nowrap;
-  }
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 100%;
 }
 
 .hero-subhead-trust {
@@ -382,7 +386,10 @@
   font-size: clamp(1.05rem, 1.18vw, 1.18rem);
   line-height: 1.65;
   font-weight: 400;
-  max-width: 680px;
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .hero-cta-group {
@@ -2099,12 +2106,10 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   margin-bottom: 1.75rem;
-}
-
-@media (min-width: 769px) {
-  .leadership-title {
-    white-space: nowrap;
-  }
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 100%;
 }
 
 .leadership-title .text-orange {
@@ -2429,17 +2434,17 @@
   color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .testimonial-author-org {
   font-size: 0.78rem;
   color: #94A3B8;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .author-discipline-tag {
@@ -2453,13 +2458,11 @@
 
 /* 14. Industrial Contact & RFQ Hub */
 .contact-desc-singleline {
-  display: inline-block;
-}
-
-@media (min-width: 992px) {
-  .contact-desc-singleline {
-    white-space: nowrap;
-  }
+  display: block;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  max-width: 100%;
 }
 
 .contact-hub-grid {

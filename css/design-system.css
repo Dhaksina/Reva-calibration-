@@ -102,11 +102,35 @@ body {
   text-align: left;
 }
 
-/* Global Strict Left-Alignment for All Text Elements */
+/* Global Strict Left-Alignment, Width Handling & Natural Text Wrapping for All Content Elements */
 h1, h2, h3, h4, h5, h6,
 p, label, ul, ol, li, dl, dt, dd,
 blockquote, figcaption, address {
   text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  white-space: normal;
+  max-width: 100%;
+}
+
+/* Ensure flex/grid containers and cards allow text children to wrap at the right boundary */
+.container,
+.section-wrapper,
+.section-header,
+article,
+section,
+main,
+aside,
+header,
+footer,
+.card,
+[class*="-card"],
+[class*="-col"],
+[class*="-box"],
+[class*="-wrapper"],
+[class*="-container"] {
+  min-width: 0;
 }
 
 
@@ -159,7 +183,7 @@ html.lenis, html.lenis body {
   pointer-events: none;
 }
 
-/* Typography Hierarchy */
+/* Typography Hierarchy — Fluid, Left-Aligned & Natural Width Wrapping */
 h1,
 h2,
 h3,
@@ -168,9 +192,15 @@ h5,
 h6 {
   font-family: var(--font-display);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.2;
   color: var(--text-primary);
   letter-spacing: -0.02em;
+  text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  white-space: normal;
+  max-width: 100%;
 }
 
 h1 {
@@ -195,6 +225,12 @@ p {
   color: var(--text-secondary);
   font-size: 1rem;
   line-height: 1.7;
+  text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  white-space: normal;
+  max-width: 100%;
 }
 
 a {
@@ -407,12 +443,18 @@ a {
   letter-spacing: -0.02em;
   color: var(--text-primary);
   text-transform: uppercase;
-  line-height: 1.12;
+  line-height: 1.15;
   text-align: left;
+  width: 100%;
+  max-width: 100%;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 .section-description {
-  max-width: 680px;
+  width: 100%;
+  max-width: 100%;
   margin-top: 1rem;
   margin-left: 0;
   margin-right: auto;
@@ -420,6 +462,9 @@ a {
   color: var(--text-secondary);
   line-height: 1.7;
   text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: normal;
 }
 
 /* ==========================================================================
@@ -431,6 +476,8 @@ a {
   vertical-align: baseline;
   margin-right: 0;
   padding-bottom: 0.04em;
+  white-space: normal;
+  overflow-wrap: break-word;
 }
 
 .gsap-word {
@@ -448,4 +495,62 @@ a {
 .gsap-word.outline-word {
   -webkit-text-stroke: 1.5px var(--orange-primary);
   color: transparent;
+}
+
+/* ==========================================================================
+   UNIVERSAL TEXT WRAPPING, WIDTH HANDLING & LEFT-ALIGNMENT SYSTEM
+   Guarantees natural wrapping like Microsoft Word / Excel across all sections
+   ========================================================================== */
+
+.hero-headline,
+.hero-line,
+.hero-subhead,
+.hero-subhead-services,
+.hero-subhead-trust,
+.section-title,
+.section-subtitle,
+.section-description,
+.about-hero-title,
+.about-hero-subtitle,
+.about-section-title,
+.about-section-lead,
+.services-hero-title,
+.services-hero-subtitle,
+.service-section-title,
+.service-section-desc,
+.service-card-title,
+.service-card-desc,
+.gallery-hero-title,
+.gallery-hero-desc,
+.gal-section-title,
+.gal-section-desc,
+.project-headline,
+.lab-card-title,
+.lab-category-title,
+.lab-card-meta,
+.training-hero-title,
+.training-hero-desc,
+.training-section-title,
+.section-subheading,
+.careers-section-title,
+.careers-section-desc,
+.clients-page-main-title,
+.clients-page-main-subtitle,
+.leadership-title,
+.leadership-quote-p,
+.contact-desc-singleline,
+.testimonial-quote,
+.core-pillar-title,
+.core-pillar-desc,
+.lab-inst-name,
+.lab-instruments-title,
+.lab-instruments-desc,
+.doc-title,
+.doc-desc {
+  text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  white-space: normal;
+  max-width: 100%;
 }

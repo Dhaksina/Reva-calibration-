@@ -342,3 +342,29 @@
   }
 }
 
+/* Universal Responsive Text Wrap Enforcement */
+@media (max-width: 1024px) {
+  h1, h2, h3, h4, h5, h6,
+  p, .section-title, .section-description,
+  .hero-headline, .hero-subhead, .project-headline {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 640px) {
+  h1, h2, h3, h4, h5, h6,
+  p, .section-title, .section-description,
+  .hero-headline, .hero-subhead, .project-headline,
+  .lab-card-title, .service-card-title, .doc-title {
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    white-space: normal !important;
+    text-align: left !important;
+    max-width: 100% !important;
+  }
+}
+
+

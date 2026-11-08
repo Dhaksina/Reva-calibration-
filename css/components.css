@@ -1235,8 +1235,11 @@ html.lab-modal-open {
   font-size: 0.85rem;
   color: var(--text-muted);
   margin: 0;
-  max-width: 720px;
+  width: 100%;
+  max-width: 100%;
   line-height: 1.55;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .lab-btn-expand-all {
@@ -1430,9 +1433,10 @@ html.lab-modal-open {
   font-weight: 600;
   color: #FFFFFF;
   margin: 0 0 5px 0;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  line-height: 1.35;
   transition: color 0.2s ease;
 }
 

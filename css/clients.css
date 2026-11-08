@@ -64,10 +64,13 @@ body.clients-page {
 .clients-page-main-subtitle {
   font-size: 0.96rem;
   color: #C5CBD6;
-  max-width: 680px;
+  width: 100%;
+  max-width: 100%;
   margin: 0 0 16px 0;
   line-height: 1.6;
   text-align: left;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Quick Navigation Sector Jump Pills */
