@@ -619,19 +619,58 @@ html {
 
 .discipline-item {
   background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.06);
-  border-radius: 8px;
-  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 10px;
+  padding: 12px 14px;
   display: flex;
   align-items: center;
   gap: 12px;
-  transition: all 0.2s ease;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .discipline-item:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(244, 122, 60, 0.3);
+  background: rgba(244, 122, 60, 0.08);
+  border-color: rgba(244, 122, 60, 0.35);
   transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), 0 0 10px rgba(244, 122, 60, 0.15);
+}
+
+.discipline-symbol {
+  width: 40px;
+  height: 40px;
+  min-width: 40px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+}
+
+.discipline-item:hover .discipline-symbol {
+  background: rgba(244, 122, 60, 0.15);
+  border-color: rgba(244, 122, 60, 0.4);
+}
+
+.discipline-symbol-img {
+  width: 28px;
+  height: 28px;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 0 1px rgba(244, 122, 60, 0.7));
+  transition: transform 0.25s ease, filter 0.25s ease;
+  pointer-events: none;
+}
+
+.discipline-item:hover .discipline-symbol-img {
+  transform: scale(1.12);
+  filter: drop-shadow(0 0 8px rgba(244, 122, 60, 0.95)) brightness(1.2);
 }
 
 .discipline-dot {
@@ -647,6 +686,12 @@ html {
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--text-secondary, #cbd5e1);
+  line-height: 1.35;
+  transition: color 0.2s ease;
+}
+
+.discipline-item:hover .discipline-text {
+  color: #ffffff;
 }
 
 /* 8. RESPONSIVE QUERIES */
