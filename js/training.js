@@ -109,4 +109,53 @@ document.addEventListener('DOMContentLoaded', function () {
       alert(msg);
     }
   }
+
+  // 4. Precise Smooth Scroll for Training Section Anchors
+  function scrollToTrainingSection(hash, smooth = true) {
+    if (!hash || hash === '#' || hash === '#top') {
+      window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'auto' });
+      return;
+    }
+    const cleanId = hash.startsWith('#') ? hash : '#' + hash;
+    const targetEl = document.querySelector(cleanId);
+    if (!targetEl) return;
+
+    const headerOffset = 130;
+    const elementPosition = targetEl.getBoundingClientRect().top + window.pageYOffset;
+    const targetPosition = Math.max(0, Math.round(elementPosition - headerOffset));
+
+    window.scrollTo({
+      top: targetPosition,
+      behavior: smooth ? 'smooth' : 'auto'
+    });
+  }
+
+  if (window.location.hash) {
+    scrollToTrainingSection(window.location.hash, false);
+    setTimeout(() => scrollToTrainingSection(window.location.hash, true), 150);
+    setTimeout(() => scrollToTrainingSection(window.location.hash, true), 400);
+  }
+
+  window.addEventListener('hashchange', () => {
+    if (window.location.hash) {
+      scrollToTrainingSection(window.location.hash, true);
+    }
+  });
+
+  document.querySelectorAll('a[href*="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      const href = this.getAttribute('href');
+      if (!href) return;
+      if (href.startsWith('#') || href.includes('training.html#')) {
+        const hash = href.substring(href.indexOf('#'));
+        if (hash && hash !== '#' && document.querySelector(hash)) {
+          e.preventDefault();
+          scrollToTrainingSection(hash, true);
+          if (window.history && window.history.pushState) {
+            window.history.pushState(null, null, hash);
+          }
+        }
+      }
+    });
+  });
 });

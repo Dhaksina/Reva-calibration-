@@ -24,7 +24,17 @@ function scrollToSection(targetId, smooth = true) {
     return;
   }
 
-  const cleanId = targetId.startsWith('#') ? targetId : '#' + targetId;
+  const HASH_ALIASES = {
+    '#equipment-catalog': '#sales',
+    '#third-party': '#inspection',
+    '#turnkey-amc': '#amc'
+  };
+
+  let cleanId = targetId.startsWith('#') ? targetId : '#' + targetId;
+  if (HASH_ALIASES[cleanId]) {
+    cleanId = HASH_ALIASES[cleanId];
+  }
+
   const targetElement = document.querySelector(cleanId);
   if (!targetElement) return;
 
@@ -137,7 +147,13 @@ function initSmoothAnchorScrolling() {
     }
 
     if (targetHash && targetHash !== '#' && targetHash !== '#top') {
-      const targetElement = document.querySelector(targetHash);
+      const HASH_ALIASES = {
+        '#equipment-catalog': '#sales',
+        '#third-party': '#inspection',
+        '#turnkey-amc': '#amc'
+      };
+      const resolvedHash = HASH_ALIASES[targetHash] || targetHash;
+      const targetElement = document.querySelector(resolvedHash);
       if (targetElement) {
         e.preventDefault();
         anchor.blur();
@@ -149,7 +165,7 @@ function initSmoothAnchorScrolling() {
         if (mobileOverlay) mobileOverlay.classList.remove('active');
         document.body.classList.remove('nav-open');
 
-        scrollToSection(targetHash, true);
+        scrollToSection(resolvedHash, true);
       }
     }
   });

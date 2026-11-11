@@ -371,6 +371,7 @@ a {
   position: relative;
   padding: clamp(5rem, 8vw, 8.5rem) 0;
   overflow: hidden;
+  scroll-margin-top: 100px;
 }
 
 .section-bg-dark {
