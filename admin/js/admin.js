@@ -290,7 +290,7 @@
 
   async function handleForgotPassword() {
     const emailInput = document.getElementById('login-email');
-    const defaultEmail = (emailInput && emailInput.value.trim()) || 'admin@revaphoenix.com';
+    const defaultEmail = (emailInput && emailInput.value.trim()) || '';
     const email = prompt('Enter your admin email address to receive password reset link:', defaultEmail);
     if (!email) return;
 
