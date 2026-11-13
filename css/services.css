@@ -1128,29 +1128,77 @@ html {
 
 .tpi-disciplines-list {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 10px;
-  margin-top: 18px;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+  margin-top: 20px;
 }
 
 .tpi-discipline-pill {
   background: rgba(255, 255, 255, 0.025);
-  border: 1px solid rgba(255, 255, 255, 0.07);
-  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
   padding: 10px 14px;
-  font-size: 0.84rem;
-  color: #CBD5E1;
   display: flex;
   align-items: center;
-  gap: 10px;
-  transition: all 0.2s ease;
+  gap: 12px;
+  transition: all 0.25s ease;
 }
 
 .tpi-discipline-pill:hover {
-  background: rgba(241, 90, 36, 0.1);
-  border-color: var(--orange-border);
+  background: rgba(241, 90, 36, 0.08);
+  border-color: rgba(241, 90, 36, 0.4);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3), 0 0 10px rgba(241, 90, 36, 0.15);
+}
+
+.tpi-discipline-symbol {
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: all 0.25s ease;
+}
+
+.tpi-discipline-pill:hover .tpi-discipline-symbol {
+  background: rgba(244, 122, 60, 0.15);
+  border-color: rgba(244, 122, 60, 0.45);
+}
+
+.tpi-discipline-symbol-img {
+  width: 26px;
+  height: 26px;
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+  display: block;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  filter: drop-shadow(0 0 1px rgba(244, 122, 60, 0.7));
+  transition: transform 0.25s ease, filter 0.25s ease;
+  pointer-events: none;
+}
+
+.tpi-discipline-pill:hover .tpi-discipline-symbol-img {
+  transform: scale(1.12);
+  filter: drop-shadow(0 0 8px rgba(244, 122, 60, 0.95)) brightness(1.2);
+}
+
+.tpi-discipline-text {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #CBD5E1;
+  line-height: 1.35;
+  transition: color 0.2s ease;
+}
+
+.tpi-discipline-pill:hover .tpi-discipline-text {
   color: #FFFFFF;
-  transform: translateX(2px);
 }
 
 .tpi-discipline-pill .dot {
