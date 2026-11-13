@@ -422,17 +422,17 @@ ON CONFLICT (id) DO UPDATE SET
   parameters = EXCLUDED.parameters, catalog_url = EXCLUDED.catalog_url,
   catalog_name = EXCLUDED.catalog_name, updated_at = NOW();
 INSERT INTO public.documents (id, meta, title, category, description, file_url, button_text)
-VALUES (1, 'DOCUMENT: RPEC-CORP-BROCHURE // PDF', 'Reva Phoenix - Corporate Brochure', NULL, 'Comprehensive overview of Reva Phoenix Labs & Consultants Pvt. Ltd., consulting methodologies, API auditing credentials, training courses, and consulting division scope.', 'assets/docs/Reva-Phoenix-Corporate-Brochure.pdf', 'Download')
+VALUES (1, 'DOCUMENT: RPEC-CORP-BROCHURE - PDF', 'Reva Phoenix - Corporate Brochure', NULL, 'Comprehensive overview of Reva Phoenix Labs & Consultants Pvt. Ltd., consulting methodologies, API auditing credentials, training courses, and consulting division scope.', 'assets/docs/Reva-Phoenix-Corporate-Brochure.pdf', 'Download')
 ON CONFLICT (id) DO UPDATE SET
   title = EXCLUDED.title, category = EXCLUDED.category, description = EXCLUDED.description,
   file_url = EXCLUDED.file_url, updated_at = NOW();
 INSERT INTO public.documents (id, meta, title, category, description, file_url, button_text)
-VALUES (2, 'CERTIFICATION: ISO 9001:2015 // PDF', 'ISO 9001: 2015 QMS Certified', NULL, 'Official Quality Management System Certificate verifying Reva Phoenix Labs & Consultants adherence to international QMS benchmarks.', 'assets/docs/Reva-Phoenix-ISO-9001-Certificate.pdf', 'Download')
+VALUES (2, 'CERTIFICATION: ISO 9001:2015 - PDF', 'ISO 9001: 2015 QMS Certified', NULL, 'Official Quality Management System Certificate verifying Reva Phoenix Labs & Consultants adherence to international QMS benchmarks.', 'assets/docs/Reva-Phoenix-ISO-9001-Certificate.pdf', 'Download')
 ON CONFLICT (id) DO UPDATE SET
   title = EXCLUDED.title, category = EXCLUDED.category, description = EXCLUDED.description,
   file_url = EXCLUDED.file_url, updated_at = NOW();
 INSERT INTO public.documents (id, meta, title, category, description, file_url, button_text)
-VALUES (3, 'ACCREDITATION: NABL SCOPE // PDF (192 PAGES)', 'NABL Accredited Calibration Scope', NULL, 'Authoritative 35+ Integrated Laboratories reference chart detailing all parameters, disciplines, and In-House/on-site calibration ranges.', 'assets/docs/Reva-Phoenix-NABL-ISO-17025-Scope-Accreditation.pdf', 'Download')
+VALUES (3, 'ACCREDITATION: NABL SCOPE - PDF (192 PAGES)', 'NABL Accredited Calibration Scope', NULL, 'Authoritative 35+ Integrated Laboratories reference chart detailing all parameters, disciplines, and In-House/on-site calibration ranges.', 'assets/docs/Reva-Phoenix-NABL-ISO-17025-Scope-Accreditation.pdf', 'Download')
 ON CONFLICT (id) DO UPDATE SET
   title = EXCLUDED.title, category = EXCLUDED.category, description = EXCLUDED.description,
   file_url = EXCLUDED.file_url, updated_at = NOW();

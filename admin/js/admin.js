@@ -116,7 +116,7 @@
   const DEFAULT_DOCUMENTS = [
     {
       id: 1,
-      meta: 'DOCUMENT: RPEC-CORP-BROCHURE // PDF',
+      meta: 'DOCUMENT: RPEC-CORP-BROCHURE - PDF',
       title: 'Reva Phoenix - Corporate Brochure',
       category: 'Brochure',
       desc: 'Comprehensive overview of Reva Phoenix Labs & Consultants Pvt. Ltd., consulting methodologies, API auditing credentials, training courses, and consulting division scope.',
@@ -125,7 +125,7 @@
     },
     {
       id: 2,
-      meta: 'CERTIFICATION: ISO 9001:2015 // PDF',
+      meta: 'CERTIFICATION: ISO 9001:2015 - PDF',
       title: 'ISO 9001: 2015 QMS Certified',
       category: 'Certificate',
       desc: 'Official Quality Management System Certificate verifying Reva Phoenix Labs & Consultants adherence to international QMS benchmarks.',
@@ -134,7 +134,7 @@
     },
     {
       id: 3,
-      meta: 'ACCREDITATION: NABL ISO/IEC 17025 // PNG',
+      meta: 'ACCREDITATION: NABL ISO/IEC 17025 - PNG',
       title: 'ISO/IEC 17025: 2017 Accredited',
       category: 'Accreditation',
       desc: 'Official NABL Certificate of Accreditation (CC-4178) certifying Reva Phoenix Labs & Consultants competence in testing and calibration.',
@@ -143,7 +143,7 @@
     },
     {
       id: 4,
-      meta: 'ACCREDITATION: NABL SCOPE // PDF (192 PAGES)',
+      meta: 'ACCREDITATION: NABL SCOPE - PDF (192 PAGES)',
       title: 'NABL Accredited Calibration Scope',
       category: 'Accreditation',
       desc: 'Authoritative 35+ Integrated Laboratories reference chart detailing all parameters, disciplines, and In-House/on-site calibration ranges.',
@@ -152,7 +152,7 @@
     },
     {
       id: 5,
-      meta: 'CATALOG: METROLOGY MASTER SCOPE // PDF',
+      meta: 'CATALOG: METROLOGY MASTER SCOPE - PDF',
       title: 'Reva Phoenix Calibration Master Catalog',
       category: 'Catalog',
       desc: 'Master equipment calibration scope, parameters, expanded CMC uncertainty metrics, and sample turnaround schedules.',
