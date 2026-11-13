@@ -328,18 +328,21 @@ body.gallery-page {
    SECTION A — REUSABLE PROJECT HEADLINE AND IMAGE COMPONENT
    ========================================================================== */
 .projects-container {
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 28px;
+  align-items: stretch;
 }
 
 .project-showcase-card {
   background: var(--gal-bg-surface);
   border: 1px solid var(--gal-border);
   border-radius: 8px;
-  padding: 32px;
+  padding: 24px;
   box-shadow: var(--gal-shadow-sm);
   transition: border-color 0.25s ease, box-shadow 0.25s ease;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-showcase-card:hover {
@@ -349,17 +352,22 @@ body.gallery-page {
 
 /* Project Headline at Top */
 .project-headline-wrapper {
-  margin-bottom: 24px;
-  padding-bottom: 18px;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
   border-bottom: 1px solid var(--gal-border-light);
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .project-meta-pill {
   display: inline-flex;
   align-items: center;
+  align-self: flex-start;
   gap: 6px;
   font-family: var(--font-technical);
-  font-size: 0.75rem;
+  font-size: 0.72rem;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -376,7 +384,7 @@ body.gallery-page {
 
 .project-headline {
   font-family: var(--font-display);
-  font-size: clamp(0.95rem, 1.2vw, 1.12rem);
+  font-size: clamp(0.92rem, 1.1vw, 1.05rem);
   font-weight: 600;
   color: var(--gal-text-primary);
   line-height: 1.45;
@@ -402,11 +410,14 @@ body.gallery-page {
   justify-content: center;
   align-items: center;
   box-shadow: var(--gal-shadow-sm);
+  height: 340px;
+  width: 100%;
 }
 
 .project-image-box img {
   width: 100%;
-  max-height: 650px;
+  height: 100%;
+  max-height: 340px;
   object-fit: contain;
   background-color: #0b0f19;
   display: block;
@@ -459,8 +470,9 @@ body.gallery-page {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 16px;
-  font-size: 0.85rem;
+  margin-top: auto;
+  padding-top: 16px;
+  font-size: 0.82rem;
   color: var(--gal-text-muted);
   flex-wrap: wrap;
   gap: 12px;
@@ -740,6 +752,15 @@ body.gallery-page {
     padding-top: 110px;
   }
   
+  .projects-container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  
+  .project-headline-wrapper {
+    min-height: auto;
+  }
+  
   .album-grid,
   .album-grid-wide,
   .album-grid-3col {
@@ -790,8 +811,12 @@ body.gallery-page {
     line-height: 1.4;
   }
   
+  .project-image-box {
+    height: 260px;
+  }
+  
   .project-image-box img {
-    max-height: 380px;
+    max-height: 260px;
   }
   
   .lab-card-body {
