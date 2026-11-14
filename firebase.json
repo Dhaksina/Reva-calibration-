@@ -9,8 +9,15 @@
       "server.rb",
       ".admin_backup/**",
       "supabase/**",
+      "scratch/**",
+      "scripts/**",
+      "*.zip",
+      "*.sql",
+      "*.py",
+      "*.rb",
       "*.log",
-      ".env*"
+      ".env*",
+      "vercel.json"
     ],
     "cleanUrls": true,
     "trailingSlash": false,
